@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^([0-9-a-z-A-Z.\ ]+)$ check.php?pname=$1 [L]

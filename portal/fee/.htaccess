@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^fee-bill$ fee-bills.php [L]
+RewriteRule ^feechallan-([0-9]+)$ fee-challan.php?bill_id=$1 [L]
+
+
+

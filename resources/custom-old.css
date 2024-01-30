@@ -1,0 +1,298 @@
+.page-title {
+    font-family: "Harriet Text", Georgia, serif;
+    padding-left: 3rem!important;
+}
+.table-dark-3rd{	
+	background:#293594;
+	color: #FFF;
+}
+.table-dark-4th{	
+	background:rgb(221,235,247);
+	color: #000;
+}
+.page-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-style: italic;
+    color: #c8102e;
+}
+
+
+.title-color {
+    color: #c8102e;
+}
+
+@media (max-width: 425px) {
+    .page-title {
+        padding-left: unset!important;
+    }
+
+    .page-title h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1023px) {
+    #wstoggle {
+        top: 50px;
+    }
+
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav, .main-navbar .navbar-nav .nav-item {
+    width: 100%;
+}
+
+.main-navbar .navbar-nav .nav-item {
+    width: 100%;
+    height: 74px;
+    vertical-align: middle;
+}
+
+.main-navbar .navbar-nav .nav-item a {
+    color: #0d2f4f!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .938em;
+    width: 100%;
+    height: 74px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.main-navbar .navbar-nav .nav-item:hover {
+    color: #fff!important;
+    background-color: #1A428A;
+
+}
+
+.main-navbar .navbar-nav .nav-item:hover a {
+    color: #fff!important;
+    background-color: #1A428A;
+
+}
+
+
+.prev, .next {
+    width: auto;
+    cursor: pointer;
+}
+
+.month-number {
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    border: 0;
+    color: #2e2e2e;
+    background-color: #e1e1e1;
+    padding: 5px;
+}
+
+.month-number:hover {
+    color: #8E1537;
+    border-right: 5px #8E1537 solid;
+}
+
+.month-number.active {
+    color: #fff;
+    background-color: #8E1537;
+}
+
+.category {
+    color: #2e2e2e;
+    text-align: left;
+    background-color: #e1e1e1;
+    padding: 3px 8px;
+    margin-bottom: 3px;
+}
+
+.category:hover {
+    color: #8E1537;
+    border-right: 5px #8E1537 solid;
+}
+
+.category label {
+    width: auto;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.categoryselection {
+    cursor: pointer;
+}
+
+.news-item {
+    margin-right: 1.3rem; margin-top: 1rem; margin-bottom: 1rem;
+}
+
+.news-image {
+    float: left; margin-right: 1rem; margin-bottom: 1rem;
+    max-width: 450px;
+}
+
+.news-date {
+    font-family: initial;
+    color: #646464;
+
+}
+
+@media (max-width:1600px) {
+    .news-image {
+        width: 350px;
+    }
+}
+
+@media (max-width:1024px) {
+    .news-image {
+        width: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    .news-image {
+        width: 300px;
+    }
+}
+
+@media (max-width:425px) {
+    .news-image {
+        float: none;
+    }
+}
+
+
+.stay-up-date {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #8E1537;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.page-banner {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.news-links li {
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.news-links li a {
+    display: block;
+    padding: 10px;
+    font-size: 15.5px;
+    font-weight: 400;
+    color: #003a70;
+}
+
+
+.stay-up-date {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #8E1537;
+    font-weight: bold;
+    line-height: 1;
+}
+
+@media (max-width:1024px) {
+    .stay-up-date {
+        font-size: 4.4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .stay-up-date {
+        text-align: center;
+    }
+}
+
+
+.banner-text {
+    height: 100%;
+    position: relative;
+}
+.banner-heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    -ms-transform: translateY(-70%);
+    transform: translateY(-70%);
+}
+.admissions-link {
+
+    background-color: #ececec;
+}
+.admissions-link >li> a {
+    color: #000;
+}
+
+.admissions-link > li .active {
+    color: #8e1537;
+    border-left: 0.5rem #8e1537 solid;
+}
+
+.table-dark {
+    --bs-table-bg: #293594;
+    --bs-table-striped-bg: #3245b6;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #3a53d3;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #1e38c0;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #3a53d3;
+}
+
+
+.table-dark-2nd {
+    --bs-table-bg: #369;
+    --bs-table-striped-bg: #3a73af;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #4786ce;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #307cc9;
+    --bs-table-hover-color: #fff;
+    color: #fff;
+    border-color: #4786ce;
+}
+
+@media (max-width: 1024px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.3rem;
+        padding-left: 0.3rem;
+        font-size: 14px;
+    }
+}
+
+.pushcontentup{
+	position: relative !important;
+	top: -25px !important;
+}

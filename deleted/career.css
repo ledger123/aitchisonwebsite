@@ -1,0 +1,127 @@
+	.fld_texttd{
+		width: 170px;	
+		text-align: left;
+	}
+	.fld_texttd1{
+		width: 150px;	
+		text-align: left;
+	}
+	.fld_text{
+		width: 96%;	
+		text-align: left;		
+	}
+	.fld_text_q{
+		margin-left: 2px;
+		width: 96%;	
+		text-align: left;		
+	}
+	.fld_text1{
+		width: 98.5%;	
+		text-align: left;		
+	}
+	.fld_td{
+		width: 80px;
+		text-align: left;
+	}
+	.fld_td_possibledate{
+		width: 120px;
+		text-align: left;
+	}
+	.fld_td1{
+		width: 70px;
+		text-align: left;
+	}
+	.fld_td_right1{
+		width: 65px;
+		text-align: left;		
+		padding-left: 30px;
+	}
+	.fld_td_right{
+		width: 70px;
+		text-align: left;		
+		padding-left: 30px;
+	}
+	#edu_details .fld_text{
+		width: 100%;	
+	}
+	#emp_details .fld_text{
+		width: 100%;	
+	}
+	#training_details td{
+		padding-right: 8px;	
+	}
+	#emp_details td{
+		padding-right: 8px;	
+	}
+	#training_details .fld_text{
+		width: 100%;	
+	}
+	.mandatory_big{
+		padding-left: 2px;
+		padding-right: 2px;
+		/*font-family: "Arial Black", Gadget, sans-serif;*/
+		font-weight: bold;
+		font-size: 12px;
+		color:#F00;	
+	}
+	.mandatory_norm{
+		padding-left: 2px;
+		padding-right: 2px;
+		/*font-family: "Arial Black", Gadget, sans-serif;	*/	
+		font-size: 12px;
+		color:#F00;	
+	}
+	.mandatory_head{
+		padding-left: 2px;
+		padding-right: 2px;
+		/*font-family: "Arial Black", Gadget, sans-serif;*/
+		font-weight: bold;
+		font-size: 14px;
+		color:#F00;	
+	}
+	h1, h2, h3, h4{
+			color: #003;
+	}
+	.214080{
+		color: #214080;	
+	}
+	#edu_details td{
+		padding: 0px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	a.careerpagelink:link{
+		color: #000066;
+		padding-left: 10px;
+		text-decoration: none;
+		
+	}
+	a.careerpagelink:visited{
+		color: #000066;
+		text-decoration: none;
+	}
+	a.careerpagelink:hover{
+		color: #FFFFFF;
+		background-color: #000066;
+		
+		text-decoration: underline;
+	}
+	a.careerpagelink:active{
+		color: #000066;
+		text-decoration: none;
+	}
+	.careertitle{
+		display: block; 
+		background-color: #000033;
+		color: #FFF;
+		font-weight: bold;
+		line-height: 1.9em;
+		padding-left: 12px;
+		text-transform: uppercase;
+		font-size: 18px; 
+		text-align: left;	
+	}
+	.pad0{
+		padding: 0px;
+		margin: 0px;	
+	}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+	.pricipal{
+		background-color: #FBE6AF;
+		/*border: #000000 thin double;*/
+		min-height: 320px;
+		height: auto;
+		/*border-style: inset !important;
+		border-spacing: 23px;
+		padding: 10px;*/
+		
+	}
+	.newsletters{
+		background-color: #FBE6AF;
+		min-height: 250px;
+		height: auto;
+	}
+	.newslettername{		
+		width: 100%;
+		font-size: 12px;
+		text-transform: uppercase;
+		/*color: #F5F5F5;*/
+		text-align: center;
+		position: relative;
+		top: 195px;	
+	}
+	.newsletterimg{
+		background-position: top;
+		background: url(../img/nl-img.png) top ;
+		background-repeat: no-repeat;
+	}
+	.principalname{		
+		width: 100%;
+		font-size: 12px;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 12px;
+	}
+	.WAROBINSON{
+		background-position: center;
+		/*#369*/
+		background: url(../principals/square/IMG_5526.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.MrAcgodley{
+		/*Mr_Acgodley.jpg*/	
+		background-position: center;
+		/*#369*/
+		/*background: url(../principals/square/Mr_Acgodley.jpg) center ;*/
+		background: url(../principals/square/Mr_Acgodley1.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.LESLIEJONES{
+		background-position: center;
+		background: url(../principals/square/scan0002.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.JKELLY{
+		background-position: center;
+		background: url(../principals/square/scan0003.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.CHBARRY{
+		background-position: center;
+		background: url(../principals/square/scan0004.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.DRKAPILA{
+		background-position: center;
+		background: url(../principals/square/scan0005.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.JMGWYN{
+		background-position: center;
+		background: url(../principals/square/scan0006.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.SAYYIDZULFIQARALI{
+		background-position: center;
+		background: url(../principals/square/scan0007.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.ABDULALIKHAN{
+		background-position: center;
+		background: url(../principals/square/scan0008.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.GHULAMRASULCHAUDHRY{
+		background-position: center;
+		background: url(../principals/square/scan0009.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.COLNDHASAN{
+		background-position: center;
+		background: url(../principals/square/scan0011.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.AREHMANQURAISHI{
+		background-position: center;
+		background: url(../principals/square/scan0012.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.SHAMIMSKHAN{
+		background-position: center;
+		background: url(../principals/square/sskhan.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.FSAijazuddin{
+		background-position: center;
+		background: url(../principals/square/scan0013.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.DRMUHAMMADHAFEEZ{
+		background-position: center;
+		background: url(../principals/square/scan0014.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.DRAGHAGHAZANFAR{
+		background-position: center;
+		background: url(../principals/square/scan0016.jpg) center ;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+

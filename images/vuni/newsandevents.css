@@ -1,0 +1,818 @@
+.header_buttons_right {
+	position: absolute;
+	top: 20px;
+	float:right;
+	padding-top:0%;
+	text-align:left;
+	position:absolute;
+	cursor:pointer;
+	height:393px;
+    overflow:hidden;
+    margin-top:85px;
+    margin-right:4px;
+    z-index:1;
+    width:323px;
+    right:-4px;
+}
+.home_slider_top
+ {
+    float:right;  
+    width:278px;
+    margin-top:0px;
+	height:265px;
+    margin-left:33px;
+ } 
+
+
+ 
+.home_slider_topimage_container
+{	
+	width:38px;
+	float:right;
+	margin-top:220px;
+	position:absolute;
+	z-index:3;
+	margin-left:-8px;
+}
+.NewsandEvents {
+    font-family:Arial;
+    font-size:10pt;
+    color:white;
+    background:black;
+    border:2px solid white;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+ .home_slider_top_body
+ {
+     width:310px;
+}
+
+.slider_topimage
+{	
+    border-radius: 10px 0px 0px 10px;
+    -moz-border-radius: 10px 0px 0px 10px;
+    border-right: 2px solid #000000 !important;
+}
+.topimage_borderColor
+{		
+    border: 2px solid White;  
+    
+}
+.home_slider_top_header
+ {
+    width:100%;
+    height:30px;
+    background-color:#2258A2;    
+    opacity: 1;
+   
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    color:White;
+    text-align:center;
+    padding-top:10px;
+    font-family:Arial;
+    font-size:13pt;
+    
+ }
+ 
+.home_slider_top_date_txt
+{
+    font-family:Arial;
+    font-size:8pt;
+    color:Gray;
+    font-style:italic;
+        
+}
+.home_slider_top p
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:White;
+}
+
+.home_slider_top hr
+{
+    border-color:Gray;
+}
+
+.viewAllLink
+{
+    font-family:Arial;
+    font-size:10pt;
+    color:#c4ddff;
+    font-weight:bolder;
+    line-height:11pt;
+
+}
+
+/*------------------------------------------Home Page Body-----------------------------------------------------*/			
+
+.content_box
+{
+	float:left;
+	width:100%;	
+	
+}
+
+
+.txt_heading
+{
+	position:absolute; 
+	top:240px; 
+	
+	
+	background-color:Black;
+    filter:alpha(opacity=50); 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    -moz-opacity:0.5; 
+    -khtml-opacity: 0.5; 
+    opacity: 0.5; 
+    background:rgba(0, 0, 0, 0.5); 
+    
+	padding:5px; 
+	width:100%;
+	height:30px;	
+}
+.content_txt_heading
+{
+    width:100%;
+    text-align:left;
+    padding-left:10px;
+    margin-top:5px;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14pt;
+	color:White;
+}
+.content_txt
+{
+    width:100%;
+    text-align:left;
+    padding-left:15px;
+    margin-top:5px;
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:8pt;
+	color:White;  
+}
+
+.content_box_header
+{
+	width:100%;
+	height:28px;
+	padding-top:4px;
+	vertical-align:middle;
+	text-align:center;
+	font-family:open_sansregular;
+    font-size:16px;
+	color:White;
+}
+.life_at_vu_bg
+{
+	/*background-color:#FF6606;*/
+		background-color:rgb(255, 102, 6);
+    filter:alpha(opacity=60); 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6; 
+    opacity: 0.6; 
+    background:rgba(0, 0, 0, 0.6); 
+    
+	background:rgba(255, 102, 6, 0.6); 
+}
+
+.alumni_bg
+{
+    /*background-color:#670001;*/
+    		background-color:rgb(103, 0, 1);
+    filter:alpha(opacity=60); 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6; 
+    opacity: 0.6; 
+    background:rgba(0, 0, 0, 0.6); 
+    
+    background:rgba(103, 0, 1, 0.6); 
+}
+
+.events_bg
+{
+    /*background-color:#01509F;
+
+*/
+    		background-color:rgb(1, 80, 159);
+    filter:alpha(opacity=60); 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    -moz-opacity:0.6; 
+    -khtml-opacity: 0.6; 
+    opacity: 0.6; 
+    background:rgba(0, 0, 0, 0.6); 
+    
+background:rgba(1, 80, 159, 0.6); 
+     
+}
+
+
+
+/*------------------------------------------Details Page-----------------------------------------------------*/
+
+.body-text
+{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	text-align:justify;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+}
+.body-text p
+{
+	font-size:15px;
+}
+
+.bodyContainer
+{
+    width:100%;
+    text-align:center;
+    background-repeat:repeat;
+    padding-bottom:10px;
+    padding-top:10px;
+    vertical-align:top;
+    margin-top:30px;
+    
+    
+}
+
+.bodyContentContainer
+{
+    
+    padding:5px 60px 10px 60px;    
+    text-align:justify;
+    background-color:White;
+    
+    -webkit-box-shadow: 3px 3px 20px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 20px 2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 20px 2px rgba(0,0,0,0.75);
+    
+    margin:0 auto;
+    width:855px;
+    
+
+    
+    
+}
+
+.pageContentContainer
+{
+     overflow-y:auto;
+    overflow-x:auto;
+    width:840px;   
+    
+    /*padding-left:70px;
+    padding-right:70px;*/
+}
+
+.pageHeadingContainer
+{
+       background-repeat:repeat-x; 
+       width:855px;
+       margin-left:-70px;
+       margin-top:2px;
+       margin-bottom:10px;
+       padding: 10px 70px 10px 70px;
+       
+       -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+/*-------------- Home Page Tabs ----------------- */
+
+#tabs {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#tabs li {
+  float: left;
+  margin: 0 .5em 0 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12pt;
+}
+
+#tabs a {
+  position: relative;
+  background: #759dd5;
+/*  background-image: linear-gradient(to bottom, #2258a2, #2258a2);  */
+  padding: .3em 2.6em;
+  float: left;
+  text-decoration: none;
+  color:#FFF;
+  /*color: #444;*/
+  /*text-shadow: 0 1px 0 rgba(255,255,255,.8);*/
+  border-radius: 5px 0 0 0;
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  font-size:16px;
+  
+  
+}
+
+#tabs a:hover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after {
+  background: #759dd5;
+  color:#FFF; 
+}
+
+#tabs a:focus {
+  outline: 0;
+}
+
+#tabs a::after {
+  content:'';
+  position:absolute;
+  z-index: 1;
+  top: 0;
+  right: -.4em;  
+  bottom: 0;
+  width: 1em;
+  background: #759dd5;
+  /*background-image: linear-gradient(to bottom, #c7d6eb, #9eb8db);  */
+  box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+  transform: skew(10deg);
+  border-radius: 0 5px 0 0; 
+}
+
+#tabs #current a
+ {
+  background: #2258a2;
+  z-index: 3;
+  color:#FFF;
+  border:2px solid white;
+  border-bottom:none !important;
+  height:23px;
+
+}
+
+#tabs #current a::after {
+
+  background: #2258a2;
+  z-index: 4;
+  color:#FFF;
+  border:1px solid white;
+  border-bottom:none !important;
+  border-left:none !important;
+  height:33px;
+  margin-top:-1px;
+}
+
+
+#content 
+{
+
+  padding: .6em;
+  height: 307px;
+  width:90.9%;
+  position: relative;
+  z-index: 2;
+  border-radius: 0px 0px 10px 10px;
+  margin-top:-2px;
+          		background-color:rgb(0, 0, 0);
+    filter:alpha(opacity=80); 
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -moz-opacity:0.8; 
+    -khtml-opacity: 0.8; 
+    
+    background:rgba(0, 0, 0, 0.7); 
+    
+  background-color:rgba(0, 0, 0, 0.7);
+  
+}
+.tab-heading a
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:9pt;
+  color:#4ccede;
+  line-height:13pt;
+  font-weight:bold;
+  text-decoration:underline;
+  cursor:pointer;   
+}
+.tab-text
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:9pt;
+  color:#e8e8e8;
+  line-height:11pt;
+ 
+}
+.tab-date
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:7pt;
+  color:#ff8809;
+}
+.blockdivider {
+    margin-top:3px !important;
+}
+.home_slider_top_viewalllinks {
+    float:right;
+    margin-bottom:10px;
+}
+
+
+
+
+ /*------------------------------------------News List-----------------------------------------------------*/
+ 
+ 
+.tblInfo
+{
+	background-color: #FFFFFF;
+	border: solid 1px #D4D4D4;
+}
+
+.gvHeader
+{
+	font-family: "MS Sans Serif";
+	font-size: 11pt;
+	color: #214289;
+	font-weight: bold;
+	background-color: #A1BAE5;
+}
+
+
+.gvHeader a:link
+{
+	color: #013952;
+}
+
+.gvHeader a:visited
+{
+	color: #013952;
+}
+
+
+.btnSearch
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+.btnSearch:hover
+{
+	border: solid 1px #1F3977;
+	background: #eef;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+	color: #C43256;
+	cursor: pointer;
+}
+.btnSearch:active
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+	vertical-align: middle;
+}
+.btnSearch:visited
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+.txtOffWhite
+{
+	color: gray;
+	font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+/*.tblrow
+{
+	background-color: #ffffff;
+}*/
+.Oth_link A:link
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+}
+
+.shortdate
+{
+	background: #234187 url('Images/cal_sm.png') 0 0 no-repeat;
+	color: #FFFFFF;
+	height: 33px;
+	width: 33px;
+	text-align: center;
+	font-family: Verdana;
+}
+
+.day
+{
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+.month
+{
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 100%;
+	text-align: center;
+}
+
+.Ann_link A:link
+{
+	text-decoration: none;
+	font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height:1.3;
+	color: #013952;
+}
+.Ann_link A:visited
+{
+	text-decoration: none;
+	font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height:1.3;
+	color: #013952;
+}
+.Ann_link A:active
+{
+	text-decoration: none;
+	font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height:1.3;
+	color: #013952;
+}
+.Ann_link A:hover
+{
+	text-decoration: underline;
+	color: #c60000;
+	line-height:1.3;
+	font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif;
+	font-size: 19px;
+}
+
+
+.eventClndrDay
+{
+    text-align:left;
+    border-left: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-collapse:collapse;
+    vertical-align:top; 
+    padding-left:5px;   
+    font-family:Arial;
+    font-size:14pt;  
+    width:14%;
+    height:100px;
+}
+
+.eventClndrDay a
+{
+    text-decoration:none;
+}
+
+.clndrEventTitle
+{
+    margin-top:5px;            
+    vertical-align:top;
+    font-family:Arial;
+    font-size:10pt;
+    color:White;
+    padding:2px;
+}
+
+.clndrEventTitle a
+{
+    text-decoration:none;
+    color:White;              
+}
+/*.clndrEventTitle a:visited {  
+    color:White;
+    background:#7a96bd;
+}*/
+
+.TodayDateStyle {
+    border :1px solid #F00;
+}
+
+.pvcSummaryBox
+{
+    border: 1px solid gray;
+    border-radius: 5px;
+    float:left;
+    border-radius: 10px;
+    overflow:hidden;
+   -webkit-box-shadow: 3px 3px 2px 0px rgba(153,153,153,0.75);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(153,153,153,0.75);
+    box-shadow: 3px 3px 2px 0px rgba(153,153,153,0.75);
+}
+
+.pvc_bg_AZAD_KASHMIR
+{
+    background-color:#E981A6;
+}
+
+.pvc_bg_GILGIT_BALTISTAN
+{
+    background-color:#DDA459;
+}
+
+.pvc_bg_KHYBER_PAKHTUNKHWA
+{
+    background-color:#5DD46E;
+}
+
+.pvc_bg_FATA
+{
+    background-color:#9FFFFF;
+}
+
+.pvc_bg_PUNJAB
+{
+    background-color:#FDFEB2;
+}
+
+.pvc_bg_BALOCHISTAN
+{
+    background-color:#E26062;
+}
+
+.pvc_bg_SINDH
+{
+    background-color:#6658E0;
+}
+
+.pvc_bg_CAPITAL
+{
+    background-color:Gray;
+}
+
+
+.pvc_province_city_summary_container
+{
+    padding:5px 5px 5px 5px;    
+}
+
+.pvc_summary_heading
+{
+    width:100%;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+   
+}
+
+
+
+#Map area {
+    outline: none;
+}
+
+.staticPageTitleImg {
+    -webkit-box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    border:1px solid #999999;
+    float:right; 
+    margin-left:30px;
+    margin-bottom:15px;
+}
+
+
+
+/* Pager CSS start */
+
+.pagerOuterTable
+{
+    border-collapse: collapse;
+    border: 1px solid #5f5f5f;
+    background-color: #e2e2e2;
+    color: #39437e;
+}
+
+.pageCounter
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    color: #ffffff;
+    background-color: #006ad4;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pageFirstLast
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    /*color: #4d5c93;*/
+    color:Black;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;    
+}
+
+.pagePrevNextNumber
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    /*color: #4d5c93;*/
+    color:Black;
+    background-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;    
+    width: 20px;
+}
+
+.pageCurrentNumber
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    color: black;
+    font-weight: bold;
+    background-color: #b8dcff;
+    text-align: center;
+    vertical-align: middle;    
+    width: 20px;
+}
+
+.pageGroups
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+}
+
+.pagerLink, .pagerLink#hover, .pagerLink#active, .pagerLink#visited
+{
+    font-family: open_sansregular, Verdana,Arial, Helvetica, sans-serif; 
+    font-size: 10pt;
+    color: black;
+    text-decoration: none;    
+}
+
+/* Pager CSS ends here */
+
+.gridPagerPadding td
+{
+    padding: 1px 1px 1px 1px;    
+    
+}
+
+.staticPageImg {
+    -webkit-box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    -moz-box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    box-shadow: 3px 3px 2px 0px rgba(130,130,130,0.75);
+    border:1px solid #999999;
+}
+.courseslist
+{
+    margin-top:0px;    
+}
+.adminHeaderBG
+ {
+	 background:url('../../administrator/images/header_bg.png');
+	 background-repeat:repeat-x;
+}

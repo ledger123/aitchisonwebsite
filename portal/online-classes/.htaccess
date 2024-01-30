@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteRule ^online-learning$ onlinelearning.php [L]
+RewriteRule ^weekly-schedule$ weeklyschedule.php [L]

@@ -1,0 +1,247 @@
+[
+  {
+    "subject": "Physics",
+    "date": "1970-01-05",
+    "period": "1",
+	"teacher": ""
+  },
+  {
+    "subject": "Physics",
+    "date": "1970-01-05",
+    "period": "2",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-05",
+    "period": "3",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-05",
+    "period": "4",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-05",
+    "period": "5",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-05",
+    "period": "6",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-05",
+    "period": "7",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-05",
+    "period": "8",
+	"teacher": ""
+  },
+
+{
+    "subject": "Physics",
+    "date": "1970-01-06",
+    "period": "1",
+	"teacher": ""
+  },
+  {
+    "subject": "Physics",
+    "date": "1970-01-06",
+    "period": "2",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-06",
+    "period": "3",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-06",
+    "period": "4",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-06",
+    "period": "5",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-06",
+    "period": "6",
+	"teacher": ""
+  },
+  {
+    "subject": "Study Class",
+    "date": "1970-01-06",
+    "period": "7",
+	"teacher": ""
+  },
+  {
+    "subject": "Study Class",
+    "date": "1970-01-06",
+    "period": "8",
+	"teacher": ""
+  },
+
+{
+    "subject": "Physics",
+    "date": "1970-01-07",
+    "period": "1",
+	"teacher": ""
+  },
+  {
+    "subject": "Physics",
+    "date": "1970-01-07",
+    "period": "2",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-07",
+    "period": "3",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-07",
+    "period": "4",
+	"teacher": ""
+  },
+  {
+    "subject": "Study Class",
+    "date": "1970-01-07",
+    "period": "5",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-07",
+    "period": "6",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-07",
+    "period": "7",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-07",
+    "period": "8",
+	"teacher": ""
+  },
+
+{
+    "subject": "Physics",
+    "date": "1970-01-08",
+    "period": "1",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-08",
+    "period": "2",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-08",
+    "period": "3",
+	"teacher": ""
+  },
+  {
+    "subject": "Business Studies",
+    "date": "1970-01-08",
+    "period": "4",
+	"teacher": ""
+  },
+  {
+    "subject": "Study Class",
+    "date": "1970-01-08",
+    "period": "5",
+	"teacher": ""
+  },
+  {
+    "subject": "Study Class",
+    "date": "1970-01-08",
+    "period": "6",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-08",
+    "period": "7",
+	"teacher": ""
+  },
+  {
+    "subject": "Chemistry",
+    "date": "1970-01-08",
+    "period": "8",
+	"teacher": ""
+  },
+
+{
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "1",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "2",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-09",
+    "period": "3",
+	"teacher": ""
+  },
+  {
+    "subject": "Mathematics",
+    "date": "1970-01-09",
+    "period": "4",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "5",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "6",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "7",
+	"teacher": ""
+  },
+  {
+    "subject": "",
+    "date": "1970-01-09",
+    "period": "8",
+	"teacher": ""
+  }
+
+]

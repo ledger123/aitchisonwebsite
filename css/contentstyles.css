@@ -1,0 +1,54 @@
+#runningcontent, #runningcontent p, #runningcontent span, #runningcontent ol, #runningcontent ul{
+	font-family: 'Lato', 'Roboto', 'Oswald';		
+	font-size: 16px;
+	line-height: 22px;
+}
+#runningcontent ol, #runningcontent ul{
+	line-height: 25px !important;
+	padding-left: 25px;
+	margin-left: 25px;
+}
+#runningcontent, #runningcontent p{
+	margin-left: 1%;
+	margin-right: 2%;
+
+}
+#runningcontent p{
+	margin-top: 8px;
+}
+#runningcontent .stdpadding{
+	margin-left: 1%;
+	margin-right: 2%;
+}
+#runningcontent .nopadding{
+	padding-left: 0px;
+	margin-left: 0px;
+}
+.runningcontentheado h1, .runningcontentheado h2, .runningcontentheado h3, .runningcontentheado h4{
+	color: blue !important;
+}
+
+#runningcontent h1, #runningcontent h2, #runningcontent h3, #runningcontent h4, #runningcontent h5, #runningcontent h6, .runningcontenthead {
+	padding-left: 1%;
+	/*font-family: 'Lato', 'Roboto', 'Oswald';*/
+	font-family: 'lato';
+	text-transform: uppercase;	
+	font-weight: bold;
+}
+#runningcontent h1, .runningcontenthead1 {
+	font-size: 22px !important;
+	line-height: 28px;
+	
+}
+#runningcontent h2, .runningcontenthead2 {
+	font-size: 20px;
+	line-height: 26px;	
+}
+#runningcontent h3, .runningcontenthead3 {
+	font-size: 18px;
+	line-height: 24px;	
+}
+#runningcontent h4, .runningcontenthead4 {
+	font-size: 17px;
+	line-height: 23px;	
+}

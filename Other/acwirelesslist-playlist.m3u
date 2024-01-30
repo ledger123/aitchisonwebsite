@@ -1,0 +1,65 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="3" tvg-name="AAJ NEWS" tvg-logo="http://116.58.81.135/nuvidiocontent/aajnews.png" group-title="News",AAJ NEWS
+http://streamer.nuvidio.tv:80/live?channelId=3&uid=18
+#EXTINF:-1 tvg-id="7" tvg-name="APLUS" tvg-logo="http://116.58.81.135/nuvidiocontent/aplus.gif" group-title="Drama",APLUS
+http://streamer.nuvidio.tv:80/live?channelId=7&uid=18
+#EXTINF:-1 tvg-id="8" tvg-name="APNA CHANNEL" tvg-logo="http://116.58.81.135/nuvidiocontent/apnachannel.png" group-title="Drama",APNA CHANNEL
+http://streamer.nuvidio.tv:80/live?channelId=8&uid=18
+#EXTINF:-1 tvg-id="9" tvg-name="ARY DIGITAL" tvg-logo="http://116.58.81.135/nuvidiocontent/arydigital.jpg" group-title="Drama",ARY DIGITAL
+http://streamer.nuvidio.tv:80/live?channelId=9&uid=18
+#EXTINF:-1 tvg-id="10" tvg-name="ARY NEWS" tvg-logo="http://116.58.81.135/nuvidiocontent/arynews.png" group-title="News",ARY NEWS
+http://streamer.nuvidio.tv:80/live?channelId=10&uid=18
+#EXTINF:-1 tvg-id="12" tvg-name="ARY ZINDAGI" tvg-logo="http://116.58.81.135/nuvidiocontent/aryzindagi.png" group-title="Drama",ARY ZINDAGI
+http://streamer.nuvidio.tv:80/live?channelId=12&uid=18
+#EXTINF:-1 tvg-id="13" tvg-name="ATV" tvg-logo="http://116.58.81.135/nuvidiocontent/atv.jpeg" group-title="Entertainment",ATV
+http://streamer.nuvidio.tv:80/live?channelId=13&uid=18
+#EXTINF:-1 tvg-id="14" tvg-name="AVT KHYBER" tvg-logo="http://116.58.81.135/nuvidiocontent/avtkhyber.png" group-title="Drama",AVT KHYBER
+http://streamer.nuvidio.tv:80/live?channelId=14&uid=18
+#EXTINF:-1 tvg-id="15" tvg-name="AWAZ" tvg-logo="http://116.58.81.135/nuvidiocontent/awaznews.jpg" group-title="News",AWAZ
+http://streamer.nuvidio.tv:80/live?channelId=15&uid=18
+#EXTINF:-1 tvg-id="19" tvg-name="CAPITAL TV" tvg-logo="http://116.58.81.135/nuvidiocontent/capitaltv.png" group-title="News",CAPITAL TV
+http://streamer.nuvidio.tv:80/live?channelId=19&uid=18
+#EXTINF:-1 tvg-id="30" tvg-name="DUNYA TV" tvg-logo="http://116.58.81.135/nuvidiocontent/dunyatv.png" group-title="News",DUNYA TV
+http://streamer.nuvidio.tv:80/live?channelId=30&uid=18
+#EXTINF:-1 tvg-id="33" tvg-name="EXPRESS NEWS" tvg-logo="http://116.58.81.135/nuvidiocontent/expressnews.png" group-title="News",EXPRESS NEWS
+http://streamer.nuvidio.tv:80/live?channelId=33&uid=18
+#EXTINF:-1 tvg-id="36" tvg-name="GEO ENTERTAINMENT" tvg-logo="http://116.58.81.135/nuvidiocontent/geoent.gif" group-title="Entertainment",GEO ENTERTAINMENT
+http://streamer.nuvidio.tv:80/live?channelId=36&uid=18
+#EXTINF:-1 tvg-id="37" tvg-name="GEO NEWS" tvg-logo="http://116.58.81.135/nuvidiocontent/geonews.png" group-title="News",GEO NEWS
+http://streamer.nuvidio.tv:80/live?channelId=37&uid=18
+#EXTINF:-1 tvg-id="38" tvg-name="GEO SUPER" tvg-logo="http://116.58.81.135/nuvidiocontent/geosuper.png" group-title="Sports",GEO SUPER
+http://streamer.nuvidio.tv:80/live?channelId=38&uid=18
+#EXTINF:-1 tvg-id="39" tvg-name="GEO TEZ" tvg-logo="http://116.58.81.135/nuvidiocontent/geotez.png" group-title="News",GEO TEZ
+http://streamer.nuvidio.tv:80/live?channelId=39&uid=18
+#EXTINF:-1 tvg-id="44" tvg-name="HUM SITARAY" tvg-logo="http://116.58.81.135/nuvidiocontent/humsitaray.jpg" group-title="Entertainment",HUM SITARAY
+http://streamer.nuvidio.tv:80/live?channelId=44&uid=18
+#EXTINF:-1 tvg-id="45" tvg-name="HUM TV" tvg-logo="http://116.58.81.135/nuvidiocontent/humtv.png" group-title="Drama",HUM TV
+http://streamer.nuvidio.tv:80/live?channelId=45&uid=18
+#EXTINF:-1 tvg-id="49" tvg-name="MASALA TV" tvg-logo="http://116.58.81.135/nuvidiocontent/masalatv.png" group-title="Food & Drink",MASALA TV
+http://streamer.nuvidio.tv:80/live?channelId=49&uid=18
+#EXTINF:-1 tvg-id="62" tvg-name="PTV NEWS" tvg-logo="http://116.58.81.135/nuvidiocontent/ptvnews.png" group-title="News",PTV NEWS
+http://streamer.nuvidio.tv:80/live?channelId=62&uid=18
+#EXTINF:-1 tvg-id="63" tvg-name="PTV SPORTS" tvg-logo="http://116.58.81.135/nuvidiocontent/ptvsports.PNG" group-title="Sports",PTV SPORTS
+http://streamer.nuvidio.tv:80/live?channelId=63&uid=18
+#EXTINF:-1 tvg-id="68" tvg-name="SAMAA TV" tvg-logo="http://116.58.81.135/nuvidiocontent/samaatv.png" group-title="News",SAMAA TV
+http://streamer.nuvidio.tv:80/live?channelId=68&uid=18
+#EXTINF:-1 tvg-id="85" tvg-name="URDU 1" tvg-logo="http://116.58.81.135/nuvidiocontent/urdu1.jpg" group-title="Drama",URDU 1
+http://streamer.nuvidio.tv:80/live?channelId=85&uid=18
+#EXTINF:-1 tvg-id="105" tvg-name="FILM WORLD" tvg-logo="http://116.58.81.135/nuvidiocontent/filmworld.png" group-title="Movies",FILM WORLD
+http://streamer.nuvidio.tv:80/live?channelId=105&uid=18
+#EXTINF:-1 tvg-id="132" tvg-name="GEO KAHANI" tvg-logo="http://116.58.81.135/nuvidiocontent/geokahani.png" group-title="Entertainment",GEO KAHANI
+http://streamer.nuvidio.tv:80/live?channelId=132&uid=18
+#EXTINF:-1 tvg-id="155" tvg-name="8XM" tvg-logo="/noicon.png" group-title="Entertainment",8XM
+http://streamer.nuvidio.tv:80/live?channelId=155&uid=18
+#EXTINF:-1 tvg-id="156" tvg-name="JALWA" tvg-logo="/noicon.png" group-title="Entertainment",JALWA
+http://streamer.nuvidio.tv:80/live?channelId=156&uid=18
+#EXTINF:-1 tvg-id="171" tvg-name="CN Pakistan Local" tvg-logo="http://116.58.81.135/nuvidiocontent/cartoonnetworks.jpg" group-title="Kids",CN Pakistan Local
+http://streamer.nuvidio.tv:80/live?channelId=171&uid=18
+#EXTINF:-1 tvg-id="179" tvg-name="CITY 42" tvg-logo="/noicon.png" group-title="News",CITY 42
+http://streamer.nuvidio.tv:80/live?channelId=179&uid=18
+#EXTINF:-1 tvg-id="180" tvg-name="92 NEWS HD LO" tvg-logo="/noicon.png" group-title="News",92 NEWS HD LO
+http://streamer.nuvidio.tv:80/live?channelId=180&uid=18
+#EXTINF:-1 tvg-id="184" tvg-name="BOL NEWS HD LO" tvg-logo="/noicon.png" group-title="News",BOL NEWS HD LO
+http://streamer.nuvidio.tv:80/live?channelId=184&uid=18
+#EXTINF:-1 tvg-id="187" tvg-name="HUM NEWS" tvg-logo="/noicon.png" group-title="News",HUM NEWS
+http://streamer.nuvidio.tv:80/live?channelId=187&uid=18

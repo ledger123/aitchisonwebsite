@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteRule ^group-rights$ grouprights.php [L]
+RewriteRule ^user-profile$ userprofile.php [L]
+RewriteRule ^view_events$ view-events.php [L]
+RewriteRule ^view-myevents$ my-view-events.php [L]
+RewriteRule ^add_events$ add-events.php [L]
+RewriteRule ^view_events2$ view-events2.php [L]
+RewriteRule ^navigationtree$ navigation-tree.php [L]
+RewriteRule ^syllabi-list$ syllabus-list.php [L]
+RewriteRule ^add-syllabus$ syllabus-add.php [L]
+RewriteRule ^syllabus-upload$ upload.php [L]
+RewriteRule ^usercontacts$ user-contacts.php [L]
+RewriteRule ^lin$ lin.php [L]
+
+
+

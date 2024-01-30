@@ -1,0 +1,100 @@
+.foundicon-right-arrow:before {
+  content: "\f014";
+}
+a.actionicon {
+	display: block; 
+	background: #f4f6f6; 
+	color:#fff;
+	 padding: 22px 20px 20px 20px; 
+	 position: relative; 
+	 min-height: 30px;  
+	 width: 100%;  
+	 margin-bottom: 10px;  
+	 font-weight: 500; 
+	 font-size: 14px; 
+	 text-transform: none;
+	 -webkit-transition: 0.25s ease-in-out;
+	 -moz-transition: 0.25s ease-in-out;
+	 -o-transition: 0.25s ease-in-out;
+	 -webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	 border-radius: 4px; 
+	 }
+a.actionicon:hover {border: 0; text-decoration: none;}
+a.actionicon span {font-weight: 400; font-size: 14px;}
+/*i CSS For LEFT ARROW:STARTED*/
+a.actionicon i .left{
+	font-size: 35px; 
+	margin-top: -17px; 
+	float:left; 
+	-webkit-transition: 0.25s ease-in-out; 
+	-moz-transition: 0.25s ease-in-out; 
+	-o-transition: 0.25s ease-in-out; 
+	transition: 0.25s ease-in-out; 
+	opacity: 0.5; font-weight: 400;
+	}
+a.actionicon:hover i .left{opacity: 1;}
+
+a.actionicon.x i .left{float:left; padding-right:25px;}
+/*i CSS For LEFT ARROW:ENDED*/
+
+
+a.actionicon i {
+	font-size: 35px; 
+	margin-top: -17px; 
+	float:right; 
+	-webkit-transition: 0.25s ease-in-out; 
+	-moz-transition: 0.25s ease-in-out; 
+	-o-transition: 0.25s ease-in-out; 
+	transition: 0.25s ease-in-out; 
+	opacity: 0.5; font-weight: 400;
+	}
+a.actionicon:hover i {opacity: 1;}
+
+a.actionicon.x i {float:left; padding-right:25px;}
+
+a.actionicon.download {background: #00aae7;} /*006aae*/
+a.actionicon.download:hover {background: #19c6ff;}
+a.actionicon.download:active {background: #0086b2;}
+a.actionicon.visit {background: #c6321a;}
+a.actionicon.visit:hover {background: #e4482f;}
+a.actionicon.visit:active {background: #992714;}
+a.actionicon.watch {background: #9d4c94;}
+a.actionicon.watch:hover {background: #b567ad;}
+a.actionicon.watch:active {background: #7b3b74;}
+a.actionicon.view {background:  #c6d200;}
+a.actionicon.view:hover {background: #84d630;}
+a.actionicon.view:active {background: #50851b;}
+a.actionicon.contact {background: #f6a924;}
+a.actionicon.contact:hover {background: #f8bc55;}
+a.actionicon.contact:active {background: #de9009;}
+
+.actionicon.grey {background: #ecf0f1; color: #1A171B; text-transform: none;}
+a.actionicon.grey i {color: #7f8c8d;}
+a.actionicon.grey:hover {background: #7f8c8d; color: #fff; text-decoration: none;}
+a.actionicon.grey:active {background: #7f8c8d; color: #fff; text-decoration: none;}
+a.actionicon.grey:last-child {margin-bottom: 0;}
+a.actionicon.grey:hover i {color: #fff; text-decoration: none;}
+a.actionicon.grey:active i {color: #fff; text-decoration: none;}
+
+a.littlechap {padding: 12px 15px 10px 15px; min-height: 40px;}
+a.littlechap i {font-size: 30px; margin-top: -15px; }
+
+a.actionicon.blue {background: #006eae;}
+a.actionicon.blue:hover {background: #008ee1;}
+a.actionicon.blue:active {background: #004e7b;}
+a.actionicon.magenta {background: #9d4c94;}
+a.actionicon.magenta:hover {background: #b567ad;}
+a.actionicon.magenta:active {background: #7b3b74;}
+a.actionicon.red {background: #c6321a;}
+a.actionicon.red:hover {background: #e4482f;}
+a.actionicon.red:active {background: #992714;}
+a.actionicon.green {background: #c6d200;}
+a.actionicon.green:hover {background: #84d630;}
+a.actionicon.green:active {background: #50851b;}
+a.actionicon.orange {background: #f6a924;}
+a.actionicon.orange:hover {background: #f8bc55;}
+a.actionicon.orange:active {background: #de9009;}
+
+a.actionicon.purple { background: #616387; }
+a.actionicon.purple:hover { background: #6a6c9b; }

@@ -518,6 +518,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2465-aitchison-college-science-society-lifts-karachi-grammar-stem-olympiads-best-institute-best-delegation-award" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/6-9269583399.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    1<sup>st</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison College Science Society lifts Karachi Grammar STEM Olympiad's Best Institute/ Best Delegation Award
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2460-our-tent-peggers-enthrall-an-appreciative-crowd" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/14-7324620307.jpg" alt="News" class="img-fluid"/>
@@ -738,24 +757,6 @@ if($mobile->isMobile()) {
                                 </div>
                                 <h3 class="news-heading">
                                     Aitchison College Science & Engineering Concept - 2023
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2323-junior-junior-school-annual-riding-competition-upper-primary" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/18-8082222451.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Junior Junior School Annual Riding Competition Upper Primary
                                 </h3>
 
                             </div>

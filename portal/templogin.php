@@ -131,59 +131,24 @@ if(strlen($portal) > 5 &&
 
 function getTemporaryAccessiblePages () {
 	$accessiblePages = array();
-	//202101021
+
 	//$accessiblePages[] = array("pageid"=>"20221201", "url"=>"fee/fee-bills.php");
 
-	$accessiblePages[] = array("pageid"=>"202201121", "url"=>"important_events");
-	$accessiblePages[] = array("pageid"=>"202201171", "url"=>"allevents.php");
-
-
-	$accessiblePages[] = array("pageid"=>"202204121", "url"=>"revision-classes");
-	$accessiblePages[] = array("pageid"=>"202204122", "url"=>"prep-leave-and-exams");
-	$accessiblePages[] = array("pageid"=>"20220507", "url"=>"sports/riding_timetable");
-
-	$accessiblePages[] = array("pageid"=>"20220615", "url"=>"school_rules");
-
-	
-	$accessiblePages[] = array("pageid"=>"20221222", "url"=>"syllabi");
-	
-
-	$accessiblePages[] = array("pageid"=>"202208191", "url"=>"sports-offline.php");
-	$accessiblePages[] = array("pageid"=>"20220819", "url"=>"aitchison-code-of-conduct");
-	$accessiblePages[] = array("pageid"=>"202208271", "url"=>"my-sports/my-sports-details.php");
-
-	$accessiblePages[] = array("pageid"=>"20220915", "url"=>"prletter-1152-caution-to-c1-boys");
-	$accessiblePages[] = array("pageid"=>"20230107", "url"=>"mysports");
-	$accessiblePages[] = array("pageid"=>"202303221", "url"=>"usefulllinks.php");
-	$accessiblePages[] = array("pageid"=>"20231204", "url"=>"fee/fee-bills.php");
-
-	$accessiblePages[] = array("pageid"=>"20230912", "url"=>"offline-link?id=2188");
-
-	$accessiblePages[] = array("pageid"=>"202305251", "url"=>"new-parents-information");
 	//$accessiblePages[] = array("pageid"=>"202309191", "url"=>"myattendance");
 	
 
-	$accessiblePages[] = array("pageid"=>"202306051", "url"=>"home-work");
-	$accessiblePages[] = array("pageid"=>"202306061", "url"=>"dashboards-two");
-	$accessiblePages[] = array("pageid"=>"20230710", "url"=>"syllabi-offline");
-	$accessiblePages[] = array("pageid"=>"20230720", "url"=>"term_dates");
-	$accessiblePages[] = array("pageid"=>"202307201", "url"=>"term_dates_offline");
-
 	$accessiblePages[] = array("pageid"=>"202308081", "url"=>"time-table");
 
-	$accessiblePages[] = array("pageid"=>"202308241", "url"=>"car-stickers-policy");
 
-<<<<<<< HEAD
 	$accessiblePages[] = array("pageid"=>"202311281", "url"=>"offline-link?id=2385");
 
-	$accessiblePages[] = array("pageid"=>"202401081", "url"=>"timetable.php");
 
 	$accessiblePages[] = array("pageid"=>"202312091", "url"=>"offline-link?id=2400");
-=======
-	//$accessiblePages[] = array("pageid"=>"202310311", "url"=>"timetable-offline.php");
->>>>>>> 403fb83975a80f6c2d1e1f54ee2f89d17bb23b01
+
+	$accessiblePages[] = array("pageid"=>"202402011", "url"=>"timetable-offline.php");
 
 	return $accessiblePages;
 }
 ?>
+
 

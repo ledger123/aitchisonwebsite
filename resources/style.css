@@ -497,9 +497,23 @@ button.owl-next, button.owl-prev {
 
 }
 
+#featured-news > .owl-theme .owl-dots .owl-dot span {
+    background-color: #001952;
+}
+
+
+#featured-news > .owl-theme .owl-dots .owl-dot span.active {
+    border: 3px solid #ffc845;
+    background-color: transparent;
+}
+
 #featured-news > .owl-carousel .active span {	
-    border: 3px solid #001952;
-  
+    border: 3px solid #ffc845;
+    background-color: transparent;
+}
+
+#featured-news > .owl-carousel .active span:before {
+    background-color: transparent;
 }
 
 .owl-carousel .active span:before {

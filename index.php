@@ -518,6 +518,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2466-aitchison-beats-chand-bagh-to-win-interschool-basketball-championship" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/31-9986138208.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    2<sup>nd</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    AITCHISON BEATS CHAND BAGH TO WIN INTERSCHOOL BASKETBALL CHAMPIONSHIP
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2465-aitchison-college-science-society-lifts-karachi-grammar-stem-olympiads-best-institute-best-delegation-award" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/6-9269583399.jpg" alt="News" class="img-fluid"/>
@@ -727,24 +746,6 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2329-aitchison-and-lawrence-college-annual-fixture" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/1-2523555771.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    31<sup>st</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison and Lawrence College Annual Fixture
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2325-aitchison-college-science-engineering-concept-2023" target="_blank">

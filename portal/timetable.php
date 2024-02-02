@@ -141,18 +141,15 @@ echo " -->";
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <div class="x_panel">
                             <div class="x_content">
-								<div align="center" style="padding-bottom: 10px; ">Please read: <a href="https://aitchison.edu.pk/portal/prletter-2413-aitchison-cold-weather-update" style="font-weight: bold; text-align: center;">Aitchison Cold Weather Update</a><br>
-									<hr style="display: block; height: 1px; border: 0; border-top: 2px solid #002663; padding: 0;" />
-								</div>
                                 <?php if ( $_SESSION['portal_School'] == "JSD" ) { ?>
                                     <div align="center" class="page-title">
-                                        <div style="font-weight: bold">Junior School New Schedule January 2024</div>
+                                        <div style="font-weight: bold">Junior School New Schedule February 2024</div>
                                         <h3>School Timings</h3>
                                     </div>
 
                                     <h4 align="center">ROUTINE PROGRAMME FOR JUNIOR SCHOOL<br>SPRING TERM - 2024</h4>
 
-                                    <div align="center"><strong>Commencing from Wednesday, January 10<sup>th</sup>, 2024</strong></div>
+                                    <div align="center"><strong>Commencing from Monday 12<sup>th</sup> February, 2024</strong></div>
 
                                     <p>&nbsp;</p>
 
@@ -168,20 +165,20 @@ echo " -->";
                                             <tbody>
                                             <tr>
                                                 <td>K1, K2 & K3</td>
-                                                <td>9:30 am to 2:15 pm</td>
-                                              <td>9:30 am to 11:45 am</td>
+                                                <td>8:10 am to 2:15 pm</td>
+                                                <td>8:10 am to 11:45 am</td>
                                             </tr>
                                             <tr>
                                                 <td>K4, K5 & K6</td>
-                                                <td>9:30 am to 2:30 pm</td>
-                                              <td>9:30 am to 11:55 am</td>
+                                                <td>8:10 am to 2:30 pm</td>
+                                                <td>8:10 am to 11:55 am</td>
                                             </tr>
                                             </tbody>
 
                                         </table>
                                                                                 
                               </div>
-								<div style="text-align: center; font-weight: bold">College Gates Closed - 9:10 AM</div>
+								<div style="text-align: center; font-weight: bold">College Gates Closed - 8:10 AM</div>
 								<div style="text-align: center;"><br><br>
 								<h3>Weekly Schedule</h3>
 								</div>	

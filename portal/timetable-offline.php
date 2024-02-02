@@ -141,9 +141,6 @@ echo " -->";
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <div class="x_panel">
                             <div class="x_content">
-								<div align="center" style="padding-bottom: 10px; ">Please read: <a href="https://aitchison.edu.pk/portal/prletter-2413-aitchison-cold-weather-update" style="font-weight: bold; text-align: center;">Aitchison Cold Weather Update</a><br>
-									<hr style="display: block; height: 1px; border: 0; border-top: 2px solid #002663; padding: 0;" />
-								</div>
                                 <?php if ( $_SESSION['portal_School'] == "JSD" ) { ?>
                                     <div align="center" class="page-title">
                                         <div style="font-weight: bold">Junior School New Schedule February 2024</div>
@@ -209,14 +206,13 @@ echo " -->";
                                             <tr>
                                                 <td>2</td>
                                                 <td>&nbsp;</td>
-                                                <td>&nbsp;</td>
+                                                <td rowspan="2" style="vertical-align: middle;">K4 PE</td>
                                                 <td>&nbsp;</td>
                                                 <td>&nbsp;</td>
                                               <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                               <td>3</td>
-                                              <td>&nbsp;</td>
                                               <td>&nbsp;</td>
                                               <td>&nbsp;</td>
                                               <td>&nbsp;</td>
@@ -236,15 +232,16 @@ echo " -->";
                                             <tr>
                                               <td>5</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K2 Wellness</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K1 &amp; K3<br>
-                                              Wellness</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K6 PE</td>
+                                              <td rowspan="2" style="vertical-align: middle;">K2 PE</td>
+                                              <td rowspan="2" style="vertical-align: middle;">K3 PE<br>
+                                              &amp; K1 PE</td>
+                                              <td style="vertical-align: middle;">&nbsp;</td>
                                               <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                               <td>6</td>
                                               <td>&nbsp;</td>
+                                              <td style="vertical-align: middle;">&nbsp;</td>
                                               <td>AC Tutorials<br>
                                               K1 –K6<br></td>
                                             </tr>
@@ -254,8 +251,8 @@ echo " -->";
                                             <tr>
                                               <td>7</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K4 PE</td>
                                               <td rowspan="2" style="vertical-align: middle;">K5 PE</td>
+                                              <td rowspan="2" style="vertical-align: middle;">K6 PE</td>
                                               <td rowspan="2" style="vertical-align: middle;">CLUBS<br>
                                               K1 – K6</td>
                                               <td>&nbsp;</td>
@@ -274,7 +271,13 @@ echo " -->";
                                         <p>Lower Primary will follow the above-mentioned plan until further notice.</p>
                                         <p>Upper Primary will follow the date sheet (already uploaded in the GCR) w.e.f. Friday, 8<sup>th</sup> December, 2023.</p><?php */?>
                               </div>
+									<?php
+									if(true){
+									?>
 									<div style="text-align: center; font-weight: bold">A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school.</div>
+									<?php
+									}
+									?>
                                     <?php /*?><h3 align="center">Routine Programme - Session 2022-23<br>
                                     SUMMER TERM                                    </h3>
 

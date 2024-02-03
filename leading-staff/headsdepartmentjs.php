@@ -62,14 +62,26 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
             <h2 class="titile">Department Heads Junior School</h2>
             <div class="row">
                 <?php
+				/*
+				Bushra Munir - Head of Lower Primary
+				Uzma Bashir - Head of English
+				Sadia Akhtar - Head of Social Studies
+				Ayesha Siddiqa - Head of Arts
+				Uroos Fatima Kamran - Head of Language Acquisition
+				*/
                 $arr = [
                     ['dep' => 'Head of Upper Primary', 'name' => 'Kashifa Kalsoom', 'uri' => 'kashifa-kalsoom.jpg'],
+					['dep' => 'Head of Lower Primary', 'name' => 'Bushra Munir', 'uri' => 'bushra-munir-20240203.jpg'],
                     ['dep' => 'Head of Science', 'name' => 'Abdul Waheed', 'uri' => 'abdul-waheed.jpg'],
                     ['dep' => 'Head of Math', 'name' => 'Aqsa Sharif', 'uri' => 'aqsa-sharif.jpg'],
+					['dep' => 'Head of English', 'name' => 'Uzma Bashir', 'uri' => 'uzma-bashir-20240203.jpg'],
                     ['dep' => 'Head of Islamiyat', 'name' => 'Fatima Sohaib', 'uri' => 'fatima-sohaib.jpg'],
+					['dep' => 'Head of Social Studies', 'name' => 'Sadia Akhtar', 'uri' => 'sadia-akhtar.jpg'],
                     //['dep' => 'Head of English', 'name' => 'Rabia Ather', 'uri' => 'rabia-ather.jpg'],
                     ['dep' => 'Head of ICT', 'name' => 'Sadia Taimur', 'uri' => 'sadia-taimur.jpg'],
 					['dep' => 'Head of Urdu', 'name' => 'Samina Hayat', 'uri' => 'samina-hayat hod-urdu.jpg'],
+					['dep' => 'Head of Language Acquisition', 'name' => 'Uroos Fatima Kamran', 'uri' => 'uroos-fatima-20240203.jpg'],
+					['dep' => 'Head of Arts', 'name' => 'Ayesha Siddiqa', 'uri' => 'ayesha-siddiqa-20240203.jpg'],
                     ['dep' => 'Cambridge Coordinator', 'name' => 'Sana Imran', 'uri' => 'sana-imran.jpg'],
                     ['dep' => 'Controller Exams', 'name' => 'Tahira Yasmin', 'uri' => 'tahira-yasmin.jpg'],
 

@@ -68,6 +68,15 @@ $banner_url = $path.'resources/assets/images/banners/ps-school.jpg';
                         </div>
                     </div>
                 </div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="leading-card">
+                        <img src="<?php echo $image_path;?>img/leading-staff/house-heads/js/humaira-gull.jpg" alt="" class="img-fluid">
+                        <div>
+                            <strong>Humaira Gull</strong><br>
+                            Gwyn House
+                        </div>
+                    </div>
+                </div>
             </div>
             <h2 class="titile" style="font-size: 26px; color: #07294d; text-decoration: underline; margin-bottom: 0; padding-bottom: 12px;">Day Houses</h2>
 
@@ -75,14 +84,21 @@ $banner_url = $path.'resources/assets/images/banners/ps-school.jpg';
                 <?php
                 $arr = [
                     //['house' => 'Gwyn House', 'name' => 'Rukhsana Shahryar Khan', 'uri' => 'rukhsana-shahryar-khan.jpg'],
-                    ['house' => 'Babar House', 'name' => 'Sadia Akhtar ', 'uri' => 'sadia-akhtar.jpg'],
+                    //['house' => 'Babar House', 'name' => 'Sadia Akhtar ', 'uri' => 'sadia-akhtar.jpg'],
+					['house' => 'Babar House', 'name' => 'Ramiz Chaudhry ', 'uri' => 'ramiz-ch.jpg'],
                     ['house' => 'Goldstein House', 'name' => 'Maryam Latif', 'uri' => 'maryam-latif.jpg'],
-                    ['house' => 'Iqbal House', 'name' => 'Ayesha Raza', 'uri' => 'ayesha-raza.jpg'],
-                    ['house' => 'Jinnah House', 'name' => 'Iram Zulfiqar Cheema ', 'uri' => 'iram-zulfiqar-cheema.jpg'],
-                    ['house' => 'Liaqat House', 'name' => 'Bushra Sohail Malik', 'uri' => 'bushra-sohail-malik.jpg'],
-                    ['house' => 'Niazuddin House', 'name' => 'Farzana Mirza', 'uri' => 'farzana-mirza.jpg'],
+                    //['house' => 'Iqbal House', 'name' => 'Ayesha Raza', 'uri' => 'ayesha-raza.jpg'],
+					['house' => 'Iqbal House', 'name' => 'Saqib Rahman', 'uri' => 'saqib-rehman.jpg'],					
+                    //['house' => 'Jinnah House', 'name' => 'Iram Zulfiqar Cheema ', 'uri' => 'iram-zulfiqar-cheema.jpg'],
+					['house' => 'Jinnah House', 'name' => 'Fiza Safdar ', 'uri' => 'fiza-safdar.jpg'],					
+                    //['house' => 'Liaqat House', 'name' => 'Bushra Sohail Malik', 'uri' => 'bushra-sohail-malik.jpg'],
+					['house' => 'Liaqat House', 'name' => 'Iram Zulfiqar Cheema', 'uri' => 'iram-zulfiqar-cheema-v2.jpg'],
+                    //['house' => 'Niazuddin House', 'name' => 'Farzana Mirza', 'uri' => 'farzana-mirza.jpg'],
+					['house' => 'Niazuddin House', 'name' => 'Aqila Farhan', 'uri' => 'aqila-farhan.jpg'],
                     ['house' => 'Sikander House', 'name' => 'Ayesha Latif', 'uri' => 'ayesha-latif.jpg'],
-                    ['house' => 'Sir Syed House', 'name' => 'Kashifa Kalsoom', 'uri' => 'kashifa-kalsoom.jpg']
+					['house' => 'Sir Syed House', 'name' => 'Anum Zaheer', 'uri' => 'anam-zaheer.jpg']
+                    //['house' => 'Sir Syed House', 'name' => 'Kashifa Kalsoom', 'uri' => 'kashifa-kalsoom.jpg']
+					
             
                 ];
                 foreach ($arr as $row) {

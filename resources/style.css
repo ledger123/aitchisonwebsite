@@ -482,11 +482,12 @@ button.owl-next, button.owl-prev {
 	width: 10px;
 	height: 10px;
 }
+
 .owl-carousel .active span {	
 	width: 4px;
 	height: 4px;
     background-color: transparent;
-    border: 3px solid #ffc845;
+    border: 3px solid #001952;
     padding: 4px;
     border-radius: 5%;
     font-size: 0;
@@ -495,25 +496,6 @@ button.owl-next, button.owl-prev {
     position: relative;
     top: 2px;
 
-}
-
-#featured-news > .owl-theme .owl-dots .owl-dot span {
-    background-color: #001952;
-}
-
-
-#featured-news > .owl-theme .owl-dots .owl-dot span.active {
-    border: 3px solid #ffc845;
-    background-color: transparent;
-}
-
-#featured-news > .owl-carousel .active span {	
-    border: 3px solid #ffc845;
-    background-color: transparent;
-}
-
-#featured-news > .owl-carousel .active span:before {
-    background-color: transparent;
 }
 
 .owl-carousel .active span:before {
@@ -533,6 +515,17 @@ button.owl-next, button.owl-prev {
     transition: 0.5s ease;
 
 }
+
+
+#featured-news > .owl-theme .owl-dots .owl-dot span {
+    background-color: #001952;
+}
+
+#featured-news > .owl-carousel .active span {
+    border: 3px solid #ffc845;
+    background-color: transparent !important;
+}
+
 
 @media (max-width: 425px) {
     #discover-us .owl-dots {

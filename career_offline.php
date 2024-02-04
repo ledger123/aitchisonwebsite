@@ -11,7 +11,7 @@ if(empty($_GET['selection']) || mktime(23,59,59,5,25,2022) > time()){
 if(empty($_GET['selection']) || mktime(23,59,59,8,1,2022) > time()){
     //$_GET['selection']="position4-tab";
 }
-if(empty($_GET['selection']) || mktime(23,59,59,12,15,2023) > time()){
+if(empty($_GET['selection']) || mktime(23,59,59,3,11,2024) > time()){
 	//echo date("Y-m-d", mktime(23,59,59,6,6,2022));
    $_GET['selection']="position5-tab";
 }
@@ -104,10 +104,10 @@ $banner_url = 'resources/assets/images/admissions/banner.jpg';
                     <button class="nav-link <?php echo (!empty($_GET['selection']) && $_GET['selection']==="career-tab")?' active':'';?>" id="career-tab" data-bs-toggle="tab" data-bs-target="#career" type="button" role="tab" aria-controls="career" aria-selected="true">Careers</button>
                 </li>
 				<?php 
-				if(mktime(23,59,59,12,15,2023) > time()){
+				if(mktime(23,59,59,3,11,2024) > time()){
 				?>
 				<li class="nav-item" role="presentation">
-                    <button class="nav-link <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position5-tab")?' active':'';?>" id="position5-tab" data-bs-toggle="tab" data-bs-target="#position5" type="button" role="tab" aria-controls="position5" aria-selected="false">Seasonal Diving Coach</button>
+                    <button class="nav-link <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position5-tab")?' active':'';?>" id="position5-tab" data-bs-toggle="tab" data-bs-target="#position5" type="button" role="tab" aria-controls="position5" aria-selected="false">Principal Aitchison College</button>
                 </li>
 				<?php 
 				}
@@ -139,20 +139,23 @@ $banner_url = 'resources/assets/images/admissions/banner.jpg';
                 </div> 
 
 				<?php 
-				if(mktime(23,59,59,12,15,2023) > time()){
+				if(mktime(23,59,59,3,11,2024) > time()){
 				?>
                 <div class="tab-pane fade show <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position5-tab")?' active':'';?>" id="position5" role="tabpanel" aria-labelledby="position5-tab">
 					<div class="col-lg-12 col-md-12 col-sm-12">
                         <!-- <h4 style="margin-top: 0; margin-bottom: 15px; ">
                             <strong style="color:#800000;"></strong>
                         </h4> -->
-                        <p>Aitchison Seeks Seasonal Diving Coach For Elite Program.</p>
+                        <!-- <p>Aitchison Seeks Seasonal Diving Coach For Elite Program.</p> -->
 					  
 
-                        <p style="line-height: 1.6em;">
+                        <!-- <p style="line-height: 1.6em;">
 						Please apply to Games Master with a full resume at  <span style="color:#0000ff;">gamesmaster@aitchison.edu.pk</span> no later than <strong>Friday, 15<sup>th</sup> December, 2023</strong>.
-                        </p>
+                        </p> -->
 
+                        <p>
+                            <img src="img/principal/press-ad-aitchison-college-20240204.jpg" class="img-fluid" alt="Ad"/>
+                        </p>
 
                   </div>
                 </div>

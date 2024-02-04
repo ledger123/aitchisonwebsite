@@ -13,6 +13,11 @@
             <div class="swiper-slide">
                 <a href="<?php echo $path;?>activity-glimpses" target="_blank">Sports & Co-Curricular Activities - This week at a Glance</a>
             </div>
+            
+			<div class="swiper-slide">
+                <a target="_blank"><span style="color: #00205b;">AITCHISON REACHES FINAL OF JAFAR MEMORIAL TROPHY</span></a>
+            </div>
+
 			<div class="swiper-slide">
                 <a href="<?php echo $path;?>news-2439-aitchison-dominates-cambridge-outstanding-learners" target="_blank">AITCHISON DOMINATES CAMBRIDGE OUTSTANDING LEARNERS</a>
             </div>

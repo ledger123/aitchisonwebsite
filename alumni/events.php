@@ -146,14 +146,15 @@ Look out for upcoming events and mark your calendars in advance!
 						  
 						</div>
 						<div class="blog-news-title">
-						  <h2><a href="./news-2427-alumni-college-tour-classes-2001-2010">Alumni College Tour Classes: 2001-2010</a></h2>
+						  <h2><a href="./news-2469-alumnis-reunion-and-college-tour-classes-1971-1980">Alumni’s Reunion and College Tour Classes 1971-1980
+</a></h2>
 						  <!--<p></p>-->
 						  <?php /*?><p>During Summer Vacations 2022</p>
 						  <p><!--<span class="blog-date">|4<sup>th</sup> November 2016</span>--></p><?php */?>
 						</div>
 						<div class="blog-news-details">
-						  <p align="justify">Aitchison College is organizing a College Tour for the 2001 - 2010 classes.....</p>
-							<a class="blog-more-btn" href="./news-2427-alumni-college-tour-classes-2001-2010">Read More<i class="fa fa-long-arrow-right"></i></a>
+						  <p align="justify">Aitchison College is organizing a Reunion Tea and College Tour for the 1971 – 1980 classes on Saturday.....</p>
+							<a class="blog-more-btn" href="./news-2469-alumnis-reunion-and-college-tour-classes-1971-1980">Read More<i class="fa fa-long-arrow-right"></i></a>
 						</div>
 				</article>	
 				<?php }?>

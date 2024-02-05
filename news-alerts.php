@@ -15,7 +15,7 @@
             </div>
             
 			<div class="swiper-slide">
-                <a target="_blank"><span style="color: #00205b;">AITCHISON REACHES FINAL OF JAFAR MEMORIAL TROPHY</span></a>
+                <a target="_blank"><span style="color: #00205b;">AITCHISON WINS THIRD JAFAR TROPHY IN FOUR YEARS</span></a>
             </div>
 
 			<div class="swiper-slide">

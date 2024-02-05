@@ -134,15 +134,15 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="leading-card">
                         <img src="<?php echo $image_path;?>img/leading-staff/management-committee/dr-naila-burney-chughtai.jpg" alt="" class="img-fluid">
-                        <div><strong>Dr. Naila Burney Chughtai</strong><br>Head of All International & National Admissions <br>(except US and University of Oxford)</div>
+                        <div><strong>Dr. Naila Burney Chughtai</strong><br>Head of All International & National Admissions <br>(except US)</div>
                     </div>
                 </div>
-				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+				<!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="leading-card">
-                        <img src="<?php echo $image_path;?>img/leading-staff/management-committee/mr-jamal-hussain.jpg" alt="" class="img-fluid">
-                        <div><strong>Jamal Hussain</strong><br>Head of the USA Guidance & Counselling Department<?php /*?>Guidance Counsellor for Oxford & USA<?php */?></div>
+                        <img src="<?php //echo $image_path;?>img/leading-staff/management-committee/mr-jamal-hussain.jpg" alt="" class="img-fluid">
+                        <div><strong>Jamal Hussain</strong><br>Head of the USA Guidance & Counselling Department</div>
                     </div>
-                </div>
+                </div> -->
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="leading-card">
                         <img src="<?php echo $image_path;?>img/leading-staff/management-committee/ms-fariha-ramzan-v1.jpg" alt="" class="img-fluid">

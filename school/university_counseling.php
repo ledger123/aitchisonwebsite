@@ -69,29 +69,29 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h5 class="h5color">University Counseling Department (USA)</h5>
 					<p class="pl-5"><span class="paddingtop"><strong>Head of the USA Guidance & Counselling Department</strong></span><br>
-						jamal.hussain@aitchison.edu.pk</p>
+                        hodus@aitchison.edu.pk</p>
 					<p><span class="paddingtop pt-4"><strong>Deputy Head US Admissions</strong></span><br>dhus@aitchison.edu.pk</p>
 					<p><span class="paddingtop"><strong>Counselor US</strong></span><br>ssuscounselorss@aitchison.edu.pk</p>
 					<p><span class="paddingtop"><strong>Counselor US</strong></span><br>sscounsellorah@aitchison.edu.pk</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h5 class="h5color">University Counseling Department (UK)</h5>
-					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br>(except US and University of Oxford)</span><br>naila.burney@aitchison.edu.pk</p>                     <p><span class="paddingtop"><strong>UK Counselor</strong></span><br>hassan.gillani@aitchison.edu.pk</p>
+					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br>(except US)</span><br>naila.burney@aitchison.edu.pk</p>                     <p><span class="paddingtop"><strong>UK Counselor</strong></span><br>hassan.gillani@aitchison.edu.pk</p>
 				</div>
 			</div>
             <div class="row" style="margin-top:20px; margin-bottom:20px;">
-				<div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php echo $image_path;?>/img/pageimages/cc-1-a-20230922.jpg" alt="" class="img-fluid"></p>
-                </div>
+				<!-- <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p><img src="<?php //echo $image_path;?>/img/pageimages/cc-1-a-20230922.jpg" alt="" class="img-fluid"></p>
+                </div> -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <p><img src="<?php echo $image_path;?>/img/pageimages/cc-a-20230922.jpg" alt="" class="img-fluid"></p>
                 </div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
                     <p><img src="<?php echo $image_path;?>/img/pageimages/cc-b-20230922.jpg" alt="" class="img-fluid"></p>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php echo $image_path;?>/img/pageimages/cc-2-c-20230922.jpg" alt="" class="img-fluid"></p>
-                </div>
+				<!-- <div class="col-lg-6 col-md-6 col-sm-12">
+                    <p><img src="<?php //echo $image_path;?>/img/pageimages/cc-2-c-20230922.jpg" alt="" class="img-fluid"></p>
+                </div> -->
 				
                 
             </div>

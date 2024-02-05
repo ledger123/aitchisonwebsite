@@ -366,17 +366,17 @@ echo " -->";
 
                                 elseif ( $_SESSION['portal_School'] == "PSD" ) { ?>
                                     <div align="center" class="page-title">
-                                        <div style="font-weight: bold">Prep School New Schedule January 2024</div>
+                                        <?php /*?><div style="font-weight: bold">Prep School New Schedule January 2024</div><?php */?>
                                         <h3>School Timings</h3>
                                     </div>
 
                                     <h4 align="center">ROUTINE PROGRAMME FOR PREP SCHOOL<br>SPRING TERM - 2024</h4>
 
-                                    <div align="center"><strong>Commencing from Wednesday, January 10<sup>th</sup>, 2024</strong></div>
+                                    <div align="center"><strong>Commencing Monday, February 12<sup>th</sup>, 2024</strong></div>
 
                                     <p>&nbsp;</p>
 
-                                        <p><strong>Monday to Wednesday</strong></p>
+                                        <p><strong>Monday to Wednesday</strong>:</p>
 
                                         <div class="table-responsive">
 
@@ -441,7 +441,7 @@ echo " -->";
                                                 </tbody>
                                             </table>
 
-                                            <p><strong>Thursday</strong></p>
+                                            <p><strong>Thursday</strong>:</p>
                                             <table class="table table-bordered jambo_table" style="width: 100%;">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
@@ -486,24 +486,24 @@ echo " -->";
                                                     <td>12:10 p.m.</td>
                                                 </tr>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">Sports session 1 (All E2, M1 & M2)</td>
+                                                    <td height="20" style="height:20px;"><strong>Sports session 1</strong> (All E2, M1 & M2)</td>
                                                     <td>12:10 p.m.</td>
                                                     <td>01:10 p.m.</td>
                                                 </tr>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">Break/ Changeover/ Snacks</td>
+                                                    <td height="20" style="height:20px;"><strong>Break/ Changeover/ Snacks</strong></td>
                                                     <td>01:10 p.m.</td>
                                                     <td>01:40 p.m.</td>
                                                 </tr>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">Sports session 2 (All E2, M1 & M2)</td>
+                                                    <td height="20" style="height:20px;"><strong>Sports session 2</strong> (All E2, M1 & M2)</td>
                                                     <td>01:40 p.m.</td>
                                                     <td>02:40 p.m.</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
 
-                                            <p><strong>Friday</strong></p>
+                                            <p><strong>Friday</strong>:</p>
                                           <table class="table table-bordered jambo_table" style="width: 100%;">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
@@ -518,7 +518,7 @@ echo " -->";
                                                     <td>&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px; white-space: nowrap;">General Assembly/Tutorial</td>
+                                                    <td height="20" style="height:20px; white-space: nowrap;">Tutorial/ Zero Period</td>
                                                     <td>08:15 a.m.</td>
                                                     <td>08:30 a.m.</td>
                                                 </tr>
@@ -549,9 +549,9 @@ echo " -->";
                                                 </tr>
                                                 
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">5<sup>th</sup> Period (Club &amp; Societies)</td>
-                                                    <td>11:15 a.m.</td>
-                                                    <td>12:15 p.m.</td>
+                                                    <td height="20" style="height:20px;"><strong>5<sup>th</sup> Period (Club &amp; Societies)</strong></td>
+                                                    <td><strong>11:15 a.m.</strong></td>
+                                                    <td><strong>12:15 p.m.</strong></td>
                                                 </tr>
                                                 </tbody>
                                             </table>
@@ -591,11 +591,11 @@ echo " -->";
                                             <ol style="line-height:1.9; list-style: disc;">
                                                 <li>On <strong>Monday</strong>, White ‘Shalwar Kameez’ with Black ‘Achkan’ </li>
                                                 <li>On  <strong>Tuesday, Wednesday and Friday</strong>, grey trousers, white full sleeves  shirt, neck scarf, grey socks, black college shoes and blue blazer </li>
-                                                <li>On <strong>Thursday</strong>, all boys will attend the school in <strong>track suits</strong> and <strong>college joggers</strong></li>
-                                                <?php /*?><li>Rs. 5000/- fine for any unapproved leaves.</li><?php */?>
+                                                <li>On <strong>Thursday</strong>, all boys will come in <strong>track suits</strong> and <strong>college joggers</strong></li>
+                                                <li>Rs. 5000/- fine for any unapproved leave on Thursdays</li>
                                             </ol>
 
-                                        <p>A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school. However, on Thursday for Prep School boys and Friday for Senior School boys, a fine of Rs. 5000 will be applied to an unapproved leave /unexplained absence from school.</p>
+                                        <?php /*?><p>A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school. However, on Thursday for Prep School boys and Friday for Senior School boys, a fine of Rs. 5000 will be applied to an unapproved leave /unexplained absence from school.</p><?php */?>
 
                                         <?php } ?>
 

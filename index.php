@@ -518,7 +518,7 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
-                        <a href="news-2466-aitchison-beats-chand-bagh-to-win-interschool-basketball-championship" target="_blank">
+                        <a href="news-2466-aitchison-beats-chenab-college-jhang-to-win-interschool-basketball-championship" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/31-9986138208.jpg" alt="News" class="img-fluid"/>
                             </div>
@@ -527,7 +527,7 @@ if($mobile->isMobile()) {
                                     2<sup>nd</sup> February, 2024
                                 </div>
                                 <h3 class="news-heading">
-                                    AITCHISON BEATS CHAND BAGH TO WIN INTERSCHOOL BASKETBALL CHAMPIONSHIP
+                                    AITCHISON BEATS CHENAB COLLEGE JHANG TO WIN INTERSCHOOL BASKETBALL CHAMPIONSHIP
                                 </h3>
 
                             </div>

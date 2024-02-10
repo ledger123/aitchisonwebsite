@@ -15,7 +15,7 @@
             </div>
             
 			<div class="swiper-slide">
-                <a target="_blank"><span style="color: #00205b;">AITCHISON WINS THIRD JAFAR TROPHY IN FOUR YEARS</span></a>
+                <a href="<?php echo $path;?>news-2470-aitchison-wins-third-jafar-trophy-in-four-years" target="_blank"><span style="color: #00205b;">AITCHISON WINS THIRD JAFAR TROPHY IN FOUR YEARS</span></a>
             </div>
 
 			<div class="swiper-slide">

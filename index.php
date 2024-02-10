@@ -518,6 +518,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2470-aitchison-wins-third-jafar-trophy-in-four-years" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/2470-20240210-5159845285.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    7<sup>th</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    AITCHISON WINS THIRD JAFAR TROPHY IN FOUR YEARS
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2466-aitchison-beats-chenab-college-jhang-to-win-interschool-basketball-championship" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/31-9986138208.jpg" alt="News" class="img-fluid"/>
@@ -672,25 +691,6 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
-                        <a href="news-2423-aitchison-shines-bright-dominating-lumun-2023-with-double-distinction" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/lumun-delegation-2423-sm-3990597856.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    28<sup>th</sup> to 31<sup>st</sup> December, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Shines Bright: Dominating LUMUN 2023 with Double Distinction
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
                         <a href="news-2414-aitchison-flying-high-with-sporting-heroes" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/2414-thumbnail-1086512452.jpg" alt="News" class="img-fluid"/>
@@ -701,6 +701,25 @@ if($mobile->isMobile()) {
                                 </div>
                                 <h3 class="news-heading">
                                     Aitchison Flying High with Sporting Heroes
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2423-aitchison-shines-bright-dominating-lumun-2023-with-double-distinction" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/lumun-delegation-2423-sm-3990597856.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    28<sup>th</sup> to 31<sup>st</sup> December, 2023
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison Shines Bright: Dominating LUMUN 2023 with Double Distinction
                                 </h3>
 
                             </div>

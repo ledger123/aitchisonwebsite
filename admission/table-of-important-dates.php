@@ -82,13 +82,9 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
                         <td style="text-align: center;">January, 2024</td>
                     </tr>
                     <tr>
-<<<<<<< HEAD
-                      <td>Test date for all age groups</td>
-                      <td style="text-align: center;">May, 2024</td>
-=======
+
                         <td>Test date for all age groups</td>
                         <td style="text-align: center;">May, 2024</td>
->>>>>>> 403fb83975a80f6c2d1e1f54ee2f89d17bb23b01
                     </tr>
                     <?php /*?><tr>
                         <td>Special Classes commence for C1/Matric boarders only</td>

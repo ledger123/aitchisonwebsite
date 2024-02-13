@@ -8,8 +8,8 @@ if(empty($_GET['selection']) || mktime(23,59,59,5,25,2022) > time()){
 if(empty($_GET['selection']) || mktime(23,59,59,5,25,2022) > time()){
     //$_GET['selection']="position3-tab";	
 }
-if(empty($_GET['selection']) || mktime(23,59,59,8,1,2022) > time()){
-    //$_GET['selection']="position4-tab";
+if(empty($_GET['selection']) || mktime(23,59,59,2,15,2024) > time()){
+    $_GET['selection']="position4-tab";
 }
 if(empty($_GET['selection']) || mktime(23,59,59,3,11,2024) > time()){
 	//echo date("Y-m-d", mktime(23,59,59,6,6,2022));
@@ -98,10 +98,10 @@ $banner_url = 'resources/assets/images/admissions/banner.jpg';
 				?>
 
                 <?php
-                if(mktime(23,59,59,5,31,2023) > time()){
+                if(mktime(23,59,59,2,15,2024) > time()){
                     ?>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position4-tab")?' active':'';?>" id="position4-tab" data-bs-toggle="tab" data-bs-target="#position4" type="button" role="tab" aria-controls="position4" aria-selected="false">Teachers for Senior School</button>
+                        <button class="nav-link <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position4-tab")?' active':'';?>" id="position4-tab" data-bs-toggle="tab" data-bs-target="#position4" type="button" role="tab" aria-controls="position4" aria-selected="false">English Teacher for Preparatory School</button>
                     </li>
                     <?php
                 }
@@ -148,24 +148,18 @@ $banner_url = 'resources/assets/images/admissions/banner.jpg';
 				}
 				?>
                 <?php
-                if(mktime(23,59,59,5,31,2023) > time()){
+                if(mktime(23,59,59,2,15,2024) > time()){
                     ?>
                     <div class="tab-pane fade show <?php echo (!empty($_GET['selection']) && $_GET['selection']=="position4-tab")?' active':'';?>" id="position4" role="tabpanel" aria-labelledby="position4-tab">
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <h4 style="margin-top: 0; margin-bottom: 15px; ">
-                                <strong style="color:#800000;">Teachers for Senior School (Starting August 2023)</strong>
+                                <strong style="color:#800000;">English Teacher for Preparatory School</strong>
                             </h4>
-							<h6 style="margin-top: -10px;">
-								<strong>
-									Principles of Accounting, Business Studies, English and Pakistan Studies
-								</strong>
-							</h6>
-							<p style="line-height: 1.6em;">Applications are invited for the above mentioned subjects in Senior School.</p>
-							<p style="line-height: 1.6em;">Applicants must have experience of teaching the relevant subjects at O Level /IGCSE and A Level (Cambridge international), with a related Master’s degree.</p>
+                            <p style="line-height: 1.6em;">Applications are invited for the post of English Teacher (Years 7 to 9) in our Preparatory School to commence beginning of March 2024. The applicant must be familiar with Cambridge Secondary Curriculum including IGCSE and possess a Master’s degree with considerable, verifiable experience.</p>
                             <p style="line-height: 1.6em;">
-                            Applications must reach the college by 31<sup>st</sup> May 2023 via email to the Director HR at:  <span style="color:#0000ff;">hr@aitchison.edu.pk</span>. 
-                        </p>
-							
+                                Interested and qualified applications must reach by <strong>Thursday, 15th of February 2024 via email to the Director HR on: <span style="color:#0000ff;">hr@aitchison.edu.pk</span></strong>.
+                            </p>
+
 
                         </div>
                     </div>

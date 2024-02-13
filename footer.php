@@ -111,7 +111,7 @@
                             </nav>
                             */ ?>
                             <div class="text-white text-center d-block d-sm-none">
-                                © Aitchison College 2023. All rights reserved.
+                                © Aitchison College <?php echo date("Y");?>. All rights reserved.
                             </div>
                         </div>
                     </div>

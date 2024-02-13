@@ -518,6 +518,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2472-acmun-closing-ceremony-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/4-3445555160.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    10<sup>th</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    ACMUN CLOSING CEREMONY 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2470-aitchison-wins-third-jafar-trophy-in-four-years" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/2470-20240210-5159845285.jpg" alt="News" class="img-fluid"/>
@@ -746,63 +765,6 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2339-english-language-festival-2023" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/35-5912697620.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    6<sup>th</sup> November, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    English Language Festival - 2023
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2325-aitchison-college-science-engineering-concept-2023" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/46-771282321.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison College Science & Engineering Concept - 2023
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-
-                        <a href="news-2243-aitchison-college-shines-globally-in-the-2023-schools-index-by-carfaxeducation" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/school-index-carfax-education-logo-2243-1871537432.png" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    2<sup>nd</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison College Shines Globally in The 2023 Schools Index by Carfax Education
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
             </div>
             <div class="divider-small"></div>

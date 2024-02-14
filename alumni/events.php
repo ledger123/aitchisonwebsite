@@ -150,7 +150,7 @@ Look out for upcoming events and mark your calendars in advance!
 						  <p><!--<span class="blog-date">|4<sup>th</sup> November 2016</span>--></p><?php */?>
 						</div>
 						<div class="blog-news-details">
-						  <p align="justify">This year the 138th Founders’ Day events will be held from 7<sup>th</sup> to 9<sup>th</sup> March, 2024. The Academic Prize Distribution will be held on 8<sup>th</sup> March, while the Main Founders’ Day (Sports) will be held on 9<sup>th</sup> March......</p>
+						  <p align="justify">This year the 138<sup>th</sup> Founders’ Day events will be held from 7<sup>th</sup> to 9<sup>th</sup> March, 2024. The Academic Prize Distribution will be held on 8<sup>th</sup> March, while the Main Founders’ Day (Sports) will be held on 9<sup>th</sup> March......</p>
 							<a class="blog-more-btn" href="./news-2476-founders-day-2024">Read More<i class="fa fa-long-arrow-right"></i></a>
 						</div>
 				</article>

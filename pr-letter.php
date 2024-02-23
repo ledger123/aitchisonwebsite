@@ -198,14 +198,6 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
 <!-- End Footer Includes -->
 
 
-<!-- tosrus -->
-<script src="resources/js/jquery.tosrus.min.all.js"></script>
-<script src="resources/js/photo-gallery-jquery.js"></script>
-
-<script>
-
-</script>
-
 </body>
 
 </html>

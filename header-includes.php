@@ -120,7 +120,7 @@ $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php');
 
     <link rel="stylesheet" href="<?php echo $path;?>resources/css/jquery.tosrus.all.css">
 
-    <link rel="stylesheet" href="<?php echo $path;?>resources/css/photo-gallery.css?v=27">
+    <link rel="stylesheet" href="<?php echo $path;?>resources/css/photo-gallery.css?v=28">
 
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/custom.css?v=43">
 

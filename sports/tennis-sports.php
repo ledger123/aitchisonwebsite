@@ -6,7 +6,7 @@ include_once("../path-settings.php");
 
 $title = "Tennis"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/tennis-1.jpg';
+$banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 ?>
 
 <body>
@@ -71,20 +71,20 @@ $banner_url = $path.'resources/assets/images/banners/tennis-1.jpg';
                             <span class="view_btn">Tennis</span>
                         </a>
 
-                        <a href="<?php echo $image_path;?>img/tennis/1.jpg" title="Tennis">
-                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/1.jpg" alt="img">
+                        <a href="<?php echo $image_path;?>img/tennis/9.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/9.jpg" alt="img">
                             <span class="view_btn">Tennis</span>
                         </a>
-                        <a href="<?php echo $image_path;?>img/tennis/2.jpg" title="Tennis">
-                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/2.jpg" alt="img">
+                        <a href="<?php echo $image_path;?>img/tennis/10.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/10.jpg" alt="img">
                             <span class="view_btn">Tennis</span>
                         </a>
-                        <a href="<?php echo $image_path;?>img/tennis/3.jpg" title="Tennis">
-                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/3.jpg" alt="img">
+                        <a href="<?php echo $image_path;?>img/tennis/11.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/11.jpg" alt="img">
                             <span class="view_btn">Tennis</span>
                         </a>
-                        <a href="<?php echo $image_path;?>img/tennis/4.jpg" title="Tennis">
-                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/4.jpg" alt="img">
+                        <a href="<?php echo $image_path;?>img/tennis/12.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/12.webp" alt="img">
                             <span class="view_btn">Tennis</span>
                         </a>
                     </div>

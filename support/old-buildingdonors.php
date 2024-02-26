@@ -6,7 +6,7 @@ include_once("../path-settings.php");
 
 $title = "Old Building Donors"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/admissions/banner.jpg';
+$banner_url = $path.'resources/assets/images/banners/old-building-v10.jpg';
 ?>
 
 <body>

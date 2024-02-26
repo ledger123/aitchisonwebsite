@@ -519,6 +519,45 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2519-brilliant-english-play-wins-audience" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/15-8498861894.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    24<sup>th</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    BRILLIANT ENGLISH PLAY WINS AUDIENCE
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2517-aitchison-college-rifle-shooting-championship-feb-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/12-9239153897.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    23<sup>rd</sup> February, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison College Rifle Shooting Championship - Feb 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2513-aitchison-shines-in-ceremony-and-celebration" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/2-8664090547.jpg" alt="News" class="img-fluid"/>
@@ -759,25 +798,6 @@ if($mobile->isMobile()) {
                                 </div>
                                 <h3 class="news-heading">
                                     Aitchison Shines Bright: Dominating LUMUN 2023 with Double Distinction
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2409-aitchisonian-wins-scottish-u-17-squash-title-congratulations-from-everyone-sakhi-ullah-tareen" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/scottish-17-squash-2409-4-5966632556.png" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> December, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchisonian Wins Scottish U 17 Squash Title
                                 </h3>
 
                             </div>

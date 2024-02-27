@@ -85,7 +85,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                     ['event' => 'Mathematics Society', 'name' => 'Tasneem Aslam Zaeem', 'uri' => 'tasneem-aslam-zaeem.jpg'],
                     ['event' => 'Model United Nation', 'name' => 'Shazia Habib', 'uri' => 'shazia-habib.jpg'],
                     ['event' => 'Music Society', 'name' => 'Sara Ahmer', 'uri' => 'sara-ahmer.jpg'],
-                    ['event' => 'Music Society', 'name' => 'Ali Shehrozr Qazalbash', 'uri' => 'ali-shehroz-qazalbash.jpg'],
+                    ['event' => 'Music Society', 'name' => 'Ali Shehroze Qazalbash', 'uri' => 'ali-shehroz-qazalbash.jpg'],
                     ['event' => 'Quiz Society', 'name' => 'Maham Hammad Malik', 'uri' => 'maham-hammad-malik.jpg'],
                     ['event' => 'Science Society', 'name' => 'Dr Muhammad Kamran', 'uri' => 'dr-muhammad-kamran.jpg'],
                     ['event' => 'Humaintarian and Environment Society', 'name' => 'Satia Tazyeen', 'uri' => 'satia-tazyeen.jpg'],

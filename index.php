@@ -712,25 +712,6 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
-                        <a href="news-2459-aitchison-and-sadiq-public-school-enjoy-the-annual-sports-carnival" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/22-1645206665.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    29<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison and Sadiq Public School Enjoy the Annual Sports Carnival
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
                         <a href="aitchison-senior-mathematics-society-delegation-bags-medals-at-seamo-x-2024" target="_blank">
 
                             <div class="news-image">

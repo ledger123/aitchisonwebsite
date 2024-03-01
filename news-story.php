@@ -1,6 +1,13 @@
 <?php
 //ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
-
+$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+if($newsId === 239) {
+	header("Location: https://aitchison.edu.pk/404", true, 301);
+	exit;
+    //http_response_code(404);
+//include('my_404.php'); // provide your own HTML for the error page
+    //die();
+}
 $path = '';
 $imagePath = '';
 $include_path = '';
@@ -17,7 +24,7 @@ $dc->Connect();
 
 $newsRepo = new NewsRepository($dc);
 
-$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+//$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 if ($newsId > 0)
 {
@@ -127,6 +134,7 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
                         $templatePath = $imagePath."";
 
                         include($templatePath."newsletter/news/templates/updated/addtemplate.php");
+
                     }
                     else
                     {
@@ -147,6 +155,8 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
                         </div>
                         <?php
                     }
+
+
                 }
                 else {
 
@@ -161,6 +171,15 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
                     }
                 }
 
+                if($newsId === 239) {
+
+
+
+                    echo
+                    '<h5>
+                                Error: Page does not exist.
+                            <h5>';
+                }
             }
             ?>
 

@@ -18,6 +18,7 @@
         "theatre"							=>	"school-theatre.php",
         "theatre-offline"					=>	"school-theatre-offline.php",
         "prep-school-offline"				=>	"prep_school-offline.php",
+        "aitchison-chronicles"				=>	"aitchison_chronicles.php",
 	);
 
 

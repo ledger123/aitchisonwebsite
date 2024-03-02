@@ -370,13 +370,13 @@ echo " -->";
                                         <h3>School Timings</h3>
                                     </div>
 
-                                    <h4 align="center">ROUTINE PROGRAMME FOR PREP SCHOOL<br>SPRING TERM - 2024</h4>
+                                    <h4 align="center">ROUTINE PROGRAMME FOR PREP SCHOOL<br>Ramadan Timings</h4>
 
-                                    <div align="center"><strong>Commencing Monday, February 12<sup>th</sup>, 2024</strong></div>
+                                    <div align="center"><strong>Commencing Monday, March 11<sup>th</sup>, 2024 till Wednesday, April 3<sup>rd</sup> 2024</strong></div>
 
                                     <p>&nbsp;</p>
 
-                                        <p><strong>Monday to Wednesday</strong>:</p>
+                                        <p><strong>Monday to Thursday</strong>:</p>
 
                                         <div class="table-responsive">
 
@@ -390,57 +390,59 @@ echo " -->";
                                                 <tbody>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td><strong>08:10 a.m.</strong></td>
+                                                    <td><strong>07:10 a.m.</strong></td>
                                                     <td>&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">Tutorial/Zero Period</td>
-                                                    <td>08:15 a.m.</td>
-                                                    <td>08:30 a.m.</td>
+                                                    <td>07:15 a.m.</td>
+                                                    <td>07:30 a.m.</td>
                                                 </tr>                                                
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">1<sup>st</sup> Period</td>
-                                                    <td>08:30 a.m.</td>
-                                                    <td>09:20 a.m.</td>
+                                                    <td>07:30 a.m.</td>
+                                                    <td>08:10 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">2<sup>nd</sup> Period</td>
-                                                    <td>09:20 a.m.</td>
-                                                    <td>10:10 a.m.</td>
+                                                    <td>08:10 a.m.</td>
+                                                    <td>08:50 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">3<sup>rd</sup> Period</td>
-                                                    <td>10:10 a.m.</td>
-                                                    <td>11:00 a.m.</td>
+                                                    <td>08:50 a.m.</td>
+                                                    <td>09:30 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
-                                                    <td>11:00 a.m.</td>
-                                                    <td>11:50 a.m.</td>
+                                                    <td>09:30 a.m.</td>
+                                                    <td>10:10 a.m.</td>
                                                 </tr>
                                                 <tr height="20" style="font-weight: bold;">
                                                     <td height="20" style="height:20px;">Break&nbsp;</td>
-                                                    <td>11:50 a.m.</td>
-                                                    <td>12:15 p.m.</td>
+                                                    <td>10:10 a.m.</td>
+                                                    <td>10:35 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">5<sup>th</sup> Period</td>
-                                                    <td>12:15 p.m.</td>
-                                                    <td>01:05 p.m.</td>
+                                                    <td>10:35 a.m.</td>
+                                                    <td>11:10 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">6<sup>th</sup> Period</td>
-                                                    <td>01:05 p.m.</td>
-                                                    <td>01:55 p.m.</td>
+                                                    <td>11:10 a.m.</td>
+                                                    <td>11:45 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">7<sup>th</sup> Period</td>
-                                                    <td>01:55 p.m.</td>
-                                                    <td>02:40 p.m.</td>
+                                                    <td>11:45 a.m.</td>
+                                                    <td>12:20 p.m.</td>
                                                 </tr>
                                                 </tbody>
                                             </table>
-
+											<?php
+											if(false){
+											?>
                                             <p><strong>Thursday</strong>:</p>
                                             <table class="table table-bordered jambo_table" style="width: 100%;">
                                                 <thead>
@@ -470,16 +472,13 @@ echo " -->";
                                                     <td>09:20 a.m.</td>
                                                     <td>10:10 a.m.</td>
                                                 </tr>
+													
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">3<sup>rd</sup> Period</td>
                                                     <td>10:10 a.m.</td>
                                                     <td>11:00 a.m.</td>
                                                 </tr>
-                                                <tr height="20" style="font-weight: bold;">
-                                                    <td height="20" style="height:20px;">Break&nbsp;</td>
-                                                    <td>11:00 a.m.</td>
-                                                    <td>11:25 a.m.</td>
-                                                </tr>
+                                                
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
                                                     <td>11:25 a.m.</td>
@@ -502,7 +501,9 @@ echo " -->";
                                                 </tr>
                                                 </tbody>
                                             </table>
-
+											<?php
+											}
+											?>
                                             <p><strong>Friday</strong>:</p>
                                           <table class="table table-bordered jambo_table" style="width: 100%;">
                                                 <thead>
@@ -514,45 +515,50 @@ echo " -->";
                                                 <tbody>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td><strong>08:10 a.m.</strong></td>
+                                                    <td><strong>07:10 a.m.</strong></td>
                                                     <td>&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px; white-space: nowrap;">Tutorial/ Zero Period</td>
-                                                    <td>08:15 a.m.</td>
-                                                    <td>08:30 a.m.</td>
+                                                    <td>07:15 a.m.</td>
+                                                    <td>07:30 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">1<sup>st</sup> Period</td>
-                                                    <td>08:30 a.m.</td>
-                                                    <td>09:05 a.m.</td>
+                                                    <td>07:30 a.m.</td>
+                                                    <td>08:05 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">2<sup>nd</sup> Period</td>
-                                                    <td>09:05 a.m.</td>
-                                                    <td>09:40 a.m.</td>
+                                                    <td>08:05 a.m.</td>
+                                                    <td>08:40 a.m.</td>
                                                 </tr>
                                                 <tr height="20" style="font-weight: bold;">
                                                     <td height="20" style="height:20px;">Break</td>
-                                                    <td>09:40 a.m.</td>
-                                                    <td>10:00 a.m.</td>
+                                                    <td>08:40 a.m.</td>
+                                                    <td>09:10 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">3<sup>rd</sup> Period</td>
-                                                    <td>10:00 a.m.</td>
-                                                    <td>10:35 a.m.</td>
+                                                    <td>09:10 a.m.</td>
+                                                    <td>09:45 a.m.</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
-                                                    <td>10:35 a.m.</td>
-                                                    <td>11:10 a.m.</td>
+                                                    <td>09:45 a.m.</td>
+                                                    <td>10:20 a.m.</td>
                                                 </tr>
-                                                
+                                                <?php
+												if(false){	
+												?>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;"><strong>5<sup>th</sup> Period (Club &amp; Societies)</strong></td>
                                                     <td><strong>11:15 a.m.</strong></td>
                                                     <td><strong>12:15 p.m.</strong></td>
                                                 </tr>
+												<?php
+												}
+												?>	
                                                 </tbody>
                                             </table>
 											<?php
@@ -586,13 +592,19 @@ echo " -->";
                                         <p>&nbsp;</p>
 
                                         <?php if(true) { ?>
-                                            <p><strong>Uniform for Spring Term:</strong></p>
+                                            <?php /*?><p><strong>Uniform for Spring Term:</strong></p>
 
                                             <ol style="line-height:1.9; list-style: disc;">
                                                 <li>On <strong>Monday</strong>, White ‘Shalwar Kameez’ with Black ‘Achkan’ </li>
                                                 <li>On  <strong>Tuesday, Wednesday and Friday</strong>, grey trousers, white full sleeves  shirt, neck scarf, grey socks, black college shoes and blue blazer </li>
                                                 <li>On <strong>Thursday</strong>, all boys will come in <strong>track suits</strong> and <strong>college joggers</strong></li>
                                                 <li>Rs. 5000/- fine for any unapproved leave on Thursdays</li>
+                                            </ol><?php */?>
+											<p><strong>Uniform:</strong></p>
+
+                                            <ol style="line-height:1.9; list-style: disc;">
+                                                <li>On <strong>Monday to Thursday</strong>, khaki trousers, white full sleeves shirt, grey socks and black college shoes </li>
+                                                <li>On <strong>Friday</strong>, white shalwar kameez, grey socks and black college shoes </li>                                                
                                             </ol>
 
                                         <?php /*?><p>A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school. However, on Thursday for Prep School boys and Friday for Senior School boys, a fine of Rs. 5000 will be applied to an unapproved leave /unexplained absence from school.</p><?php */?>

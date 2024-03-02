@@ -1,7 +1,8 @@
 <?php
 //ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 $newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-if($newsId === 239) {
+$blockNewsIds=array(239, 340);
+if(in_array($newsId, $blockNewsIds)) {
 	header("Location: https://aitchison.edu.pk/404", true, 301);
 	exit;
     //http_response_code(404);
@@ -45,7 +46,10 @@ if ($newsId > 0)
         $OptNewsType	   = $row->NewsType;
         $OpenAccess		   = $row->OpenAccess;
         $active    	  	   = $row->Active;
-    }
+    }else{
+		header("Location: https://aitchison.edu.pk/404", true, 301);
+		exit;    
+	}
 
 }
 

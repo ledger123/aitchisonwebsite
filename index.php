@@ -519,6 +519,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2528-junior-makers-fair-a-great-success-and-loads-of-fun" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/25-2836374060.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    2<sup>nd</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    JUNIOR MAKERS' FAIR A GREAT SUCCESS AND LOADS OF FUN
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2520-staff-v-acoba-executive-annual-cricket-match" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/cricket-match-2520-5368996700.jpg" alt="News" class="img-fluid"/>

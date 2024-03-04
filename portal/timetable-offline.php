@@ -143,47 +143,50 @@ echo " -->";
                             <div class="x_content">
                                 <?php if ( $_SESSION['portal_School'] == "JSD" ) { ?>
                                     <div align="center" class="page-title">
-                                        <div style="font-weight: bold">Junior School New Schedule February 2024</div>
-                                        <h3>School Timings</h3>
+                                        <?php /*?><div style="font-weight: bold">Junior School New Schedule March 2024</div><?php */?>
+                                      <h3 style="text-transform: capitalize;">School Timings for parents portal</h3>
                                     </div>
 
-                                    <h4 align="center">ROUTINE PROGRAMME FOR JUNIOR SCHOOL<br>SPRING TERM - 2024</h4>
+                                    <h4 align="center">Aitchison College, Junior School<br><span style="text-transform: capitalize;">School Timings</span></h4>
 
-                                    <div align="center"><strong>Commencing from Monday, February 12<sup>th</sup>, 2024</strong></div>
+                                    <div align="center">w.e.f Monday, 11<sup>th</sup> March, 2024</div>
 
                                     <p>&nbsp;</p>
 
                                     <div class="table-responsive">
-                                        <table class="table table-bordered jambo_table" align="center" style="max-width: 700px; width:100%;text-align:center;">
+                                        <table class="table table-bordered jambo_table" align="center" style="width:100%;text-align:center;">
                                             <thead>
                                             <tr>
-                                                <th style="text-align:center;">Classes</th>
-                                                <th style="text-align:center;">Monday to Thursday</th>
-                                                <th style="text-align:center;">Friday</th>
+                                              <th rowspan="2" style="text-align:center; width: 40%; vertical-align: middle;">Classes</th>
+                                              <th colspan="2" style="text-align:center; width: 30%;">Timings</th>
+                                              </tr>
+                                            <tr>
+                                                <th style="text-align:center; width: 30%;">Monday to Thursday</th>
+                                                <th style="text-align:center; width: 30%;">Friday</th>
                                             </tr>
                                             </thead>
                                             <tbody>
                                             <tr>
                                                 <td>K1, K2 & K3</td>
-                                                <td>8:10 am to 2:15 pm</td>
-                                              <td>8:10 am to 11:45 am</td>
+                                                <td>7:10 AM to 12:00 Noon</td>
+                                                <td>7:10 AM to 10:00 AM</td>
                                             </tr>
                                             <tr>
                                                 <td>K4, K5 & K6</td>
-                                                <td>8:10 am to 2:30 pm</td>
-                                                <td>8:10 am to 11:55 am</td>
+                                                <td>7:10 AM to 12:10 PM</td>
+                                                <td>7:10 AM to 10:10 AM</td>
                                             </tr>
                                             </tbody>
 
                                         </table>
                                                                                 
                               </div>
-								<div style="text-align: center; font-weight: bold">College Gates Closed - 8:10 AM</div>
+							  <div style="text-align: center; font-weight: bold; text-transform: uppercase;">College Gates Closed - 7:10 AM</div>
 								<div style="text-align: center;"><br><br>
 								<h3>Weekly Schedule</h3>
 								</div>	
 							  <div class="table-responsive">
-                                        <table class="table table-bordered jambo_table" align="center" style="max-width: 700px; width:100%;text-align:center;">
+                                <table class="table table-bordered jambo_table" align="center" style="width:100%;text-align:center;">
                                             <thead>
                                             <tr>
                                                 <th style="text-align:center;">No. of<br>lessons</th>
@@ -367,12 +370,14 @@ echo " -->";
                                 elseif ( $_SESSION['portal_School'] == "PSD" ) { ?>
                                     <div align="center" class="page-title">
                                         <?php /*?><div style="font-weight: bold">Prep School New Schedule January 2024</div><?php */?>
-                                        <h3>School Timings</h3>
+                                        <h3 style="text-transform: uppercase;">AITCHISON COLLEGE<br>
+                                          pREP sCHOOL
+                                        </h3>
                                     </div>
 
-                                    <h4 align="center">ROUTINE PROGRAMME FOR PREP SCHOOL<br>Ramadan Timings</h4>
+                              <h4  align="center">Weekly Routine Programme<br><span style="text-transform: capitalize !important;">Ramadan Timings</span></h4>
 
-                                    <div align="center"><strong>Commencing Monday, March 11<sup>th</sup>, 2024 till Wednesday, April 3<sup>rd</sup> 2024</strong></div>
+                                    <div align="center">Commencing Monday, March 11<sup>th</sup>, 2024 till Wednesday, April 3<sup>rd</sup> 2024</div>
 
                                     <p>&nbsp;</p>
 
@@ -380,18 +385,18 @@ echo " -->";
 
                                         <div class="table-responsive">
 
-                                            <table class="table table-bordered jambo_table" style="width: 100%;">
+                                          <table class="table table-bordered jambo_table" style=" width:100%;text-align:center;" align="center">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
-                                                    <th height="23" style="height:23px; width: 50%;">Events</th>
-                                                    <th colspan="2" style="text-align:center; width: 50%;">Timings</th>
+                                                    <th height="23" style="text-align:center; width: 40%; text-transform: uppercase !important;">Events</th>
+                                                    <th colspan="2" style="text-align:center; width: 60%; text-transform: uppercase !important;">Timings</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td><strong>07:10 a.m.</strong></td>
-                                                    <td>&nbsp;</td>
+                                                    <td height="20" style="height:20px; width: 40%;">College Gate Closed</td>
+                                                    <td style=" width: 30%;"><strong>07:10 a.m.</strong></td>
+                                                    <td style=" width: 30%;">&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">Tutorial/Zero Period</td>
@@ -444,18 +449,18 @@ echo " -->";
 											if(false){
 											?>
                                             <p><strong>Thursday</strong>:</p>
-                                            <table class="table table-bordered jambo_table" style="width: 100%;">
+                                          <table class="table table-bordered jambo_table" style=" width:100%;text-align:center;" align="center">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
-                                                    <th height="23" style="height:23px; width: 50%;">Events</th>
-                                                    <th colspan="2" style="text-align:center; width: 50%;">Timings</th>
+                                                    <th height="23" style="height:23px; width: 40%; text-align:center; text-transform: uppercase;">Events</th>
+                                                    <th colspan="2" style="text-align:center; width: 60%;text-transform: uppercase;">Timings</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td><strong>08:10 a.m.</strong></td>
-                                                    <td>&nbsp;</td>
+                                                    <td height="20" style="height:20px; width: 40%;">College Gate Closed</td>
+                                                    <td style="width: 30%;"><strong>08:10 a.m.</strong></td>
+                                                    <td style="width: 30%;">&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">Tutorial/Zero Period</td>
@@ -505,18 +510,18 @@ echo " -->";
 											}
 											?>
                                             <p><strong>Friday</strong>:</p>
-                                          <table class="table table-bordered jambo_table" style="width: 100%;">
+                                          <table class="table table-bordered jambo_table" style=" width:100%;text-align:center;" align="center">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
-                                                    <th height="23" style="height:23px; width: 50%;">Events</th>
-                                                    <th colspan="2" style="text-align:center; width: 50%;">Timings</th>
+                                                    <th height="23" style="text-align:center; width: 40%; text-transform: uppercase;">Events</th>
+                                                    <th colspan="2" style="text-align:center; width: 60%; text-transform: uppercase;">Timings</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td><strong>07:10 a.m.</strong></td>
-                                                    <td>&nbsp;</td>
+                                                    <td height="20" style="height:20px; width: 40%;">College Gate Closed</td>
+                                                    <td style="width: 30%;"><strong>07:10 a.m.</strong></td>
+                                                    <td style="width: 30%;">&nbsp;</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px; white-space: nowrap;">Tutorial/ Zero Period</td>
@@ -584,7 +589,7 @@ echo " -->";
                                                 </tr>
                                                 
                                                 </tbody>
-                                            </table>
+                                          </table>
 											<?php
 											}
 											?>
@@ -617,7 +622,7 @@ echo " -->";
 							 <?php if(false){ ?>	
                               <div  style="text-align: center;" class="page-title">
                                     <h3>Timetable of classes</h3>
-                                </div>
+                              </div>
 								<div class="row">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 									<?php
@@ -890,13 +895,13 @@ modal.onclick = function() {
 																			   }
                                     elseif ( $_SESSION['portal_School'] == "SSD" ) { ?>
                                         <div align="center" class="page-title">
-                                            <div style="font-weight: bold">Senior School New Schedule February 2024</div>
-                                            <h3>School Timings</h3>
+                                            <?php /*?><div style="font-weight: bold">Senior School New Schedule February 2024</div><?php */?>
+                                            <h3 style="text-transform: uppercase; text-decoration: underline;">AITCHISON COLLEGE, LAHORE</h3>
                                         </div>
 
-                                        <h4 align="center">ROUTINE PROGRAMME FOR SENIOR SCHOOL<br>SPRING TERM - 2024</h4>
+                                        <h4 align="center" style=" text-decoration: underline;">ROUTINE PROGRAMME FOR SENIOR SCHOOL<br><span  style="text-transform: capitalize;">Ramadan Timing</span></h4>
 
-                                        <div align="center"><strong>Commencing from Monday, February 12<sup>th</sup>, 2024</strong></div>
+                                        <div align="center" style=" text-decoration: underline;">Commencing from Monday, March 11<sup>th</sup>, 2024</div>
 
                                         <p>&nbsp;</p>
 
@@ -904,127 +909,128 @@ modal.onclick = function() {
 
                                         <div class="table-responsive">
 
-                                            <table class="table table-bordered jambo_table" style="width: 100%;">
+                                          <table class="table table-bordered jambo_table" style=" width:100%;text-align:center;" align="center">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
-                                                    <th height="23" style="height:23px;">Events</th>
-                                                    <th colspan="2" style="text-align:center;">Timings</th>
+                                                    <th height="23" style="height:23px; width: 40%; text-transform: uppercase; text-align: center;">Events</th>
+                                                    <th colspan="2" style="text-align:center; width: 60%; text-transform: uppercase; ">Timings</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td>08:10</td>
-                                                    <td>&nbsp;</td>
+                                                    <td height="20" style="height:20px; width: 40%;">College Gate Closed</td>
+                                                    <td style=" width: 30%;">07:10</td>
+                                                    <td style=" width: 30%;">&nbsp;</td>
                                                 </tr>
-                                                <tr height="20">
+                                                <?php /*?><tr height="20">
                                                     <td height="20" style="height:20px;">School/House Assembly</td>
                                                     <td>08:15</td>
                                                     <td>08:25</td>
-                                                </tr>
+                                                </tr><?php */?>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">1<sup>st</sup> Period</td>
-                                                    <td>08:30</td>
-                                                    <td>09:05</td>
+                                                    <td>07:30</td>
+                                                    <td>08:05</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">2<sup>nd</sup> Period</td>
-                                                    <td>09:10</td>
-                                                    <td>09:45</td>
+                                                    <td>08:10</td>
+                                                    <td>08:40</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">3<sup>rd</sup> Period</td>
-                                                    <td>09:50</td>
-                                                    <td>10:25</td>
+                                                    <td>08:45</td>
+                                                    <td>09:15</td>
                                                 </tr>
+												<tr height="20">
+                                                    <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
+                                                    <td>09:20</td>
+                                                    <td>09:50</td>
+                                                </tr>	
                                                 <tr height="20" style="font-weight: bold;">
                                                     <td height="20" style="height:20px;">Break&nbsp;</td>
-                                                    <td>10:25</td>
-                                                    <td>10:40</td>
+                                                    <td>09:50</td>
+                                                    <td>10:10</td>
                                                 </tr>
-                                                <tr height="20">
-                                                    <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
-                                                    <td>10:45</td>
-                                                    <td>11:20</td>
-                                                </tr>
+                                                
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">5<sup>th</sup> Period</td>
-                                                    <td>11:25</td>
-                                                    <td>12:00</td>
+                                                    <td>10:15</td>
+                                                    <td>10:45</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">6<sup>th</sup> Period</td>
-                                                    <td>12:05</td>
-                                                    <td>12:40</td>
+                                                    <td>10:50</td>
+                                                    <td>11:20</td>
                                                 </tr>
-                                                <tr height="20" style="font-weight: bold;">
+                                                <?php /*?><tr height="20" style="font-weight: bold;">
                                                     <td height="20" style="height:20px;">Break&nbsp;</td>
                                                     <td>12:40</td>
                                                     <td>12:55</td>
-                                                </tr>
+                                                </tr><?php */?>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">7<sup>th</sup> Period</td>
-                                                    <td>01:00</td>
-                                                    <td>01:35</td>
+                                                    <td>11:25</td>
+                                                    <td>11:55</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">8<sup>th</sup> Period</td>
-                                                    <td>01:40</td>
-                                                    <td>02:15</td>
+                                                    <td>12:00</td>
+                                                    <td>12:30</td>
                                                 </tr>
-                                                <tr height="20">
+                                                <?php /*?><tr height="20">
                                                     <td height="20" style="height:20px;">9<sup>th</sup> Period</td>
                                                     <td>02:20</td>
                                                     <td>02:50</td>
-                                                </tr>
+                                                </tr><?php */?>
                                                 </tbody>
                                             </table>
                                         </div>
 
                                         <p><strong>FRIDAY</strong></p>
                                         <div class="table-responsive">    
-                                            <table class="table table-bordered jambo_table" style="width: 100%;">
+                                          <table class="table table-bordered jambo_table" style=" width:100%;text-align:center;" align="center">
                                                 <thead>
                                                 <tr style="background-color:#293594;color:#FFF;">
-                                                    <th height="23" style="height:23px;">Events</th>
-                                                    <th colspan="2" style="text-align:center;">Timings</th>
+                                                    <th height="23" style="height:23px; width: 40%;text-transform: uppercase; text-align: center;">Events</th>
+                                                    <th colspan="2" style="text-align:center; width: 60%;text-transform: uppercase; ">Timings</th>
                                                 </tr>
                                                 </thead>
                                                 <tbody>
                                                 <tr height="20">
-                                                    <td height="20" style="height:20px;">College Gate Closed</td>
-                                                    <td>08:10</td>
-                                                    <td>&nbsp;</td>
+                                                    <td height="20" style="height:20px; width: 40%;">College Gate Closed</td>
+                                                    <td style=" width: 30%;">07:10</td>
+                                                    <td style=" width: 30%;">&nbsp;</td>
                                                 </tr>
-                                                <tr height="20">
+                                                <?php /*?><tr height="20">
                                                     <td height="20" style="height:20px; white-space: nowrap;"><span style="height:20px;">School/House Assembly</span></td>
                                                     <td>08:15</td>
                                                     <td>08:25</td>
-                                                </tr>
+                                                </tr><?php */?>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">1<sup>st</sup> Period</td>
-                                                    <td>08:30</td>
-                                                    <td>09:15</td>
+                                                    <td>07:30</td>
+                                                    <td>08:10</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">2<sup>nd</sup> Period</td>
-                                                    <td>09:20</td>
-                                                    <td>10:05</td>
+                                                    <td>08:15</td>
+                                                    <td>08:50</td>
                                                 </tr>
                                                 <tr height="20" style="font-weight: bold;">
                                                     <td height="20" style="height:20px;">Break</td>
-                                                    <td>10:05</td>
-                                                    <td>10:30</td>
+                                                    <td>08:50</td>
+                                                    <td>09:10</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">3<sup>rd</sup> Period</td>
-                                                    <td>10:30</td>
-                                                    <td>11:15</td>
+                                                    <td>09:15</td>
+                                                    <td>09:50</td>
                                                 </tr>
                                                 <tr height="20">
                                                     <td height="20" style="height:20px;">4<sup>th</sup> Period</td>
-                                                    <td>11:20</td>
-                                                    <td>12:05</td>
+                                                    <td>09:55</td>
+                                                    <td>10:30</td>
                                                 </tr>
                                                 
                                                 </tbody>
@@ -1087,14 +1093,14 @@ modal.onclick = function() {
 
                                             <ol style="line-height:1.9;">
                                                 <li>Jumma Prayers at 1:30 pm.</li>
-                                                <li>Winter uniform Grey trouser, white full sleeves shirt, neck tie, grey socks and black college shoes from Tuesday to Thursday on Monday White Shalwar Kemeez with Achkan and on Friday Tracksuit with Joggers.</li>
+                                                <li>Summer uniform Khaki trouser, white full sleeves shirt, grey socks and black college shoes and on Friday White Shalwar Kemeez.</li>
                                                 <li>Co-curricular Competitions will be held either after school on weekdays or weekends online.</li>
-                                                <li>Lights out for the boarding houses at 10:30 pm.</li>
-												<li>Extra Drill / Academic Detention after School from 3:00 to 4:00 pm.</li>
-											    <li>Reporting time for teaching staff is 8:00 am and for MOD is 7:45 am.</li>
+                                                <li>Lights out for the boarding houses at 10:30 pm. </li>
+												<li>Extra Drill / Academic Detention 08:20 to 10:20 am on Saturdays or after School from 12:30 to 1:30 pm.</li>
+											    <li>Reporting time for teaching staff is 7:00 am and for MOD is 6:50 am.</li>
                                             </ol>
 
-                                            <p>A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school. However, on Thursday for Prep School boys and Friday for Senior School boys, a fine of Rs. 5000 will be applied to an unapproved leave /unexplained absence from school.</p>
+                                            <?php /*?><p>A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school. However, on Thursday for Prep School boys and Friday for Senior School boys, a fine of Rs. 5000 will be applied to an unapproved leave /unexplained absence from school.</p><?php */?>
                                             <p style="margin-top: 20px;">Visit the <a href="ac-notice-2405-weekly-schedule-for-fridays-second-term-2024" style="color: blue;" target="_blank">Weekly Schedule for Fridays during Second Term</a> for more information.</p>
 
                                             <p>&nbsp;</p>

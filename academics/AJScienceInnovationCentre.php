@@ -54,11 +54,17 @@ $banner_url = $path.'resources/assets/images/admissions/banner.jpg';
             <p>Science Innovation encourages senior boys to explore AI Robotics and Programming, Astronomy (Astrophysics), Environmental Science, and Principles of Biochemistry. Aitchison is committed to promoting curiosity beyond the formal curriculum. The A.J Innovation Centre is a dedicated building for these purposes. Boys may pursue these interests in spare lessons and after school. The Innovation Program is particularly useful for boys wishing to assemble resumes for science and technology based courses at university level.</p>
             <br/>
 
+
+
             <p>
-                <img alt="" class="img-fluid" src="../newsletter/news/images/15-generosity-helps-1101.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
+                <img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-1.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
             </p>
 
-            <p><img alt="" class="img-fluid" src="../newsletter/news/images/16-generosity-helps-1101.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-2.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+
+            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-3.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+
+            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-4.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
 
 
         </div>

@@ -87,6 +87,21 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                             <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/12.webp" alt="img">
                             <span class="view_btn">Tennis</span>
                         </a>
+
+                        <a href="<?php echo $image_path;?>img/tennis/13.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/13.jpg" alt="img">
+                            <span class="view_btn">Tennis</span>
+                        </a>
+
+                        <a href="<?php echo $image_path;?>img/tennis/14.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/14.jpg" alt="img">
+                            <span class="view_btn">Tennis</span>
+                        </a>
+
+                        <a href="<?php echo $image_path;?>img/tennis/15.jpg" title="Tennis">
+                            <img class="gallery_img" src="<?php echo $image_path;?>img/tennis/small/15.jpg" alt="img">
+                            <span class="view_btn">Tennis</span>
+                        </a>
                     </div>
                 </div>
             </div>

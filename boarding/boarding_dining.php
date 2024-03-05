@@ -6,7 +6,7 @@ include_once("../path-settings.php");
 
 $title = "Dining"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/boarding.jpg';
+$banner_url = $path.'resources/assets/images/banners/boarding/dining.jpg';
 ?>
 
 <body>
@@ -55,7 +55,7 @@ $banner_url = $path.'resources/assets/images/banners/boarding.jpg';
                 <div class="col-lg-12 col-md-12 col-sm-12" align="center">
                     <div id="gallerySLide" class="gallery_area">
                         <?php
-                        $imageArr = ['1', '2', '4', "js-dining-1", "js-dining-3", "7"];
+                        $imageArr = ['8', '9', '10', '11', '12', '13', "js-dining-1", "js-dining-3", "7"];
                         $image_url_ = $image_path .'img/dinning/main/';
                         foreach($imageArr as $img) {  ?>
                         <a href="<?php echo $image_url_ . $img. '.jpg'?>" title="Aitchison's Dinning ">

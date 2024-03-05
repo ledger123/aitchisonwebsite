@@ -50,7 +50,7 @@ $data = [
      'contents' => 'Provides phonetic transcriptions and audio pronunciations for many words, helping users understand how to say them correctly.',
      'imgsrc' => '../img/library/k.jpg'],
           
-     ["url" => '#', 'title' => 'OPAC',
+     ["url" => 'http://192.168.0.6/opac/', 'title' => 'OPAC',
      'contents' => 'You can use the online catalog (OPAC) to look up books and other materials. Searching can be done by author, title, subject, keyword, series or call number.',
      'imgsrc' => '../img/library/l.jpg'],
           

@@ -7,7 +7,7 @@ include_once("../path-settings.php");
 
 $title = "AJ Science Innovation Centre"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/admissions/banner.jpg';
+$banner_url = $path.'resources/assets/images/banners/academics/aj-center.jpg';
 ?>
 
 <body>
@@ -54,17 +54,28 @@ $banner_url = $path.'resources/assets/images/admissions/banner.jpg';
             <p>Science Innovation encourages senior boys to explore AI Robotics and Programming, Astronomy (Astrophysics), Environmental Science, and Principles of Biochemistry. Aitchison is committed to promoting curiosity beyond the formal curriculum. The A.J Innovation Centre is a dedicated building for these purposes. Boys may pursue these interests in spare lessons and after school. The Innovation Program is particularly useful for boys wishing to assemble resumes for science and technology based courses at university level.</p>
             <br/>
 
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12" align="center">
+                    <div id="gallerySLide" class="sgallery_area2">
+                        <?php
+                        $imgPath = $image_path."img/academics/aj-science-centre/";
+                        $imgPathSmall = $image_path."img/academics/aj-science-centre/small/";
 
+                        for ($i = 1; $i < 5; $i++) {
+                            ?>
+                            <a href="<?php echo $imgPath . $i . ".jpg"; ?>" title="">
+                                <img class="gallery_img" src="<?php echo $imgPathSmall . $i . ".jpg"; ?>" alt="Image">
+                                <span class="view_btn"></span>
+                            </a>
 
-            <p>
-                <img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-1.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;">
-            </p>
+                            <?php
+                        }
+                        ?>
 
-            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-2.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
+                    </div>
+                </div>
+            </div>
 
-            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-3.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
-
-            <p><img alt="" class="img-fluid" src="../newsletter/news/temp-images/aj-science-centre-4.jpg" style="width: 100%; display: block; margin-left: auto; margin-right: auto;"></p>
 
 
         </div>
@@ -107,10 +118,6 @@ $banner_url = $path.'resources/assets/images/admissions/banner.jpg';
 <?php include_once($path."footer-includes.php");?>
 
 <!-- End Footer Includes -->
-
-<!-- tosrus -->
-<script src="../resources/js/jquery.tosrus.min.all.js"></script>
-<script src="../resources/js/photo-gallery-jquery.js"></script>
 
 
 </body>

@@ -187,13 +187,13 @@ echo " -->";
 								</div>	
 							  <div class="table-responsive">
                                 <table class="table table-bordered jambo_table" align="center" style="width:100%;text-align:center;">
-                                            <thead>
+                                    <thead>
                                             <tr>
                                                 <th style="text-align:center;">No. of<br>lessons</th>
                                                 <th style="text-align:center;">Monday</th>
                                                 <th style="text-align:center;">Tuesday</th>
                                                 <th style="text-align:center;">Wednesday                                                </th>
-                                                <th style="text-align:center;">	Thursday</th>
+                                                <th style="text-align:center;">Thursday</th>
                                                 <th style="text-align:center;">Friday</th>
                                               </tr>
                                             </thead>
@@ -209,7 +209,7 @@ echo " -->";
                                             <tr>
                                                 <td>2</td>
                                                 <td>&nbsp;</td>
-                                                <td rowspan="2" style="vertical-align: middle;">K4 PE</td>
+                                                <td></td>
                                                 <td>&nbsp;</td>
                                                 <td>&nbsp;</td>
                                               <td>&nbsp;</td>
@@ -217,9 +217,10 @@ echo " -->";
                                             <tr>
                                               <td>3</td>
                                               <td>&nbsp;</td>
+                                              <td style="vertical-align: middle; background-color: #9CC2E5;">K4 PE</td>
                                               <td>&nbsp;</td>
-                                              <td>&nbsp;</td>
-                                              <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                               <td>4</td>
@@ -230,14 +231,13 @@ echo " -->";
                                               <td>&nbsp;</td>
                                             </tr>
                                             <tr>
-                                              <td colspan="6" style="text-align: center; font-weight: bold;">Break </td>
+                                              <td colspan="6" style="text-align: center; font-weight: bold;">BREAK</td>
                                               </tr>
                                             <tr>
                                               <td>5</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K2 PE</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K3 PE<br>
-                                              &amp; K1 PE</td>
+                                              <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
+                                              <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
                                               <td style="vertical-align: middle;">&nbsp;</td>
                                               <td>&nbsp;</td>
                                             </tr>
@@ -245,29 +245,18 @@ echo " -->";
                                               <td>6</td>
                                               <td>&nbsp;</td>
                                               <td style="vertical-align: middle;">&nbsp;</td>
-                                              <td>AC Tutorials<br>
-                                              K1 –K6<br></td>
+                                              <td></td>
                                             </tr>
-                                            <tr>
-                                              <td colspan="6" style="text-align: center; font-weight: bold;">Break </td>
-                                              </tr>
                                             <tr>
                                               <td>7</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K5 PE</td>
-                                              <td rowspan="2" style="vertical-align: middle;">K6 PE</td>
-                                              <td rowspan="2" style="vertical-align: middle;">CLUBS<br>
-                                              K1 – K6</td>
-                                              <td>&nbsp;</td>
+                                              <td style="vertical-align: middle; background-color: #9CC2E5;">K5 PE</td>
+                                              <td style="vertical-align: middle; background-color: #9CC2E5;">K6 PE</td>
+                                              <td></td>
+                                              <td style="background-image: linear-gradient(to bottom right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)), linear-gradient(to bottom left, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));">&nbsp;</td>
                                             </tr>
-                                            <tr>
-                                              <td>8</td>
-                                              <td>&nbsp;</td>
-                                              <td>&nbsp;</td>
-                                            </tr>
-                                            </tbody>
-
-                                        </table>
+                                    </tbody>
+                                </table>
                                         
                                         <?php /*?><p>&nbsp;</p>
                                         <p style="font-weight: bold;">Note:</p>

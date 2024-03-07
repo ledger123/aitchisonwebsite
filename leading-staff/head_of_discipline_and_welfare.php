@@ -72,7 +72,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                     <div class="leading-card">
-                        <img src="<?php echo $image_path;?>img/leading-staff/discipline-and-welfare/muhammad-arshad.jpg" alt="" class="img-fluid">
+                        <img src="<?php echo $image_path;?>img/leading-staff/discipline-and-welfare/muhammad_arshad.jpg" alt="" class="img-fluid">
                         <div><strong>
                                 Muhammad Arshad</strong><br>Prep School</div>
                     </div>

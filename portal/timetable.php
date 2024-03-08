@@ -236,13 +236,15 @@ echo " -->";
                                             <tr>
                                                 <td>5</td>
                                                 <td>&nbsp;</td>
-                                                <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
-                                                <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
+                                                <td style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
+                                                <td style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
                                                 <td style="vertical-align: middle;">&nbsp;</td>
                                                 <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                                 <td>6</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
                                                 <td>&nbsp;</td>
                                                 <td style="vertical-align: middle;">&nbsp;</td>
                                                 <td></td>

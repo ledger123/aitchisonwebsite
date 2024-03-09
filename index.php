@@ -516,6 +516,67 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2540-old-boys-art-exhbition" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/11-1379836215.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    8<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    OLD BOYS' ART EXHBITION
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2541-junior-sports-day-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/67-8684415463.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    8<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Junior Sports Day 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2542-prep-and-senior-sports-day" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/53-3783353194.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    8<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    PREP AND SENIOR SPORTS DAY
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
 
                 <div class="item">
                     <div class="news-box">
@@ -786,64 +847,6 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2432-aitchison-house-cross-country-reveals-strength-and-determination" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/44-8040181222.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    19<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison House Cross Country Reveals Strength and Determination
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2414-aitchison-flying-high-with-sporting-heroes" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/2414-thumbnail-1086512452.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    9<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Flying High with Sporting Heroes
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2423-aitchison-shines-bright-dominating-lumun-2023-with-double-distinction" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/lumun-delegation-2423-sm-3990597856.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    28<sup>th</sup> to 31<sup>st</sup> December, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Shines Bright: Dominating LUMUN 2023 with Double Distinction
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
 
             </div>
             <div class="divider-small"></div>

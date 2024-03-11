@@ -72,7 +72,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                         hodus@aitchison.edu.pk</p>
 					<p><span class="paddingtop pt-4"><strong>Deputy Head US Admissions</strong></span><br>dhus@aitchison.edu.pk</p>
 					<p><span class="paddingtop"><strong>Counselor US</strong></span><br>ssuscounselorss@aitchison.edu.pk</p>
-					<p><span class="paddingtop"><strong>Counselor US</strong></span><br>sscounsellorah@aitchison.edu.pk</p>
+					<p><span class="paddingtop"><strong>Counselor US</strong></span><br>counselingassistant@aitchison.edu.pk</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h5 class="h5color">University Counseling Department (UK)</h5>

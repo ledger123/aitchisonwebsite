@@ -518,6 +518,69 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2547-founders-day-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/37-4984732171.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    11<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Founders' Day 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2545-academics-day-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/49-7641419981.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    11<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Academics Day 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2546-rivaz-medal-winner-2024-abdullah-gilani-kelly-house" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/rivaz-medal-winner-sm-2546-4555123523.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    11<sup>th</sup> March, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    RIVAZ MEDAL WINNER 2024, ABDULLAH GILANI -KELLY HOUSE
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2540-old-boys-art-exhbition" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/11-1379836215.jpg" alt="News" class="img-fluid"/>

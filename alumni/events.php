@@ -137,6 +137,9 @@ Look out for upcoming events and mark your calendars in advance!
             <div class="row">
               <div class="col-md-8">
                 <div class="blog-archive-left">
+				<?php
+				if(false){	
+				?>	
                 <article class="blog-news-single">
 						<div class="blog-news-img" style="height: auto;">
 						  
@@ -157,7 +160,8 @@ Look out for upcoming events and mark your calendars in advance!
 				<!-- Start blog news single -->
 					
 				<?php
-				if(true){	
+				}
+				if(false){	
 				?>	
 				<article class="blog-news-single">
 						<div class="blog-news-img" style="height: auto;">
@@ -195,11 +199,12 @@ Look out for upcoming events and mark your calendars in advance!
                   <?php /*?><tr>
                     <th scope="row">Alumni Tour 2001 – 2010</th>
 					<td>Saturday, 27<sup>th</sup> January 2024</td>
-                  </tr><?php */?>
+                  </tr>
                   <tr>
                     <th scope="row">Alumni Reunion and Tour (Classes 1971-1980) </th>
 					<td>Saturday, 17<sup>th</sup> February 2024</td>  
                   </tr>
+				  <?php */?>
                   <tr>
                     <th scope="row">Alumni Tour 2011 – 2023</th>
                     <td nowrap>Saturday, 20<sup>th</sup> April, 2024</td>

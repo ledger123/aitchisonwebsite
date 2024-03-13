@@ -19,7 +19,7 @@ $faqs[] = ['q' => "Are there different categories of enrolment?",
 $faqs[] = ['q' => "Where do Admissions testing and interviews take place?",
     'a' => "Testing and interviews only take place at Aitchison College on specified dates for each grade."];
 $faqs[] = ['q' => "Why do you hold an interview?",
-    'a' => "Interviews are held to determine the general suitability of boys; for example, whether they are socially ready for school and the greater demands of Aitchison College. This particularly applies to boarding admissions. Interviews may also reveal other aspects of academic suitability or challenges not necessarily revealed in an Admissions test. It is also an opportunity to meet parents and to clarify school expectations and answer questions or concerns they may have. The College doctor will also utilize this time to conduct age verification. If in the opinion of medical advice the age of a boy is determined to be unsuitable for a particular year group, the College reserves the right to cancel an Admissions offer. Owing to the pandemic, interviews will not be held this year."];
+    'a' => "Interviews are held to determine the general suitability of boys; for example, whether they are socially ready for school and the greater demands of Aitchison College. This particularly applies to boarding admissions. Interviews may also reveal other aspects of academic suitability or challenges not necessarily revealed in an Admissions test. It is also an opportunity to meet parents and to clarify school expectations and answer questions or concerns they may have. The College doctor will also utilize this time to conduct age verification. If in the opinion of medical advice the age of a boy is determined to be unsuitable for a particular year group, the College reserves the right to cancel an Admissions offer."];
 $faqs[] = ['q' => "Is there a &lsquo;kinship&rsquo; category?",
     'a' => "No. All candidates have an equal opportunity of gaining Admission to Aitchison College."];
 $faqs[] = ['q' => "Which grades are open for Admissions?",
@@ -61,7 +61,7 @@ $faqs[] = ['q' => "What if my son is sick or injured and cannot attend admission
 $faqs[] = ['q' => "Is it fair that some boys are older than others when being tested for the same grade of entry?",
     'a' => "The age ranges of boys will vary by up to a year in all grades, at any school. Tests are aligned with the best standards in each applicable grade of entry as one would expect at a selective entry school. The ‘Guide to Admissions Testing’ enables boys to prepare on an equal footing."];
 $faqs[] = ['q' => "When will information be made available to families on whether their son has been successful or unsuccessful?",
-    'a' => "Notification by letter from the Principal before the end of March 2023. Boarding places will be subject to interview."];
+    'a' => "Notification by letter from the Principal before the end of May 2024. Boarding places will be subject to interview."];
 $faqs[] = ['q' => "Who marks and checks the scores of test papers?",
     'a' => "All papers are marked multiple times by specialist subject teachers, results moderated, and then triple counted by the Mathematics Department."];
 $faqs[] = ['q' => "Does Aitchison publish scores? Can a parent have access to admission test papers? Can a parent ask where his child was ranked?",

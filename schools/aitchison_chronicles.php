@@ -42,7 +42,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
     .newsletters > div > .item:hover {
         /*box-shadow: 0 0 10px 0 rgb(0 0 0 / 80%);*/
-        border: 1px var(--color-blue) solid;
+        border: 1px #00205b solid;
     }
 
     #sect-newsalert {
@@ -124,7 +124,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/economics-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/economics-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>Economics Section</h3>
@@ -135,7 +135,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/english-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/english-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>English Section</h3>
@@ -145,7 +145,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/entrepreneurial-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/entrepreneurial-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>Entrepreneurial Section</h3>
@@ -155,7 +155,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/french-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/french-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>French Section</h3>
@@ -165,7 +165,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/german-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/german-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>German Section</h3>
@@ -175,7 +175,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/mun-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/mun-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>MUN Section</h3>
@@ -185,7 +185,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/urdu-section.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/urdu-section.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>Urdu Section</h3>
@@ -195,7 +195,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/spectrum-january-2024.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/spectrum-january-2024.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>Spectrum January 2024</h3>
@@ -205,7 +205,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="item">
-                        <a href="https://aitchison.edu.pk/alumni/newsletters/old-boys-bulletin-november-2023.pdf" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/2023-24/chronicles/spectrum-november-2023.pdf" target="_blank">
                             <img src="../img/aitchison-chronicles/spectrum-november-2023.jpg" alt="Aitchison Chronicles" class="img-fluid"/>
                             <div>Aitchison Chronicles</div>
                             <h3>Spectrum November 2023</h3>

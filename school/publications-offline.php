@@ -104,14 +104,14 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
         </div>
     </div>
 
-
+    
     <div class="col-lg-9 col-md-12 col-sm-12">
         <div class="col-12 page-title page-title2">
             <h1><?php echo $title; ?></h1>
         </div>
 
     </div>
-
+    
 
     <!-- Contents -->
     <div class="row">

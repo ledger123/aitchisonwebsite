@@ -146,7 +146,7 @@ function getTemporaryAccessiblePages () {
 	$accessiblePages[] = array("pageid"=>"202312091", "url"=>"offline-link?id=2400");
 
 	$accessiblePages[] = array("pageid"=>"202402011", "url"=>"timetable-offline.php");
-
+	$accessiblePages[] = array("pageid"=>"20240314", "url"=>"offline-link?id=2554");
 	return $accessiblePages;
 }
 ?>

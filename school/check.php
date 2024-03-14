@@ -36,6 +36,7 @@
 		"school-organization-offline"	=>	"school_orginization-offline.php",
         "principal-office-offline1"		=>	"principal-offline.php",
         "teachers-wall"		=>	"teachers_wall.php",
+        "aitchison-publications-offline" => "publications-offline.php",
 	);
     
 	//echo $req_page_name."<br>".$page_arr['principal'];

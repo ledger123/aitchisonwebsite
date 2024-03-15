@@ -43,13 +43,17 @@ if ($newsId > 0)
         $OptNewsType	   = $row->NewsType;
         $OpenAccess		   = $row->OpenAccess;
         $active    	  	   = $row->Active;
+		if(!(isset($_GET['title']) && makeSlug($row->Heading)===$_GET['title'])) {			
+			$url="https://aitchison.edu.pk/news-room";
+			header("Location: ".$url, true, 301);
+			exit;
+		}
     }else{
 		header("Location: https://aitchison.edu.pk/404", true, 301);
 		exit;    
 	}
 
 }
-
 $robotnofollow="";
 if(strpos($_SERVER['REQUEST_URI'], ".php")){
     $robotnofollow='<meta name="robots" content="noindex">';

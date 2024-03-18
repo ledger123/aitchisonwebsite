@@ -458,7 +458,7 @@ if ( $_SESSION['portal_School'] == 'JSD' /*&& isset($_GET['videolink']) && $_GET
                                 </div>
                                 <?php } ?>
 
-                                <?php if(true && in_array($_SESSION['portal_School'], ['PSD', 'JSD'])) { ?>
+                                <?php if(true && in_array($_SESSION['portal_School'], ['PSD', 'JSD', 'SSD'])) { ?>
                                 <div class="animated flipInY col-lg-2 col-md-3 col-sm-4 col-xs-12">
 
                                     <a class="tile-stats nav-link " href="time-table">

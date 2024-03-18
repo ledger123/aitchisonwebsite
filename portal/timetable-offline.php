@@ -1082,8 +1082,8 @@ modal.onclick = function() {
 
                                             <ol style="line-height:1.9;">
                                                 <li>Jumma Prayers at 1:30 pm.</li>
-                                                <li>Summer uniform Khaki trouser, white full sleeves shirt, grey socks and black college shoes and on Friday White Shalwar Kemeez.</li>
-                                                <li>Co-curricular Competitions will be held either after school on weekdays or weekends online.</li>
+                                                <li>Winter uniform Grey trouser, white full sleeves shirt, neck tie, grey socks and black college shoes and on Friday White Shalwar Kemeez.</li>
+                                                <li>Co-curricular Competitions will be held either after school on weekdays or weekends.</li>
                                                 <li>Lights out for the boarding houses at 10:30 pm. </li>
 												<li>Extra Drill / Academic Detention 08:20 to 10:20 am on Saturdays or after School from 12:30 to 1:30 pm.</li>
 											    <li>Reporting time for teaching staff is 7:00 am and for MOD is 6:50 am.</li>

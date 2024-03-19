@@ -76,7 +76,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<h5 class="h5color">University Counseling Department (UK)</h5>
-					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br>(except US)</span><br>naila.burney@aitchison.edu.pk</p>                     <p><span class="paddingtop"><strong>UK Counselor</strong></span><br>hassan.gillani@aitchison.edu.pk</p>
+					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br>(except US)</span><br>naila.burney@aitchison.edu.pk</p>                     <p><span class="paddingtop"><strong>For Canada and Australia</strong></span><br>hassan.gillani@aitchison.edu.pk</p>
 				</div>
 			</div>
             <div class="row" style="margin-top:20px; margin-bottom:20px;">

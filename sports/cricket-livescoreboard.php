@@ -5,20 +5,18 @@ include_once("../path-settings.php");
 $title = "Live Scoreboard"; include_once($path."header-includes.php");
 
 //$banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
-$banner_url = $path.'resources/assets/images/banners/scoreboard-20230902.jpg';
+$banner_url = $path.'resources/assets/images/banners/scoreboard-20230224.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-	<div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -33,16 +31,12 @@ $banner_url = $path.'resources/assets/images/banners/scoreboard-20230902.jpg';
             <div></div>
         </div>
     </div>
-	<div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
+</div>
 
-    </div>
-
-
+<div class="container">
+	
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12 text-center">
@@ -73,11 +67,12 @@ $banner_url = $path.'resources/assets/images/banners/scoreboard-20230902.jpg';
 						return $res;
 					}
 				$res=has_ssl("www.totalcricketscorer.com");
-				$divvalue=1;
+				$domainup=file_get_contents("www.totalcricketscorer.com");
+				$divvalue=3;
 				if($res){
 					$divvalue=2;	
 				}else{		
-					$page_contents=file_get_contents("http://www.totalcricketscorer.com/TCSLive/TCSClubScoresWidget.aspx?ctry=Pakistan&rgn=Lahore&clb=Aitchison+College");
+					$page_contents=file_get_contents("http://www.totalcricketscorer.com/TCSLive/TCSClubScoresWidget.aspx?ctry=Pakistan&rgn=Lahore&clb=Aitchison+College");					
 					if(strpos($page_contents, 'No data for latest match.')){
 						$divvalue=3;
 					}
@@ -89,27 +84,31 @@ $banner_url = $path.'resources/assets/images/banners/scoreboard-20230902.jpg';
 				?>
 				<div style="width: 100%; text-align: center; min-height: 350px;">					
 					<?php echo $page_contents;?>
-				</div>
+				</div>				
 				<?php
 				}elseif($divvalue==2){
 				?>
+				<!--<?php echo $page_contents."TestTwo";?>-->
                 <iframe frameborder='0' id="frmScore" src='http://www.totalcricketscorer.com/TCSLive/TCSClubScoresWidget.aspx?ctry=Pakistan&rgn=Lahore&clb=Aitchison+College&refresh=auto' width="150px" height="300px" style="width: auto;"></iframe>
 				<?php
 				}else{
+					$msg1="<strong>Match status:</strong> No Match is being played. Please visit again.";
+					$msg="<strong>Cricket Live Scoreboard Update:</strong> No Match Currently";
 				?>
 				<div class="alert alert-info">
-				 <strong>Match status:</strong> No Match is being played. Please visit again.
+				 <?php /*?><strong>Match status:</strong> No Match is being played. Please visit again.<?php */?>
+					<?php echo $msg1; ?>
 			  	</div>
 				<?php
 				}
-				?>
+				?>				
             </div>
         </div>
         <!-- End Left Area -->
 
         <!-- Right Area -->
         <div class="col-lg-3 col-md-6 col-sm-12 text-center news-links">
-			<?php include_once ('right-panel-links.php'); ?>
+
         </div>
         <!-- End Right Area -->
 

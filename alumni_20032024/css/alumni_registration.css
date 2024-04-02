@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-size:11px;
+}
+.fld_texttd{
+	height: 2.0em;	
+	text-align: left;
+}
+.fld_text{
+	width: 95%;
+	margin-bottom: 3px;
+	text-align: left;		
+}
+.fld_text2{
+	width: 97%;	
+	text-align: left;		
+}
+.fld_text1{
+	width: 98%;	
+	text-align: left;		
+}
+.fld_td{
+	height: 2.0px;
+	text-align: left;
+}
+h3{
+	padding-top: 12px; 
+	padding-bottom: 12px;	
+}
+.fld_td1{
+	height: 2.0px;
+	text-align: left;
+}
+.fld_td_right1{
+	width: 65px;
+	text-align: left;		
+	padding-left: 30px;
+}
+.fld_td_right{
+	text-align: left;		
+}
+#edu_details .fld_text{
+	width: 100%;	
+}
+#emp_details .fld_text{
+	width: 100%;	
+}
+#training_details .fld_text{
+	width: 100%;	
+}
+.mandatory_big{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color:#F00;	
+}
+.mandatory_norm{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-family: "Arial Black", Gadget, sans-serif;		
+	font-size: 12px;
+	color:#F00;	
+}
+.mandatory_head{
+	padding-left: 2px;
+	padding-right: 2px;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color:#F00;	
+}
+h1, h2, h3, h4{
+		color: #003;
+}

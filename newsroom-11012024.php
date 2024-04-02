@@ -6,20 +6,35 @@ include_once("../path-settings.php");
 
 $title = "Javed Zaman: Great Aitchisonian and Friend"; include_once($path."header-includes.php");
 
-//$banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
+$banner_url = $path.'resources/assets/images/banners/news-events.jpg';
+$page_header = $title;
 ?>
 
 
 <body>
 
-<!-- News Header -->
-<?php include_once ('news-header.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
-<!-- News Alerts -->
-<div class="container-fluid" style="padding-right: 0; background-color: #ffc845;">
-<?php include_once ('news-alerts.php'); ?>
+<?php include_once("mega-menu.php");?>
 
+
+<div class="breadcrumb-bar">
+    <div class="container">
+
+        <div class="row">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo $path;?>">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="news-room">News and Events</a></li>
+                </ol>
+            </nav>
+
+        </div>
+    </div>
 </div>
+
+
 
 <style>
     #sect-newsalert {
@@ -82,37 +97,15 @@ $title = "Javed Zaman: Great Aitchisonian and Friend"; include_once($path."heade
 <!-- End News Alerts -->
 	<div class="container-fluid" style=" padding-right: 0; background-color: #001952;">
 		<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12">
 
-						<nav aria-label="breadcrumb">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="./" style="color: white;">Home</a></li>
-								<li class="breadcrumb-item active" aria-current="page"><a href="news-room" style="color: white;">News and Events</a></li>
-							</ol>
-						</nav>
-
-					</div>
-				</div>
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12" style="color: white;">
+                        <p>&nbsp;</p>
 						<h2 class="titile" style="display: inline-block;">Vale Javed Zaman: Great Aitchisonian and Friend</h2>
 						<p>Javed Zaman Khan, an illustrious Aitchisonian, recently departed for his heavenly abode. Graduating from Aitchison in 1958, he was the closest neighbour to the College, living in the next-door Zaman Park, a veritable neighbourhood by the canal and named after his father, Khan Bahadur Mohammad Zaman Khan, who was the Postmaster General for Punjab and North-West Frontier Province, during the British rule in India. Javed Zaman Khan, fondly known as JZ, remained part of Aitchison as Aitchison remained a part of him. He was among the first from his family who got admitted to Aitchison soon after the creation of Pakistan but was then followed by four generations of Aitichisonians after him, and his legacy continues.</p>
 						
 					</div>					
 				</div>
-				<?php /*?><div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-4 p-1" style=" color: white;">
-						<img class="img-responsive" src="https://aitchison.edu.pk/newsletter/news/temp-images/2412/jz-1.jpg" width="100%" height="auto" alt="Javed Zaman">
-						
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 p-1" style=" color: white;">
-						<img class="img-fluid" src="https://aitchison.edu.pk/newsletter/news/temp-images/2412/jz-2.jpg" width="100%" height="auto"  alt="Javed Zaman">
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 p-1" style=" color: white;">
-						<img class="img-fluid" src="https://aitchison.edu.pk/newsletter/news/temp-images/2412/jz-3.jpg" width="100%" height="auto"  alt="Javed Zaman">
-					</div>
-				</div><?php */?>
 				<div class="row">
 					<div class="news-carousel owl-carousel owl-theme">
 						<?php

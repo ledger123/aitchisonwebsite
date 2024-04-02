@@ -6,20 +6,18 @@ include_once("../path-settings.php");
 
 $title = "Senior School Athletics Records"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
+$banner_url = $path.'resources/assets/images/banners/sports/college_records.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -34,17 +32,12 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 ms-5">
-            <h1 class="page-title page-title2"></h1>
-        </div>
-
-    </div>
-
-
+<div class="container">
+    
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
@@ -55,7 +48,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
                 </div>
             </div>
 
-            <div class="col-lg-9 col-md-12 col-sm-12 text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                 <img src="<?php echo $image_path;?>/img/ac_logo.png" width="130" height="130" alt="Aitchison College, Lahore.">
                 <div class="col-12 page-title page-title2">
                     <h1><?php echo $title; ?></h1>
@@ -317,21 +310,30 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
                         <td style="text-align: left; padding-left: 6px; ">Muhmmad Mobaasil</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left; padding-left: 6px; ">Cricket Ball Throw</td>
+                        <!--
+						<td style="text-align: left; padding-left: 6px; ">Cricket Ball Throw</td>
                         <td style="text-align: center; padding-left: 6px; ">1994</td>
                         <td style="text-align: left; padding-left: 6px; ">88.10 Metres</td>
-                        <td style="text-align: left; padding-left: 6px; ">Muhammad Asghar Wrind</td>
+                        <td style="text-align: left; padding-left: 6px; ">Muhammad Asghar Wrind</td> -->
+						<td style="text-align: left; padding-left: 6px; ">Cricket Ball Throw</td>
+                        <td style="text-align: center; padding-left: 6px; ">2024</td>
+                        <td style="text-align: left; padding-left: 6px; ">91.39 Metres</td>
+                        <td style="text-align: left; padding-left: 6px; ">Haseeb Ullah Shah</td>
                     </tr>
                     <tr>
                         <!-- <td style="text-align: left; padding-left: 6px; ">Shot Put (New Event)</td>
                         <td style="text-align: center; padding-left: 6px; ">2015</td>
                         <td style="text-align: left; padding-left: 6px; ">8.43 Metres</td>
-                        <td style="text-align: left; padding-left: 6px; ">Abbas Shah Safi</td> -->
+                        <td style="text-align: left; padding-left: 6px; ">Abbas Shah Safi</td> 
 
                         <td style="text-align: left; padding-left: 6px; ">Shot Put (6-Kg)</td>
                         <td style="text-align: center; padding-left: 6px; ">2022</td>
                         <td style="text-align: left; padding-left: 6px; ">9.33 Metres</td>
-                        <td style="text-align: left; padding-left: 6px; ">Asad Pasha Chaudhry</td>
+                        <td style="text-align: left; padding-left: 6px; ">Asad Pasha Chaudhry</td> -->
+						<td style="text-align: left; padding-left: 6px; ">Shot Put (6-Kg)</td>
+                        <td style="text-align: center; padding-left: 6px; ">2024</td>
+                        <td style="text-align: left; padding-left: 6px; ">9.55 Metres</td>
+                        <td style="text-align: left; padding-left: 6px; ">Ibrahim Khalid</td>
                     </tr>
                     <tr>
                         <td style="text-align: left; padding-left: 6px; ">Discus Throw (1.50 Kg)</td>

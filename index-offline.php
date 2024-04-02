@@ -42,14 +42,14 @@ if($mobile->isMobile()) {
         display: block;
         position: fixed;
         right: 100px;
-        top: 218px;
+        top: 170px;
         z-index: 999;
         text-align: center;
         cursor: pointer;
         background-color: #00195291;
 
     }
-
+	
 
     .toaster a h5 {
         color: #fff;
@@ -65,44 +65,18 @@ if($mobile->isMobile()) {
     }
 
 
-    .toaster.ibsc {
-
-        top: 129px;
+	.toaster.ibsc {
+		
+		top: 129px;
         background-color: transparent;
         cursor: default;
         right: 100px;
-    }
-
-    .toaster.ibsc a img {
-        width: 92px;
-    }
-
-    .toaster.g30-schools a img {
-        width: 58px;
-    }
-
-    .toaster.g30-schools {
-
-        top: 170px;
-        background-color: transparent;
-        cursor: default;
-        right: 100px;
-    }
-
-    .toaster.toaster-1 {
-        width: 180px;
-    }
-
-    .toaster.toaster-2 {
-        width: 180px;
-        top: 265px;
-    }
-
-    .toaster.toaster-3 {
-        width: 180px;
-        top: 312px;
-    }
-
+	}
+	
+	.toaster.ibsc a img {
+		width: 92px;
+	}
+	
     .slogan {
         color: #fff;
         top: 0;
@@ -135,10 +109,6 @@ if($mobile->isMobile()) {
         background-size: 300px auto;
     }
 
-    .owl-carousel .active span {
-        border: 3px solid #ffc845;
-    }
-
     @media (max-width: 2560px) {
         #wstoggle {
             top: 80px;
@@ -159,31 +129,22 @@ if($mobile->isMobile()) {
     }
 
     @media (max-width: 1599px){
-        .toaster,
-        .toaster.ibsc,
-        .toaster.g30-schools {
+        .toaster {
             right: 5.6rem;
         }
 
+        .toaster.ibsc {
+		
+            right: 5.6rem;
+        }
     }
     @media (max-width: 1024px){
-
+        
         .toaster a h5 {
             font-size: .8rem;
         }
         .ibsc-member{
             width: 12%;
-        }
-        .toaster.toaster-1 {
-            width: 160px;
-        }
-        .toaster.toaster-2 {
-            width: 160px;
-            top: 260px;
-        }
-        .toaster.toaster-3 {
-            width: 160px;
-            top: 302px;
         }
     }
 
@@ -194,8 +155,7 @@ if($mobile->isMobile()) {
             background-size: 220px auto;
         }
 
-        .toaster,
-        .toaster.g30-schools {
+        .toaster {
             right: 40px;
         }
 
@@ -208,24 +168,13 @@ if($mobile->isMobile()) {
             margin-right: 0.5rem;
         }
 
-
-
+        
+        
         .toaster.ibsc {
-
+		
             right: 40px;
         }
-        .toaster.toaster-1 {
-            width: 140px;
-        }
-        .toaster.toaster-2 {
-            top: 255px;
-            width: 140px;
-        }
-        .toaster.toaster-3 {
-            top: 292px;
-            width: 140px;
-        }
-
+        
     }
 
     @media (max-width: 576px) {
@@ -258,15 +207,7 @@ if($mobile->isMobile()) {
         }
 
         .toaster {
-            top: 157px;
-        }
-
-        .toaster.g30-schools {
-            top: 124px;
-        }
-
-        .toaster.g30-schools a img {
-            width: 40px;
+            top: 123px;
         }
 
         #sect-newsalert {
@@ -284,18 +225,12 @@ if($mobile->isMobile()) {
         }
 
         .toaster.ibsc {
-
+            
             /* top: 175px; */
         }
 
         .toaster.ibsc a img {
             width: 60px;
-        }
-        .toaster.toaster-2 {
-            top: 195px;
-        }
-        .toaster.toaster-3 {
-            top: 233px;
         }
     }
 
@@ -369,50 +304,45 @@ if($mobile->isMobile()) {
     .logos .aga-khan2{width:10%;vertical-align:middle}
     .logos .fedral-board{width:13%;}
     .logos .spears-schools{width: 9%;}
+    
+
+@media (max-width: 1024px) {
+    .logos .cambridge{width:13%;}
+    .logos .aga-khan{width:11%;}
+    .logos .g20{width:6%;}
+    .logos .ibsc-member{width:9%;}
+    .logos .cambridge-international{width:7%;}
+    .logos .cambridge-igcse{width:7%;vertical-align:middle}
+    .logos .aga-khan2{width:9%;vertical-align:middle}
+    .logos .fedral-board{width:20%;}
+    .logos .spears-schools{width: 10%;}
+}
 
 
-    @media (max-width: 1024px) {
-        .logos .cambridge{width:13%;}
-        .logos .aga-khan{width:11%;}
-        .logos .g20{width:6%;}
-        .logos .ibsc-member{width:9%;}
-        .logos .cambridge-international{width:7%;}
-        .logos .cambridge-igcse{width:7%;vertical-align:middle}
-        .logos .aga-khan2{width:9%;vertical-align:middle}
-        .logos .fedral-board{width:20%;}
-        .logos .spears-schools{width: 10%;}
-    }
-
-
-    @media (max-width: 425px) {
-        .logos .cambridge{width:20%;}
-        .logos .aga-khan{width:20%;}
-        .logos .g20{width:9%;}
-        .logos .ibsc-member{width:15%;}
-        .logos .cambridge-international{width:12%;}
-        .logos .cambridge-igcse{width:13%;vertical-align:middle}
-        .logos .aga-khan2{width:16%;vertical-align:middle}
-        .logos .fedrar-board{width:25%;}
-        .logos .spears-schools{width: 13%;}
-    }
-
-    .news-carousel > .owl-carousel .active span {
-        border: 3px solid #001952;
-    }
+@media (max-width: 425px) {
+    .logos .cambridge{width:20%;}
+    .logos .aga-khan{width:20%;}
+    .logos .g20{width:9%;}
+    .logos .ibsc-member{width:15%;}
+    .logos .cambridge-international{width:12%;}
+    .logos .cambridge-igcse{width:13%;vertical-align:middle}
+    .logos .aga-khan2{width:16%;vertical-align:middle}
+    .logos .fedrar-board{width:25%;}
+    .logos .spears-schools{width: 13%;}
+}
 
 </style>
-
 
 <body>
 
 <a href="#" id="backtotop" class="backtotop" style="display: none;"><span></span></a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
-    <a class="logo-left" href="/">
-        <div>
+	<a class="logo-left" href="/">
+    <div>
 
-        </div>
-    </a>
+    </div>
+	</a>
     <?php /*?><div class="years-135">
         <img src="resources/assets/images/where.png" style="color: #fff;"/>
     </div><?php */?>
@@ -427,24 +357,10 @@ if($mobile->isMobile()) {
     </a>
 </div>
 
-<div class="toaster g30-schools">
-    <a target="_blank">
-        <img src="resources/assets/images/logos/g-30-schools.png"/>
-    </a>
+<div class="toaster">
+    <a href="news-1564-senior-admissions-to-aitchison-college-2023-24" target="_blank"><h5>Senior Admissions to<br>Aitchison College, 2023-24</h5></a>
 </div>
 
-<?php if(true) { ?>
-    <div class="toaster toaster-1">
-        <a href="admission/points-of-entry-into-aitchison" target="_blank"><h5>Admissions Information<br/>2024-25</h5></a>
-    </div>
-    <!--    <div class="toaster toaster-2">-->
-    <!--        <a href="principal-letter-2310-aitchison-expands-boarding-admissions-2024-25" target="_blank"><h5>Become a Boarder in<br/>2024-25</h5></a>-->
-    <!--    </div>-->
-    <!---->
-    <!--    <div class="toaster toaster-3">-->
-    <!--        <a href="news-2311-become-a-dayboy-in-2024-25" target="_blank"><h5>Become a Dayboy in<br/>2024-25</h5></a>-->
-    <!--    </div>-->
-<?php } ?>
 
 <div id="backgroundVideo">
     <video autoplay="autoplay"
@@ -475,286 +391,174 @@ if($mobile->isMobile()) {
 
 
 
+    <div class="divider"></div>
 
-    <!-- News Highlights -->
-
-    <div class="row">
-        <div id="featured-news" class="news-highlights">
-
-            <div class="row ms-3 text-center">
-                <h6 class="header-top">HEAR STORIES FROM AITCHISON</h6>
-                <div class="" style="padding-left: 6px;">
-
-                    <h2 class="header">News Highlights
-                        <hr/>
-                    </h2>
-                </div>
-
-                <div class="text-center mb-3">
-                    <a href="news-room" target="_parent" class="button-link me-lg-4">Visit News Section</a>
-                </div>
-            </div>
-            <div class="news-carousel owl-carousel owl-theme">
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="activity-glimpses" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/12-2040348143.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" id="weekattheglancedate" style="margin: 5px 0;">
-                                    <?php /*?>9<sup>th</sup> October to 11<sup>th</sup> October, 2023<?php */?>
-                                    <?php include_once("dates-weeklyactivityglimpses.php");?>
-                                </div>
-                                <h3 class="news-heading">
-                                    Sports &amp; Co-Curricular Activities<br>This week at a Glance
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-
-                        <a href="aitchison-senior-mathematics-society-delegation-bags-medals-at-seamo-x-2024" target="_blank">
-
-                            <a href="news-2339-english-language-festival-2023" target="_blank">
-                                <div class="news-image">
-                                    <img src="newsletter/news/images/35-5912697620.jpg" alt="News" class="img-fluid"/>
-                                </div>
-                                <div class="news-contents" style="padding: 1rem;">
-                                    <div class="news-date" style="margin: 5px 0;">
-                                        6<sup>th</sup> November, 2023
-                                    </div>
-                                    <h3 class="news-heading">
-                                        English Language Festival - 2023
-                                    </h3>
-
-                                </div>
-                            </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2329-aitchison-and-lawrence-college-annual-fixture" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/1-2523555771.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    31<sup>st</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison and Lawrence College Annual Fixture
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2325-aitchison-college-science-engineering-concept-2023" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/46-771282321.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison College Science & Engineering Concept - 2023
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2323-junior-junior-school-annual-riding-competition-upper-primary" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/18-8082222451.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Junior Junior School Annual Riding Competition Upper Primary
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2320-aitchison-wins-sadiq-public-school-away-fixture-4-nil" target="_blank">
-
-                            <div class="news-image">
-                                <img src="newsletter/news/images/mathematics-society-seamo-5-8187279125.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    24<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Senior Mathematics Society Delegation bags medals at SEAMO X
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2453-prep-play-cinderfella-entertains-appreciative-audience" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/43-3772384067.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    24<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Prep Play 'Cinderfella' Entertains Appreciative Audience
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2439-aitchison-dominates-cambridge-outstanding-learners" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/cambridge-outstanding-learners-2439-3-453958629.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    23<sup>rd</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    AITCHISON DOMINATES CAMBRIDGE OUTSTANDING LEARNERS
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2432-aitchison-house-cross-country-reveals-strength-and-determination" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/44-8040181222.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    19<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison House Cross Country Reveals Strength and Determination
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2423-aitchison-shines-bright-dominating-lumun-2023-with-double-distinction" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/lumun-delegation-2423-sm-3990597856.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    28<sup>th</sup> to 31<sup>st</sup> December, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Shines Bright: Dominating LUMUN 2023 with Double Distinction
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2414-aitchison-flying-high-with-sporting-heroes" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/2414-thumbnail-1086512452.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    9<sup>th</sup> January, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison Flying High with Sporting Heroes
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2409-aitchisonian-wins-scottish-u-17-squash-title-congratulations-from-everyone-sakhi-ullah-tareen" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/scottish-17-squash-2409-4-5966632556.png" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    30<sup>th</sup> December, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchisonian Wins Scottish U 17 Squash Title
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="item">
-                    <div class="news-box">
-
-                        <a href="news-2243-aitchison-college-shines-globally-in-the-2023-schools-index-by-carfaxeducation" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/school-index-carfax-education-logo-2243-1871537432.png" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    2<sup>nd</sup> October, 2023
-                                </div>
-                                <h3 class="news-heading">
-                                    Aitchison College Shines Globally in The 2023 Schools Index by Carfax Education
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="divider-small"></div>
-
+    <!-- Announcements -->
+    <div class="row" id="sect-announcements">
+        <div class="col-12 text-center">
+            <h2 class="header">Announcements
+				<hr>
+			</h2>
         </div>
+        <div class="divider"></div>
+
+
+        <div class="col-12">
+            <div id="announcements" class="owl-carousel owl-theme">
+
+                <div class="item">
+
+                    <a href="sports/cricket-live-scoreboard" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/score-board.jpg">
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">Live Cricket Score</h4>
+                                <p></p>
+                            </div>
+
+                        </div>
+
+                    </a>
+                </div>
+
+                
+
+                <div class="item">
+
+                    <a href="news-1564-admissions-to-aitchison-college-2023-24" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/admissions.jpg">
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                            <h4 class="p-2">Boarding and Day Applications 2023-24  
+</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <?php /*?><div class="item">
+
+                    <a href="photo-of-the-week" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/photo-of-week-20220415.jpg">
+
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">Photo Of The Week</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><?php */?>
+
+
+                <?php /*?><div class="item">
+
+                    <a href="news-1423-136th-founders-day-2022" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/the-aitchisonian-2020-21.jpg">
+
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">136<sup style="text-transform:lowercase;">th</sup> Founders' Day 2022</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><?php */?>
+
+
+                <div class="item">
+
+                    <a href="news-482-reliving-aitchison-how-to-place-an-order" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/reliving-aitchison.jpg">
+
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">Reliving Aitchison</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+				<div class="item">
+
+                    <a href="photo-of-the-week" target="_blank">
+
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/photo-of-week-20230418.jpg">
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">Photo Of The Week</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <?php /*?><div class="item">
+
+                    <a href="news-1109-wedding-and-campus-photographsvideos" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/acoba.jpg">
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">ACOBA</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div><?php */?>
+
+                <div class="item">
+
+                    <a href="school-song" target="_blank">
+                        <div class="img-item" style='background-image: url("resources/assets/images/announcements/school-song.jpg");'>
+                            <img src="resources/assets/images/announcements/school-song.jpg">
+
+                        </div>
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">School Song</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+		<div class="col-12 text-center" style="">
+            <div class="divider"></div>
+			<span class="owl-prev announcements-previous-button back-arrow"><img src="resources/assets/images/arrow-left.png" alt="back-arrow"/></span>
+            <span class="owl-next announcements-next-button next-arrow"><img src="resources/assets/images/arrow.png" alt="next-arrow"/></span>
+		</div>
+
+
+
     </div>
 
-    <!-- End News Highlights -->
 
 
+    <div class="divider"></div>
     <!-- Discover Us -->
     <div id="sect-discover-us" class="row">
         <?php /*?><div class="col-12 text-center">
@@ -770,10 +574,6 @@ if($mobile->isMobile()) {
                     <div class="item">
                         <h1>8</h1>
                         <p>Boarding Houses</p>
-                    </div>
-                    <div class="item">
-                        <h1>30</h1>
-                        <p>Day Houses</p>
                     </div>
                     <div class="item">
                         <h1>9</h1>
@@ -842,188 +642,93 @@ if($mobile->isMobile()) {
     <!-- End Discover Us -->
 
 
-    <div class="divider"></div>
+    <!-- News Highlights -->
 
+    <div class="row">
+        <div id="featured-news" class="news-highlights">
 
+            <div class="row ms-3 text-center">
+                <h6 class="header-top">HEAR STORIES FROM AITCHISON</h6>
+                <div class="" style="padding-left: 6px;">
 
-    <!-- Announcements -->
-    <div class="row" id="sect-announcements">
-        <div class="col-12 text-center">
-            <h2 class="header">Announcements
-                <hr>
-            </h2>
-        </div>
-        <div class="divider"></div>
-
-
-        <div class="col-12">
-            <div id="announcements" class="owl-carousel owl-theme">
-
-                <div class="item">
-
-                    <a href="sports/cricket-live-scoreboard" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/score-board.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">Live Cricket Score</h4>
-                                <p></p>
-                            </div>
-
-                        </div>
-
-                    </a>
+                    <h2 class="header">News Highlights
+                        <hr/>
+                    </h2>
                 </div>
 
-
-                <?php /*?>
-                <div class="item">
-
-                    <a href="news-1564-admissions-to-aitchison-college-2023-24" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/admissions.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                            <h4 class="p-2">Boarding and Day Applications 2023-24</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
-
-                <div class="item">
-
-                    <a href="admission/points-of-entry-into-aitchison" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/admissions.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">Admissions Information<br/>2024-25</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
+                <div class="text-center mb-3">
+                    <a href="news-room" target="_parent" class="button-link me-lg-4">Visit News Section</a>
                 </div>
-
-                <?php /*?><div class="item">
-
-                    <a href="photo-of-the-week" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/photo-of-week-20220415.jpg">
-
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">Photo Of The Week</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
-
-
-                <?php /*?><div class="item">
-
-                    <a href="news-1423-136th-founders-day-2022" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/the-aitchisonian-2020-21.jpg">
-
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">136<sup style="text-transform:lowercase;">th</sup> Founders' Day 2022</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
-
+            </div>
+            <div class="news-carousel owl-carousel owl-theme">
 
                 <div class="item">
-
-                    <a href="news-482-reliving-aitchison-how-to-place-an-order" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/reliving-aitchison.jpg">
-
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">Reliving Aitchison</h4>
-                                <p>&nbsp;</p>
+                    <div class="news-box">
+                        <a href="activity-glimpses" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/arena-polo-2067.jpg" alt="News" class="img-fluid"/>
                             </div>
-                        </div>
-                    </a>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" id="weekattheglancedate" style="margin: 5px 0;">
+									<?php //$monday = date( 'j F, Y', strtotime( 'monday this week' )); //echo $monday;?>
+                                    16<sup>th</sup> February to 19<sup>th</sup> February, 2023
+                                </div>
+                                <h3 class="news-heading">
+                                    Sports & Co-Curricular Activities<br>This week at a Glance
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-
+                
                 <div class="item">
-
-                    <a href="photo-of-the-week" target="_blank">
-
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/photo-of-week-20240120.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">Photo Of The Week</h4>
-                                <p>&nbsp;</p>
+                    <div class="news-box">
+                        <a href="news-1895-upgraded-monnoo-squash-complex-opening-hails-a-new-era-in-the-sport" target="_blank">
+                            <div class="news-image">
+                                <img src="https://aitchison.edu.pk/newsletter/news/images/9-8105754493.jpg" alt="News" class="img-fluid"/>
                             </div>
-                        </div>
-                    </a>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    12<sup>th</sup> January, 2023
+                                </div>
+                                <h3 class="news-heading">
+                                    Upgraded Monnoo Squash Complex Opening Hails a New Era in the Sport
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <?php /*?><div class="item">
-
-                    <a href="news-1109-wedding-and-campus-photographsvideos" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/acoba.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">ACOBA</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
-
+				
                 <div class="item">
-
-                    <a href="school-song" target="_blank">
-                        <div class="img-item" style='background-image: url("resources/assets/images/announcements/school-song.jpg");'>
-                            <img src="resources/assets/images/announcements/school-song.jpg">
-
-                        </div>
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">School Song</h4>
-                                <p>&nbsp;</p>
+                    <div class="news-box">
+                        <a href="news-2052-distinguished-audience-welcomes-new-syed-babar-ali-library" target="_blank">
+                            <div class="news-image">
+                                <img src="https://aitchison.edu.pk/newsletter/news/images/26-2829903258.jpg" alt="News" class="img-fluid"/>
                             </div>
-                        </div>
-                    </a>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    6<sup>th</sup> March, 2023
+                                </div>
+                                <h3 class="news-heading header">
+                                Distinguished Audience Welcomes New Syed Babar Ali Library
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
             </div>
+            <div class="divider-small"></div>
+
         </div>
-        <div class="col-12 text-center" style="">
-            <div class="divider"></div>
-            <span class="owl-prev announcements-previous-button back-arrow"><img src="resources/assets/images/arrow-left.png" alt="back-arrow"/></span>
-            <span class="owl-next announcements-next-button next-arrow"><img src="resources/assets/images/arrow.png" alt="next-arrow"/></span>
-        </div>
-
-
-
     </div>
 
+    <!-- End News Highlights -->
+
+
+    <div class="divider"></div>
 
     <!-- our schools -->
     <div id="sect-our-schools" class="row our-school">
@@ -1038,7 +743,7 @@ if($mobile->isMobile()) {
             <h2 class="header">Welcome to the<br>start of<br>your journey<hr style="margin-left: 0;"></h2>
             <div>
                 <?php /* <p style="text-align: left; margin-bottom: 0;">When Aitchison was founded in 1886, its emphasis was on educating the 'princely elites.' Since Independence this has given way to an egalitarian mix of pupils drawn from all parts of the country. Cambridge curriculum is taught in junior and prep schools, with the additional option of Aga Khan Matric and FSc in senior. Aitchison College offers a broad and challenging educational program for boarding and day students, based on the added benefits of engagement in sports, clubs and societies.</p> */?>
-                <p style="text-align: left; margin-bottom: 0;">When Aitchison was founded in 1886, its emphasis was on educating the 'princely elites.' Since Independence this has given way to an egalitarian mix of pupils drawn from all parts of the country. Cambridge curriculum is taught in junior and prep schools, with the additional options of FBISE Matric and FSc in senior. Aitchison College offers a broad and challenging educational program for boarding and day students, based on the added benefits of engagement in sports, clubs and societies.</p>
+                <p style="text-align: left; margin-bottom: 0;">When Aitchison was founded in 1886, its emphasis was on educating the 'princely elites.' Since Independence this has given way to an egalitarian mix of pupils drawn from all parts of the country. Cambridge curriculum is taught in junior and prep schools, with the additional options of FBISE or Aga Khan Matric and FSc in senior. Aitchison College offers a broad and challenging educational program for boarding and day students, based on the added benefits of engagement in sports, clubs and societies.</p>
 
             </div>
 
@@ -1098,7 +803,7 @@ if($mobile->isMobile()) {
             <h2 class="header">Boarding adds value to the quality of education<hr style="margin-left: 0;"></h2>
 
             <div>
-                <p class="text-start">There are 8 boarding houses at Aitchison that have excellent facilities including their own dining halls, prep rooms and common rooms. Each house displays its history in photographs and trophies, marking the achievements of boys throughout our history. A boarder's life graduates from Gwyn (Years 1 to 5) to Saigol (Years 6 to 8) to Bahawalpur (Year 9) then to one of five senior houses, Kelly, Godley, Leslie Jones, K&N's and Shirazi (Years 10 to 13). Life is busy with supervised homework tutorials, games, sports, clubs and occasional outings.</p>
+                <p class="text-start">There are currently seven boarding houses at Aitchison, with a further two under construction opening in 2023 and 2024. Houses have excellent facilities including their own dining halls, prep rooms and common rooms. Each house displays its history in photographs and trophies, marking the achievements of boys throughout our history. A boarder's life graduates from Gwyn (Years 1 to 5) to Saigol (Years 6 to 8) to Bahawalpur (Year 9) then to one of four senior houses, Kelly, Godley, Leslie Jones and K&N's (Years 10 to 13).</p>
             </div>
 
             <a href="boarding/boarding-houses" class="button-link small mt-0">Explore our Boarding Houses</a>
@@ -1312,7 +1017,7 @@ if($mobile->isMobile()) {
 
 <!-- End Footer Includes -->
 <script>
-    //$("#weekattheglancedate").load("dates-weeklyactivityglimpses.php");
+$("#weekattheglancedate").load("dates-weeklyactivityglimpses.php");
 </script>
 </body>
 

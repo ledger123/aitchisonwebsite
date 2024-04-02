@@ -7,34 +7,19 @@ $path = '';
 
 $title = "Reliving Aitchison - A Modern Photographic History"; include_once("header-includes.php");
 
-$banner_url = 'resources/assets/images/banners/contacts.jpg';
+$banner_url = 'resources/assets/images/banners/old-building-v8.jpg';
+$page_header = $title;
+
 ?>
-
-<body>
-<?php include_once ('top-menu-bar.php'); ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
-
-    <div class="logo-left">
-
-    </div>
-
-</nav>
-
-<section style="background: url(<?php echo $banner_url; ?>); background-repeat: no-repeat;background-size: cover;" class="page-banner">
-
-    <div class="container banner-text">
-        <div class="banner-heading">
-
-        </div>
-    </div>
-</section>
+<?php include_once ('new-logo-page-banner.php'); ?>
 
 <?php include_once("mega-menu.php");?>
 
-<div class="container-fluid">
+<body>
 
-    <div class="row mx-lg-5 mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -46,32 +31,31 @@ $banner_url = 'resources/assets/images/banners/contacts.jpg';
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div style="height: 60px;"></div>
+            <div></div>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid">
-
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title">
-            <h1>AITCHISON LAUNCHES NEW BOOK TO THE FAITHFUL</h1>
-            <h4><i>RELIVING AITCHISON - A MODERN PHOTOGRAPHIC HISTORY</i></h4>
-        </div>
-
     </div>
 </div>
 
 <div class="container">
 
+
+
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
+
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-12 page-title" style="padding-left: 0 !important;">
+                <h2>AITCHISON LAUNCHES NEW BOOK TO THE FAITHFUL</h2>
+            </div>
+
+        </div>
 
         <!-- Left Area -->
-        <div class="col-lg-8 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
 
             <div class="row">
                 <div class="col-sm-8">
+
                     <p>Principal Michael Thomson welcomed Chief Guest, old boy and renowned artist Ijaz ul Hassan (Kelly House) to launch "Reliving Aitchison - A Modern Photographic History", photographed by internationally recognised photographer Zill Niazi (Kelly House). Fifty old boy stalwarts attended the event and the Principal expressed his gratitude to "familiar faces who always show the way in supporting the College with more than words." He described the book as:"The finest he had seen in any school." Ijaz Saab mentioned how he became emotional in a pre-launch viewing when he saw his old boarding house and how it rekindled many fine memories of friends. He described the book as "a work of art", and Zill Niazi as "an artist of exceptional quality."</p>
                     <p>Book orders may be placed with the Bursar's office. Old boys who wish to see the book prior to purchase may contact the Alumni officer. Books subject to availability.</p>
 
@@ -82,7 +66,7 @@ $banner_url = 'resources/assets/images/banners/contacts.jpg';
                         <a href="https://www.instagram.com/relivingaitchisonofficial" alt="Aitchison College Lahore - Instagram" target="_blank"><img src="<?php echo $image_path;?>img/instagram-icon.png" style="width:30px; height:30px;"></a>
                     </div>
                 </div>
-                <div align="center" class="col-sm-4"><img id="imgHistory1" alt="Photographic History" class="img-responsive" src="<?php echo $image_path;?>newsletter/news/images/photographic-history-1-469.jpg" style="cursor: pointer; width: 100%">
+                <div align="center" class="col-sm-4"><img id="imgHistory1" alt="Photographic History" class="img-responsive" src="<?php echo $image_path;?>newsletter/news/images/photographic-history-1-469.jpg" style="cursor: pointer; width: 100%; padding-right: 0.5rem;">
                     <table border="0" style="font-size: 28px;">
                         <tbody><tr>
                             <td style="width: 50%; text-align: left; padding-right: 5px;"><a id="arrowLeft1"><i class="fa fa-arrow-left" style="color: #337ab7; cursor: pointer;"></i></a></td>
@@ -91,50 +75,32 @@ $banner_url = 'resources/assets/images/banners/contacts.jpg';
                         </tbody></table>
                 </div>
             </div>
+
             <div class="row">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12" align="center">
-                        <div id="gallerySLide" class="sgallery_area">
-                            <?php
-                            $small_imgtitle="Reliving Aitchison";
-                            $large_imgtitle="A Modern Photographic History";
-                            for($i=4; $i <= 15; $i++) {
-                                if($i==7 || $i==8 || $i==10 || $i==11 || $i==13)
-                                    continue;
-                                ?>
-                                <a href="<?php echo $image_path;?>galimages/reliving-aitchison/<?php echo $i;?>.jpg" title="<?php echo $large_imgtitle;?>">
-                                    <img class="gallery_img" src="<?php echo $image_path;?>galimages/reliving-aitchison/small/<?php echo $i;?>.jpg" alt="img" />
-                                    <span class="view_btn"> <?php echo $small_imgtitle;?> </span>
-                                </a>
-                                <?php
-                            }
+                <div class="col-lg-12 col-md-12 col-sm-12" align="center">
+                    <div id="gallerySLide" class="sgallery_area">
+                        <?php
+                        $small_imgtitle="Reliving Aitchison";
+                        $large_imgtitle="A Modern Photographic History";
+                        for($i=4; $i <= 15; $i++) {
+                            if($i==7 || $i==8 || $i==10 || $i==11 || $i==13)
+                                continue;
                             ?>
-                        </div>
+                            <a href="<?php echo $image_path;?>galimages/reliving-aitchison/<?php echo $i;?>.jpg" title="<?php echo $large_imgtitle;?>">
+                                <img class="gallery_img" src="<?php echo $image_path;?>galimages/reliving-aitchison/small/<?php echo $i;?>.jpg" alt="img" />
+                                <span class="view_btn"> <?php echo $small_imgtitle;?> </span>
+                            </a>
+                            <?php
+                        }
+                        ?>
                     </div>
                 </div>
-
             </div>
+
+
         </div>
         <!-- End Left Area -->
 
-        <!-- Right Area -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center news-links">
-
-        </div>
-        <!-- End Right Area -->
-
-        <div class="col-lg-9 col-md-12 col-sm-12">
-
-            <div class="divider"></div>
-
-            <div class="row">
-
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-12 col-sm-12">
-
-        </div>
     </div>
     <!-- End Contents -->
 

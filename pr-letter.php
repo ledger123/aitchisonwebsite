@@ -17,14 +17,9 @@ $dc->Connect();
 $newsRepo = new NewsRepository($dc);
 
 $newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-$blockNewsIds=array(239, 340);
-if(in_array($newsId, $blockNewsIds)) {
-	header("Location: https://aitchison.edu.pk/404", true, 301);
-	exit;
-    //http_response_code(404);
-    //include('my_404.php'); // provide your own HTML for the error page
-    //die();
-}
+
+$createDate = '';
+
 if ($newsId > 0)
 {
     $tNews = $newsRepo->GetNews($newsId, "", "", "", 0, 0, 1, 1, defined("USER_ID")?USER_ID:0);
@@ -37,13 +32,12 @@ if ($newsId > 0)
         $TxtNewsHeading	   = $row->Heading;
         $ChkShowHeading	   = $row->ShowHeading;
         $TxtNewsSubheading = $row->Subheading;
+        $createDate        = $row->CreateDate;
         $OptNewsType	   = $row->NewsType;
         $OpenAccess		   = $row->OpenAccess;
         $active    	  	   = $row->Active;
-    }else{
-		header("Location: https://aitchison.edu.pk/404", true, 301);
-		exit;    
-	}
+
+    }
 
 }
 
@@ -58,12 +52,21 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
 <!DOCTYPE html>
 <html>
 
-<?php $title = "Principal's Letter"; include_once ("header-includes.php");?>
+<?php $title = "Principal's Letter"; include_once ("header-includes.php");
+
+$banner_url = $path.'resources/assets/images/banners/contacts.jpg';
+$page_header = $title;
+
+?>
 
 <body>
 
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
+
+<?php include_once("mega-menu.php");?>
+
 <!-- News Header -->
-<?php include_once ('news-header.php'); ?>
+<?php //include_once ('news-header.php'); ?>
 
 
 <!-- News Alerts -->
@@ -91,7 +94,7 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="./">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><a href="https://aitchison.edu.pk/principal-letters">Principal's Newsletters</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="principal-letters">Principal's Newsletters</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Letter</li>
                 </ol>
             </nav>
@@ -142,6 +145,20 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
                         $templatePath = "";
 
                         include($templatePath."newsletter/news/templates/updated/addtemplate.php");
+
+                        if($newsId === 207){
+                            echo
+                            '<h3>
+                                Error: Page does not exist.
+                            <h3>';
+                        }
+
+                        //if($newsId === 2078)
+                        echo
+                        '<div style="text-align: right; font-size: 11px; color: #9f9f9f; margin-top: 20px;">
+                                Created on: '. $createDate .'
+                                
+                            </div>';
                     }
                     else
                     {
@@ -207,6 +224,10 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
 
 <!-- End Footer Includes -->
 
+
+<script>
+
+</script>
 
 </body>
 

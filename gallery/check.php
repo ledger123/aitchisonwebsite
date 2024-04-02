@@ -22,7 +22,7 @@
 		$_GET['gal_id']=substr($req_page_name1, 0, strpos($req_page_name1,"-"));
 		$galid1=$_GET['gal_id']."-";
 		$_GET['gal_name']=str_replace($galid1, "", $req_page_name1);
-		//echo "<br><br>".$gal_id."<br><br>";
+		//echo "<br>".$_GET['gal_name']."<br>".$gal_id1."<br><br>";
 		//$gal_id=
 		//$page_arr[$req_page_name]="gallery.php?gal_id=".$gal_id."&gal_name=".$gal_name."";
 		$page_arr[$req_page_name]="gallery.php";

@@ -6,12 +6,12 @@ include_once("../path-settings.php");
 
 $title = "Archives"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
+$banner_url = $path.'resources/assets/images/banners/school/archives.jpg';
+$page_header = $title;
 ?>
 
 <style>
 
-    p { text-align:justify; }
     #lstArchive {
         display: flex;
         flex-wrap: wrap;
@@ -47,7 +47,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
         cursor: pointer;
         display: inline-block;
         margin: 0 5px;
-        padding: 6px 15px;
+        /* padding: 6px 15px; */
         text-transform: uppercase;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -66,7 +66,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
     #archiverunning, #archiverunning p, #archiverunning span, #archiverunning ol, #archiverunning ul{
         /*font-family: 'Lato', 'Roboto', 'Oswald';*/
         font-size: 16px;
-        line-height: 22px;
+        
     }
     #archiverunning ol, #archiverunning ul{
         line-height: 30px !important;
@@ -97,19 +97,32 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
         line-height: 30px;
     }
 
+    #archiverunning h2 {
+        padding-left: 0;
+    }
+
+    .col-lg-6 {
+        padding-right: 5px;
+    }
+
+    .button-link {
+
+        margin: unset;
+        margin-top: unset;
+        width: 100%;
+        height: 100%;
+    }
+
 </style>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -124,37 +137,31 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
+<div class="container">
     
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-    
-
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
 
             <div class="sport-gallery-menu">
                 <ul id="lstArchive" style="flex-wrap: wrap;">
-                    <li class="filter" data-filter="DepartmentSlide" style="background-color: rgb(138, 189, 227);" onclick="showDiv('DepartmentSlide')"><a id="lnkDepartment">Archives Department</a></li>
-                    <li class="filter" data-filter="ContributeSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('ContributeSlide')"><a>Contribute to Archives</a></li>
-                    <li class="filter" data-filter="MuseumSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('MuseumSlide')"><a>College Museum</a></li>
-                    <li class="filter" data-filter="ArchivesSocietySlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('ArchivesSocietySlide')">
-                        <a>College Archives Society</a>
+                    <li class="filter"><a class="button-link small" data-filter="DepartmentSlide" onclick="showDiv('DepartmentSlide')" id="lnkDepartment">Archives Department</a></li>
+                    <li class="filter"><a class="button-link small" data-filter="ContributeSlide" onclick="showDiv('ContributeSlide')">Contribute to Archives</a></li>
+                    <li class="filter"><a class="button-link small" data-filter="MuseumSlide" onclick="showDiv('MuseumSlide')">College Museum</a></li>
+                    <li class="filter">
+                        <a class="button-link small" data-filter="ArchivesSocietySlide" onclick="showDiv('ArchivesSocietySlide')">College Archives Society</a>
                     </li>
-                    <li class="filter" data-filter="CollectionsSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('CollectionsSlide')"><a>Available Collections</a></li>
+                    <li class="filter"><a class="button-link small" data-filter="CollectionsSlide" onclick="showDiv('CollectionsSlide')">Available Collections</a></li>
 
-                    <li class="filter" data-filter="StaffGallery" style="background-color: rgb(255, 255, 255);" onclick="showDiv('StaffGallery')"><a>Staff Gallery </a></li>
-                    <li class="filter" data-filter="LanglandRoom" style="background-color: rgb(255, 255, 255);" onclick="showDiv('LanglandRoom')"><a>Langlands' Room </a></li>
-                    <li class="filter" data-filter="HelpupSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('HelpupSlide')"><a>Can you Help us? </a></li>
-                    <li class="filter" data-filter="FaqSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('FaqSlide')"><a>FAQ’s</a></li>
-                    <li class="filter" data-filter="ContactSlide" style="background-color: rgb(255, 255, 255);" onclick="showDiv('ContactSlide')"><a>Contact</a></li>
+                    <li class="filter"><a class="button-link small" data-filter="StaffGallery" onclick="showDiv('StaffGallery')">Staff Gallery </a></li>
+                    <li class="filter"><a class="button-link small" data-filter="LanglandRoom" onclick="showDiv('LanglandRoom')">Langlands' Room </a></li>
+                    <li class="filter"><a class="button-link small" data-filter="HelpupSlide" onclick="showDiv('HelpupSlide')">Can you Help us? </a></li>
+                    <li class="filter"><a class="button-link small" data-filter="FaqSlide" onclick="showDiv('FaqSlide')">FAQ’s</a></li>
+                    <li class="filter"><a class="button-link small" data-filter="ContactSlide" onclick="showDiv('ContactSlide')">Contact</a></li>
                 </ul>
             </div>
 
@@ -166,7 +173,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                         <p style="display:none;">After the Annexation of the Punjab by the East India Company, a proposal was laid down in 1864 by a Captain Tighe (then Deputy Commissioner, Umballa, Punjab) to build an institution for the Punjabi Sardars. This suggestion was later reformed into a School for Wards of Court continuing the foundational basis of teaching the young Sardars. The proposal fell into the hands of the Lieutenant-Governor Sir Charles Aitchison in May 1885, who further developed the ideology by laying the foundations of the school. It has been reported that the school was to serve education to young men from the ruling families, good families, and the minors under the guardianship of Wards of Court. It was named the Punjab Chief’s College which was later renamed as the Aitchison College in 1886. The history of the College can be traced 'unofficially' to 1868, although the foundation stone of this building was laid on the 3rd November, 1886, by Viceroy Lord Dufferin and Ava.</p>
                         <p>Aitchison College has a rich past that is vital to preserve and exhibit, including invaluable historical narratives, letters and other rare documents. Visiting our Archives offers a pleasant and accessible experience.</p>
                         <p>Among our chief aims is to assemble personal reflections of our Alumni, Faculty and Staff. These experiences will be documented in the form of an Oral History. We would also appreciate donations of photographs, manuscripts, letters, medals or any other interesting archival material. The College archivist Mr. Sajid Husnain is contactable on extension 431</p>
-                        <div class="mt-4 text-center"><img src="<?php echo $image_path;?>newsletter/news/images/aas-1126-2-v2.jpg" class="img-fluid" alt="Archives Department"></div>
+                        <div class="mt-4 text-center"><img src="<?php echo $image_path;?>newsletter/news/images/aas-1126-2-v2.jpg" class="img-fluid" style="width: 100%;" alt="Archives Department"></div>
 
                     </div>
                     <div id="ArchivesSocietySlide" class="gallery_area" style="display: none;">
@@ -187,10 +194,10 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <img src="<?php echo $image_path;?>img/archives/archives-display-center-2.png" alt="Archives’ Display Centre" class="img-fluid">
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6" style="margin-bottom: 15px;">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
                                 <img src="<?php echo $image_path;?>img/archives/mandir.jpg" alt="Archives’ Display Centre" class="img-fluid">
                             </div>
                         </div>
@@ -324,44 +331,84 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 
 <script type="text/javascript">
 
-    	function showDiv(slidearea) {
-			document.getElementById("DepartmentSlide").style.display="none";
-			document.getElementById("ContributeSlide").style.display="none";
-			document.getElementById("MuseumSlide").style.display="none";
-			document.getElementById("ArchivesSocietySlide").style.display="none";
-			document.getElementById("CollectionsSlide").style.display="none";
-			//document.getElementById("AGallerySlide").style.display="none";
-			document.getElementById("FaqSlide").style.display="none";
-            document.getElementById("HelpupSlide").style.display="none";
-			document.getElementById("ContactSlide").style.display="none";
-			document.getElementById("LanglandRoom").style.display="none";
-			document.getElementById("StaffGallery").style.display="none";
-			document.getElementById(slidearea).style.display="table-row";
-			//alert(slidearea);
+    function showDiv(slidearea) {
 
-			//$(obj).parent().parent().css("bakground","#8ABDE3");
-			//obj.parentNode.style.backgroundColor = "#8ABDE3";
+        //unselect all the tabs
+        $("a[data-filter='DepartmentSlide']").removeClass('dark');
+        $("a[data-filter='ContributeSlide']").removeClass('dark');
 
-			document.querySelector("li[data-filter='DepartmentSlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='ContributeSlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='MuseumSlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='ArchivesSocietySlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='CollectionsSlide']").style.backgroundColor = "#fff";
-			//document.querySelector("li[data-filter='AGallerySlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='FaqSlide']").style.backgroundColor = "#fff";
-            document.querySelector("li[data-filter='HelpupSlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='ContactSlide']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='LanglandRoom']").style.backgroundColor = "#fff";
-			document.querySelector("li[data-filter='StaffGallery']").style.backgroundColor = "#fff";
+        $("a[data-filter='MuseumSlide']").removeClass('dark');
+        $("a[data-filter='ArchivesSocietySlide']").removeClass('dark');
+        $("a[data-filter='CollectionsSlide']").removeClass('dark');
+        //$("a[data-filter='AGallerySlide'").removeClass('dark');
+        $("a[data-filter='FaqSlide']").removeClass('dark');
+        $("a[data-filter='HelpupSlide']").removeClass('dark');
+        $("a[data-filter='ContactSlide']").removeClass('dark');
+        $("a[data-filter='LanglandRoom']").removeClass('dark');
+        $("a[data-filter='StaffGallery']").removeClass('dark');
+        
+        // select the tab whtich pressed the user
+        $("a[data-filter='" + slidearea + "']").addClass('dark');
 
-			document.querySelector("li[data-filter='" + slidearea + "']").style.backgroundColor = "#8ABDE3";
 
-			//var obj = document.querySelector("li[data-filter='" + slidearea + "']");
+        //hide all the tabs contents
+        document.getElementById("DepartmentSlide").style.display="none";
+        document.getElementById("ContributeSlide").style.display="none";
+        document.getElementById("MuseumSlide").style.display="none";
+        document.getElementById("ArchivesSocietySlide").style.display="none";
+        document.getElementById("CollectionsSlide").style.display="none";
+        //document.getElementById("AGallerySlide").style.display="none";
+        document.getElementById("FaqSlide").style.display="none";
+        document.getElementById("HelpupSlide").style.display="none";
+        document.getElementById("ContactSlide").style.display="none";
+        document.getElementById("LanglandRoom").style.display="none";
+        document.getElementById("StaffGallery").style.display="none";
+        
+        // show the tab contents which user pressed the tab
+        document.getElementById(slidearea).style.display="table-row";
+        
+    }
 
-			//obj.style.backgroundColor = "#8ABDE3";
-			//alert(obj.style.backgroundColor);
-		}
-		showDiv("DepartmentSlide");
+
+    function showDiv_old(slidearea) {
+        document.getElementById("DepartmentSlide").style.display="none";
+        document.getElementById("ContributeSlide").style.display="none";
+        document.getElementById("MuseumSlide").style.display="none";
+        document.getElementById("ArchivesSocietySlide").style.display="none";
+        document.getElementById("CollectionsSlide").style.display="none";
+        //document.getElementById("AGallerySlide").style.display="none";
+        document.getElementById("FaqSlide").style.display="none";
+        document.getElementById("HelpupSlide").style.display="none";
+        document.getElementById("ContactSlide").style.display="none";
+        document.getElementById("LanglandRoom").style.display="none";
+        document.getElementById("StaffGallery").style.display="none";
+        document.getElementById(slidearea).style.display="table-row";
+        //alert(slidearea);
+
+        //$(obj).parent().parent().css("bakground","#8ABDE3");
+        //obj.parentNode.style.backgroundColor = "#8ABDE3";
+
+        document.querySelector("li[data-filter='DepartmentSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='ContributeSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='MuseumSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='ArchivesSocietySlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='CollectionsSlide']").style.backgroundColor = "#fff";
+        //document.querySelector("li[data-filter='AGallerySlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='FaqSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='HelpupSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='ContactSlide']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='LanglandRoom']").style.backgroundColor = "#fff";
+        document.querySelector("li[data-filter='StaffGallery']").style.backgroundColor = "#fff";
+
+        document.querySelector("li[data-filter='" + slidearea + "']").style.backgroundColor = "#8ABDE3";
+
+        //var obj = document.querySelector("li[data-filter='" + slidearea + "']");
+
+        //obj.style.backgroundColor = "#8ABDE3";
+        //alert(obj.style.backgroundColor);
+    }
+
+    showDiv("DepartmentSlide");
     </script>
 
 </html>

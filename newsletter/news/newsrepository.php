@@ -89,7 +89,7 @@ class NewsRepository
 				REPLACE(Subheading, '\'\'', '\'') Subheading, REPLACE(Subheading2, '\'\'', '\'') Subheading2, NewsType, NewsFor,
 				ShowHeading, IFNULL(n_users2.Title, '') ApprovedBy, NewsIcon, NewsIconLink,
 				CASE WHEN n.Active = 1 THEN 'Yes' ELSE 'No' END Active, n_users1.Title UserTitle,
-				SmallImageTitle, LargeImageTitle, OpenAccess, Archived
+				SmallImageTitle, LargeImageTitle, OpenAccess, Archived, DATE_FORMAT(CreateDate, '%d-%m-%Y %H:%i') CreateDate
 			FROM n_news_news n INNER JOIN
 				n_news_templates t ON t.Id = TemplateId LEFT JOIN
 				n_news_contents nc ON nc.NewsId = n.Id INNER JOIN

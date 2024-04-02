@@ -1,20 +1,16 @@
 <?php
 
 $path = '';
-$imagePath = '../';
+$imagePath = '';
 $include_path = '';
-if(strpos($_SERVER['REQUEST_URI'], "?")){
-	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: https://aitchison.edu.pk/news-room");
-	exit();	
-}
+
 //include_once $include_path .'standard/redirect.php';
 include($include_path ."newsletter/classes/functions.php");
 include($include_path ."newsletter/classes/dataCenter.php");
 include($include_path ."newsletter/news/newsrepository.php");
 include("resources/php/utils.php");
 
-$recordsPerPage = 35;
+$recordsPerPage = 14;
 
 $yearNumber=date("Y");
 if(isset($_GET['yearNumber'])) {
@@ -57,137 +53,76 @@ function getMonthName($monthNum) {
     return $dateObj->format('F');
 }
 
-
 ?>
 
 <!DOCTYPE html>
 <html>
 
-<?php $title = "News and Events"; include_once ("header-includes.php");?>
+<?php
+$title = "News and Events"; include_once ("header-includes.php");
+
+$banner_url = $path.'resources/assets/images/banners/news-events.jpg';
+$page_header = $title;
+
+?>
+
 
 <body>
-
-<!-- News Header -->
-<?php include_once ('news-header.php'); ?>
-
-<!-- News Alerts -->
-<div class="container-fluid" style="padding-right: 0; background-color: #ffc845;">
-<?php include_once ('news-alerts.php'); ?>
-
-</div>
-
 <style>
-    #sect-newsalert {
-        position: inherit;
+    .news-box {
+        border: 1px solid var(--color-gray);
     }
-    .news-image {
-        overflow: hidden;
-        text-align: center;
-        width: auto;
-        height: auto;
-        float: left;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
-        max-width: 450px;
+    .news-area {
+        padding-right: 3rem!important;
     }
 
-    @media (max-width: 1600px) {
-        .news-image {
-            width: 350px;
+    @media (max-width: 768px) {
+        .news-area {
+            padding-right: 12px!important;
         }
     }
-
-
-    @media (max-width: 1200px) {
-        .news-image {
-            width: 300px;
-        }
-
-        .news-heading > h2 {
-            font-size: calc(1.1rem + .9vw);
-        }
-
-        .news-text {
-            min-height: 4rem;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .news-item {
-            margin-left: 1rem;
-            margin-right: 1rem;
-        }
-
-        .news-image {
-            width: 100%;;
-            float: unset;
-        }
-
-        .news-text {
-            min-height: 1rem;
-        }
-
-        .mx-sm-5 {
-            padding-left: 2rem !important;
-            padding-right: 2rem !important;
-        }
-    }
-
 </style>
-<!-- End News Alerts -->
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
+<?php include_once("mega-menu.php");?>
 
-<div class="container">
+<div class="breadcrumb-bar">
+    <div class="container">
 
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page"><a href="news-room">News and Events</a></li>
                 </ol>
             </nav>
 
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div></div>
-        </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
 
-    </div>
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
-
+    <div class="row page-contents">
+        <?php if (false && $monthNumber > 0) { ?>
+            <div class="col-lg-9 col-md-12 col-sm-12 news-area text-center" style="font-family: initial;">
+                <h2 class="text-black-50 text-uppercase" style=""><?php echo getMonthName($monthNumber). ' '. $yearNumber;?></h2>
+            </div>
+        <?php } ?>
         <!-- News Area -->
-        <div class="col-lg-9 col-md-12 col-sm-12">
-
-            <?php if ($monthNumber > 0) { ?>
-                <div class="col-12 text-center" style="font-family: initial;">
-                    <h2 class="text-black-50 text-uppercase" style=""><?php echo getMonthName($monthNumber). ' '. $yearNumber;?></h2>
-                </div>
-            <?php } ?>
+        <div class="col-lg-9 col-md-12 col-sm-12 news-area">
+            <div class="row">
 
             <?php
             $imagesPath = "../newsletter/news/";
             foreach ($tNews->Rows as $row) {
 
                 $heading = $purifier->purify(htmlspecialchars_decode(stripslashes(utf8_decode($row->Heading))));
-				/*
-				$targetShow="_self";
-				if ($row->TemplateId == 6) {
-					$targetShow="_blank";	
-				}
-				*/
-				$target="_self";
-                if ($row->NewsType == "URL" || $row->TemplateId == 6) {
+
+                if ($row->NewsType == "URL") {
                     $href = $row->Content1;
                     $target = "_blank";
                 }
@@ -202,8 +137,8 @@ function getMonthName($monthNum) {
                     }
                     elseif ($row->NewsFor == 2) {
 
-                        $href = "alumni/news-" . $row->NewsId . "-" . makeSlug($heading);
-                        //$href = "alumni/news-new.php?id=" . $row->NewsId;
+                        //$href = "alumni/news-" . $row->NewsId . "-" . makeSlug($heading);
+                        $href = "alumni/news-new.php?id=" . $row->NewsId;
                     }
                     $target = "";
                 }
@@ -212,29 +147,26 @@ function getMonthName($monthNum) {
                 //$imagesPath .= $row->NewsIcon;
             ?>
             <!-- News Contents -->
-            <div class="news-item">
+            <div class="col-sm-6 col-xs-12" style="padding-bottom: 24px;">
+                <div class="item">
+                    <div class="news-box">
+                        <a href="<?php echo $href; ?>" target="_blank">
+                            <div class="news-image">
+                                <img src="<?php echo $imagesPath . $row->NewsIcon; ?>" alt="News" class="news-image"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    <?php echo $row->Date; ?>
+                                </div>
+                                <h3 class="news-heading">
+                                    <?php echo $heading; ?>
+                                </h3>
 
-
-
-                <div class="news-body" style="">
-                    <img src="<?php echo $imagesPath . $row->NewsIcon; ?>" alt="News" class="news-image">
-                    <div class="news-heading" style="height: auto;overflow: hidden;">
-                        <a href="<?php echo $href; ?>" target="<?php echo $target;?>"><h2 style="color: #00205b;"><?php echo $heading; ?></h2></a>
-                    </div>
-                    <div class="news-date">
-                        <h5><?php echo $row->Date; ?></h5>
-                    </div>
-                    <div class="news-text" style="">
-                        <p><?php echo $row->Content4; ?></p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="row justify-content-end">
-                    <a href="<?php echo $href; ?>" target="<?php echo $target;?>" class="button-link small me-4" style="width: fit-content">Read News</a>
-                </div>
-
             </div>
-
-                <hr style="margin: 2rem 0; margin-right: 1.3rem;" />
 
             <?php }
             if ($tNews->rowsCount() == 0) {
@@ -256,24 +188,25 @@ function getMonthName($monthNum) {
                 </div>
             <?php } ?>
 
-
+        </div>
         </div>
         <!-- End News Area -->
 
         <!-- Right Area -->
-        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center calendar">
 
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-start">
-                <h3>Select Time Period</h3>
+            <div class="row calendar-header">
+                <div class="col-3 text-start time-period">SELECT TIME PERIOD</div>
+
+                <div class="col-6" style="line-height: 1.1;">
+                    <div class="col-6 year" id="nyear" name="nyear"><?php echo $yearNumber;?></div>
+                </div>
+
+                <div class="col-3 arrows">
+                    <a class="prev"><div class="left-arrow"></div></a>
+                    <a class="next"><div class="right-arrow"></div></a>
+                </div>
             </div>
-
-            <div class="row year-number" style="display: inline-block; margin-bottom: 1rem;">
-
-                <a class="prev" style="width: auto; font-size: 26px;"><i class="fa fa-arrow-left"></i></a>
-                <label id="nyear" name="nyear" style="font-size: 1.8rem; padding: 0 20px; width: auto; color: #00205b;"><?php echo $yearNumber;?></label>
-                <a class="next" style="width: auto; font-size: 26px;"><i class="fa fa-arrow-right"></i></a>
-            </div>
-
 
             <div class="row">
                 <?php
@@ -287,35 +220,29 @@ function getMonthName($monthNum) {
                     }
                     $monthNum  = $i;
                     $dateObj   = DateTime::createFromFormat('!m', $monthNum);
-                    $monthName = $dateObj->format('F');
+                    $monthName = $dateObj->format('M');
                     ?>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding: 2px;">
-                        <button class="month-number <?php echo $active;?>" value="<?php echo $i;?>" style=""><?php echo $monthName;?></button>
+                    <div class="col-3" style="padding: 1px; line-height: 3.048;">
+                        <button class="month-number <?php echo $active;?>" value="<?php echo $i;?>" style=""><?php echo strtoupper($monthName);?></button>
                     </div>
                     <?php
                 }
                 ?>
             </div>
-            <?php if(false) {?>
-            <div class="row mt-4">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-start">
-                    <h3>Select Categories</h3>
-                </div>
 
-                <ul style="list-style: none; padding: 0;">
-                <?php
-                for($i=1; $i <=5; $i++){
-                    ?>
-                    <li class="category">
-                        <label for="cat<?php echo $i;?>"><input type="checkbox" name="cat<?php echo $i;?>" id="cat<?php echo $i;?>" class="categoryselection" checked/>
-                        Category <?php echo $i;?></label>
-                    </li>
-                    <?php
-                }
-                ?>
-                </ul>
+            <div style="margin-left: -12px; margin-right: -12px;">
+                <a href="principal-letters" target="_parent">
+                    <img src="resources/assets/images/banners/right-side/principal-letters.jpg" class="img-fluid mt-3" alt="Principal Letters">
+                </a>
+
+                <a href="old-boys-bulletin" target="_parent">
+                    <img src="resources/assets/images/banners/right-side/old-boys-bulletin.jpg" class="img-fluid mt-3" alt="Old Boys Bulletin">
+                </a>
+
+                <a href="school/aitchison-publications" target="_parent">
+                    <img src="resources/assets/images/banners/right-side/publications.jpg" class="img-fluid mt-3" alt="Publications">
+                </a>
             </div>
-            <?php }?>
 
         </div>
         <!-- End Right Area -->
@@ -333,12 +260,13 @@ function getMonthName($monthNum) {
                     <div class="stay-up-date">Stay up<br/>to date</div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5 text-center" style="display: table;">
-                    <h3 style="display: table-cell; vertical-align: middle;">Visit<br/><a href="https://aitchison.edu.pk/portal/acportal" target="_blank"><div style="font-size: 2.5rem;">My Aitchison</div></a>for more details.</h3>
+                    <h3 style="display: table-cell; vertical-align: middle;">Visit<br/><a href="https://aitchison.edu.pk/portal/acportal" target="_blank"><div style="font-size: 2.5rem;">My Aitchison</div></a>for More details.</h3>
                 </div>
             </div>
         </div>
 
         <div class="col-lg-3 col-md-12 col-sm-12">
+
         </div>
     </div>
     <!-- End Contents -->

@@ -6,21 +6,18 @@ include_once("../path-settings.php");
 
 $title = "Swimming"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/swimming.jpg';
+$banner_url = $path.'resources/assets/images/banners/sports/swimming.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -35,33 +32,28 @@ $banner_url = $path.'resources/assets/images/banners/swimming.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
 
             <p>Aitchison is the dominant swimming school in the Punjab with national and provincial champions in various strokes. The College offers a swimming program at all levels of schooling and enjoys numerous school and house carnivals during the season. Three competition pools provide plenty of space and opportunity for training programs. The Diving Pool Centre is situated at the senior location.</p>
             <br><br>
-            <h2 style="text-align: center; margin-bottom: 15px;">National and School Champions with their Trophies</h2>
+            <h3 style="text-align: center; margin-bottom: 15px;">National and School Champions with their Trophies</h3>
             <div align="center">
-                <img src="<?php echo $image_path;?>galimages/Sports/swimming/swimming-trophies.jpg" alt="Swimming Trophies" class="img-responsive" style="">
+                <img src="<?php echo $image_path;?>galimages/Sports/swimming/swimming-trophies.jpg" alt="Swimming Trophies" class="img-responsive" style="width: 100%;">
             </div>
 
 
-            <h2 class="text-center mb-3 mt-3">Swimming Activities</h2>
+            <h3 class="text-center mb-3 mt-3">Swimming Activities</h3>
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div id="gallerySLide" class="gallery_area">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="padding-left: 0px; padding-right: 0px;">
+                    <div id="gallerySLide" class="sgallery_area2">
 
                         <?php
                         $galArray = ["17", "16", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"];

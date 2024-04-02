@@ -7,6 +7,7 @@ include_once("../path-settings.php");
 $title = "Aitchison's History"; include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/history.jpg';
+$page_header = $title;
 ?>
 <style>
     .quote {
@@ -115,17 +116,14 @@ $banner_url = $path.'resources/assets/images/banners/history.jpg';
 </style>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
 
-
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -140,18 +138,13 @@ $banner_url = $path.'resources/assets/images/banners/history.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
+
+<div class="container">
     
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-    
-
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
@@ -226,7 +219,7 @@ $banner_url = $path.'resources/assets/images/banners/history.jpg';
                 </div>
                 <div class="col-xl-6 col-md-12 col-sm-12">
                     <p>In 2022 the College celebrated the 136<sup>th</sup> Anniversary of its location at the current site. In that time 18 Principals have led the College and their photographs may be seen under <a href="<?php echo $path;?>school/past-principals"><span style="color: #000099">Past Principals</span></a>. </p>
-                    <p>Construction of its most famous building – ‘Old Building’ (sometimes referred to as ‘Aitchison Hall’) – began in 1887 and was complete by 1890. Its existence is owed largely to three men: Bhai Ram Singh, Colonel Samuel Jacob and John Lockwood Kipling. This was the College’s first real school building for classes, after moving classrooms away from boarding houses and rented bungalows outside the school in Abbott road. The fashion of education that remained traditionally English Public School for much of the 19<sup>th</sup> and early 20<sup>th</sup> centuries is now modified for the fresh demands of a new era in which boys seek university places here in Pakistan as well as top American, British, Canadian, Australian, Asian, Middle Eastern and European universities. Aitchison has offered Cambridge curriculum since 1936 and also offers Federal (FBISE) as a national equivalent.</p>
+                    <p>Construction of its most famous building &ndash; &lsquo;Old Building&rsquo; (sometimes referred to as &lsquo;Aitchison Hall&rsquo;) &ndash; began in 1887 and was complete by 1890. Its existence is owed largely to three men: Bhai Ram Singh, Colonel Samuel Jacob and John Lockwood Kipling. This was the College&rsquo;s first real school building for classes, after moving classrooms away from boarding houses and rented bungalows outside the school in Abbott road. The fashion of education that remained traditionally English Public School for much of the 19<sup>th</sup>&nbsp;and early 20<sup>th</sup>&nbsp;centuries is now modified for the fresh demands of a new era in which boys seek university places here in Pakistan as well as top American, British, Canadian, Australian, Asian, Middle Eastern and European universities. Aitchison has offered Cambridge curriculum since 1936 and also offers Federal (FBISE) as a national equivalent.</p>
                 </div>
 
             </div>

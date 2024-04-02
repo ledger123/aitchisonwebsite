@@ -151,7 +151,7 @@ if ( in_array($_SESSION['portal_School'], ['SSD', 'PSD', 'JSD'])  ) {
     <div class="panel-heading" role="tab" id="headingOne" style="background-color: #fcf6f6;">
       <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        School Email Address for Students
+        School Email Address
         </a>
       </h4>
     </div>
@@ -508,7 +508,7 @@ if ( $_SESSION['portal_School'] == 'JSD' /*&& isset($_GET['videolink']) && $_GET
                                 <?php }?>
 								<div class="animated flipInY col-lg-2 col-md-3 col-sm-4 col-xs-12">
 									
-									  <a class="tile-stats nav-link " href="https://aitchison.edu.pk/news-and-events">
+									  <a class="tile-stats nav-link " href="../news-room" target="_blank">
 										<i class="fa fa-newspaper-o"></i><div>News</div>
 									</a>
 									

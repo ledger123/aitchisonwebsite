@@ -14,10 +14,9 @@
 	$page_arr=array(
 		
 		"ac-academics"					=>	"acacademics.php",
-		"ac-academics-offline"			=>	"acacademics-offline.php",
+		"ac-academics-offline"					=>	"acacademics-offline.php",
 		"academics-overview"			=>	"overview.php",
-        "important-dates"       		=>	"importantdates.php",
-		"important-dates-offline"      	=>	"importantdates-offline.php",
+        //"important-dates"       		=>	"importantdates.php",
 		"harkness-table"				=>	"harknesstable.php",
 		"aj-science-innovation-centre"	=>  "AJScienceInnovationCentre.php",
 		"sat-centre"					=>	"satcentre.php",

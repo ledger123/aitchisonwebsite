@@ -49,7 +49,7 @@ if($mobile->isMobile()) {
         background-color: #00195291;
 
     }
-
+	
 
     .toaster a h5 {
         color: #fff;
@@ -65,29 +65,29 @@ if($mobile->isMobile()) {
     }
 
 
-    .toaster.ibsc {
-
-        top: 129px;
+	.toaster.ibsc {
+		
+		top: 129px;
         background-color: transparent;
         cursor: default;
         right: 100px;
-    }
+	}
 
-    .toaster.ibsc a img {
-        width: 92px;
-    }
+	.toaster.ibsc a img {
+		width: 92px;
+	}
 
     .toaster.g30-schools a img {
-        width: 58px;
-    }
+		width: 58px;
+	}
 
     .toaster.g30-schools {
-
-        top: 170px;
+		
+		top: 170px;
         background-color: transparent;
         cursor: default;
         right: 100px;
-    }
+	}
 
     .toaster.toaster-1 {
         width: 180px;
@@ -102,7 +102,7 @@ if($mobile->isMobile()) {
         width: 180px;
         top: 312px;
     }
-
+		
     .slogan {
         color: #fff;
         top: 0;
@@ -135,7 +135,7 @@ if($mobile->isMobile()) {
         background-size: 300px auto;
     }
 
-    .owl-carousel .active span {
+    .owl-carousel .active span {	
         border: 3px solid #ffc845;
     }
 
@@ -167,7 +167,7 @@ if($mobile->isMobile()) {
 
     }
     @media (max-width: 1024px){
-
+        
         .toaster a h5 {
             font-size: .8rem;
         }
@@ -208,10 +208,10 @@ if($mobile->isMobile()) {
             margin-right: 0.5rem;
         }
 
-
-
+        
+        
         .toaster.ibsc {
-
+		
             right: 40px;
         }
         .toaster.toaster-1 {
@@ -225,7 +225,7 @@ if($mobile->isMobile()) {
             top: 292px;
             width: 140px;
         }
-
+        
     }
 
     @media (max-width: 576px) {
@@ -284,7 +284,7 @@ if($mobile->isMobile()) {
         }
 
         .toaster.ibsc {
-
+            
             /* top: 175px; */
         }
 
@@ -369,7 +369,7 @@ if($mobile->isMobile()) {
     .logos .aga-khan2{width:10%;vertical-align:middle}
     .logos .fedral-board{width:13%;}
     .logos .spears-schools{width: 9%;}
-
+    
 
     @media (max-width: 1024px) {
         .logos .cambridge{width:13%;}
@@ -396,8 +396,8 @@ if($mobile->isMobile()) {
         .logos .spears-schools{width: 13%;}
     }
 
-    .news-carousel > .owl-carousel .active span {
-        border: 3px solid #001952;
+    .news-carousel > .owl-carousel .active span {	
+    border: 3px solid #001952; 
     }
 
 </style>
@@ -408,11 +408,11 @@ if($mobile->isMobile()) {
 <a href="#" id="backtotop" class="backtotop" style="display: none;"><span></span></a>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
-    <a class="logo-left" href="/">
-        <div>
+	<a class="logo-left" href="/">
+    <div>
 
-        </div>
-    </a>
+    </div>
+	</a>
     <?php /*?><div class="years-135">
         <img src="resources/assets/images/where.png" style="color: #fff;"/>
     </div><?php */?>
@@ -437,13 +437,13 @@ if($mobile->isMobile()) {
     <div class="toaster toaster-1">
         <a href="admission/points-of-entry-into-aitchison" target="_blank"><h5>Admissions Information<br/>2024-25</h5></a>
     </div>
-    <!--    <div class="toaster toaster-2">-->
-    <!--        <a href="principal-letter-2310-aitchison-expands-boarding-admissions-2024-25" target="_blank"><h5>Become a Boarder in<br/>2024-25</h5></a>-->
-    <!--    </div>-->
-    <!---->
-    <!--    <div class="toaster toaster-3">-->
-    <!--        <a href="news-2311-become-a-dayboy-in-2024-25" target="_blank"><h5>Become a Dayboy in<br/>2024-25</h5></a>-->
-    <!--    </div>-->
+<!--    <div class="toaster toaster-2">-->
+<!--        <a href="principal-letter-2310-aitchison-expands-boarding-admissions-2024-25" target="_blank"><h5>Become a Boarder in<br/>2024-25</h5></a>-->
+<!--    </div>-->
+<!---->
+<!--    <div class="toaster toaster-3">-->
+<!--        <a href="newsandevents-testlink.php?id=2311" target="_blank"><h5>Become a Dayboy in<br/>2024-25</h5></a>-->
+<!--    </div>-->
 <?php } ?>
 
 <div id="backgroundVideo">
@@ -472,7 +472,6 @@ if($mobile->isMobile()) {
 <?php include_once ('news-alerts.php'); ?>
 
 <div class="container-fluid" style="margin-top: -60px;">
-
 
 
 
@@ -535,7 +534,6 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2545-academics-day-2024" target="_blank">
@@ -554,7 +552,6 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
 
                 <div class="item">
                     <div class="news-box">
@@ -575,15 +572,11 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-
-
-
-
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2540-old-boys-art-exhbition" target="_blank">
                             <div class="news-image">
-                                <img src="newsletter/news/images/11-1379836215.jpg" alt="News" class="img-fluid"/>
+                                <img src="newsletter/news/images/17-7728884386.webp" alt="News" class="img-fluid"/>
                             </div>
                             <div class="news-contents" style="padding: 1rem;">
                                 <div class="news-date" style="margin: 5px 0;">
@@ -617,7 +610,6 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2542-prep-and-senior-sports-day" target="_blank">
@@ -637,12 +629,11 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2528-junior-school-makers-fair-skills-expo-showcasing-talent-skills-great-learning-and-loads-of-fun" target="_blank">
                             <div class="news-image">
-                                <img src="newsletter/news/images/25-2836374060.jpg" alt="News" class="img-fluid"/>
+                                <img src="newsletter/news/images/54-7812994032.webp" alt="News" class="img-fluid"/>
                             </div>
                             <div class="news-contents" style="padding: 1rem;">
                                 <div class="news-date" style="margin: 5px 0;">
@@ -675,7 +666,6 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
 
                 <div class="item">
                     <div class="news-box">
@@ -714,7 +704,6 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
 
                 <div class="item">
                     <div class="news-box">
@@ -849,7 +838,6 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-
                 <div class="item">
                     <div class="news-box">
                         <a href="aitchison-senior-mathematics-society-delegation-bags-medals-at-seamo-x-2024" target="_blank">
@@ -908,6 +896,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
+
             </div>
             <div class="divider-small"></div>
 
@@ -932,10 +921,6 @@ if($mobile->isMobile()) {
                     <div class="item">
                         <h1>8</h1>
                         <p>Boarding Houses</p>
-                    </div>
-                    <div class="item">
-                        <h1>30</h1>
-                        <p>Day Houses</p>
                     </div>
                     <div class="item">
                         <h1>9</h1>
@@ -1004,9 +989,8 @@ if($mobile->isMobile()) {
     <!-- End Discover Us -->
 
 
+
     <div class="divider"></div>
-
-
 
     <!-- Announcements -->
     <div class="row" id="sect-announcements">
@@ -1474,7 +1458,7 @@ if($mobile->isMobile()) {
 
 <!-- End Footer Includes -->
 <script>
-    //$("#weekattheglancedate").load("dates-weeklyactivityglimpses.php");
+//$("#weekattheglancedate").load("dates-weeklyactivityglimpses.php");
 </script>
 </body>
 

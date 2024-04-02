@@ -12,13 +12,13 @@
         //"procedure-and-requirements-offline"	=>	"procedure-requirements-offline.php",
 		
 		
-		//"download-application-forms"	=>	"application-forms.php",
+		"download-application-forms"	=>	"application-forms.php",
 		// //"applications-forms-offline"	=>	"application-forms-offline.php",
 		
 		// "a-level-and-fsc-entrance-test-schedule"	=>	"a_levels_entrance_test_schedule.php",
-		"admissions-testing-schedule"	=>	"admissiontestingschedule.php",
-        // "available-seats"	=>	"availableseats.php",		
-		"admissions-testing-scheduleoffline"	=>	"admissiontestingschedule_offline.php",
+		"admissions-testing-schedule"	=>	"admission_testing_schedule.php",
+
+        // "available-seats"	=>	"availableseats.php",
 		"points-of-entry-into-aitchison"	=>	"points-of-entry.php",
         "important-dates-admissions"	=>	"table-of-important-dates.php",
         // //"important-dates-admissions-offline"	=>	"table-of-important-dates-offline.php",

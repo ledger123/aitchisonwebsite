@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+<?php
+
+include_once("../path-settings.php");
+
+$title = "University Placements"; include_once($path."header-includes.php");
+
+$banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
+//$banner_url = $path.'resources/assets/images/banners/school/about.jpg';
+$page_header = $title;
+?>
+
+<body>
+<?php include_once ($path.'logo-page-banner.php'); ?>
+
+<?php include_once($path."mega-menu.php");?>
+
+<div style="background-color: #ffc845;">
+    <div class="container">
+
+        <div class="row">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="<?php echo $path;?>">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="about-us">School</a></li>
+                </ol>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Contents -->
+    <div class="row page-contents">
+
+        <!-- Left Area -->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+
+                <p>One of the most notable features of Aitchison is the high success rate of boys gaining entry to universities of their first choice, both here and overseas. Aitchison has specialist University Guidance Counsellors. The department is led by Dr. Naila Burney Chughtai and Mr. Jamal Hussain.</p>
+                <p>Aitchison has its own SAT Examination Centre accredited by the American College Board, and offers preparation in SAT, IELTS and TOEFL. We can also arrange ACT. Generally, more than half of the graduating cohort will secure international placements, mainly in the UK, U.S.A and Canada. Among these are regular offers to attend Oxford, Cambridge, UCL, Harvard, Stanford, Princeton, MIT and Yale. Beyond these stellar institutions the list is impressively long. Medical offers are mostly taken up at Aga Khan University and King Edward Medical College, but Australia has offered placements. LUMS, University of Punjab, Forman Christian College, Government College and National College of the Arts are regularly attended. Boys also enter the Civil Service and the Armed Forces with regularity.</p>
+
+            <div class="page-title">
+                <h1>International University Placements</h1>
+            </div>
+            <div>
+                <h3>US UNIVERSITIES</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td style="width: 50%;">Harvard University</td>
+                            <td width="20">44</td>
+                            <td>Middlebury College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">2</td>
+                            <td style="width: 50%;">Stanford University</td>
+                            <td width="20">45</td>
+                            <td>NYU</td>
+                        </tr>
+                        <tr>
+                            <td width="20">3</td>
+                            <td style="width: 50%;">Yale University</td>
+                            <td width="20">46</td>
+                            <td>NYU Abu Dhabi</td>
+                        </tr>
+                        <tr>
+                            <td width="20">4</td>
+                            <td style="width: 50%;">Amherst College</td>
+                            <td width="20">47</td>
+                            <td>New York Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td width="20">5</td>
+                            <td style="width: 50%;">Austin College</td>
+                            <td width="20">48</td>
+                            <td>Northeastern University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">6</td>
+                            <td style="width: 50%;">Bates College</td>
+                            <td width="20">49</td>
+                            <td>Northwestern University (Qatar)</td>
+                        </tr>
+                        <tr>
+                            <td width="20">7</td>
+                            <td style="width: 50%;">Boston College</td>
+                            <td width="20">50</td>
+                            <td>Oberlin College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">8</td>
+                            <td style="width: 50%;">Boston University</td>
+                            <td width="20">51</td>
+                            <td>Ohio Wesleyan University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">9</td>
+                            <td style="width: 50%;">Bowdoin College</td>
+                            <td width="20">52</td>
+                            <td>Penn State University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">10</td>
+                            <td style="width: 50%;">Brown University</td>
+                            <td width="20">53</td>
+                            <td>Pomona College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">11</td>
+                            <td style="width: 50%;">Carleton College</td>
+                            <td width="20">54</td>
+                            <td>Princeton University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">12</td>
+                            <td style="width: 50%;">Carnegie Mellon University (Qatar)</td>
+                            <td width="20">55</td>
+                            <td>Purdue University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">13</td>
+                            <td style="width: 50%;">Clark University</td>
+                            <td width="20">56</td>
+                            <td>Reed College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">14</td>
+                            <td style="width: 50%;">Colby College</td>
+                            <td width="20">57</td>
+                            <td>Rhoda Island School of Design</td>
+                        </tr>
+                        <tr>
+                            <td width="20">15</td>
+                            <td style="width: 50%;">Colgate University</td>
+                            <td width="20">58</td>
+                            <td>Simon Fraser International College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">16</td>
+                            <td style="width: 50%;">College of William and Mary</td>
+                            <td width="20">59</td>
+                            <td>Swarthmore College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">17</td>
+                            <td style="width: 50%;">Columbia University</td>
+                            <td width="20">60</td>
+                            <td>Syracuse University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">18</td>
+                            <td style="width: 50%;">Connecticut College</td>
+                            <td width="20">61</td>
+                            <td>Trinity College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">19</td>
+                            <td style="width: 50%;">Cornell</td>
+                            <td width="20">62</td>
+                            <td>UC Berkeley</td>
+                        </tr>
+                        <tr>
+                            <td width="20">20</td>
+                            <td style="width: 50%;">Cornell University</td>
+                            <td width="20">63</td>
+                            <td>UC Davis</td>
+                        </tr>
+                        <tr>
+                            <td width="20">21</td>
+                            <td style="width: 50%;">Dartmouth College</td>
+                            <td width="20">64</td>
+                            <td>UC Los Angeles</td>
+                        </tr>
+                        <tr>
+                            <td width="20">22</td>
+                            <td style="width: 50%;">Depauw University</td>
+                            <td width="20">65</td>
+                            <td>UC San Diego</td>
+                        </tr>
+                        <tr>
+                            <td width="20">23</td>
+                            <td style="width: 50%;">Drake University</td>
+                            <td width="20">66</td>
+                            <td>University of Chicago</td>
+                        </tr>
+                        <tr>
+                            <td width="20">24</td>
+                            <td style="width: 50%;">Drew University</td>
+                            <td width="20">67</td>
+                            <td>University of Delaware</td>
+                        </tr>
+                        <tr>
+                            <td width="20">25</td>
+                            <td style="width: 50%;">Drexel University</td>
+                            <td width="20">68</td>
+                            <td>University of Denver</td>
+                        </tr>
+                        <tr>
+                            <td width="20">26</td>
+                            <td style="width: 50%;">Duke University</td>
+                            <td width="20">69</td>
+                            <td>University of Illinois at Chicago</td>
+                        </tr>
+                        <tr>
+                            <td width="20">27</td>
+                            <td style="width: 50%;">Emory University</td>
+                            <td width="20">70</td>
+                            <td>University of Illinois – Urbana Champaign</td>
+                        </tr>
+                        <tr>
+                            <td width="20">28</td>
+                            <td style="width: 50%;">Eugene Lang College/Parsons – The New School</td>
+                            <td width="20">71</td>
+                            <td>University of Miami</td>
+                        </tr>
+                        <tr>
+                            <td width="20">29</td>
+                            <td style="width: 50%;">Florida Institute of Technology</td>
+                            <td width="20">72</td>
+                            <td>University of Michigan</td>
+                        </tr>
+                        <tr>
+                            <td width="20">30</td>
+                            <td style="width: 50%;">Florida Southern College</td>
+                            <td width="20">73</td>
+                            <td>University of Notre Dame</td>
+                        </tr>
+                        <tr>
+                            <td width="20">31</td>
+                            <td style="width: 50%;">Florida State University</td>
+                            <td width="20">74</td>
+                            <td>University of Pennsylvania</td>
+                        </tr>
+                        <tr>
+                            <td width="20">32</td>
+                            <td style="width: 50%;">Franklin &amp; Marshall </td>
+                            <td width="20">75</td>
+                            <td>University of San Francisco </td>
+                        </tr>
+                        <tr>
+                            <td width="20">33</td>
+                            <td style="width: 50%;">George Washington University</td>
+                            <td width="20">76</td>
+                            <td>University of Southern California</td>
+                        </tr>
+                        <tr>
+                            <td width="20">34</td>
+                            <td style="width: 50%;">Georgetown University</td>
+                            <td width="20">77</td>
+                            <td>University of Texas – A&amp;M (Qatar)</td>
+                        </tr>
+                        <tr>
+                            <td width="20">35</td>
+                            <td style="width: 50%;">Georgia Tech University</td>
+                            <td width="20">78</td>
+                            <td>University of Texas – Austin</td>
+                        </tr>
+                        <tr>
+                            <td width="20">36</td>
+                            <td style="width: 50%;">Grinnell College</td>
+                            <td width="20">79</td>
+                            <td>University of Virginia</td>
+                        </tr>
+                        <tr>
+                            <td width="20">37</td>
+                            <td style="width: 50%;">Illinois University – Urbana Champaign</td>
+                            <td width="20">80</td>
+                            <td>University of Wisconsin Madison</td>
+                        </tr>
+                        <tr>
+                            <td width="20">38</td>
+                            <td style="width: 50%;">Illinois Wesleyan University</td>
+                            <td width="20">81</td>
+                            <td>Vassar College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">39</td>
+                            <td style="width: 50%;">John Hopkins</td>
+                            <td width="20">82</td>
+                            <td>Virginia Commonwealth University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">40</td>
+                            <td style="width: 50%;">Knox College</td>
+                            <td width="20">83</td>
+                            <td>Washington University, St. Louis</td>
+                        </tr>
+                        <tr>
+                            <td width="20">41</td>
+                            <td style="width: 50%;">MIT</td>
+                            <td width="20">84</td>
+                            <td>Wentworth Institute of Technology</td>
+                        </tr>
+                        <tr>
+                            <td width="20">42</td>
+                            <td style="width: 50%;">Macalester college</td>
+                            <td width="20">85</td>
+                            <td>Williams College</td>
+                        </tr>
+                        <tr>
+                            <td width="20">43</td>
+                            <td style="width: 50%;">Manhattan College</td>
+                            <td width="20">86</td>
+                            <td>Wittenberg University</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>UK UNIVERSITIES</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">University of Cambridge</td>
+                            <td width="20">15</td>
+                            <td>University of Edinburgh</td>
+                        </tr>
+                        <tr>
+                            <td width="20">2</td>
+                            <td width="50%">University of Oxford</td>
+                            <td width="20">16</td>
+                            <td>University of Exeter</td>
+                        </tr>
+                        <tr>
+                            <td width="20">3</td>
+                            <td width="50%">Durham University</td>
+                            <td width="20">17</td>
+                            <td>University of Leeds</td>
+                        </tr>
+                        <tr>
+                            <td width="20">4</td>
+                            <td width="50%">Imperial College</td>
+                            <td width="20">18</td>
+                            <td>University of Manchester</td>
+                        </tr>
+                        <tr>
+                            <td width="20">5</td>
+                            <td width="50%">University of York</td>
+                            <td width="20">19</td>
+                            <td>University of Newcastle</td>
+                        </tr>
+                        <tr>
+                            <td width="20">6</td>
+                            <td width="50%">King’s College, London</td>
+                            <td width="20">20</td>
+                            <td>University of Nottingham</td>
+                        </tr>
+                        <tr>
+                            <td width="20">7</td>
+                            <td width="50%">London School Of Economics</td>
+                            <td width="20">21</td>
+                            <td>University of Nottingham</td>
+                        </tr>
+                        <tr>
+                            <td width="20">8</td>
+                            <td width="50%">Queen Mary University of London</td>
+                            <td width="20">22</td>
+                            <td>Cardiff University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">9</td>
+                            <td width="50%">SOAS University of London</td>
+                            <td width="20">23</td>
+                            <td>University of Sheffield</td>
+                        </tr>
+                        <tr>
+                            <td width="20">10</td>
+                            <td width="50%">Surrey University</td>
+                            <td width="20">24</td>
+                            <td>University of St Andrews</td>
+                        </tr>
+                        <tr>
+                            <td width="20">11</td>
+                            <td width="50%">UCL</td>
+                            <td width="20">25</td>
+                            <td>University of Sussex</td>
+                        </tr>
+                        <tr>
+                            <td width="20">12</td>
+                            <td width="50%">University of Bath</td>
+                            <td width="20">26</td>
+                            <td>University of Warwick</td>
+                        </tr>
+                        <tr>
+                            <td width="20">13</td>
+                            <td width="50%">University of Bristol</td>
+                            <td width="20">27</td>
+                            <td>Kingston University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">14</td>
+                            <td width="50%">Brunel University</td>
+                            <td width="20"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>AUSTRALIA</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">Monash University</td>
+                            <td width="20">2</td>
+                            <td>University of Melbourne</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>CANADIAN UNIVERSITIES</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">Brock University</td>
+                            <td width="20">6</td>
+                            <td>University of Calgary</td>
+                        </tr>
+                        <tr>
+                            <td width="20">2</td>
+                            <td width="50%">McGill University</td>
+                            <td width="20">7</td>
+                            <td>University of Toronto</td>
+                        </tr>
+                        <tr>
+                            <td width="20">3</td>
+                            <td width="50%">McMaster University</td>
+                            <td width="20">8</td>
+                            <td>University of Waterloo</td>
+                        </tr>
+                        <tr>
+                            <td width="20">4</td>
+                            <td width="50%">Queen’s University</td>
+                            <td width="20">9</td>
+                            <td>University of Western Ontario</td>
+                        </tr>
+                        <tr>
+                            <td width="20">5</td>
+                            <td width="50%">University of British Columbia</td>
+                            <td width="20">10</td>
+                            <td>York University</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>SINGAPORE</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">National University of Singapore</td>
+                            <td width="20"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>TURKEY</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">Bilkent University, Turkey</td>
+                            <td width="20"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>NETHERLANDS</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">Tilburg University, Netherlands</td>
+                            <td width="20">2</td>
+                            <td>Utrecht University</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>GERMANY</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">Jacobs University Bremen</td>
+                            <td width="20"></td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <h3>PAKISTAN UNIVERSITIES</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
+                    <table class="table" width="95%" border="0">
+                        <tbody>
+                        <tr>
+                            <td width="20">1</td>
+                            <td width="50%">AGA Khan</td>
+                            <td width="20">3</td>
+                            <td>IT University</td>
+                        </tr>
+                        <tr>
+                            <td width="20">2</td>
+                            <td width="50%">GIKI</td>
+                            <td width="20">4</td>
+                            <td>LUMS</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- End Left Area -->
+
+        <!-- Right Area -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center news-links">
+            <?php include_once ('right-panel-links.php'); ?>
+        </div>
+        <!-- End Right Area -->
+
+    </div>
+    <!-- End Contents -->
+
+</div>
+
+<div class="divider"></div>
+
+<!-- Footer -->
+
+<?php include_once($path."footer.php");?>
+
+<!-- End Footer -->
+
+
+<!-- End Footer Includes -->
+<?php include_once($path."footer-includes.php");?>
+
+<!-- End Footer Includes -->
+
+</body>
+
+</html>

@@ -145,8 +145,16 @@ function getTemporaryAccessiblePages () {
 
 	$accessiblePages[] = array("pageid"=>"202312091", "url"=>"offline-link?id=2400");
 
-	$accessiblePages[] = array("pageid"=>"202402011", "url"=>"timetable-offline.php");
-	$accessiblePages[] = array("pageid"=>"20240314", "url"=>"offline-link?id=2554");
+
+	$accessiblePages[] = array("pageid"=>"202403281", "url"=>"offline-link?id=2563");
+	$accessiblePages[] = array("pageid"=>"202403282", "url"=>"offline-link?id=2564");
+	$accessiblePages[] = array("pageid"=>"202403291", "url"=>"offline-link?id=2565");
+	$accessiblePages[] = array("pageid"=>"202404021", "url"=>"offline-link?id=2567");
+	$accessiblePages[] = array("pageid"=>"202404022", "url"=>"offline-link?id=2568");
+	$accessiblePages[] = array("pageid"=>"202404023", "url"=>"offline-link?id=2569");
+
+	$accessiblePages[] = array("pageid"=>"202404011", "url"=>"timetable-offline.php");
+
 	return $accessiblePages;
 }
 ?>

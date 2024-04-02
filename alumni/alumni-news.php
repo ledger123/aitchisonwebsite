@@ -138,6 +138,23 @@ Look out for upcoming events and mark your calendars in advance!
                   </article><?php */?>
 					<article class="blog-news-single">
                         <div class="blog-news-img" style="height: auto;" align="center">
+                            <a href="../news-2562-passing-of-shahzad-husain" target="_blank"><img src="https://www.aitchison.edu.pk/newsletter/news/images/passing-of-shahzad-husain-2562-35391785532.jpg" alt="" class="img-responsive"></a>
+                        </div>
+                        <div class="blog-news-title">
+                            <h2><a href="../news-2562-passing-of-shahzad-husain" target="_blank">Passing of Shahzad Husain
+</a></h2>
+
+                        </div>
+
+                        <div class="blog-news-details">
+
+                            <a class="blog-more-btn" href="../news-2562-passing-of-shahzad-husain" target="_blank">Read More <i class="fa fa-long-arrow-right"></i></a>
+                        </div>
+
+                    </article>
+					
+					<article class="blog-news-single">
+                        <div class="blog-news-img" style="height: auto;" align="center">
                             <a href="../vale-javed-zaman-great-aitchisonian-and-friend" target="_blank"><img src="https://aitchison.edu.pk/newsletter/news/images/2408-vale-mr-javed-zaman.jpg" alt="" class="img-responsive"></a>
                         </div>
                         <div class="blog-news-title">

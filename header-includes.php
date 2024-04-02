@@ -72,6 +72,11 @@ $server = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "h
 
 
 $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php');
+
+//include_once('path-settings.php');
+
+$title = str_replace(['<br/>', '<br />'], ' ', $title);
+
 ?>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -80,7 +85,7 @@ $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="<?php echo $title;?> - Aitchison College">
     <?php
-    $robotsval="INDEX, FOLLOW";
+    $robotsval="NOINDEX, NOFOLLOW";
     if(strpos($_SERVER['REQUEST_URI'], ".php") || strpos($_SERVER['REQUEST_URI'], "offline") || strpos($_SERVER['REQUEST_URI'], "library/")){
         $robotsval="NOINDEX, NOFOLLOW";
     }
@@ -98,7 +103,7 @@ $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php');
 
     <!-- mega menu -->
     <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/vendors/slidermenu/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/vendors/slidermenu/slidermenu.css?v=12">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/vendors/slidermenu/slidermenu.css?v=11">
 
     <!-- Owl Stylesheets -->
     <link rel="stylesheet" href="<?php echo $path;?>resources/vendors/OwlCarousel2/dist/assets/owl.carousel.min.css">
@@ -116,16 +121,17 @@ $fileName = basename($_SERVER["SCRIPT_FILENAME"], '.php');
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- page style -->
-    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/style.css?v=41">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/style.css?v=35">
 
     <link rel="stylesheet" href="<?php echo $path;?>resources/css/jquery.tosrus.all.css">
 
-    <link rel="stylesheet" href="<?php echo $path;?>resources/css/photo-gallery.css?v=28">
+    <link rel="stylesheet" href="<?php echo $path;?>resources/css/photo-gallery.css?v=27">
 
-    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/custom.css?v=43">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/custom.css?v=31">
 
     <?php if (false && $fileName === 'index') {?>
     <!-- page style -->
+    
     <?php }?>
 
 </head>

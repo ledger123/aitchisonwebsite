@@ -6,21 +6,18 @@ include_once("../path-settings.php");
 
 $title = "Cricket"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/cricket.jpg';
+$banner_url = $path.'resources/assets/images/banners/sports/cricket.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -35,31 +32,26 @@ $banner_url = $path.'resources/assets/images/banners/cricket.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
 
             <div class="col-sm-12">
                 <div class="d-none d-md-block text-center" style="float: right;margin: 0px 0px 0px 30px;max-width: 392px;">
-                    <img src="../img/pageimages/live-scoreboard-opening.jpg" alt="Image" width="100%">
+                    <img src="<?php echo $image_path; ?>img/pageimages/live-scoreboard-opening.jpg" alt="Image" width="100%">
                     
                     <span class="imgtitle">Prime Minister Imran Khan inaugurated the new electronic scoreboard.</span>
                 </div>
 
 
                 <div class="d-block d-md-none text-center">
-                    <img src="../img/pageimages/live-scoreboard-opening.jpg" alt="Image" width="100%">
+                    <img src="<?php echo $image_path; ?>img/pageimages/live-scoreboard-opening.jpg" alt="Image" width="100%">
                     <span class="imgtitle">Prime Minister Imran Khan inaugurated the new electronic scoreboard.</span>
                 </div>
             </div>
@@ -77,7 +69,7 @@ $banner_url = $path.'resources/assets/images/banners/cricket.jpg';
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div id="gallerySLide" class="gallery_area">
+                    <div id="gallerySLide" class="sgallery_area2">
 
                         <?php
 						$img_order=array("-1", "0", "1", "2", "3", "24", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23");

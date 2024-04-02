@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^page_permissions$ page-permissions.php [L]
+
+

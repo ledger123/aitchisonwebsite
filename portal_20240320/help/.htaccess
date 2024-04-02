@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^it-helpdesk$ index.php [L]
+RewriteRule ^it-essentials$ itessentials.php [L]
+RewriteRule ^parentsguide$ parents-guide.php [L]
+RewriteRule ^studysupport$ study-support.php [L]
+RewriteRule ^troubleshoot-guide$ troubleshoot.php [L]
+RewriteRule ^internet-wifi$ internet-services.php [L]
+RewriteRule ^feedbacks$ feedback.php [L]
+RewriteRule ^copyright$ copyrights.php [L]
+RewriteRule ^disclaimers$ disclaimer.php [L]

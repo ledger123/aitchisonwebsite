@@ -7,25 +7,19 @@ include_once("../path-settings.php");
 $title = "Boarding Houses"; include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/boarding.jpg';
+$page_header = $title;
 ?>
 
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
 
-
-
-
-
-<div class="container">
-
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -40,15 +34,13 @@ $banner_url = $path.'resources/assets/images/banners/boarding.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
 
-    </div>
+<div class="container">
+
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
@@ -56,26 +48,23 @@ $banner_url = $path.'resources/assets/images/banners/boarding.jpg';
             <?php /*
             <p>There are currently seven boarding houses at Aitchison, with a further two under construction opening in 2023 and 2024. Houses have excellent facilities including their own dining halls, prep rooms and common rooms. Each house displays its history in photographs and trophies, marking the achievements of boys throughout our history. A boarder's life graduates from Gwyn (Years 1 to 5) to Saigol (Years 6 to 8) to Bahawalpur (Year 9) then to one of four senior houses, Kelly, Godley, Leslie Jones and K&N's (Years 10 to 13). Life is busy with supervised homework tutorials, games, sports, clubs and occasional outings. The original and true experience of an Aitchisonian still resides in the boarding experience.</p>
             */?>
-            
+
             <p>There are 8 boarding houses at Aitchison that have excellent facilities including their own dining halls, prep rooms and common rooms. Each house displays its history in photographs and trophies, marking the achievements of boys throughout our history. A boarder's life graduates from Gwyn (Years 1 to 5) to Saigol (Years 6 to 8) to Bahawalpur (Year 9) then to one of five senior houses, Kelly, Godley, Leslie Jones, K&N's and Shirazi (Years 10 to 13). Life is busy with supervised homework tutorials, games, sports, clubs and occasional outings. The original and true experience of an Aitchisonian still resides in the boarding experience.</p>
-            <p>The Senior houses are for boys studying O and A Levels or FBISE assessed Matric and FSc. Housemasters are supported by residential teaching Assistant Housemasters. Bahawalpur House is designated for boys in Year 9 or M2. This acknowledges the importance of our Prep Years programme and the role boarding plays in developing boys as leaders in preparation for senior expectations. Housemaster and resident staff oversee the coordination of daily routines, providing caring and disciplined leadership in a 'home' that boys of all ages cherish. Aitchison teachers form the basis of our regular evening tutorial programs from K1 to H2.
-
-</p>
-<P>Boarders can expect to gain admission to the world's best universities. 
-
-</P>
-            <p><br></p>
+            <p>The Senior houses are for boys studying O and A Levels or FBISE assessed Matric and FSc. Housemasters are supported by residential teaching Assistant Housemasters. Bahawalpur House is designated for boys in Year 9 or M2. This acknowledges the importance of our Prep Years programme and the role boarding plays in developing boys as leaders in preparation for senior expectations. Housemaster and resident staff oversee the coordination of daily routines, providing caring and disciplined leadership in a 'home' that boys of all ages cherish. Aitchison teachers form the basis of our regular evening tutorial programs from K1 to H2.</p>
+            <p>Boarders can expect to gain admission to the world's best universities.</p>
+            <p><br/></p>
 
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12" align="center">
-                    <div id="gallerySLide" class="gallery_area">
-						<a href="<?php echo $image_path;?>img/boarding/main/shirazi-house.jpg" title="Shirazi House ">
+                    <div id="gallerySLide" class="sgallery_area2">
+
+                        <a href="<?php echo $image_path;?>img/boarding/main/shirazi-house.jpg" title="K&N's House ">
                             <img class="gallery_img" src="<?php echo $image_path;?>img/boarding/main/small/shirazi-house-s.jpg" alt="img" />
-                            <span class="view_btn">Shirazi  House</span>
+                            <span class="view_btn">Shirazi House</span>
                         </a>
                         <a href="<?php echo $image_path;?>img/boarding/main/knn.jpg" title="K&N's House ">
                             <img class="gallery_img" src="<?php echo $image_path;?>img/boarding/main/small/knn.jpg" alt="img" />
-                            <span class="view_btn">K&N's  House</span>
+                            <span class="view_btn">K&N's House</span>
                         </a>
                         <a href="<?php echo $image_path;?>img/boarding/main/kelly-new.jpg" title="Kelly House ">
                             <img class="gallery_img" src="<?php echo $image_path;?>img/boarding/main/small/kelly-new.jpg" alt="img" />
@@ -135,6 +124,19 @@ $banner_url = $path.'resources/assets/images/banners/boarding.jpg';
                             <?php
                         }
                         ?>
+
+                        <?php
+                        $img_arr=[24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42];
+                        for($i= 0; $i < count($img_arr); $i++){
+                            ?>
+                            <a href="<?php echo $image_path;?>img/boarding/main/<?php echo $img_arr[$i];?>.jpg" title="">
+                                <img class="gallery_img" src="<?php echo $image_path;?>img/boarding/main/small/<?php echo $img_arr[$i];?>.jpg" alt="img" />
+                                <span class="view_btn"></span>
+                            </a>
+                            <?php
+                        }
+                        ?>
+
 
                     </div>
                 </div>

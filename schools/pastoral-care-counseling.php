@@ -6,24 +6,130 @@ include_once("../path-settings.php");
 
 $title = "Pastoral Care and Counseling"; include_once($path."header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
+$banner_url = $path.'resources/assets/images/banners/our-school/our-school.jpg';
+$page_header = $title;
 ?>
+<style>
+    .quote {
+        padding: 0 6.5rem;
+    }
+    .quote-header {
+        color: #00205b; margin-left: 7.6rem;border-bottom: 2px solid #ffc845;
+    }
+
+    .quote-body {
+        padding: 1.5rem 8.2rem; font-style: italic; font-size: 1.3rem; font-weight: 600;line-height: 1.3;
+    }
+
+    .quote-footer {
+        margin-right: 7.6rem;border-top: 2px solid #ffc845; text-align: right;
+    }
+
+    .quote-footer > div {
+        padding: 1rem 7.3rem;
+        padding-right: 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+
+    .ps-xs-0 {
+        padding-left: inherit;
+    }
+
+    .pe-xs-0 {
+        padding-right: inherit;
+    }
+
+    @media (max-width: 1024px) {
+
+        .quote {
+            padding: 0 0;
+        }
+
+        .quote-header {
+            margin-left: 6.8rem;;
+        }
+
+        .quote-body {
+            padding: 1.5rem 6.6rem;
+        }
+
+        .left-quote {
+            width: 4.7rem;
+            padding-top: 10px;
+        }
+
+        .right-quote {
+            width: 4.7rem;
+        }
+
+        .quote-footer {
+            margin-right: 6.8rem;
+        }
+
+        .quote-footer > div {
+            padding: 1rem 6.7rem;
+            padding-right: 4.5px;
+        }
+    }
+
+    @media (max-width: 576px) {
+
+        .left-quote {
+            width: 3rem;
+            padding-top: 10px;
+        }
+
+        .quote-header {
+            margin-left: 4.2rem;
+        }
+
+        .quote-body {
+            padding: 1.5rem .5rem 1.5rem 1.7rem;
+
+            font-size: 1rem;
+        }
+
+        .right-quote {
+            width: 3rem;
+        }
+
+        .quote-footer {
+            margin-right: 4.5rem;
+        }
+
+        .quote-footer > div {
+            padding-right: 0;
+            font-size: .8rem;
+            padding-left: 0.2rem;
+        }
+
+        .ps-xs-0 {
+            padding-left: 0!important;
+        }
+
+        .pe-xs-0 {
+            padding-right: 0!important;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .quote-body {
+
+            font-size: .7rem;
+        }
+    }
+</style>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-
-
-
-
-<div class="container">
-<div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -38,31 +144,36 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-<div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-12 mb-3">
 
-            <div class="row justify-content-center" style="margin-left: 0; margin-right: 0;">
-                <div class="w-auto">
-                    <p style="font-size: 18px; line-height: 1.3em; font-weight: bold; font-style: italic;">
-                        “
-                        If you think in years, plant rice, <br>
-                        &nbsp;&nbsp;&nbsp;If you think in decades, plant trees, <br>
-                        &nbsp;&nbsp;If you think in centuries, educate your children.&nbsp;”
-                    </p>
-                    <p class="text-end">(Chinese philosophy)</p>
+            <div class="row quote">
+                <div>
+                    <div class="float-start left-quote">
+                        <img src="<?php echo $image_path; ?>img/history/left-quote.png" class="img-fluid" alt="left quote">
+                    </div>
+                </div>
+
+                <div class="quote-body">
+                    If you think in years, plant rice,<br>If you think in decades, plant trees,<br>If you think in centuries, educate your children.
+                </div>
+                <div>
+                    <div class="float-end right-quote">
+                        <img src="<?php echo $image_path; ?>img/history/right-quote.png" class="img-fluid" alt="right quote">
+                    </div>
+                    <div class="quote-footer">
+                        <div>(Chinese philosophy)</div>
+                    </div>
                 </div>
             </div>
+
             <div class="row" style="margin-left: 0; margin-right: 0;">
 
                 <p style="padding-top: 3px; line-height: 1.8em;">
@@ -76,9 +187,7 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
                 <p style="padding: 0 15px;">Leadership programmes instill respect for the College and the vast array of individual talents within the cohort.</p><br>
             </div>
             <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-12 ms-auto me-auto">
-                    <img src="<?php echo $image_path;?>img/pcare1.jpg" alt="" class="img-fluid img-rounded">
-                </div>
+                <img src="<?php echo $image_path;?>img/pcare1.jpg" alt="" class="img-fluid img-rounded" style="width: 100%; padding: 0 1.7rem;">
             </div>
 
         </div>

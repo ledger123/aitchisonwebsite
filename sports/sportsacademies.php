@@ -7,21 +7,18 @@ include_once("../path-settings.php");
 $title = "Sports Academies"; include_once($path."header-includes.php");
 
 //$banner_url = $path.'resources/assets/images/banners/old-building-v2.jpg';
-$banner_url = $path.'resources/assets/images/banners/sports-academy-20230221.jpg';
+$banner_url = $path.'resources/assets/images/banners/sports/sports-academy.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-<div class="container">
-
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -36,16 +33,12 @@ $banner_url = $path.'resources/assets/images/banners/sports-academy-20230221.jpg
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
@@ -53,17 +46,20 @@ $banner_url = $path.'resources/assets/images/banners/sports-academy-20230221.jpg
 
             <div class="row">
                 <div class="col-lg-12  col-lg-offset-1 col-md-12 col-md-offset-1 col-sm-12 col-sm-offset-1">
-                    <div id="gallerySLide" class="gallery_area">
+                    <div id="gallerySLide" class="sgallery_area2">
                         <?php
                         $titles=array("", "Cricket Academy", "Cricket Academy", "Cricket Academy", "Cricket Academy", "Cricket", "Squash", "Swimming", "Swimming", "Swimming", "Hockey", "Hockey", "Hockey", "Basketball", "Basketball", "Tennis", "Football", "Football", "Football");
                         $galArray = ["", "19", "20", "21", "22", "5", "6", "16", "17", "23", "7", "8", "9", "10", "15", "11", "12", "13", "14"];
 
                         $foldername=$image_path."galimages/sportsacademies/";
                         $foldernames=$image_path."galimages/sportsacademies/small1/";
-                        for($i=1 ; $i <=count($galArray); $i++){
-                            if(!file_exists($foldername.$galArray[$i].".jpg")){
-                                continue;
-                            }
+
+                        for($i=1 ; $i <count($galArray); $i++){
+
+//                            if(!file_exists($foldername.$galArray[$i].".jpg")){
+//                                echo $foldername.$galArray[$i].".jpg" . '<br/>';
+//                                continue;
+//                            }
                             ?>
                             <a href="<?php echo $foldername.$galArray[$i];?>.jpg" title="<?php echo strip_tags($titles[$i]);?>">
                                 <img class="gallery_img" src="<?php echo $foldernames.$galArray[$i];?>.jpg" alt="<?php echo $titles[$i];?>" />

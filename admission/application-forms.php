@@ -8,18 +8,79 @@ include_once("../path-settings.php");
 $title = "Application Forms"; include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
+$page_header = $title;
 ?>
 
-<body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
+<style>
 
-<?php include_once ($path.'logo-page-banner.php'); ?>
+    .a-box {
+        margin-bottom: calc(var(--bs-gutter-x) * 1);
+    }
+
+    .a-box > a {
+        color: #00205b; text-transform: uppercase; width:100%; text-align: center;
+    }
+
+    .a-box > a > div {
+        border: 1px #00205b solid; padding: 30px 10px;
+    }
+
+    .a-box > a > div div {
+        font-size: 12px;
+    }
+
+    .a-box > a > div h4 {
+        font-weight: bold; margin-bottom: 0;
+    }
+
+
+    .a-box > a > div:hover {
+        color: #ffc845;
+        background-color: #00205b;
+    }
+
+
+    .down-arrow {
+        font-size: 56px;
+    }
+
+    @media (max-width: 576px) {
+        .a-box-margin {
+            margin: 0 0px;
+        }
+        .col-sm-10 {
+            flex: 0 0 auto;
+            width: 83.33333333%;
+        }
+        .col-sm-2 {
+            flex: 0 0 auto;
+            width: 16.66666667%;
+        }
+
+        .down-arrow {
+            font-size: 42px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .a-box > a > div div {
+            font-size: 10px;
+        }
+
+        .down-arrow {
+            font-size: 40px;
+        }
+
+    };
+</style>
+<body>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -34,60 +95,84 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
+<div class="container">
     
-
-
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
             <div class="row mt-5">
-                <div class="col-lg-9 col-md-8 col-sm-12">
-                    <div class="col-lg-11 col-md-12 col-sm-12">
-                        <div style="margin-bottom:10px;">
-                            <span style="font-size:15px;">
-                            <a class="btn btn-primary" href="https://aitchison.edu.pk/portal/data/2024-25/admission-form-2024-25.pdf" style="width:100%;white-space:normal;max-width:100%;" rel="nofollow" target="_blank">Application Form</a>
-                            </span>
+            
+                <div class="col-lg-11 col-md-12 col-sm-12">
+
+                    <div class="row">
+
+                        <?php /* <div class="a-box col-lg-4 col-md-4 col-sm-6">
+                            <a
+                                href="https://aitchison.edu.pk/portal/data/2023-24/admissions/Admission-Form-2023-24-v5.pdf" rel="nofollow" target="_blank">
+                                <div style="border: 1px #00205b solid; padding: 30px 10px">
+                                    <div>C1 Boarding</div>
+                                    <h4 style="font-weight: bold; margin-bottom: 0;">Application Form</h4>
+                                </div>
+                            </a>
+                        </div> */?>
+
+                        <div class="row a-box-margin">
+                            <div class="a-box col-lg-8 col-md-8 col-sm-12">
+                                <a href="https://aitchison.edu.pk/portal/data/2024-25/admission-form-2024-25.pdf" rel="nofollow" target="_blank">
+                                    <div class="row">
+                                        <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
+                                            <div class="text-center" style="display: inline-block;">
+                                                <div>&nbsp;</div>
+                                                <h2>Application Form</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 col-md-2 col-sm-2">
+                                            <i class="fas fa-download down-arrow"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
 
-                        <?php /*
-                        <div style="margin-bottom:10px;">
-                            <span style="font-size:15px;">
-                            <a class="btn btn-primary" href="https://aitchison.edu.pk/portal/data/2023-24/admissions/Admission-Form-2023-24-v5.pdf" style="width:100%;white-space:normal;max-width:100%;" rel="nofollow" target="_blank">C1 Boarding Application Form</a>
-                            </span>
-                        
-                        
-                        <div style="margin-bottom:10px;">
-                            <span style="font-size:15px;">
-                            <a class="btn btn-primary" href="https://aitchison.edu.pk/portal/data/2023-24/admissions/H1-FSc-Admission-Form-2023-24.pdf" style="width:100%;white-space:normal;max-width:100%;" rel="nofollow" target="_blank">A Level / FSc Admission Form</a>
-                            </span>
+<!--
+                        <div class="a-box col-lg-4 col-md-4 col-sm-6">
+                            <a
+                                href="https://aitchison.edu.pk/portal/data/2023-24/admissions/H1-FSc-Admission-Form-2023-24.pdf" rel="nofollow" target="_blank">
+                                <div>
+                                    <div>A Level / FSc</div>
+                                    <h4>Admission Form</h4>
+                                </div>
+                            </a>
                         </div>
-                        <div style="margin-bottom:10px;">
-                            <span style="font-size:15px;">
-                            <a class="btn btn-primary" href="https://aitchison.edu.pk/portal/data/2023-24/admissions/Subject-Selection-Form-2023-24-v1.pdf" style="width:100%;white-space:normal;max-width:100%;" rel="nofollow" target="_blank">A Level Subject Selection Form</a>
-                            </span>
+
+                        <div class="a-box col-lg-4 col-md-4 col-sm-6">
+                            <a
+                                href="https://aitchison.edu.pk/portal/data/2023-24/admissions/Subject-Selection-Form-2023-24-v1.pdf" rel="nofollow" target="_blank">
+                                <div>
+                                    <div>A Level Subject</div>
+                                    <h4>Selection Form</h4>
+                                </div>
+                            </a>
                         </div>
-                        <div style="margin-bottom:10px;">
-                            <span style="font-size:15px;">
-                            <a class="btn btn-primary" href="https://aitchison.edu.pk/portal/data/2023-24/admissions/Evaluation-Form-v2.pdf" style="width:100%;white-space:normal;max-width:100%;" rel="nofollow" target="_blank">A Level / FSc Evaluation Form</a>
-                            </span>
-                        </div>
-                        </div> */?>
-                        <?php if(false) { ?>
-                        <?php } ?>
-                        <p>&nbsp;</p>
-                        <p>NTN: 4199854-5</p>
+
+                        <div class="a-box col-lg-4 col-md-4 col-sm-6">
+                            <a
+                                href="https://aitchison.edu.pk/portal/data/2023-24/admissions/H1-FSc-Admission-Form-2023-24.pdf" rel="nofollow" target="_blank">
+                                <div>
+                                    <div>A Level / FSc</div>
+                                    <h4>Evaluation Form</h4>
+                                </div>
+                            </a>
+                        </div> -->
                     </div>
+                    <p>&nbsp;</p>
+                    <p style="color: #00205b;">NTN: 4199854-5</p>
                 </div>
+            
             </div>
         </div>
         <!-- End Left Area -->

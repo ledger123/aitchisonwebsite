@@ -10,6 +10,7 @@ include_once($path."resources/php/utils.php");
 $banner_url = $path.'resources/assets/images/banners/gallery.jpg';
 
 
+
 $banner_image_url="img/banner.jpg";
 
 
@@ -262,35 +263,22 @@ if($gal_id == 14){
 }
 
 
-$title = $gal_array["events"]["title"][$gal_id]; include_once($path."header-includes.php");
+$title = $gal_array["events"]["title"][$gal_id];
+$page_header = $title;
+include_once($path."header-includes.php");
+
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>resources/css/gallery-style.css?v=1">
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-<nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
 
-    <div class="logo-left">
-
-    </div>
-
-</nav>
-
-<section class="page-banner" style="background: url('<?php echo $banner_url; ?>')">
-
-    <div class="container banner-text">
-        <div class="banner-heading">
-
-        </div>
-    </div>
-</section>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-<div class="container-fluid">
-
-    <div class="row mx-lg-5 mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -302,30 +290,35 @@ $title = $gal_array["events"]["title"][$gal_id]; include_once($path."header-incl
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div style="height: 60px;"></div>
+            <div></div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid">
 
-    <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="col-12 page-title">
-            <h1><?php echo $gal_array["events"]["title"][$gal_id]; ?></h1>
-        </div>
+<div class="container">
 
+    <div class="row mt-3">
+        <?php include_once ('right-panel-links.php'); ?>
     </div>
+
 </div>
+
+
+
 
 <div class="container">
 
     <!-- Contents -->
-    <div class="row">
-
+    <div class="row page-contents">
+		<?php /*?><div class="col-12 page-title" style="padding-left: 0px !important;">
+            <h1><?php echo $gal_array["events"]["title"][$gal_id]; ?></h1>
+        </div><?php */?>
         <!-- Content Area -->
         <div class="col-lg-12 col-md-12 col-sm-12">
             <div id="gallerySLide" class="sgallery_area4">
                 <?php
+				$image_path="../";
                 $foldername=$image_path."galimages/images/".$gal_id."/";
 
                 $dh  = opendir($foldername);

@@ -7,20 +7,18 @@ include_once("../path-settings.php");
 $title = "Guidance for Admissions"; include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
 
-
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -35,23 +33,18 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-    
+<div class="container">
 
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
-            <ol style="padding-left: 20px; line-height: 1.8; list-style-type: decimal;">
+        <ol style="padding-left: 20px; line-height: 1.8; list-style-type: decimal;">
                 <li>
                     <p>The application forms for Class C1 &amp; H1 International Boarders are available online. The Application Form with all other admission information can be downloaded from the following link: <a href="https://aitchison.edu.pk/school_doc/admission-2024/International-Boarding-Application-Form-2024-25.pdf" target="_blank"><span style="color: blue;">Download Application Form 2024-25</span></a></p>
                 </li>
@@ -74,7 +67,6 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
             <p><strong>THE LAST DATE FOR RECEIPT OF APPLICATION IS: 5.00 P.M. ON SUNDAY 31<sup>st</sup> MARCH, 2024</strong></p>
             
             <br>
-            
         </div>
         <!-- End Left Area -->
 

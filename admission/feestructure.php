@@ -4,25 +4,21 @@
 <?php
 include_once("../path-settings.php");
 
-$title = "Fee Structure 2023-24"; 
 $title="Fee Structure 2023-24";
 include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
+$page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
-
-
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -37,30 +33,23 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
+<div class="container">
     
-
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
-			
             <div align="center" class="table-responsive" style="overflow-x:auto;">
                 <table align="center" class="fee-table table table-bordered" style="width:80%; min-width: 300px;">
-                <tbody>
+                    <tbody>
                     <tr style="background-color: #293594; color: #FFF;">
                         <th style="width: 33%; min-width: 155px; vertical-align: middle; text-align: center; white-space: nowrap;">Classes</th>
                         <th style="width: 33%; min-width: 110px; vertical-align: middle; text-align: center; white-space: nowrap;">Tuition Fee <br> (per month)</th>
                         <th style="width: 34%; min-width: 149px;vertical-align: middle; text-align: center; white-space: nowrap;">Boarding Charges<br />
-                        (per month)</th>
+                            (per month)</th>
                     </tr>
                     <tr>
                         <td style="text-align: left;">K1, K2, K3, K4, K5</td>
@@ -82,15 +71,15 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
                         <td style="text-align: center;">77,500</td>
                         <td style="text-align: center;">70,700</td>
                     </tr>
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
             </div>
 
             <h3 align="center">Other Charges</h3>
 
             <div align="center" class="table-responsive" style="overflow-x:auto;">
-            <table align="center" class="fee-table table table-bordered" style="width:80%; min-width: 300px;">
-                <tbody>
+                <table align="center" class="fee-table table table-bordered" style="width:80%; min-width: 300px;">
+                    <tbody>
                     <tr style="background-color: #293594; color: #FFF;">
                         <th style="width: 33%; min-width: 155px; vertical-align: middle; text-align: center; white-space: nowrap;">Particulars</th>
                         <th style="width: 33%; min-width: 110px; vertical-align: middle; text-align: center; white-space: nowrap;">Amount (Rs)</th>
@@ -116,8 +105,8 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
                         <td style="text-align: center;">6,000</td>
                         <td style="text-align: center;">Optional</td>
                     </tr>
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
             </div>
 
 

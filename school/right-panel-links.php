@@ -2,7 +2,9 @@
     <li><a href="about-us" class="<?php if($req_page_name==='about-us') echo 'active';?>" target="_parent">About Us</a></li>
     <li><a href="history" class="<?php if($req_page_name==='history') echo 'active';?>" target="_parent">History</a></li>
     <li><a href="archive" class="<?php if($req_page_name==='archive') echo 'active';?>" target="_parent">Archives</a></li>
-    <?php /*?><li><a href="board-of-governors" class="<?php if($req_page_name==='board-of-governors') echo 'active';?>" target="_parent">Governors</a></li><?php */?>
+    <?php /* 
+    <li><a href="board-of-governors" class="<?php if($req_page_name==='board-of-governors') echo 'active';?>" target="_parent">Governors</a></li>
+     */?>
     <li><a href="principal-office" class="<?php if($req_page_name==='principal-office') echo 'active';?>" target="_parent">Principal</a></li>
     <li><a href="../leading-staff/school-heads" class="<?php if($req_page_name==='leading-staff') echo 'active';?>" target="_parent">Leading Staff</a></li>
     <li><a href="school-organization" class="<?php if($req_page_name==='school-organization') echo 'active';?>" target="_parent">School Organization</a></li>

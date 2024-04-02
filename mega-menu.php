@@ -40,8 +40,8 @@
                     <li><a href="<?php echo $path;?>admission/guide-to-syllabus-and-admission-testing">A guide to syllabus and admission testing</a></li>
 
 <!--                    <li><a href="--><?php //echo $path;?><!--admission/download-application-forms">Application Forms</a></li>-->
-					<li><a href="<?php echo $path;?>admission/admissions-testing-schedule">Admission Testing Schedule 2024-25</a></li>
-                    
+                    <li><a href="<?php echo $path;?>admission/admissions-testing-schedule">Admission Testing Schedule 2024-25</a></li>
+
                     <li><a href="<?php echo $path;?>admission/important-dates-admissions">Table of important dates 2024-25</a></li>
 
 
@@ -50,7 +50,7 @@
                     <?php /* <li><a href="a-level-applications">Admission To A Level And F.Sc<span style="font-size:12px;"> (Pre-Medical)</span> 2021-22</a></li> */?>
                     <li><a href="<?php echo $path;?>boarding/international-enrolment">International Enrolments</a></li>
 
-                    
+
                 </ul>
                 <ul class="wsfulllinksty" role="menu">
                 </ul>

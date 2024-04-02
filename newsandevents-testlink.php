@@ -1,14 +1,5 @@
 <?php
 //ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
-$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-$blockNewsIds=array(239, 340);
-if(in_array($newsId, $blockNewsIds)) {
-	header("Location: https://aitchison.edu.pk/404", true, 301);
-	exit;
-    //http_response_code(404);
-    //include('my_404.php'); // provide your own HTML for the error page
-    //die();
-}
 
 $path = '';
 $imagePath = '';
@@ -26,7 +17,7 @@ $dc->Connect();
 
 $newsRepo = new NewsRepository($dc);
 
-//$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+$newsId	   = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 if($newsId==1506){
 	header("location: news-1506-u-14-asian-tennis-championship");
 	exit();
@@ -46,10 +37,7 @@ if ($newsId > 0)
         $OptNewsType	   = $row->NewsType;
         $OpenAccess		   = $row->OpenAccess;
         $active    	  	   = $row->Active;
-    }else{
-		header("Location: https://aitchison.edu.pk/404", true, 301);
-		exit;    
-	}
+    }
 
 }
 
@@ -64,57 +52,52 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
 <!DOCTYPE html>
 <html>
 
-<?php $title = "News and Events"; include_once ("header-includes.php");?>
+<?php $title = "News and Events"; include_once ("header-includes.php");
+
+$banner_url = $path.'resources/assets/images/banners/news-events.jpg';
+$page_header = $title;
+
+?>
+
 
 <body>
 
-<!-- News Header -->
-<?php include_once ('news-header.php'); ?>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
+<?php include_once("mega-menu.php");?>
 
-<!-- News Alerts -->
-<div class="container-fluid" style="margin-top: -7px;">
-    <?php include_once ('news-alerts.php'); ?>
-
-</div>
-
-<!-- End News Alerts -->
 <style>
     #sect-newsalert {
         position: inherit;
     }
 </style>
 
-<div class="container">
 
-    <div class="row mx-lg-5 mt-2">
-        <div class="col-lg-9 col-md-12 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="./">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><a href="./news-room">News and Events</a></li>
+                    <li class="breadcrumb-item active" aria-current="page"><a href="news-room">News and Events</a></li>
                     <li class="breadcrumb-item active" aria-current="page">News</li>
                 </ol>
             </nav>
 
         </div>
-
-        <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div></div>
-        </div>
     </div>
 </div>
-
 
 
 <div class="container">
 
     <!-- Contents -->
-    <div class="row mx-lg-5">
+    <div class="row page-contents">
 
         <!-- News Area -->
-        <div class="col-lg-12 col-md-12 col-sm-12 mb-5">
+        <div class="col-lg-9 col-md-12 col-sm-12 mb-5">
 
             <?php
             if($newsId>0)
@@ -140,13 +123,6 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
                         $templatePath = $imagePath."";
 
                         include($templatePath."newsletter/news/templates/updated/addtemplate.php");
-
-                        if($newsId === 239){
-                            echo
-                            '<h5>
-                                Error: Page does not exist.
-                            <h5>';
-                        }
                     }
                     else
                     {
@@ -187,13 +163,12 @@ if(strpos($_SERVER['REQUEST_URI'], ".php")){
         </div>
         <!-- End News Area -->
 
-        <?php /*
         <!-- Right Area -->
         <div class="col-lg-3 col-md-6 col-sm-12 text-center">
 
         </div>
         <!-- End Right Area -->
-        */?>
+
 
     </div>
     <!-- End Contents -->

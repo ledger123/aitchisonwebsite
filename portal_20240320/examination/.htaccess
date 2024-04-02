@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^predicted-grade-report$ predicted-grades-report.php [L]

@@ -7,27 +7,18 @@ include_once("../path-settings.php");
 $title = "University Counseling"; include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
+$page_header = $title;
 ?>
-<style>
-	.paddingtop	{
-		margin-top: 10px;
-		margin-bottom: 20px !important;
-	}
-	.h5color{
-		color: #00205b;
-	}
-</style>
-<body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
 
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<body>
+<?php include_once ($path.'new-logo-page-banner.php'); ?>
 
 <?php include_once($path."mega-menu.php");?>
 
 
-<div class="container">
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -42,23 +33,17 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
+<div class="container">
     
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
-
-    </div>
-    
-
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
 
-            <p>Transitioning students into post schooling studies is now an indispensable part of a school's educational responsibility. Aitchison employs highly experienced counselors to handle US, UK (and other international) and National admissions. Our aims are to:</p>
+        <p>Transitioning students into post schooling studies is now an indispensable part of a school's educational responsibility. Aitchison employs highly experienced counselors to handle US, UK (and other international) and National admissions. Our aims are to:</p>
             <ol style="list-style: decimal; line-height: 30px !important; padding-left: 25px; margin-left: 25px;">
                 <li>Offer the latest information and accurate advice to enable students to identify the best university options and career pathways.</li>
                 <li>Facilitate and streamline the application process for students into local and international universities.</li>
@@ -80,20 +65,13 @@ $banner_url = $path.'resources/assets/images/banners/old-building-v8.jpg';
 				</div>
 			</div>
             <div class="row" style="margin-top:20px; margin-bottom:20px;">
-				<!-- <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php //echo $image_path;?>/img/pageimages/cc-1-a-20230922.jpg" alt="" class="img-fluid"></p>
-                </div> -->
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php echo $image_path;?>/img/pageimages/cc-a-20230922.jpg" alt="" class="img-fluid"></p>
+                <div class="col-lg-6 col-md-6 col-sm-12 ps-1 pb-2">
+                    <img src="<?php echo $image_path;?>/img/pageimages/cc-a-20230922.jpg" alt="" class="img-fluid">
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php echo $image_path;?>/img/pageimages/cc-b-20230922.jpg" alt="" class="img-fluid"></p>
+				<div class="col-lg-6 col-md-6 col-sm-12 pe-1">
+                    <img src="<?php echo $image_path;?>/img/pageimages/cc-b-20230922.jpg" alt="" class="img-fluid">
                 </div>
-				<!-- <div class="col-lg-6 col-md-6 col-sm-12">
-                    <p><img src="<?php //echo $image_path;?>/img/pageimages/cc-2-c-20230922.jpg" alt="" class="img-fluid"></p>
-                </div> -->
 				
-                
             </div>
         </div>
         <!-- End Left Area -->

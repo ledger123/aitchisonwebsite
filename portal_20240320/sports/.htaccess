@@ -1,0 +1,10 @@
+RewriteEngine on
+RewriteRule ^termswise-calendar$ termwise-calendar.php [L]
+RewriteRule ^riding_calendar$ riding-calendar.php [L]
+RewriteRule ^riding_timetable$ riding-timetable.php [L]
+RewriteRule ^general_calendar$ general-calendar.php [L]
+RewriteRule ^cricket_calendar$ cricket-calendar.php [L]
+RewriteRule ^basket-ball-calendar$ basketball-calendar.php [L]
+RewriteRule ^football_calendar$ football-calendar.php [L]
+RewriteRule ^hockey_calendar$ hockey-calendar.php [L]
+RewriteRule ^swimming_calendar$ swimming-calendar.php [L]

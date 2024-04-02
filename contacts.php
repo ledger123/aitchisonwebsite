@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
 <?php
+
+include_once("path-settings.php");
 $path = '';
+//echo 'path: '.$path;
 
-$title = "Contact Details"; include_once("header-includes.php");
+$title = "Contact Details"; 
 
-$banner_url = $path.'resources/assets/images/banners/contacts.jpg';
+include_once("header-includes.php");
+//echo 'path: '.$path;
+$banner_url = 'resources/assets/images/banners/old-building-v8.jpg';
+$page_header = $title;
+
 ?>
 
 <body>
-<?php include_once ('top-menu-bar.php'); ?>
-
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ('new-logo-page-banner.php'); ?>
 
 <?php include_once("mega-menu.php");?>
 
-
-<div class="container">
-
-    <div class="row mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -34,19 +37,16 @@ $banner_url = $path.'resources/assets/images/banners/contacts.jpg';
             <div></div>
         </div>
     </div>
+</div>
 
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title page-title2">
-            <h1><?php echo $title; ?></h1>
-        </div>
 
-    </div>
+<div class="container">
 
     <!-- Contents -->
-    <div class="row">
+    <div class="row page-contents">
 
         <!-- Left Area -->
-        <div class="col-lg-9 col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
 
             <p></p>
 
@@ -79,10 +79,9 @@ $banner_url = $path.'resources/assets/images/banners/contacts.jpg';
                     <tr>
                         <td><strong>Head of Human Resources:</strong></td><td>hr@aitchison.edu.pk (for general employment)</td>
                     </tr>
-					<tr>
-                        <td nowrap><strong>Controller Examinations Senior School:</strong></td>
-						<td>controllerexam@aitchison.edu.pk</td>
-                    </tr>	
+                    <tr>
+                        <td><strong>Controller Examinations Senior School:</strong></td><td>controllerexam@aitchison.edu.pk</td>
+                    </tr>
                     <tr>
                         <td><strong>Games Master:</strong></td><td>games@aitchison.edu.pk (for all matters pertaining to Sports)</td>
                     </tr>
@@ -136,24 +135,6 @@ $banner_url = $path.'resources/assets/images/banners/contacts.jpg';
         </div>
         <!-- End Left Area -->
 
-        <!-- Right Area -->
-        <div class="col-lg-3 col-md-6 col-sm-12 text-center news-links">
-
-        </div>
-        <!-- End Right Area -->
-
-        <div class="col-lg-9 col-md-12 col-sm-12">
-
-            <div class="divider"></div>
-
-            <div class="row">
-
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-12 col-sm-12">
-
-        </div>
     </div>
     <!-- End Contents -->
 

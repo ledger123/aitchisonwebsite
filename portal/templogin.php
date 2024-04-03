@@ -65,8 +65,8 @@ if(strlen($portal) > 5 &&
 			//$studing = " AND st.studing NOT LIKE '% (Pre)' ";
 			//$studing.=" and st.schoolNo IN(16433)";
 		}
-		if(false && (date("Y-m-d") == "2023-12-04" || date("Y-m-d") == "2023-12-04")){
-			$studing.=" and st.schoolNo IN(501, 80441)";
+		if(false && (date("Y-m-d") == "2024-04-03" || date("Y-m-d") == "2024-04-03")){
+			$studing.=" and st.schoolNo IN(20555, 21500,20270, 00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,501 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,80441 ,00000 ,20914 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000 ,00000, 501, 80441, 00000)";
 			//$studing.=" and st.schoolNo NOT IN(20786,20785,20740,501, 16433, 20106,20787,20791,20792,20793,19641,99933,17727,19266,20103,20104,20092,18838,20756,18996,18997,20760,19588,16433,18853,80441,17391,17964,17427)";
 		}
 				
@@ -132,7 +132,7 @@ if(strlen($portal) > 5 &&
 function getTemporaryAccessiblePages () {
 	$accessiblePages = array();
 
-	//$accessiblePages[] = array("pageid"=>"20221201", "url"=>"fee/fee-bills.php");
+	$accessiblePages[] = array("pageid"=>"20240403", "url"=>"fee/fee-bills.php");
 
 	//$accessiblePages[] = array("pageid"=>"202309191", "url"=>"myattendance");
 	

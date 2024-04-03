@@ -181,7 +181,7 @@ $page_header = $title;
         <!-- Right Area -->
         <div class="col-lg-3 col-md-6 col-sm-12">
 
-            <h4>RECENT News & Events</h4>
+            <h4>Recent News & Events</h4>
 
             <?php
             $imagesPath = "../newsletter/news/";

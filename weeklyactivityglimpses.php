@@ -78,6 +78,7 @@ if(file_exists($page_glimse_name_title)){
 include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/gallery.jpg';
+$page_header = $title;
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>resources/css/gallery-style.css?v=1">
 <style>
@@ -155,16 +156,14 @@ $banner_url = $path.'resources/assets/images/banners/gallery.jpg';
 
 </style>
 <body>
-<?php include_once ($path.'top-menu-bar.php'); ?>
 
-<?php include_once ($path.'logo-page-banner.php'); ?>
+<?php include_once ('new-logo-page-banner.php'); ?>
 
-<?php include_once($path."mega-menu.php");?>
+<?php include_once("mega-menu.php");?>
 
-<div class="container-fluid">
-
-    <div class="row mx-lg-5 mt-2">
-        <div class="col-lg-9 col-md-6 col-sm-12">
+<div class="breadcrumb-bar">
+    <div class="container">
+        <div class="row">
 
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -177,7 +176,7 @@ $banner_url = $path.'resources/assets/images/banners/gallery.jpg';
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div style="height: 60px;"></div>
+            <div></div>
         </div>
     </div>
 </div>
@@ -185,21 +184,15 @@ $banner_url = $path.'resources/assets/images/banners/gallery.jpg';
 
 <div class="container">
 
-    <div class="row">
-        <?php include_once ('right-panel-links.php'); ?>
-    </div>
+    <div class="row page-contents">
+        <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="col-12">
+                <p style="font-size:1.5rem;color:#800000;text-align: left;"><?php echo $second_title;?></p>
+            </div>
 
-</div>
-
-<div class="container-fluid">
-
-    <div class="col-lg-9 col-md-12 col-sm-12">
-        <div class="col-12 page-title">
-            <h1><?php echo $title; ?></h1>
-			<p style="font-size:1.5rem;color:#800000;text-align: left;"><?php echo $second_title;?></p>
         </div>
-
     </div>
+
 </div>
 
 <div class="container">

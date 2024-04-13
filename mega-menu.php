@@ -9,8 +9,8 @@
                     <li><a href="<?php echo $path;?>school/about-us">About Us</a></li>
                     <li><a href="<?php echo $path;?>school/history">History</a></li>
                     <li><a href="<?php echo $path;?>school/archive">Archives</a></li>
-                    <?php /*?><li><a href="<?php echo $path;?>school/board-of-governors">Governors</a></li><?php */?>
-                    <li><a href="<?php echo $path;?>school/principal-office">Principal</a></li>
+                    <?php /*?><li><a href="<?php echo $path;?>school/board-of-governors">Governors</a></li>
+                    <li><a href="<?php echo $path;?>school/principal-office">Principal</a></li><?php */?>
                     <li><a href="<?php echo $path;?>school/leading-staff">Leading Staff</a></li>
                     <li class="mb-lg-5 mb-md-5"><a href="<?php echo $path;?>school/school-organization">School Organization</a></li>
                     <li><a href="<?php echo $path;?>school/past-principals">Past Principals</a></li>

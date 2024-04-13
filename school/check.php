@@ -11,7 +11,7 @@
         "history2-offline"				=>	"school_history2_offline.php",
 		"archive"						=>	"archives.php",
 		//"board-of-governors"			=>	"board_of_governors.php",
-		"principal-office"				=>	"principal.php",
+		//"principal-office"				=>	"principal.php",
 		"leading-staff"					=>	"leading_staff.php",
 		"leading-staff1-offline"			=>	"leading_staff_offline.php",
 		"all-boys-schooling"			=>	"all_boys_schooling.php",

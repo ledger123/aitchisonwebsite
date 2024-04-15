@@ -317,6 +317,37 @@ $page_header = $title;
                     </table>
                 </div>
             </div>
+            <?php
+            $uk = [
+                ['sr' => '1', 'name' => 'University of Cambridge'],
+                ['sr' => '2', 'name' => 'University of Oxford'],
+                ['sr' => '3', 'name' => 'Durham University'],
+                ['sr' => '4', 'name' => 'Imperial College'],
+                ['sr' => '5', 'name' => 'University of York'],
+                ['sr' => '6', 'name' => 'King’s College, London'],
+                ['sr' => '7', 'name' => 'London School Of Economics'],
+                ['sr' => '8', 'name' => 'Queen Mary University of London'],
+                ['sr' => '9', 'name' => 'SOAS University of London'],
+                ['sr' => '10', 'name' => 'Surrey University'],
+                ['sr' => '11', 'name' => 'UCL'],
+                ['sr' => '12', 'name' => 'University of Bath'],
+                ['sr' => '13', 'name' => 'University of Bristol'],
+                ['sr' => '14', 'name' => 'Brunel University'],
+                ['sr' => '15', 'name' => 'University of Edinburgh'],
+                ['sr' => '16', 'name' => 'University of Exeter'],
+                ['sr' => '17', 'name' => 'University of Leeds'],
+                ['sr' => '18', 'name' => 'University of Manchester'],
+                ['sr' => '19', 'name' => 'University of Newcastle'],
+                ['sr' => '20', 'name' => 'University of Nottingham'],
+                ['sr' => '21', 'name' => 'Cardiff University'],
+                ['sr' => '22', 'name' => 'University of Sheffield'],
+                ['sr' => '23', 'name' => 'University of St Andrews'],
+                ['sr' => '24', 'name' => 'University of Sussex'],
+                ['sr' => '25', 'name' => 'University of Warwick'],
+                ['sr' => '26', 'name' => 'Kingston University'],
+
+            ]
+            ?>
             <div>
                 <h3><strong>UK UNIVERSITIES</strong></h3>
             </div>
@@ -324,90 +355,17 @@ $page_header = $title;
                 <div class="col-lg-12 col-md-12 col-sm-12 table-responsive">
                     <table class="table" width="95%" border="0">
                         <tbody>
-                        <tr>
-                            <td width="20">1</td>
-                            <td width="50%">University of Cambridge</td>
-                            <td width="20">15</td>
-                            <td>University of Edinburgh</td>
-                        </tr>
-                        <tr>
-                            <td width="20">2</td>
-                            <td width="50%">University of Oxford</td>
-                            <td width="20">16</td>
-                            <td>University of Exeter</td>
-                        </tr>
-                        <tr>
-                            <td width="20">3</td>
-                            <td width="50%">Durham University</td>
-                            <td width="20">17</td>
-                            <td>University of Leeds</td>
-                        </tr>
-                        <tr>
-                            <td width="20">4</td>
-                            <td width="50%">Imperial College</td>
-                            <td width="20">18</td>
-                            <td>University of Manchester</td>
-                        </tr>
-                        <tr>
-                            <td width="20">5</td>
-                            <td width="50%">University of York</td>
-                            <td width="20">19</td>
-                            <td>University of Newcastle</td>
-                        </tr>
-                        <tr>
-                            <td width="20">6</td>
-                            <td width="50%">King’s College, London</td>
-                            <td width="20">20</td>
-                            <td>University of Nottingham</td>
-                        </tr>
-                        <tr>
-                            <td width="20">7</td>
-                            <td width="50%">London School Of Economics</td>
-                            <td width="20">21</td>
-                            <td>University of Nottingham</td>
-                        </tr>
-                        <tr>
-                            <td width="20">8</td>
-                            <td width="50%">Queen Mary University of London</td>
-                            <td width="20">22</td>
-                            <td>Cardiff University</td>
-                        </tr>
-                        <tr>
-                            <td width="20">9</td>
-                            <td width="50%">SOAS University of London</td>
-                            <td width="20">23</td>
-                            <td>University of Sheffield</td>
-                        </tr>
-                        <tr>
-                            <td width="20">10</td>
-                            <td width="50%">Surrey University</td>
-                            <td width="20">24</td>
-                            <td>University of St Andrews</td>
-                        </tr>
-                        <tr>
-                            <td width="20">11</td>
-                            <td width="50%">UCL</td>
-                            <td width="20">25</td>
-                            <td>University of Sussex</td>
-                        </tr>
-                        <tr>
-                            <td width="20">12</td>
-                            <td width="50%">University of Bath</td>
-                            <td width="20">26</td>
-                            <td>University of Warwick</td>
-                        </tr>
-                        <tr>
-                            <td width="20">13</td>
-                            <td width="50%">University of Bristol</td>
-                            <td width="20">27</td>
-                            <td>Kingston University</td>
-                        </tr>
-                        <tr>
-                            <td width="20">14</td>
-                            <td width="50%">Brunel University</td>
-                            <td width="20"></td>
-                            <td></td>
-                        </tr>
+                        <?php for ($i = 0; $i < count($uk)/2; $i++ ) { ?>
+                            <tr>
+                                <td width="20"><?php echo $uk[$i]['sr'];?></td>
+                                <td width="50%"><?php echo $uk[$i]['name'];?></td>
+                                <td width="20"><?php echo $uk[$i + (count($uk)/2)]['sr'];?></td>
+                                <td><?php echo $uk[$i + (count($uk)/2)]['name'];?></td>
+                            </tr>
+
+                            <?php
+                        } ?>
+
                         </tbody>
                     </table>
                 </div>

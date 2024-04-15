@@ -986,6 +986,8 @@ if($mobile->isMobile()) {
         <div class="col-12">
             <div id="announcements" class="owl-carousel owl-theme">
 
+                <?php /*?>
+
                 <div class="item">
 
                     <a href="sports/cricket-live-scoreboard" target="_blank">
@@ -1005,7 +1007,7 @@ if($mobile->isMobile()) {
                 </div>
 
 
-                <?php /*?>
+
                 <div class="item">
 
                     <a href="news-1564-admissions-to-aitchison-college-2023-24" target="_blank">

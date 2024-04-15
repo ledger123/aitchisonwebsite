@@ -41,11 +41,12 @@ $page_header = $title;
 
         <!-- Left Area -->
         <div class="col-lg-9 col-md-12 col-sm-12">
-
+            <?php /*
             <div class="col-sm-12">
                 <div class="d-none d-md-block text-center" style="float: right;margin: 0px 0px 0px 30px;max-width: 392px;">
+
                     <img src="<?php echo $image_path; ?>img/pageimages/live-scoreboard-opening.jpg" alt="Image" width="100%">
-                    
+
                     <span class="imgtitle">Prime Minister Imran Khan inaugurated the new electronic scoreboard.</span>
                 </div>
 
@@ -55,6 +56,7 @@ $page_header = $title;
                     <span class="imgtitle">Prime Minister Imran Khan inaugurated the new electronic scoreboard.</span>
                 </div>
             </div>
+             */ ?>
 
             <p>Aitchison's name is synonymous with Pakistan cricket. The College has produced a number of famous Test cricketers including Iftikhar Ali Khan Pataudi (Eng and Capt India), Imran Khan, Majid Khan, Rameez Raja and others. Along with these illustrious names is a long list of Ist Class cricketers. The Black Pavilion renamed the Rab Pavilion is home to our main games and is one of the most beautiful pavilions in the country. It features two traditional cricket rooms for the home side and visitors, as well as a central meeting room for lunches and gatherings. Any boy who plays on the MCG has special memories to last a lifetime.The ground boasts a magnificent electronic scoreboard gifted by the ACOBA Old Boys' Association.&nbsp;Over 20 matches are played in a season. Feature games include: Lawrence College, 2-Day Test against Sadiq Public School, Annual ACOBA match and many visiting overseas teams.</p>
 

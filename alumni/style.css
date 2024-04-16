@@ -1488,6 +1488,9 @@ img{
 .blog-news-details p{
   font-size: 14px;
 }
+.blog-news-details p{
+  font-size: 14px;
+}
 
 .blog-more-btn {
   color: #838282;
@@ -2055,6 +2058,7 @@ img{
 
 .blog-single-details ul li{
   list-style: circle;
+  font-size: 14px;
   margin-bottom: 5px;
 }
 

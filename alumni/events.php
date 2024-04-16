@@ -180,7 +180,26 @@ Look out for upcoming events and mark your calendars in advance!
 						</div>
 				</article>	
 				<?php }?>
-
+				<?php				
+				if(true){
+					//https://aitchison.edu.pk/alumni/news-2572-alumni-college-tour-classes-2011-2023
+				?>	
+				<article class="blog-news-single">
+						<div class="blog-news-img" style="height: auto;">
+						  
+						</div>
+						<div class="blog-news-title">
+						  <h2><a href="./news-2572-alumni-college-tour-classes-2011-2023">Alumni Tour 2011 – 2023</a></h2>
+						  <!--<p></p>-->
+						  <?php /*?><p>During Summer Vacations 2022</p><?php */?>
+						  <p><span class="blog-date">20<sup>th</sup> April 2024</span></p>
+						</div>
+						<div class="blog-news-details">
+						  <p align="justify">Aitchison College is organizing a College Tour for the 2011 - 2023 classes......</p>
+							<a class="blog-more-btn" href="./news-2572-alumni-college-tour-classes-2011-2023">Read More<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+				</article>	
+				<?php }?>
 					
 
                     <article class="blog-news-single">

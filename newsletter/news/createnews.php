@@ -322,8 +322,12 @@ $totalRecords = $data[1]; //$newsRepo->GetNewsCounts(1, USER_ID);
                                     <label class="drinkcard-cc template3"for="template3">Simple</label>
                                 </div>
                                 <div class="box1">
-                                    <input <?php if($template=="NewsLetter") echo "checked"?> id="template4" type="radio" name="template" value="4" />
-                                    <label class="drinkcard-cc template4" for="template4">News Letter</label>
+                                    <input <?php if($template=="NewsLetter") echo "checked"?> id="template7" type="radio" name="template" value="7" />
+                                    <label class="drinkcard-cc template7" for="template7">News Letter</label>
+                                </div>
+                                <div class="box1">
+                                    <input <?php if($template=="NewsLetter2") echo "checked"?> id="template4" type="radio" name="template" value="4" />
+                                    <label class="drinkcard-cc template4" for="template4">News Letter 2</label>
                                 </div>
                                 <div class="box1">
                                     <input <?php if($template=="URL") echo "checked"?> id="template6" type="radio" name="template" value="6" />

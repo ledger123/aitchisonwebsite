@@ -12,6 +12,7 @@
 .template4{background-image:url(../../images/template4.png);}
 .template5{background-image:url(../../images/template5.png);}
 .template6{background-image:url(../../images/template6.png);}
+.template7{background-image:url(../../images/template4.png);}
 
 .cc-selector input:active +.drinkcard-cc {opacity: .9;}
 .cc-selector input:checked +.drinkcard-cc{

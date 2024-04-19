@@ -195,7 +195,7 @@ elseif ( isset($_GET['mode']) && $_GET['mode'] == "view" )
                 <img src="images/signature/principal_signature_new.png" width="212" height="0" ><br />
                 <!--<img src="images/signature/prince_signature_new.png" width="212" height="72" ><br />-->
                 <p>Mrs Amina Kamran<br>
-                Principal</p>
+                Acting Principal</p>
 
                 <?php } ?>
                 

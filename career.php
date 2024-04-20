@@ -126,7 +126,9 @@ $posts = [
                 <p>
                     Only experienced teachers are considered with a minimum of a Masters degree in their teaching discipline. Applications must come through the Careers platform and not directly to the Principal or any other member of staff. <strong>HR reviews and shortlists all applicants, and handles employment enquiries. Contact by any other means will be ignored. Do not send applications or resumes to the Principal's Office. Appointments to staff are made by the College Principal and Heads of School.</strong>
                 </p>
+                <?php /*
                 <p>Applications and enquiries for non teaching positions must be directed to the Bursar: email <span>bursar@aitchison.edu.pk</span></p>
+                 */?>
             </div>
         </div>
     </div>

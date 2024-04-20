@@ -73,9 +73,11 @@ $page_header = $title;
                     <tr>
                         <td><strong>Junior School Headmistress:</strong></td><td>hmjs@aitchison.edu.pk (for all Junior pastoral and academic enquiries)</td>
                     </tr>
+                    <?php /*
                     <tr>
                         <td><strong>Bursar:</strong></td><td>bursar@aitchison.edu.pk (for all matters pertaining to school fees and accounts)</td>
                     </tr>
+                    */?>
                     <tr>
                         <td><strong>Head of Human Resources:</strong></td><td>hr@aitchison.edu.pk (for general employment)</td>
                     </tr>

@@ -16,6 +16,8 @@
     <li><a href="controller-examinations" class="<?php if($req_page_name==='controller-examinations') echo 'active';?>" target="_parent">Controller Examinations</a></li>
     <?php /*
     <li><a href="college-doctors" class="<?php if($req_page_name==='college-doctors') echo 'active';?>" target="_parent">College Doctors</a></li>
-    */ ?>
+
     <li><a href="administration" class="<?php if($req_page_name==='administration') echo 'active';?>" target="_parent">Administration</a></li>
+    */ ?>
+
 </ul>	

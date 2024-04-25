@@ -820,7 +820,7 @@ class NewsRepository
 				n_news_news n INNER JOIN
 				n_news_publish_locations pl ON (n.Id = pl.NewsId) INNER JOIN
 				n_news_locations l ON (l.Code = pl.LocationCode)
-			WHERE n.Active = 1 AND n.Archived = 0 AND n.NewsType IN('News', 'Notice') AND l.Group IN(".$boarder.") AND l.SubGroup = '".$subGroup."' AND l.Location = '".$location."' AND TemplateId = 4 ";
+			WHERE n.Active = 1 AND n.Archived = 0 AND n.NewsType IN('News', 'Notice') AND l.Group IN(".$boarder.") AND l.SubGroup = '".$subGroup."' AND l.Location = '".$location."' AND TemplateId IN(4, 7) ";
 		
 		$qry .= 
 			"UNION ALL
@@ -830,7 +830,7 @@ class NewsRepository
 				n_news_publish_locations pl ON (n.Id = pl.NewsId) INNER JOIN
 				n_news_locations l ON (l.Code = pl.LocationCode) INNER JOIN
 				n_news_contents c ON c.NewsId = n.Id
-			WHERE n.Active = 1 AND n.Archived = 0 AND n.NewsType = 'URL' AND l.Group IN(".$boarder.") AND l.SubGroup = '".$subGroup."' AND l.Location = '".$location."' AND TemplateId = 4 ";
+			WHERE n.Active = 1 AND n.Archived = 0 AND n.NewsType = 'URL' AND l.Group IN(".$boarder.") AND l.SubGroup = '".$subGroup."' AND l.Location = '".$location."' AND TemplateId IN(4, 7) ";
 		
 		$qry .= "ORDER BY orderedDate DESC, NewsId DESC";
 

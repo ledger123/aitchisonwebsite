@@ -71,7 +71,7 @@ $page_header = $title;
                     ['event' => 'Geography Society', 'name' => 'Zahra Shahid', 'uri' => 'zahra-shahid.jpg'],
                     ['event' => 'German Club', 'name' => 'Andleeb Zahra Syed', 'uri' => 'andleeb-zahra-syed.jpg'],
                     ['event' => 'History & Archives Society', 'name' => 'Muhammad Haider Hassan', 'uri' => 'muhammad-haider-hassan.jpg'],
-                    ['event' => 'Islamic Society', 'name' => 'Khalid Saifullah', 'uri' => 'khalid-saifullah.jpg'],
+                    ['event' => 'Islamic Society', 'name' => 'Khalid Saifullah', 'uri' => 'khalid-saifullah-20240426.jpg'],
                     ['event' => 'Law Society', 'name' => 'Shoaib Bin Hassan', 'uri' => 'shoaib-bin-hassan.jpg'],
                     ['event' => 'Literary Society', 'name' => 'Wajiha Qadeer', 'uri' => 'wajiha-qadeer.jpg'],
                     ['event' => 'Mathematics Society', 'name' => 'Tasneem Aslam Zaeem', 'uri' => 'tasneem-aslam-zaeem.jpg'],

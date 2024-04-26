@@ -52,16 +52,17 @@ $page_header = $title;
             <p>The College expects all boys to utilise this service. Aitchison's reputation among international universities is impeccable.</p>
 			<div class="row" style="margin-top:20px; margin-bottom:20px;">
 				<div class="col-lg-6 col-md-6 col-sm-12">
-					<h5 class="h5color">University Counseling Department (USA)</h5>
-					<p class="pl-5"><span class="paddingtop"><strong>Head of the USA Guidance & Counselling Department</strong></span><br>
+					<h3 class="mb-3" style="color: #00205b; text-transform: uppercase;">University Counseling Department (USA)</h3>
+					<p class="pl-5"><span class="paddingtop"><strong>Head of the USA Guidance & Counselling Department</strong></span><br/><strong>Ms Sarah Malik</strong><br/>
                         hodus@aitchison.edu.pk</p>
 
-					<p><span class="paddingtop"><strong>US Counselor</strong></span><br/>Ms Sehar Saleemi<br/>ssuscounselorss@aitchison.edu.pk</p>
-					<p><span class="paddingtop"><strong>US Counselor</strong></span><br>Ms Tosheeba Sarwar<br/>ssbusinessts@aitchison.edu.pk</p>
+					<p><span class="paddingtop"><strong>US Counselor</strong></span><br/><strong>Ms Sehar Saleemi</strong><br/>ssuscounselorss@aitchison.edu.pk</p>
+					<p><span class="paddingtop"><strong>US Counselor</strong></span><br><strong>Ms Tosheeba Sarwar</strong><br/>ssbusinessts@aitchison.edu.pk</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
-					<h5 class="h5color">University Counseling Department (UK)</h5>
-					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br>(except US)</span><br>naila.burney@aitchison.edu.pk</p>                     <p><span class="paddingtop"><strong>For Canada and Australia</strong></span><br>hassan.gillani@aitchison.edu.pk</p>
+					<h3 class="mb-3" style="color: #00205b; text-transform: uppercase;">University Counseling Department (UK)</h3>
+					<p><span class="paddingtop"><strong>Head of All International & National Admissions</strong><br><span>(except US)</span></span><br/><strong>Dr Naila Burney Chughtai</strong><br/>naila.burney@aitchison.edu.pk</p>
+                    <p><span class="paddingtop"><strong>For Canada and Australia</strong></span><br/><strong>Mr Hassan Gillani</strong><br/>hassan.gillani@aitchison.edu.pk</p>
 				</div>
 
                 <div>
@@ -70,11 +71,13 @@ $page_header = $title;
                 </div>
 			</div>
             <div class="row" style="margin-top:20px; margin-bottom:20px;">
-                <div class="col-lg-6 col-md-6 col-sm-12 ps-1 pb-2">
+                <div class="col-lg-6 col-md-6 col-sm-12 ps-1 pe-1 pb-2">
                     <img src="<?php echo $image_path;?>/img/pageimages/cc-a-20230922.jpg" alt="" class="img-fluid">
+                    <p class="text-center"><i>Dr Naila with students in the H2 Common Room.</i></p>
                 </div>
-				<div class="col-lg-6 col-md-6 col-sm-12 pe-1">
-                    <img src="<?php echo $image_path;?>/img/pageimages/cc-b-20230922.jpg" alt="" class="img-fluid">
+				<div class="col-lg-6 col-md-6 col-sm-12 ps-1 pe-1">
+                    <img src="<?php echo $image_path;?>/img/pageimages/cc-c-20240426.jpg" alt="" class="img-fluid">
+                    <p class="text-center"><i>US Counselors Ms Sarah and Ms Sahar with students in Barry Block.</i></p>
                 </div>
 				
             </div>

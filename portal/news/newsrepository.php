@@ -873,7 +873,7 @@ class NewsRepository
                     n_news_locations l ON (pl.LocationCode = l.Code) INNER JOIN 
                     n_news_templates t ON ( t.Id = n1.TemplateId ) 
                     WHERE n1.Id > ".$newsId." AND n1.Active = 1 AND
-                    l.Group = '".$group."' AND l.SubGroup = '".$subGroup."' AND n1.TemplateId = 4 AND t.Name <> 'URL' AND l.Location = '$location'
+                    l.Group = '".$group."' AND l.SubGroup = '".$subGroup."' AND n1.TemplateId IN (4, 7) AND t.Name <> 'URL' AND l.Location = '$location'
                     ), 0)
                 OR n.Id = IFNULL((
                     SELECT MAX(n2.Id)
@@ -882,7 +882,7 @@ class NewsRepository
                     n_news_locations l ON (pl.LocationCode = l.Code) INNER JOIN 
                     n_news_templates t ON ( t.Id = n2.TemplateId ) 
                     WHERE n2.Id < $newsId AND n2.Active = 1 AND
-                    l.Group = '".$group."' AND l.SubGroup = '".$subGroup."' AND n2.TemplateId = 4 AND t.Name <> 'URL' AND l.Location = '$location'
+                    l.Group = '".$group."' AND l.SubGroup = '".$subGroup."' AND n2.TemplateId IN (4, 7) AND t.Name <> 'URL' AND l.Location = '$location'
                     ), 0)
             )
             AND n.Active = 1 AND t.Name <> 'URL' AND l.Location = '$location'";

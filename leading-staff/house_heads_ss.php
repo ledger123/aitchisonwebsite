@@ -55,7 +55,7 @@ $page_header = $title;
             <div class="row">
                 <?php
                 $arr = [
-                    ['house' => 'Kelly House', 'name' => 'Khalid Saifullah ', 'uri' => 'khalid-saifullah.jpg'],
+                    ['house' => 'Kelly House', 'name' => 'Khalid Saifullah ', 'uri' => 'khalid-saifullah-20240426.jpg'],
                     ['house' => 'Godley House', 'name' => 'Zubair Ata', 'uri' => 'zubair-atta-v2.jpg'],
                     ['house' => 'Leslie Jones House', 'name' => 'Muhammad Tariq ', 'uri' => 'muhammad-tariq.jpg'],
                     ['house' => 'K & N\'s House', 'name' => 'Syed Shahmeer Raza', 'uri' => 'syed-shahmeer-raza.jpg'],

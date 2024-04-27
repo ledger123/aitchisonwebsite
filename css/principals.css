@@ -136,4 +136,10 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
+.michael-thomson{
+	background-position: center;
+	background: url(../principals/square/michael-thomson.jpg) center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 

@@ -177,7 +177,7 @@ $page_header = $title;
                     <div class="pricipal michael-thomson">
 
                     </div>
-                    <div class="principalname"><strong>Michael Thomson</strong><br><strong>2016 TO 2024</strong></div>
+                    <div class="principalname"><strong>Mr. Michael Thomson</strong><br><strong>2016 TO 2024</strong></div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12">
                 </div>

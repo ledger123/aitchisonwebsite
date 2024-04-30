@@ -9,9 +9,11 @@
 		"admissions-info"	=>	"admissions.php",
 		"procedure-and-requirements"	=>	"procedure-requirements.php",
 		"senior-admissions-to-aitchison-college" => "senior-admissions-ac.php",
+        "a-level-fsc-application-forms" => "a_level_fsc_application_forms.php",
         //"procedure-and-requirements-offline"	=>	"procedure-requirements-offline.php",
 		
-		
+
+
 		"download-application-forms"	=>	"application-forms.php",
 		// //"applications-forms-offline"	=>	"application-forms-offline.php",
 		

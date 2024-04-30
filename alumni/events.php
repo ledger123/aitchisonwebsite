@@ -189,14 +189,14 @@ Look out for upcoming events and mark your calendars in advance!
 						  
 						</div>
 						<div class="blog-news-title">
-						  <h2><a href="./news-2572-alumni-college-tour-classes-2011-2023">Alumni Tour 2011 – 2023</a></h2>
+						  <h2><a href="../news-2588-old-boys-swimming-programme-2024-during-summer-vacations">Old Boys Swimming Programme 2024</a></h2>
 						  <!--<p></p>-->
-						  <?php /*?><p>During Summer Vacations 2022</p><?php */?>
-						  <p><span class="blog-date">20<sup>th</sup> April 2024</span></p>
+						  <p>During Summer Vacations 2024</p>
+						  <p><span class="blog-date">June 3<sup>rd</sup> to August 9<sup>th</sup>, 2024</span></p>
 						</div>
 						<div class="blog-news-details">
-						  <p align="justify">Aitchison College is organizing a College Tour for the 2011 - 2023 classes......</p>
-							<a class="blog-more-btn" href="./news-2572-alumni-college-tour-classes-2011-2023">Read More<i class="fa fa-long-arrow-right"></i></a>
+						  <p align="justify">The College is happy to offer swimming for Old Boys who satisfy or adhere to the conditions set out below...</p>
+							<a class="blog-more-btn" href="../news-2588-old-boys-swimming-programme-2024-during-summer-vacations">Read More<i class="fa fa-long-arrow-right"></i></a>
 						</div>
 				</article>	
 				<?php }?>
@@ -225,8 +225,7 @@ Look out for upcoming events and mark your calendars in advance!
                   </tr>
 				  <?php */?>
                   <tr>
-                    <th scope="row">Alumni Tour 2011 – 2023</th>
-                    <td nowrap>Saturday, 20<sup>th</sup> April, 2024</td>
+                    <td colspan="2" style="text-align: center;">There are presently no events to attend.</td>
                   </tr>                  
                 </tbody>
             </table><br><br>

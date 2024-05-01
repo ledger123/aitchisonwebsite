@@ -13,6 +13,9 @@
                 <div class="swiper-slide">
                     <a href="<?php echo $path;?>activity-glimpses" target="_blank">Sports & Co-Curricular Activities - This week at a Glance</a>
                 </div>
+                <div class="swiper-slide">
+                    <a href="<?php echo $path;?>admission/a-level-fsc-application-forms" target="_blank">A Level/FSc Application Forms</a>
+                </div>
                 <?php /*?><div class="swiper-slide">
                     <a href="https://aitchison.edu.pk/alumni/news-2476-founders-day-2024" target="_blank">FOUNDERS' DAY 2024</a> 
                 </div><?php */?>

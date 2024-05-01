@@ -437,9 +437,11 @@ if($mobile->isMobile()) {
     <div class="toaster toaster-1">
         <a href="admission/points-of-entry-into-aitchison" target="_blank"><h5>Admissions Information<br/>2024-25</h5></a>
     </div>
-<!--    <div class="toaster toaster-2">-->
-<!--        <a href="principal-letter-2310-aitchison-expands-boarding-admissions-2024-25" target="_blank"><h5>Become a Boarder in<br/>2024-25</h5></a>-->
-<!--    </div>-->
+    <div class="toaster toaster-2">
+        <a href="admission/a-level-fsc-application-forms" target="_blank"><h5>A Level/FSc Application<br/>Forms</h5></a>
+    </div>
+    
+
 <!---->
 <!--    <div class="toaster toaster-3">-->
 <!--        <a href="newsandevents-testlink.php?id=2311" target="_blank"><h5>Become a Dayboy in<br/>2024-25</h5></a>-->

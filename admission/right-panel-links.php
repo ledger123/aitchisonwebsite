@@ -16,12 +16,12 @@
 
 
     <li><a href="important-dates-admissions" class="<?php if($req_page_name==='important-dates-admissions') echo 'active';?>" target="_parent">Table of important dates 2024-25</a></li>
-    
+    <li><a href="available-seats" class="<?php if($req_page_name==='available-seats') echo 'active';?>" target="_parent">Estimated Available Seats 2024-25</a></li>
+
 
     <li><a href="admissions-faqs" class="<?php if($req_page_name==='admissions-faqs') echo 'active';?>" target="_parent">FAQs on the Admissions process</a></li>
     <li><a href="fee-structure" class="<?php if($req_page_name==='fee-structure') echo 'active';?>" target="_parent">Fee Structure<?php /*?> 2021-22<?php */?></a></li>
     <li><a href="../boarding/international-enrolment" class="<?php if($req_page_name==='international-enrolment') echo 'active';?>" target="_parent">International Enrolments</a></li>
-
 
 
     <?php /*
@@ -38,7 +38,6 @@
     <li><a href="a-level-and-fsc-entrance-test-schedule" class="<?php if($req_page_name==='a-level-and-fsc-entrance-test-schedule') echo 'active';?>" target="_parent">Entrance Test Schedule</a></li>
 
         
-    <li><a href="available-seats" class="<?php if($req_page_name==='available-seats') echo 'active';?>" target="_parent">Estimated Available Seats</a></li>
 
         <?php */ ?>
 

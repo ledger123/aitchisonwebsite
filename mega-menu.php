@@ -43,6 +43,7 @@
                     <li><a href="<?php echo $path;?>admission/admissions-testing-schedule">Admission Testing Schedule 2024-25</a></li>
 
                     <li><a href="<?php echo $path;?>admission/important-dates-admissions">Table of important dates 2024-25</a></li>
+                    <li><a href="<?php echo $path;?>admission/available-seats">Estimated Available Seats 2024-25</a></li>
 
 
                     <li><a href="<?php echo $path;?>admission/admissions-faqs">FAQs on the Admissions Process</a></li>

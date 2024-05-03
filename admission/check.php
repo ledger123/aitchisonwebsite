@@ -20,7 +20,7 @@
 		// "a-level-and-fsc-entrance-test-schedule"	=>	"a_levels_entrance_test_schedule.php",
 		"admissions-testing-schedule"	=>	"admission_testing_schedule.php",
 
-        // "available-seats"	=>	"availableseats.php",
+        "available-seats"	=>	"availableseats.php",
 		"points-of-entry-into-aitchison"	=>	"points-of-entry.php",
         "important-dates-admissions"	=>	"table-of-important-dates.php",
         // //"important-dates-admissions-offline"	=>	"table-of-important-dates-offline.php",

@@ -61,56 +61,56 @@ $page_header = $title;
                             <td>1</td>
                             <td>K1</td>
                             <td>-</td>
-                            <td>30</td>
-                            <td>30</td>
+                            <td>25</td>
+                            <td>25</td>
                         </tr>
                         <tr>
                             <td>2</td>
                             <td>K2</td>
-                            <td>196</td>
-                            <td>-</td>
-                            <td>196</td>
+                            <td>211</td>
+                            <td>8</td>
+                            <td>219</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>K3</td>
+                            <td>K6</td>
                             <td>-</td>
-                            <td>6</td>
-                            <td>6</td>
+                            <td>21</td>
+                            <td>21</td>
                         </tr>
                         <tr>
                             <td>4</td>
-                            <td>K6</td>
-                            <td>&nbsp;</td>
-                            <td>6</td>
-                            <td>6</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
                             <td>E2</td>
-                            <td>48</td>
-                            <td>10</td>
-                            <td>58</td>
+                            <td>46</td>
+                            <td>18</td>
+                            <td>64</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>M1</td>
+                            <td>-</td>
+                            <td>4</td>
+                            <td>4</td>
                         </tr>
                         <tr>
                             <td>6</td>
-                            <td>C1/Matric</td>
-                            <td>5</td>
-                            <td>20</td>
-                            <td>25</td>
+                            <td>M2</td>
+                            <td>-</td>
+                            <td>16</td>
+                            <td>16</td>
                         </tr>
                         <tr>
                             <td>7</td>
-                            <td>H1</td>
-                            <td>20</td>
-                            <td>20</td>
-                            <td>40</td>
+                            <td>C1</td>
+                            <td>4</td>
+                            <td>14</td>
+                            <td>16</td>
                         </tr>
                         <tr>
                             <th colspan="2">Total:</th>
-                            <th>269</th>
-                            <th>92</th>
-                            <th>361</th>
+                            <th>261</th>
+                            <th>106</th>
+                            <th>367</th>
                         </tr>
                     </tbody>
                 </table>

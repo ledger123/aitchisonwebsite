@@ -517,6 +517,85 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2584-annual-saigol-and-bahawalpur-house-dinner-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/81-380730571.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    29<sup>th</sup> April, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Annual Saigol and Bahawalpur House Dinner 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2579-gwyn-house-annual-dinner-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/35-6344809608.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    24<sup>th</sup> April, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Gwyn House Annual Dinner 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2578-tennis-lovers-national-tennis-championship-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/tennis-championship-2024-2578-sm-6509687008.jpeg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    24<sup>th</sup> April, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Tennis Lovers National Tennis Championship 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2570-pre-c1-first-assembly-at-senior-school" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/22-2118121013.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    15<sup>th</sup> April, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Pre C1 - First Assembly at Senior School
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2547-founders-day-2024" target="_blank">
@@ -554,6 +633,8 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
+
+
 
                 <div class="item">
                     <div class="news-box">

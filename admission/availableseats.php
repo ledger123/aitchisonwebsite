@@ -115,6 +115,12 @@ $page_header = $title;
                     </tbody>
                 </table>
             </div>
+			<p class="text-left"><strong>Announcement: Admission Closed for 2024-25</strong></p>
+			<p>Dear All,</p><p>
+
+The admissions are closed for session 2024-25 for all age groups except K1. Letters have already been dispatched to the qualified and unqualified applicants. </p><p>
+
+Thank you</p>
         </div>
         <!-- End Left Area -->
 

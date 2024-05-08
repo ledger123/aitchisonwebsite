@@ -205,7 +205,7 @@ Look out for upcoming events and mark your calendars in advance!
                     <article class="blog-news-single">
           <div class="blog-news-title">
 
-            <h2>Alumni Events 2023- 2024</h2>
+            <h2>UPCOMING EVENTS</h2>
 
           </div>
                     
@@ -215,20 +215,38 @@ Look out for upcoming events and mark your calendars in advance!
                 </thead>
                 <tbody>
 				
-                  <?php /*?><tr>
-                    <th scope="row">Alumni Tour 2001 – 2010</th>
-					<td>Saturday, 27<sup>th</sup> January 2024</td>
+                  <tr>
+                    <th scope="row">1981 – 1990</th>
+					<td>Saturday, 16<sup>th</sup> October 2024</td>
                   </tr>
                   <tr>
-                    <th scope="row">Alumni Reunion and Tour (Classes 1971-1980) </th>
-					<td>Saturday, 17<sup>th</sup> February 2024</td>  
+                    <th scope="row">Pre -1970 Leavers’ Lunch</th>
+					<td>Saturday, 30<sup>th</sup> November 2024</td>
                   </tr>
-				  <?php */?>
+                  <tr>
+                      <th scope="row">1991 – 2000</th>
+                      <td>Saturday, 21<sup>st</sup> December 2024</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2001 – 2010</th>
+                      <td>Saturday, 25<sup>th</sup> January 2025</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">Alumni Reunion and Tour (Classes 1971-1980)</th>
+                      <td>Saturday, 15<sup>th</sup> February 2025</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2011 – 2024</th>
+                      <td>Saturday, 19<sup>th</sup> April 2025</td>
+                  </tr>
+
+                  <?php /*?>
                   <tr>
                     <td colspan="2" style="text-align: center;">There are presently no events to attend.</td>
-                  </tr>                  
+                  </tr><?php */?>
                 </tbody>
-            </table><br><br>
+            </table><br>
+                        <p>Registration process and other details will be shared closer to the event.</p>
 			<?php /*?><p><strong>All events subject to potential government restrictions</strong></p><?php */?>
 		 </article>
 

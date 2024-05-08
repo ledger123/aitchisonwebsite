@@ -179,7 +179,7 @@ $page_header = $title;
 
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <div class="a-box">
-                        <a href="https://aitchison.edu.pk/school_doc/admission-2024/alevel-fsc/Subject Selection Form 2024-25.pdf" rel="nofollow" target="_blank">
+                        <a href="https://aitchison.edu.pk/school_doc/admission-2024/alevel-fsc/Subject Selection Form 2024-25-v2.pdf" rel="nofollow" target="_blank">
                             <div class="row">
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">

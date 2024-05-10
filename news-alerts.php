@@ -32,12 +32,7 @@
                 <div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2414-aitchison-flying-high-with-sporting-heroes" target="_blank">AITCHISON FLYING HIGH WITH SPORTING HEROES</a>
                 </div>
-
-
-                <div class="swiper-slide">
-                    <a href="<?php echo $path;?>principal-letter-2280-aitchison-seeks-boys-of-endeavour" target="_blank">Aitchison Seeks Boys of Endeavour</a>
-                </div>
-
+                
                 <div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2243-aitchison-college-shines-globally-in-the-2023-schools-index-by-carfaxeducation"
                        target="_blank">Aitchison College Shines Globally in The 2023 Schools Index by Carfax Education</a>

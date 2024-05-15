@@ -520,6 +520,63 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2606-aitchison-college-players-shine-at-the-national-junior-squash-championship" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/junior-squash-2606-sm-7001199523.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    15<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison College Players Shine at the National Junior Squash Championship
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2605-highlights-of-the-1st-aitchison-u15-inter-school-athletics-championship-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/6-9263417153.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    14<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Highlights of the 1st Aitchison U/15 Inter-School Athletics Championship 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2600-the-stallions-junior-cricket-and-football-league" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/30-230063935.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    10<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    The Stallions Junior Cricket and Football League
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2584-annual-saigol-and-bahawalpur-house-dinner-2024" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/81-380730571.jpg" alt="News" class="img-fluid"/>
@@ -541,7 +598,7 @@ if($mobile->isMobile()) {
                     <div class="news-box">
                         <a href="news-2579-gwyn-house-annual-dinner-2024" target="_blank">
                             <div class="news-image">
-                                <img src="newsletter/news/images/35-6344809608.jpg" alt="News" class="img-fluid"/>
+                                <img src="newsletter/news/images/7-9723252590.jpg" alt="News" class="img-fluid"/>
                             </div>
                             <div class="news-contents" style="padding: 1rem;">
                                 <div class="news-date" style="margin: 5px 0;">
@@ -922,6 +979,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
+                <?php /*
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2453-prep-play-cinderfella-entertains-appreciative-audience" target="_blank">
@@ -959,7 +1017,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
+               */ ?>
 
             </div>
             <div class="divider-small"></div>

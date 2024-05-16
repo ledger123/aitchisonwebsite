@@ -127,7 +127,7 @@ $title = str_replace(['<br/>', '<br />'], ' ', $title);
 
     <link rel="stylesheet" href="<?php echo $path;?>resources/css/photo-gallery.css?v=27">
 
-    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/custom.css?v=31">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/custom.css?v=32">
 
     <?php if (false && $fileName === 'index') {?>
     <!-- page style -->

@@ -434,10 +434,11 @@ if($mobile->isMobile()) {
 </div>
 
 <?php if(true) { ?>
-    <div class="toaster toaster-1">
+    <?php /*?><div class="toaster toaster-1">
         <a href="admission/points-of-entry-into-aitchison" target="_blank"><h5>Admissions Information<br/>2024-25</h5></a>
     </div>
-    <div class="toaster toaster-2">
+    <div class="toaster toaster-2"><?php */?>
+	<div class="toaster toaster-1">
         <a href="admission/a-level-fsc-application-forms" target="_blank"><h5>A Level/FSc Application<br/>Forms</h5></a>
     </div>
     
@@ -520,6 +521,25 @@ if($mobile->isMobile()) {
 
                 <div class="item">
                     <div class="news-box">
+                        <a href="news-2610-aitchison-celebrates-acceptances-to-top-ranked-us-universities" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/top-ranked-universities-2610-sm-2953088397.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    15<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison Celebrates Acceptances to Top-ranked US Universities
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="news-box">
                         <a href="news-2606-aitchison-college-players-shine-at-the-national-junior-squash-championship" target="_blank">
                             <div class="news-image">
                                 <img src="newsletter/news/images/junior-squash-2606-sm-7001199523.jpg" alt="News" class="img-fluid"/>
@@ -541,7 +561,7 @@ if($mobile->isMobile()) {
                     <div class="news-box">
                         <a href="news-2605-highlights-of-the-1st-aitchison-u15-inter-school-athletics-championship-2024" target="_blank">
                             <div class="news-image">
-                                <img src="newsletter/news/images/6-9263417153.jpg" alt="News" class="img-fluid"/>
+                                <img src="newsletter/news/images/3-4869762723-1203712475.jpg" alt="News" class="img-fluid"/>
                             </div>
                             <div class="news-contents" style="padding: 1rem;">
                                 <div class="news-date" style="margin: 5px 0;">
@@ -684,27 +704,6 @@ if($mobile->isMobile()) {
                                 </div>
                                 <h3 class="news-heading">
                                     Academics Day 2024
-                                </h3>
-
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-
-
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2546-rivaz-medal-winner-2024-abdullah-gilani-kelly-house" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/rivaz-medal-winner-sm-2546-4555123523.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    11<sup>th</sup> March, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    RIVAZ MEDAL WINNER 2024, ABDULLAH GILANI -KELLY HOUSE
                                 </h3>
 
                             </div>
@@ -1239,7 +1238,7 @@ if($mobile->isMobile()) {
                     <a href="photo-of-the-week" target="_blank">
 
                         <div class="img-item">
-                            <img src="resources/assets/images/announcements/photo-of-week-20240120.jpg">
+                            <img src="resources/assets/images/announcements/photo-of-week-20240516.jpg">
                         </div>
 
                         <div class="text-center footer">
@@ -1250,6 +1249,7 @@ if($mobile->isMobile()) {
                         </div>
                     </a>
                 </div>
+
                 <?php /*?><div class="item">
 
                     <a href="news-1109-wedding-and-campus-photographsvideos" target="_blank">

@@ -52,16 +52,18 @@ $page_header = $title;
 
         <!-- Left Area -->
         <div class="col-lg-12 col-md-12 col-sm-12">
-			<h3 style="text-align: center;font-size: 16px; font-weight: bold;">Star cricketer Ahmed Hussain scores 221 not out in the Inter House Cricket Final</h3>
+			<h3 style="text-align: center;font-size: 16px; font-weight: bold;">Aitchison Celebrates Acceptances to Top-ranked US Universities</h3>
 
+            <p style="text-align: center; ">Click <a href="news-2610-aitchison-celebrates-acceptances-to-top-ranked-us-universities" target="_blank" style="color: blue;">here</a> for more information:</p>
             <div class="text-center block" style="text-wrap: wrap;">
                 <figure>
-          	        <img src="<?php echo $image_path2; ?>img/photo-of-week/photo-20240120.jpg" class="img-fluid" alt="Photo of the Week" style="margin: auto; width: 850px; height: auto;">
+                    <a href="news-2610-aitchison-celebrates-acceptances-to-top-ranked-us-universities" target="_blank">
+          	            <img src="<?php echo $image_path2; ?>img/photo-of-week/photo-20240516.jpg" class="img-fluid" alt="Photo of the Week" style="margin: auto; width: 850px; height: auto;">
+                    </a>
                 </figure>
                 
             </div>
 
-            
         </div>
         <!-- End Left Area -->
 

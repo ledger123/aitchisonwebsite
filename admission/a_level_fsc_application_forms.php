@@ -196,7 +196,7 @@ $page_header = $title;
                     </div>
                 </div>
 
-                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                <?php /*?><div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
                     <div class="a-box">
                         <a href="https://aitchison.edu.pk/school_doc/admission-2024/alevel-fsc/A Level - FSc Syllabus.pdf" rel="nofollow" target="_blank">
                             <div class="row">
@@ -213,7 +213,7 @@ $page_header = $title;
                             </div>
                         </a>
                     </div>
-                </div>
+                </div><?php */?>
 
 
                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">

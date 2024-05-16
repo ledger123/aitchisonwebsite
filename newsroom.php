@@ -10,7 +10,7 @@ include($include_path ."newsletter/classes/dataCenter.php");
 include($include_path ."newsletter/news/newsrepository.php");
 include("resources/php/utils.php");
 
-$recordsPerPage = 14;
+$recordsPerPage = 18;
 
 $yearNumber=date("Y");
 if(isset($_GET['yearNumber'])) {
@@ -25,7 +25,6 @@ if(isset($_GET['monthNumber'])) {
     $recordsPerPage = 100;
     //echo $monthNumber . ' - ' . $yearNumber;
 }
-
 
 $dc = new DataCenter();
 

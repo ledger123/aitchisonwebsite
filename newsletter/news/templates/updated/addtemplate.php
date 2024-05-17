@@ -16,7 +16,7 @@ switch( $purifier->purify($row->Template) )
     case "NewsLetter2" 	 : include($templatePath . "newsletter/news/templates/updated/template4.php"); break;
 
 	case "Image Gallery2": include($templatePath . "newsletter/news/templates/updated/template5.php"); break;
-		
+
 	case "URL"			 : include($templatePath . "newsletter/news/templates/updated/template6.php"); break;
 }
 ?>

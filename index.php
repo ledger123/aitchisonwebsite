@@ -576,6 +576,27 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
+
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2601-junior-school-sports-tour-qatar-2024" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/58-4805656289.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    10<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Junior School Sports Tour Qatar 2024
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2600-the-stallions-junior-cricket-and-football-league" target="_blank">
@@ -844,24 +865,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <div class="item">
-                    <div class="news-box">
-                        <a href="news-2513-aitchison-shines-in-ceremony-and-celebration" target="_blank">
-                            <div class="news-image">
-                                <img src="newsletter/news/images/2-8664090547.jpg" alt="News" class="img-fluid"/>
-                            </div>
-                            <div class="news-contents" style="padding: 1rem;">
-                                <div class="news-date" style="margin: 5px 0;">
-                                    22<sup>nd</sup> February, 2024
-                                </div>
-                                <h3 class="news-heading">
-                                    AITCHISON SHINES IN CEREMONY AND CELEBRATION
-                                </h3>
 
-                            </div>
-                        </a>
-                    </div>
-                </div>
 
                 <div class="item">
                     <div class="news-box">

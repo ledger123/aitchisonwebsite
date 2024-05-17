@@ -75,10 +75,23 @@ $page_header = $title;
         padding-right: 3rem!important;
     }
 
+
+    @media (max-width: 1024px) {
+        .left-arrow, .right-arrow {
+            width: 10px!important;
+        }
+
+    }
+
     @media (max-width: 768px) {
         .news-area {
             padding-right: 12px!important;
         }
+
+        .left-arrow, .right-arrow {
+            width: 10px!important;
+        }
+
     }
 </style>
 <?php include_once ($path.'new-logo-page-banner.php'); ?>

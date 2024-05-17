@@ -8,7 +8,7 @@ $path = '';
 
 $title = "Photo of the Week"; include_once("header-includes.php");
 
-$banner_url = $path.'resources/assets/images/banners/contacts.jpg';
+$banner_url = $path.'resources/assets/images/banners/senior-school-building-back-view.jpg';
 $page_header = $title;
 ?>
 <style>

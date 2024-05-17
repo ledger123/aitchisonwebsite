@@ -52,6 +52,7 @@ body {
 
 p {
     line-height: 1.6;
+    padding-left: 0 !important;
 }
 
 .breadcrumb {

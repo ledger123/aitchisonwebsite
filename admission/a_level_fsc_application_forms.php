@@ -46,6 +46,15 @@ $page_header = $title;
     .down-arrow {
         font-size: 56px;
     }
+    .body-text {
+        height: auto;
+    }
+
+    @media (min-width: 1440px) {
+        .body-text {
+            height: 77px;
+        }
+    }
 
     @media (max-width: 576px) {
         .a-box-margin {
@@ -128,7 +137,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-center" style="display: inline-block;">
                                         <div>&nbsp;</div>
-                                        <h2>Confidential Evaluation Form</h2>
+                                        <h2 class="body-text">Confidential Evaluation Form</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -146,7 +155,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">
                                         <div>A Level & FSc</div>
-                                        <h2>Admission Form 2024-25</h2>
+                                        <h2 class="body-text">Admission Form 2024-25</h2>
                                         <span></span>
                                     </div>
                                 </div>
@@ -165,7 +174,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">
                                         <div>Confidential</div>
-                                        <h2>Evaluation Form</h2>
+                                        <h2 class="body-text">Evaluation Form</h2>
                                         <span></span>
                                     </div>
                                 </div>
@@ -184,7 +193,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">
                                         <div>A Level Subject</div>
-                                        <h2>Selection Form</h2>
+                                        <h2 class="body-text">Selection Form</h2>
                                         <span></span>
                                     </div>
                                 </div>
@@ -203,7 +212,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">
                                         <div>A Level - FSc</div>
-                                        <h2>Syllabus</h2>
+                                        <h2 class="body-text">Syllabus</h2>
                                         <span></span>
                                     </div>
                                 </div>
@@ -223,7 +232,7 @@ $page_header = $title;
                                 <div class="col-lg-10 col-md-10 col-sm-10 text-start ps-4">
                                     <div class="text-start" style="display: inline-block;">
                                         <div>Medical</div>
-                                        <h2>Questionnaire 2024-25</h2>
+                                        <h2 class="body-text">Questionnaire 2024-25</h2>
                                         <span></span>
                                     </div>
                                 </div>

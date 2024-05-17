@@ -121,7 +121,7 @@ $title = str_replace(['<br/>', '<br />'], ' ', $title);
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
     <!-- page style -->
-    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/style.css?v=35">
+    <link rel="stylesheet" type="text/css" href="<?php echo $path;?>resources/style.css?v=36">
 
     <link rel="stylesheet" href="<?php echo $path;?>resources/css/jquery.tosrus.all.css">
 

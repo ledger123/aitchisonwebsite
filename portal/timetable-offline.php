@@ -172,7 +172,7 @@ echo " -->";
                                             <tr>
                                                 <td>K1, K2 & K3</td>
                                                 <td>7:40 AM to 11:20 AM</td>
-                                                <td>7:10 AM to 10:40 AM</td>
+                                                <td>7:40 AM to 10:40 AM</td>
                                             </tr>
                                             </tbody>
 

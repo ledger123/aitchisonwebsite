@@ -141,15 +141,18 @@ echo " -->";
                     <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                         <div class="x_panel">
                             <div class="x_content">
-                                <?php if ( $_SESSION['portal_School'] == "JSD" ) { ?>
+                                <?php if ( in_array($_SESSION['portal_CurrentClass'], ['K1', 'K2', 'K3']) ) { ?>
                                     <div align="center" class="page-title">
                                         <?php /*?><div style="font-weight: bold">Junior School New Schedule March 2024</div><?php */?>
 
                                     </div>
 
-                                    <h4 align="center">Aitchison College, Junior School<br><span style="text-transform: capitalize;">School Timings</span></h4>
+                                    <h4 align="center">Aitchison College, Junior School<br>
+                                        <span style="text-transform: capitalize;">School Timings</span><br>
+                                        <span style="text-transform: capitalize;">(Lower Primary Only)</span>
+                                    </h4>
 
-                                    <div align="center">w.e.f Monday, 15<sup>th</sup> April, 2024</div>
+                                    <div align="center">w.e.f Monday, 20<sup>th</sup> May, 2024</div>
 
                                     <p>&nbsp;</p>
 
@@ -168,13 +171,8 @@ echo " -->";
                                             <tbody>
                                             <tr>
                                                 <td>K1, K2 & K3</td>
-                                                <td>7:40 AM to 1:10 PM</td>
+                                                <td>7:40 AM to 11:20 AM</td>
                                                 <td>7:40 AM to 10:40 AM</td>
-                                            </tr>
-                                            <tr>
-                                                <td>K4, K5 & K6</td>
-                                                <td>7:40 AM to 1:20 PM</td>
-                                                <td>7:40 AM to 10:50 AM</td>
                                             </tr>
                                             </tbody>
 
@@ -196,7 +194,7 @@ echo " -->";
                                                 <th style="text-align:center;">No. of<br>lessons</th>
                                                 <th style="text-align:center;">Monday</th>
                                                 <th style="text-align:center;">Tuesday</th>
-                                                <th style="text-align:center;">Wednesday                                                </th>
+                                                <th style="text-align:center;">Wednesday</th>
                                                 <th style="text-align:center;">Thursday</th>
                                                 <th style="text-align:center;">Friday</th>
                                               </tr>
@@ -221,7 +219,7 @@ echo " -->";
                                             <tr>
                                               <td>3</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K4 PE</td>
+                                              <td>&nbsp;</td>
                                               <td>&nbsp;</td>
                                                 <td>&nbsp;</td>
                                                 <td>&nbsp;</td>
@@ -237,32 +235,27 @@ echo " -->";
                                               <td colspan="6" style="text-align: center; font-weight: bold;">BREAK</td>
                                               </tr>
                                             <tr>
-                                              <td>5</td>
+                                              <td style="vertical-align: middle;">5</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
-                                              <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
+                                              <td style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
+                                              <td style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
                                               <td style="vertical-align: middle;">&nbsp;</td>
                                               <td></td>
                                             </tr>
                                             <tr>
                                               <td>6</td>
-                                              <td>&nbsp;</td>
-                                              <td style="vertical-align: middle;">&nbsp;</td>
-                                              <td>Academic<br/>Tutorial</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
+                                                <td>&nbsp;</td>
                                             </tr>
                                             <tr>
                                               <td>7</td>
                                               <td>&nbsp;</td>
-                                              <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K5 PE</td>
-                                              <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K6 PE</td>
                                               <td></td>
-                                              <td style="background-image: linear-gradient(to bottom right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)), linear-gradient(to bottom left, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));">&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>&nbsp;</td>
-                                                <td></td>
-                                                <td style="background-image: linear-gradient(to bottom right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)), linear-gradient(to bottom left, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));">&nbsp;</td>
+                                              <td></td>
+                                              <td></td>
+                                              <td>&nbsp;</td>
                                             </tr>
                                     </tbody>
                                 </table>
@@ -280,6 +273,144 @@ echo " -->";
 									<?php
 									}
 									?>
+                                    
+                                    <p>&nbsp;</p>
+                                <?php }
+
+                                elseif (in_array($_SESSION['portal_CurrentClass'], ['K4', 'K5', 'K6'])) { ?>
+                                    <div align="center" class="page-title">
+                                        <?php /*?><div style="font-weight: bold">Junior School New Schedule March 2024</div><?php */?>
+
+                                    </div>
+
+                                    <h4 align="center">Aitchison College, Junior School<br><span style="text-transform: capitalize;">School Timings</span></h4>
+
+                                    <div align="center">w.e.f Monday, 15<sup>th</sup> April, 2024</div>
+
+                                    <p>&nbsp;</p>
+
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered jambo_table" align="center" style="width:100%;text-align:center;">
+                                            <thead>
+                                            <tr>
+                                                <th rowspan="2" style="text-align:center; width: 40%; vertical-align: middle;">Classes</th>
+                                                <th colspan="2" style="text-align:center; width: 30%;">Timings</th>
+                                            </tr>
+                                            <tr>
+                                                <th style="text-align:center; width: 30%;">Monday to Thursday</th>
+                                                <th style="text-align:center; width: 30%;">Friday</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>K4, K5 & K6</td>
+                                                <td>7:40 AM to 1:20 PM</td>
+                                                <td>7:40 AM to 10:50 AM</td>
+                                            </tr>
+                                            </tbody>
+
+                                        </table>
+
+                                    </div>
+                                    <div style="text-align: center; font-weight: bold; text-transform: uppercase;">College Gates Closed - 7:40 AM</div>
+                                    <br><br>
+                                    <?php if(true) { ?>
+
+                                        <div style="text-align: center;">
+                                            <h3>Weekly Schedule</h3>
+                                        </div>
+
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered jambo_table" align="center" style="width:100%;text-align:center;">
+                                                <thead>
+                                                <tr>
+                                                    <th style="text-align:center;">No. of<br>lessons</th>
+                                                    <th style="text-align:center;">Monday</th>
+                                                    <th style="text-align:center;">Tuesday</th>
+                                                    <th style="text-align:center;">Wednesday                                                </th>
+                                                    <th style="text-align:center;">Thursday</th>
+                                                    <th style="text-align:center;">Friday</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>&nbsp;</td>
+                                                    <td></td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>&nbsp;</td>
+                                                    <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K4 PE</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="6" style="text-align: center; font-weight: bold;">BREAK</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>&nbsp;</td>
+                                                    <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K2 Wellness</td>
+                                                    <td rowspan="2" style="vertical-align: middle; background-color: #C5E0B3;"">K3 Wellness &<br/>K1 Wellness</td>
+                                                    <td style="vertical-align: middle;">&nbsp;</td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>&nbsp;</td>
+                                                    <td style="vertical-align: middle;">&nbsp;</td>
+                                                    <td>Academic<br/>Tutorial</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>&nbsp;</td>
+                                                    <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K5 PE</td>
+                                                    <td rowspan="2" style="vertical-align: middle; background-color: #9CC2E5;">K6 PE</td>
+                                                    <td></td>
+                                                    <td style="background-image: linear-gradient(to bottom right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)), linear-gradient(to bottom left, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));">&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>&nbsp;</td>
+                                                    <td></td>
+                                                    <td style="background-image: linear-gradient(to bottom right, transparent calc(50% - 1px), #000, transparent calc(50% + 1px)), linear-gradient(to bottom left, transparent calc(50% - 1px), #000, transparent calc(50% + 1px));">&nbsp;</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+
+                                            <?php /*?><p>&nbsp;</p>
+                                        <p style="font-weight: bold;">Note:</p>
+                                        <p>Lower Primary will follow the above-mentioned plan until further notice.</p>
+                                        <p>Upper Primary will follow the date sheet (already uploaded in the GCR) w.e.f. Friday, 8<sup>th</sup> December, 2023.</p><?php */?>
+                                        </div>
+                                    <?php } ?>
+                                    <?php
+                                    if(false){
+                                        ?>
+                                        <div style="text-align: center; font-weight: bold">A fine of Rs. 1000 will be applied to an unapproved leave /unexplained absence from school.</div>
+                                        <?php
+                                    }
+                                    ?>
                                     <?php /*?><h3 align="center">Routine Programme - Session 2022-23<br>
                                     SUMMER TERM                                    </h3>
 
@@ -364,7 +495,9 @@ echo " -->";
                                     <?php /*?><div><p><strong>Note:</strong>&nbsp; The announcement of Cycle A and Cycle B for the students will be uploaded to the Parents&rsquo; Portal.&nbsp;The school has already catered for siblings as much as possible.&nbsp;Kindly cooperate as no change is possible in the assigned Cycle.&nbsp;This is to ensure that 50 % strength of students attend school daily.</p></div><?php */?>
 
                                     <p>&nbsp;</p>
-                                <?php }
+                                    <?php
+
+                                }
 
                                 elseif ( $_SESSION['portal_School'] == "PSD" ) { ?>
                                     <div align="center" class="page-title">

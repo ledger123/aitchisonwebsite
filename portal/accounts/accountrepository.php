@@ -360,7 +360,7 @@ class AccountRepository
     public function IsNodeExist($treeId, $node)
     {
         $treeId = (int)$treeId;
-
+        $node = str_replace($node, "'", "''");
         $qry = "SELECT COUNT(*)	FROM portal_navigation_tree WHERE Node = '".$node."' ";
 
         if ($treeId > 0)
@@ -397,8 +397,11 @@ class AccountRepository
             array("datatype"=>"i", "value"=>$active)
         );
 
-        //echo $qry;
-
+//        echo "<!--";
+//        echo $qry;
+//
+//        var_dump($params);
+//        echo "-->";
 
         $lastInsertId = $this->dc->ExecuteNonQuery($qry, $params, true);
         //echo "last id: ".$lastInsertId;

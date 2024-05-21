@@ -81,7 +81,7 @@
 <!-- Start slider -->
   <section id="slider">
     <div class="main-slider">
-      <div class="single-slide">
+      <?php /*?><div class="single-slide">
         <img src="assets/images/slider-1.jpg" alt="img">
         <div class="slide-content">
           <div class="container">
@@ -101,7 +101,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div><?php */?>
       
             <div class="single-slide">
         <img src="assets/images/slider-2.jpg" alt="img">

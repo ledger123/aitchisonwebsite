@@ -69,8 +69,7 @@ include($path."classes/settings.php");
 
                             <!--<img src="images/principal_signature_new.png" width="212" height="72"><br>-->
 							<!--<img src="images/signature/prince_signature_new.png" width="212" height="72" ><br />-->
-							Michael Thomson M.A., Dip. Ed., M.A.C.E
-							<p>Principal</p>
+
                 
             
 						  </div>

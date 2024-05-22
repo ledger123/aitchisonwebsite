@@ -59,8 +59,7 @@ include($path."classes/settings.php");
 						  <p>All leave is recorded in the House  Leave Register on exit and return. <strong>Boys  who break the conditions of leave may have further leave denied. Any extension of  leave must gain approval through the appropriate channels. </strong></p>
 						  <p><strong>Random  visitors are not permitted in the Board Houses or immediate areas.</strong> Security will check with the Housemaster or  Housemistress if such visits arrive at the Gate and ascertain if they have  received authorized approval from the Housemaster or Housemistress. A ‘drop  off’ item is not a way of visiting. Items may be delivered to the House by  security. Again, we apply equal conditions to all boarders. </p>
 						  <p>It is absolutely crucial that boarders  know these rules. Making this clear will help everyone involved. Weekly  boarders follow the same rules, except for weekends where they are not here. No  weekly boarder may stay over the weekend without first obtaining permission  from the Housemaster or Housemistress. </p>
-						<p align="justify" style="height: 0;"><img src="../images/signature/principal_signature_new.png" width="212" height="0"></p>
-						   <p>Michael Thomson M.A., Dip. Ed., M.A.C.E<br>Principal</p>
+						
 						</div>
 						  
 					  </div>

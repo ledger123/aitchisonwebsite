@@ -121,7 +121,7 @@ $page_header = $title;
                 <div class="col-lg-12  col-md-12 col-sm-12">
                     <div id="gallerySLide" class="sgallery_area2">
 						<?php
-						$img_order=array("1", "2", "3", "10", "5", "6", "7", "8", "9");
+						$img_order=array("2", "3", "10", "5", "6", "7", "8", "9");
                         for($j=0 ; $j < count($img_order); $j++){
 							$i=$img_order[$j];
                             ?>

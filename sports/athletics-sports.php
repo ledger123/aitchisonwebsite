@@ -45,9 +45,9 @@ $page_header = $title;
             <p>Founders' Sports Day is the highlight of the Athletics season. Held on the majestic MCG, it has witnessed many fine budding champions. All Houses compete and Old Boys attend in great numbers for their annual relay and march pass. The winner of Cock House is usually decided on Founders' Day. Many historic trophies are presented by various dignitaries and the Principal. The Governor of the Punjab is our annual Chief Guest.</p>
 
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <?php /*?><div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <img src="<?php echo $image_path;?>img/athletics/4.jpg" alt="" class="img-fluid" style="width: 100%; margin-bottom: 12px;">
-                </div>
+                </div><?php */?>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <img src="<?php echo $image_path;?>img/athletics/5.jpg" alt="" class="img-fluid" style="width: 100%;">
                     <p style="text-align: center;">Founders' Day Athletics circa 1936</p>

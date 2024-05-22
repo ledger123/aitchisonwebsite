@@ -50,14 +50,7 @@ $page_header = $title;
                     <p>Our preferred month during this season happens to coincide with the Australian cricket tour in February 2022. As for weather, we are flexible up to March 2022, if your calendar permits. Looking further ahead, any month between December and March in 2023 suits us.</p>
                     <p>If you are interested in touring for a few days, or a week, perhaps we could put our Games Masters or Directors of Sports in touch with one another. Alternatively, I am more than happy to pick up the phone and speak directly to you or your representative. Our website address is <a href="https://aitchison.edu.pk" target="_blank"><span style="color: blue;">www.aitchison.edu.pk</span></a></p>
                     <p>&nbsp;</p>
-                    <p>Yours faithfully,</p>
 
-                    <p>
-                        Michael Thomson M.A., Dip. Ed., M.A.C.E
-                        <br>
-                        Principal<br>
-                        principal@aitchison.edu.pk
-                    </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <img src="<?php echo $image_path;?>img/invitational-sports/1.jpg" alt="" class="img-fluid" style="margin: 10px auto; display: block;">
@@ -69,10 +62,9 @@ $page_header = $title;
                         <p>Arena Polo (Tent-Pegging, Jumps and Dressage), Cricket, Basketball, Football (Rugby and Soccer), Hockey, Shooting, Squash, Tennis.</p>
                         <p>Contact Details:</p>
                         <p>Games Master, Mr. Umer Zaman Khan</p>
-                        Email address: gamesmaster@aitchison.edu.pk<p></p>
-                        Ph: 0092-300-8415158,<p></p>
-                        0092-42-36317201-04 (Ext: 230)
-                        <p></p>
+                        <p>Email address: gamesmaster@aitchison.edu.pk</p>
+                        <p>Ph: 0092-300-8415158,</p>
+                        <p>0092-42-36317201-04 (Ext: 230)</p>
                     </div>
                 </div>
             </div>

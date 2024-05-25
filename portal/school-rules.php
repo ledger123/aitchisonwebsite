@@ -8,7 +8,7 @@ include($path."classes/filing.php");
 <!DOCTYPE html>
 <html lang="en">
 
-<?php $title = "College Rules 2023-24"; include($path."includes.php"); ?>
+<?php $title = "College Rules 2024-25"; include($path."includes.php"); ?>
 <style>
 	.assessment h3 {
 		margin-top: 20px;
@@ -35,7 +35,7 @@ include($path."classes/filing.php");
 						  
 						  <div class="">
 							  <p style="margin-bottom: 15px;">
-								  <a href="<?php echo Filing::GetURL2("", "School Rules", "../data/2023-24/College-Rules-March-2023-24.pdf", 'Download College Rules', $functions); ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
+								  <a href="<?php echo Filing::GetURL2("", "School Rules", "../data/2024-25/College-Rules-May-2024-25.pdf", 'Download College Rules', $functions); ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
 							  </p>
 						  </div>
 						  

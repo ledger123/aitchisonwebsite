@@ -27,7 +27,7 @@
 		"ss-swimming-records"			=>	"swimming-records-ss.php",
         "ss-swimming-records-offline"	=>	"swimming-records-ss-offline.php",
 		"college-records"				=>	"college-records-sports.php",
-        "invitational-sports-tours"		=>	"invitational-sports.php",
+        //"invitational-sports-tours"		=>	"invitational-sports.php",
         //"cricket-live-scoreboard"		=>	"cricket-livescoreboard.php",
 		//"cricket-live-scoreboard-offline"		=>	"cricket-livescoreboardol.php",
         "sports-with-danish-schools-jan-2022"		=>	"danish-schools.php",

@@ -13,5 +13,5 @@
     <li><a href="shooting" class="<?php if($req_page_name==='shooting') echo 'active';?>" target="_parent">Shooting</a></li>
     <li><a href="tennis" class="<?php if($req_page_name==='tennis') echo 'active';?>" target="_parent">Tennis</a></li>
     <li><a href="college-records" class="<?php if($req_page_name==='college-records') echo 'active';?>" target="_parent">College Records</a></li>
-    <li><a href="invitational-sports-tours" class="<?php if($req_page_name==='invitational-sports-tours') echo 'active';?>" target="_parent">Invitational Sports Tours</a></li>
+    <?php /* <li><a href="invitational-sports-tours" class="<?php if($req_page_name==='invitational-sports-tours') echo 'active';?>" target="_parent">Invitational Sports Tours</a></li>*/ ?>
 </ul>

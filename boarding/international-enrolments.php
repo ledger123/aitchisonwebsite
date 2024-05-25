@@ -54,13 +54,13 @@ $page_header = $title;
             <br>
             <div class="row">
                 <div class="col-sm-12">
-                <div class="float-start d-none d-md-block me-3 mb-1" style="max-width: 250px;">
+                <?php /*?><div class="float-start d-none d-md-block me-3 mb-1" style="max-width: 250px;">
                     <img class="img-fluid" src="<?php echo $image_path; ?>img/international-enlorments-20052017/2.jpg" style="width: 100%;">
                 </div>
 
                 <div class="float-start d-block d-md-none mb-1" style="">
                     <img class="img-fluid" src="<?php echo $image_path; ?>img/international-enlorments-20052017/2.jpg" style="width: 100%;">
-                </div>
+                </div><?php */?>
 
                 <p>As a school renowned world-wide for excellence in residential education, our facilities, systems and educational support are impressive. Aitchison College has been a Cambridge Examination Centre since 1935 – the only school-based centre in the country. Our academic results are impressive with a high proportion of boys gaining admission to <a href="<?php echo $path;?>school/university-placements" target="_blank" class="custom">top universities</a> in the USA, UK, Canada, Germany and Holland, and here also in Pakistan. Among the typical undergraduate courses are: Medicine, Engineering, Law, IT and Programing, Marketing, Economics and Business. Underpinning these outcomes is Aitchison’s own <a href="<?php echo $path;?>school/university-counseling" target="_blank" class="custom">University Guidance Department</a> that helps with career and admissions advice, SAT and ACT preparations, and general applications to universities, including UCAS and individual US and other foreign colleges. Aitchison is also a SAT Centre registered under the US College Board.
                 </p>

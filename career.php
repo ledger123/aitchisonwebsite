@@ -15,43 +15,68 @@ $page_header = $title;
 
 //datetime format: m/d/y h:m:s
 $posts = [
-    /*["id" => 1, "heading" => "Teachers for Junior School", "expiry" => "02/09/2024 09:40:00", "active" => "true",
+    ["id" => 1, "heading" => "Announcement of Teaching Positions", "alive" => "05/29/2024 20:59:59", "expiry" => "06/08/2024 23:59:59", "active" => "true",
         "details" => "
-            <h4 style='margin-top: 0; margin-bottom: 15px;'>
-                English, Mathematics & General Teachers
+            <p>Applications are invited for the following positions in three schools. The applicant must be familiar with Cambridge Curriculum system & possess a Bachelors Degree for Junior School and Masters or equivalent related degree for Prep & Senior School with strong verifiable three years’ experience in teaching.</p>
+            <h4 class='mt-0 mb4'>
+                Junior School (Year Group: 1 - 6) Cambridge Primary Curriculum:
             </h4>
-            <p>Applications are invited for the above-mentioned positions in our Junior School. The applicant must be familiar with Cambridge Primary Curriculum (Grade 1 - 6) and must have a minimum 5 years verifiable teaching experience in a well-reputed school, along with excellent language and teaching skills. A Master’s degree would be an advantage but is not essential.</p>
+            <ul class='ms-4' style='list-style: disc;'>
+                <li>English</li>            
+                <li>Urdu</li>
+                <li>Mathematics</li>
+                <li>Qari</li>
+            </ul>
+            
+            <h4 class='mt-3 mb4'>
+                Preparatory (Middle) School (Year Group: 7, 8 & 9) Cambridge Secondary Curriculum:
+            </h4>
+            <ul class='ms-4' style='list-style: disc;'>
+                <li>English</li>            
+                <li>Geography</li>
+                <li>Islamiyat</li>
+                <li>Urdu</li>
+            </ul>
+            
+            
+            <h4 class='mt-3 mb4'>
+                Senior School (Year Group: O/A Levels) Cambridge IGCSE/A Levels Curriculum:
+            </h4>
+            <ul class='ms-4' style='list-style: disc;'>
+                <li>Mathematics</li>     
+                <li>Islamiyat</li>
+                <li>Urdu</li>
+            </ul>
+            
+            <p class='mt-4'>Applications must reach by: <strong>Saturday, 8<sup>th</sup> June, 2024</strong> via courier to: <span style='font-style: italic; font-weight: bold;'>Director Human Resources, Aitchison College, The Mall Road, Lahore.</span></p>
+            <div class='mt-5 text-center'>ACTING PRINCIPAL</div>
 
-
+        "
+    ],
+    /*["id" => 2, "heading" => "Teachers for Senior School", "expiry" => "02/09/2024 09:40:00", "active" => "false",
+            "details" => "
+            <h4 style='margin-top: 0; margin-bottom: 15px;'>
+                Teachers for Senior School (Starting August 2023)
+            </h4>
+            <h6 style='margin-top: -10px;'>
+                <strong>
+                    Principles of Accounting, Business Studies, English and Pakistan Studies
+                </strong>
+            </h6>
+            <p style='line-height: 1.6em;'>Applications are invited for the above mentioned subjects in Senior School.</p>
+            <p style='line-height: 1.6em;'>Applicants must have experience of teaching the relevant subjects at O Level /IGCSE and A Level (Cambridge international), with a related Master’s degree.</p>
             <p style='line-height: 1.6em;'>
-                Please apply to HR with a full resume at <span style='color:#0000ff;'>hr@aitchison.edu.pk</span></strong> no later than Saturday, 8<sup>th</sup> July, 2023.
+                Applications must reach the college by 31<sup>st</sup> May 2023 via email to the Director HR at:  <span style='color:#0000ff;'>hr@aitchison.edu.pk</span>.
+            "
+        ],
+        ["id" => 3, "heading" => "Principal Aitchison College", "expiry" => "03/11/2024 23:59:59", "active" => "true",
+            "details" => "
+            <p>
+            <img src='img/principal/press-ad-aitchison-college-20240204.webp' class='img-fluid' alt='Ad'>
             </p>
-        "
-    ],
-    ["id" => 2, "heading" => "Teachers for Senior School", "expiry" => "02/09/2024 09:40:00", "active" => "false",
-        "details" => "
-        <h4 style='margin-top: 0; margin-bottom: 15px;'>
-            Teachers for Senior School (Starting August 2023)
-        </h4>
-        <h6 style='margin-top: -10px;'>
-            <strong>
-                Principles of Accounting, Business Studies, English and Pakistan Studies
-            </strong>
-        </h6>
-        <p style='line-height: 1.6em;'>Applications are invited for the above mentioned subjects in Senior School.</p>
-        <p style='line-height: 1.6em;'>Applicants must have experience of teaching the relevant subjects at O Level /IGCSE and A Level (Cambridge international), with a related Master’s degree.</p>
-        <p style='line-height: 1.6em;'>
-            Applications must reach the college by 31<sup>st</sup> May 2023 via email to the Director HR at:  <span style='color:#0000ff;'>hr@aitchison.edu.pk</span>.
-        "
-    ],
-    ["id" => 3, "heading" => "Principal Aitchison College", "expiry" => "03/11/2024 23:59:59", "active" => "true",
-        "details" => "
-        <p>
-        <img src='img/principal/press-ad-aitchison-college-20240204.webp' class='img-fluid' alt='Ad'>
-        </p>
-        "
-    ],
-*/
+            "
+        ],
+    */
 //
 //    ["id" => 2, "heading" => "", "expiry" => "03/09/2024 09:40:00", "active" => "false",
 //        "details" => ""
@@ -150,33 +175,36 @@ $posts = [
             <div class="accordion" id="accordionExample">
 
                 <?php
-				if(count($posts) > 0){
-                foreach ($posts as $post) {
+                $hasJob = false;
+                if(true) {
+                    foreach ($posts as $post) {
 
-                    if( strtotime( $post['expiry'])  > time() ) {
-                        ?>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="heading<?php echo $post['id']; ?>">
-                                <button class="accordion-button<?php if ($post['active']==="false") echo " collapsed"; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo $post['id']; ?>" aria-expanded="<?php echo $post['active']; ?>" aria-controls="collapse<?php echo $post['id']; ?>">
-                                    <?php echo $post['heading']; ?>
-                                </button>
-                            </h2>
-                            <div id="collapse<?php echo $post['id']; ?>" class="accordion-collapse collapse<?php if ($post['active']==="true") echo " show"; ?>" aria-labelledby="heading<?php echo $post['id']; ?>" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <?php echo $post['details']; ?>
+                        if( $post['active'] === 'true' && strtotime( $post['alive']) < time() &&  strtotime( $post['expiry'])  > time() ) {
+                            $hasJob = true;
+                            ?>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading<?php echo $post['id']; ?>">
+                                    <button class="accordion-button<?php if ($post['active']==="false") echo " collapsed"; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#collapse<?php echo $post['id']; ?>" aria-expanded="<?php echo $post['active']; ?>" aria-controls="collapse<?php echo $post['id']; ?>">
+                                        <?php echo $post['heading']; ?>
+                                    </button>
+                                </h2>
+                                <div id="collapse<?php echo $post['id']; ?>" class="accordion-collapse collapse<?php if ($post['active']==="true") echo " show"; ?>" aria-labelledby="heading<?php echo $post['id']; ?>" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <?php echo $post['details']; ?>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <?php
+                            <?php
+                        }
                     }
                 }
-				}else{
-				?>					
-						<p class="alert alert-info" style="text-align: center;">Currently, there are no new postings available. Please check back later for updates.</p>
+                if( !$hasJob ){
+                    ?>
+                    <p class="alert alert-info" style="text-align: center;">Currently, there are no new postings available. Please check back later for updates.</p>
 
-				<?php	
-				}
+                    <?php
+                }
                 ?>
 
             </div>

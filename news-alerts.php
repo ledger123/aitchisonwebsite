@@ -41,11 +41,11 @@
                 </div>
 
 
-                <div class="swiper-slide">
+                <?php /*?><div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2129-world-scholars-cup-wsc-global-round-qatar-2023" target="_blank">World Scholars Cup (WSC) Global Round Qatar 2023</a>
                 </div>
 
-                <?php /*?><div class="swiper-slide">
+                <div class="swiper-slide">
                 <a href="<?php echo $path;?>news-2127-obituary-tragic-loss-of-shahzada-dawood-and-his-son-suleman" target="_blank">Obituary: Tragic Loss of Shahzada Dawood and his son Suleman</a>
             </div><?php */?>
 

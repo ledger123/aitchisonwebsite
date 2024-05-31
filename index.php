@@ -517,7 +517,64 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
+				
+				<div class="item">
+                    <div class="news-box">
+                        <a href="news-2622-junior-school-end-term-party-upper-primary" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/29-8699323471.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    30<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Junior School End Term Party Upper Primary
+                                </h3>
 
+                            </div>
+                        </a>
+                    </div>
+                </div>
+				
+				<div class="item">
+                    <div class="news-box">
+                        <a href="news-2619-pak-maweshi-aitchison-college-students-startup-wins-prestigious-it-innovation-award" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/pak-maweshi-2619-sm-2574236438.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    23<sup>rd</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Pak Maweshi: Aitchison College Students' Startup Wins Prestigious IT Innovation Award
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+				
+				<div class="item">
+                    <div class="news-box">
+                        <a href="news-2620-deutsch-dribblers-video-contest" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/deutsch-dribblers-video-contest-2620-3262614995.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    27<sup>th</sup> May, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Deutsch Dribblers Video Contest
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+			
 
                 <div class="item">
                     <div class="news-box">
@@ -846,7 +903,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <div class="item">
+               <?php /*?> <div class="item">
                     <div class="news-box">
                         <a href="news-2517-aitchison-college-rifle-shooting-championship-feb-2024" target="_blank">
                             <div class="news-image">
@@ -923,7 +980,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
+<?php */?>
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2465-aitchison-college-science-society-lifts-karachi-grammar-stem-olympiads-best-institute-best-delegation-award" target="_blank">
@@ -943,7 +1000,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <div class="item">
+                <?php /*?><div class="item">
                     <div class="news-box">
                         <a href="news-2460-our-tent-peggers-enthrall-an-appreciative-crowd" target="_blank">
                             <div class="news-image">
@@ -960,7 +1017,7 @@ if($mobile->isMobile()) {
                             </div>
                         </a>
                     </div>
-                </div>
+                </div><?php */?>
 
                 <div class="item">
                     <div class="news-box">

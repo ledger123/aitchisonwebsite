@@ -16,7 +16,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 	  <a href="admission.php">
-		<img class="img-responsive" src="sports-1.jpg" style="width: 100%; height: auto" />
+		<img class="img-responsive" src="sports-v3.jpg" style="width: 100%; height: auto" />
 	  </a>	  
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

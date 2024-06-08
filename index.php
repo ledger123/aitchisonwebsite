@@ -556,7 +556,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 				
-				<div class="item">
+				<?php /*?><div class="item">
                     <div class="news-box">
                         <a href="news-2620-deutsch-dribblers-video-contest" target="_blank">
                             <div class="news-image">
@@ -573,7 +573,7 @@ if($mobile->isMobile()) {
                             </div>
                         </a>
                     </div>
-                </div>
+                </div><?php */?>
 			
 
                 <div class="item">
@@ -864,7 +864,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-
+				<?php /*?>
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2521-ss-inter-school-quiz-competition-2024" target="_blank">
@@ -903,7 +903,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-               <?php /*?> <div class="item">
+                <div class="item">
                     <div class="news-box">
                         <a href="news-2517-aitchison-college-rifle-shooting-championship-feb-2024" target="_blank">
                             <div class="news-image">
@@ -980,7 +980,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-<?php */?>
+
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2465-aitchison-college-science-society-lifts-karachi-grammar-stem-olympiads-best-institute-best-delegation-award" target="_blank">
@@ -1000,7 +1000,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <?php /*?><div class="item">
+                <div class="item">
                     <div class="news-box">
                         <a href="news-2460-our-tent-peggers-enthrall-an-appreciative-crowd" target="_blank">
                             <div class="news-image">
@@ -1018,7 +1018,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div><?php */?>
-
+				<?php /*
                 <div class="item">
                     <div class="news-box">
                         <a href="aitchison-senior-mathematics-society-delegation-bags-medals-at-seamo-x-2024" target="_blank">
@@ -1039,7 +1039,7 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-                <?php /*
+                
                 <div class="item">
                     <div class="news-box">
                         <a href="news-2453-prep-play-cinderfella-entertains-appreciative-audience" target="_blank">

@@ -5,32 +5,56 @@ function getDataArray()
     $worksheets = array();
 
 
-    
     $worksheets[] =
-        ['class' => 'C2', 'date' => '05062023', 'id' => '133',
+        ['class' => 'Pre C1', 'date' => '15062024', 'id' => '135',
             'worksheets' => [
-                'header' => 'C1 (C1 promoted to C2)', 'link_text' => 'Download Holiday Homework',
+                'header' => 'C1', 'link_text' => 'Download Holiday Homework',
                 'data' => [
-                    array('Caption' => 'Summer Film Challenge', 'FileUrl' => 'data/2023-24/homework/ssd/Senior-School-Summer-Film-Challenge-2023.pdf'),
-                    array('Caption' => 'Download Holiday Homework', 'FileUrl' => 'data/2023-24/homework/ssd/c1-holiday-homework-20230605.rar')
+                    array('Caption' => 'C1-9th Holidays Homework 2024', 'FileUrl' => 'data/2024-25/homework/ssd/C1-9th-Holidays-Homework-2024.zip'),
+                    array('Caption' => 'C1 Holidays Homework 2024', 'FileUrl' => 'data/2024-25/homework/ssd/C1-Holidays-Homework-2024.zip')
                 ]
 
             ]
         ];
 
     $worksheets[] =
-        ['class' => 'C1', 'date' => '05062023', 'id' => '132',
+        ['class' => 'C1', 'date' => '15062024', 'id' => '134',
             'worksheets' => [
-                'header' => 'Pre-C1 (Pre-C1 promoted to C1)', 'link_text' => 'Download Holiday Homework',
+                'header' => 'C2', 'link_text' => 'Download Holiday Homework',
                 'data' => [
-                    array('Caption' => 'Summer Film Challenge', 'FileUrl' => 'data/2023-24/homework/ssd/Senior-School-Summer-Film-Challenge-2023.pdf'),
-                    array('Caption' => 'Download Holiday Homework', 'FileUrl' => 'data/2023-24/homework/ssd/pre-c1-holiday-homework-20230605.rar')
+                    array('Caption' => 'C2 Holidays Homework 2024', 'FileUrl' => 'data/2024-25/homework/ssd/C2-Holidays-Homework-2024.zip')
                 ]
 
             ]
         ];
 
 
+    /*
+        $worksheets[] =
+            ['class' => 'C2', 'date' => '05062023', 'id' => '133',
+                'worksheets' => [
+                    'header' => 'C1 (C1 promoted to C2)', 'link_text' => 'Download Holiday Homework',
+                    'data' => [
+                        array('Caption' => 'Summer Film Challenge', 'FileUrl' => 'data/2023-24/homework/ssd/Senior-School-Summer-Film-Challenge-2023.pdf'),
+                        array('Caption' => 'Download Holiday Homework', 'FileUrl' => 'data/2023-24/homework/ssd/c1-holiday-homework-20230605.rar')
+                    ]
+
+                ]
+            ];
+
+        $worksheets[] =
+            ['class' => 'C1', 'date' => '05062023', 'id' => '132',
+                'worksheets' => [
+                    'header' => 'Pre-C1 (Pre-C1 promoted to C1)', 'link_text' => 'Download Holiday Homework',
+                    'data' => [
+                        array('Caption' => 'Summer Film Challenge', 'FileUrl' => 'data/2023-24/homework/ssd/Senior-School-Summer-Film-Challenge-2023.pdf'),
+                        array('Caption' => 'Download Holiday Homework', 'FileUrl' => 'data/2023-24/homework/ssd/pre-c1-holiday-homework-20230605.rar')
+                    ]
+
+                ]
+            ];
+
+    */
 
 /*
     $worksheets[] =

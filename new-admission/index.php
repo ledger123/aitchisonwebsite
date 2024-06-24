@@ -10,7 +10,62 @@ $page_header = $title;
 ?>
 
 <body>
-<?php include_once ($path.'new-logo-page-banner.php'); ?>
+<?php //include_once ($path.'new-logo-page-banner.php'); ?>
+
+<style>
+    .banner-heading {
+        font-size: 5rem;
+        font-weight: 200;
+        margin: 0;
+        position: absolute;
+        bottom: 140px;
+        -ms-transform: translateY(8px);
+        transform: translateY(8px);
+        line-height: .9;
+        color: #fff;
+        left: 0;
+        top: 220px;
+        padding-left: 12px;
+        z-index: 1000;
+        text-transform: unset;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .banner-heading hr {
+        height: 2px;
+        background-color: #fff;
+        opacity: 1;
+    }
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
+    <a class="logo-left" href="/">
+        <div>
+
+        </div>
+    </a>
+    <?php /*?><div class="years-135">
+        <img src="resources/assets/images/where.png" style="color: #fff;"/>
+    </div><?php */?>
+
+</nav>
+
+<div id="backgroundVideo">
+    <section style="background: url(images/banner.jpg); background-repeat: no-repeat;background-size: cover; background-position: center center; height: 100vh;">
+        <div class="container banner-text">
+            <div class="banner-heading">
+                <h4>Building a Tradition of Excellence and Inspiring the Future</h4>
+                <hr />
+                <div>Admissions</div>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+
 
 <?php include_once($path."mega-menu.php");?>
 

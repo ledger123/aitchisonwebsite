@@ -13,18 +13,30 @@ $page_header = $title;
 <?php //include_once ($path.'new-logo-page-banner.php'); ?>
 
 <style>
-    .banner-heading {
-        font-size: 5rem;
-        font-weight: 200;
+    .main-banner {
+        display: block;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        min-width: 100%;
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .main-banner > .banner-text {
+
         margin: 0;
         position: absolute;
-        bottom: 140px;
+        bottom: 14rem;
         -ms-transform: translateY(8px);
         transform: translateY(8px);
         line-height: .9;
         color: #fff;
-        left: 0;
-        top: 220px;
+        left: 100px;
         padding-left: 12px;
         z-index: 1000;
         text-transform: unset;
@@ -32,7 +44,24 @@ $page_header = $title;
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-    .banner-heading hr {
+
+    .main-banner > .banner-text h1 {
+        font-size: 5rem;
+        font-weight: 200;
+        margin-bottom: 0;
+    }
+
+    .main-banner > .banner-text div {
+        width: fit-content;
+    }
+
+
+    .main-banner > .banner-text span {
+        font-size: 1.7rem;
+        font-weight: 300;
+    }
+
+    .main-banner > .banner-text hr {
         height: 2px;
         background-color: #fff;
         opacity: 1;
@@ -46,23 +75,19 @@ $page_header = $title;
 
         </div>
     </a>
-    <?php /*?><div class="years-135">
-        <img src="resources/assets/images/where.png" style="color: #fff;"/>
-    </div><?php */?>
-
 </nav>
 
-<div id="backgroundVideo">
-    <section style="background: url(images/banner.jpg); background-repeat: no-repeat;background-size: cover; background-position: center center; height: 100vh;">
-        <div class="container banner-text">
-            <div class="banner-heading">
-                <h4>Building a Tradition of Excellence and Inspiring the Future</h4>
-                <hr />
-                <div>Admissions</div>
-            </div>
+<div class="main-banner" style="background: url(images/banner.jpg); background-repeat: no-repeat;background-size: cover; background-position: center center; height: 100vh;">
 
+    <div class="container-fluid banner-text">
+
+        <div>
+            <hr />
+            <span>Building a Tradition of Excellence and Inspiring the Future</span>
         </div>
-    </section>
+
+        <h1>Admissions</h1>
+    </div>
 
 </div>
 

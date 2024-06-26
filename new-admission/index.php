@@ -68,6 +68,32 @@ $page_header = $title;
     }
 </style>
 
+<style>
+    .sticky-menu {
+        bottom: 0;
+        height: fit-content;
+        left: 0;
+        position: fixed;
+        pointer-events: none;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        display: block;
+        background-color: var(--color-yellow);
+    }
+
+    .sticky-menu nav {
+
+        height: 60px;
+    }
+
+    .add-menu {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 0;
+        list-style: none;
+    }
+</style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
     <a class="logo-left" href="/">
@@ -91,9 +117,20 @@ $page_header = $title;
 
 </div>
 
-
 <?php include_once($path."mega-menu.php");?>
 
+<div class="sticky-menu">
+    <div class="container">
+        <div class="row">
+            <nav>
+                <ol class="add-menu">
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Points of Entry</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Policy & Process</a></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
 
 <div class="breadcrumb-bar">
     <div class="container">

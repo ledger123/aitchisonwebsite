@@ -70,10 +70,10 @@ $page_header = $title;
 
 <style>
     .sticky-menu {
-        bottom: 0;
+        bottom: 60px;
         height: fit-content;
         left: 0;
-        position: fixed;
+        position: relative;
         pointer-events: none;
         right: 0;
         width: 100%;
@@ -92,6 +92,68 @@ $page_header = $title;
         flex-wrap: wrap;
         padding: 0 0;
         list-style: none;
+    }
+    .add-menu-item {
+        padding: 0 5px;
+    }
+    .add-menu-item a {
+        color: var(--color-blue);
+    }
+
+    .add-menu-item::before {
+        content: '';
+        border-right: 1px solid;
+
+    }
+
+    .points-of-entry {
+        padding: 8rem 4rem;
+        background-color: var(--color-blue);
+    }
+
+    .points-of-entry h2 {
+        text-align: center;
+        color: #fff;
+        font-weight: 200;
+    }
+
+    h2 > hr {
+        width: 120px;
+        background-color: #ffc845;
+        border: 2px solid #ffc845;
+        border-radius: 2px;
+        opacity: unset;
+        margin: 1.7rem auto;
+    }
+
+
+    .boxes>div>.box {
+        border: 1px solid var(--color-yellow);
+        padding: 5rem 3rem;
+        text-align: center;
+    }
+
+    .box {
+        color: #fff;
+        height: 100%;
+    }
+    .box > div {
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: 1.2rem;
+    }
+</style>
+
+<style>
+    .policy-process {
+        padding: 7rem 0;
+        color: #fff;
+        background: url(images/image-1.jpg); background-repeat: no-repeat;background-size: cover; background-position: center center;
+    }
+    .policy-process h2 {
+        font-weight: 200;
+
     }
 </style>
 
@@ -126,31 +188,57 @@ $page_header = $title;
                 <ol class="add-menu">
                     <li class="add-menu-item"><a href="<?php echo $path;?>">Points of Entry</a></li>
                     <li class="add-menu-item"><a href="<?php echo $path;?>">Policy & Process</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Senior Admission</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Age Guidelines</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">A Guide to Syllabus</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Admission Testing Schedule</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Important Dates</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Available Seats</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">FAQs</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">Fee Structure</a></li>
+                    <li class="add-menu-item"><a href="<?php echo $path;?>">International Enrolments</a></li>
                 </ol>
             </nav>
         </div>
     </div>
 </div>
 
-<div class="breadcrumb-bar">
+<div class="container-fluid points-of-entry">
+
     <div class="container">
-        <div class="row">
-
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="<?php echo $path;?>">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page"><a href="admissions-info">Admissions</a></li>
-                </ol>
-            </nav>
-
+        <h2>POINTS OF ENTRY<br/>INTO AITCHISON FOR 2024-25<hr/></h2>
+        <div class="row boxes">
+            <div class="col-4">
+                <div class="box">
+                    <div>Junior School</div>
+                    <span>offers entry for boys to K1 (boarders only), K2 (boarders & day), & K6 (boarders only).</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box ">
+                    <div>Prep School</div>
+                    <span>offers general entry for boys to E2 (Grade 7 – day and boarding), M1 (Grade 8 – boarders only) & M2 (Grade 9 – boarders only).</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box">
+                    <div>Senior School</div>
+                    <span>offers two points of entry: C1 (to study IGCSE or FBISE Matric for day and boarding) and H1 (to study Cambridge AS Level or FBISE F.Sc, Pre-Medical for day and boarding). Limited places for Internationals are based on Cambridge or other acceptable curricula.</span>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="col-lg-3 col-md-6 col-sm-12 text-lg-start text-sm-center">
-            <div></div>
+</div>
+
+<div class="container-fluid policy-process">
+    <div class="container">
+        <h2>ADMISSIONS<br/>POLICY & PROCESS<hr style="margin-left: 0;"/></h2>
+        <div class="row">
+            <div class="col-6">Aitchison College admits boys on the basis of academic and general suitability. The application process must be completed before a boy is considered an eligible candidate.</div>
         </div>
     </div>
 </div>
-
 
 <div class="container">
     

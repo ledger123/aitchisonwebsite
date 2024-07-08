@@ -143,14 +143,14 @@ else {
 				  </div>
 				  <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 
-                      <div>
+                      <?php /*?><div>
                           <div><h3>Important Events</h3></div>
                           <a href="term_dates" class="btn btn-primary" style="width: 100%; text-align: left; font-size: 16px;">
                               Term Dates<br>
                               Designated Holidays<br>
                               Major Assessments
                           </a>
-                      </div>
+                      </div><?php */?>
                       <br>
                       <?php /*?><div>
                           <div><h3>Download</h3></div>

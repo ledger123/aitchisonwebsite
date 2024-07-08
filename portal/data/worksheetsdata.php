@@ -6,7 +6,7 @@ function getDataArray()
 
 
     $worksheets[] =
-        ['class' => 'Pre C1', 'date' => '15062024', 'id' => '135',
+        ['class' => 'C1', 'date' => '15062024', 'id' => '135',
             'worksheets' => [
                 'header' => 'C1', 'link_text' => 'Download Holiday Homework',
                 'data' => [
@@ -18,7 +18,7 @@ function getDataArray()
         ];
 
     $worksheets[] =
-        ['class' => 'C1', 'date' => '15062024', 'id' => '134',
+        ['class' => 'C2', 'date' => '15062024', 'id' => '134',
             'worksheets' => [
                 'header' => 'C2', 'link_text' => 'Download Holiday Homework',
                 'data' => [

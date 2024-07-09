@@ -145,6 +145,11 @@ if ( false ) {
 if ( in_array($_SESSION['portal_School'], ['SSD', 'PSD', 'JSD'])  ) {
 	/*and will be used for Online Classes.*/
 	/*<div>Please visit <a href="notice.php?id=809" target="_blank" rel="noopener noreferrer" style="color:blue; text-decoration: underline;">FAQs</a> on Online Classes.</div>*/
+	if($_SESSION['portal_SchoolName']!="Junior School"){
+		$_SESSION['portal_Studing']=$_SESSION['portal_Studing'];
+	}else{
+		$_SESSION['portal_Studing']=$_SESSION['portal_CurrentClass'];
+	}
     $MsgForOnlineLearning = '
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">

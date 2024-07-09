@@ -66,7 +66,7 @@
           <?php if(false) { #hide the school number ?>
             <h5><?php echo $_SESSION['portal_CurrentClass'];?>, (<?php echo $_SESSION['portal_SchoolNo'];?>)</h5>
           <?php } ?>
-          <h5><?php echo $_SESSION['portal_Studing']?><?php //echo ($_SESSION['portal_SchoolName']!="Junior School")?$_SESSION['portal_Studing']:$_SESSION['portal_CurrentClass'];?><br/>
+          <h5><?php //echo $_SESSION['portal_Studing']?><?php echo ($_SESSION['portal_SchoolName']!="Junior School")?$_SESSION['portal_Studing']:$_SESSION['portal_CurrentClass'];?><br/>
               <?php
               if (strpos(strtolower($_SESSION['portal_House']), 'house') === false) {
                 echo $_SESSION['portal_House'] . ' House';

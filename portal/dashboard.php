@@ -148,7 +148,8 @@ if ( in_array($_SESSION['portal_School'], ['SSD', 'PSD', 'JSD'])  ) {
 	if($_SESSION['portal_SchoolName']!="Junior School"){
 		$_SESSION['portal_Studing']=$_SESSION['portal_Studing'];
 	}else{
-		$_SESSION['portal_Studing']=$_SESSION['portal_CurrentClass'];
+		$_SESSION['portal_Studing']=$_SESSION['portal_Studing'];
+		//$_SESSION['portal_Studing']=$_SESSION['portal_CurrentClass'];
 	}
     $MsgForOnlineLearning = '
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

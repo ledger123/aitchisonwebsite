@@ -176,6 +176,24 @@ $page_header = $title;
     }
 </style>
 
+<style>
+    .important-dates {
+        padding: 7rem 0;
+    }
+    .important-dates h2 {
+        text-align: center;
+    }
+    .id-item div{
+        color: var(--color-blue);
+        font-weight: bold;
+        min-height: 6rem;
+    }
+    .id-item .badge {
+        color: #000;
+        background-color: var(--color-yellow);
+    }
+</style>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
     <a class="logo-left" href="/">
         <div>
@@ -326,6 +344,38 @@ $page_header = $title;
                 <h2>Year 12 (H1)</h2>
                 <p class="fw-bold">A Level (First Year)</p>
                 <p>June 1, 2007 – May 31, 2008 inclusive</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid important-dates">
+    <div class="container">
+        <h2>TABLE OF IMPORTANT DATES<br/>FOR ENTRY 2024-25<hr/></h2>
+        <div class="row mt-5">
+            <div class="col-3">
+                <div class="id-item">
+                    <div>Deadline for application submission for Day Students</div>
+                    <span class="badge">30<sup>th</sup> Nov, 2023</span>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="id-item">
+                    <div>Deadline for application submissions for Boarding Students</div>
+                    <span class="badge">31<sup>st</sup> Dec, 2023</span>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="id-item">
+                    <div>Medical and Age Testing</div>
+                    <span class="badge">January, 2024</span>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="id-item">
+                    <div>Test date for all age groups</div>
+                    <span class="badge">May, 2024</span>
+                </div>
             </div>
         </div>
     </div>

@@ -438,7 +438,7 @@ if ( $_SESSION['portal_School'] == 'JSD' /*&& isset($_GET['videolink']) && $_GET
                                 <div class="animated flipInY col-lg-2 col-md-3 col-sm-4 col-xs-12">
 
                                     <a class="tile-stats nav-link " href="calendar" target="_parent">
-                                        <i class="fa fa-calendar"></i><div>Calendars 2023-24</div>
+                                        <i class="fa fa-calendar"></i><div>Calendar</div>
                                     </a>
 
                                 </div>

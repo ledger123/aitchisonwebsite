@@ -433,7 +433,7 @@ if($mobile->isMobile()) {
     </a>
 </div>
 
-<?php if(true) { ?>
+<?php if(false) { ?>
     <?php /*?><div class="toaster toaster-1">
         <a href="admission/points-of-entry-into-aitchison" target="_blank"><h5>Admissions Information<br/>2024-25</h5></a>
     </div>

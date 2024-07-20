@@ -201,7 +201,7 @@ $posts = [
                 }
                 if( !$hasJob ){
                     ?>
-                    <p class="alert alert-info" style="text-align: center;">Currently, there are no new postings available. Please check back later for updates.</p>
+                    <p class="alert alert-info" style="text-align: center;">Currently, there are no new job openings. Please check back soon for updates on career opportunities at Aitchison College.</p>
 
                     <?php
                 }

@@ -12,9 +12,9 @@
 				<div class="swiper-slide">
                     <a href="<?php echo $path;?>activity-glimpses" target="_blank">Sports & Co-Curricular Activities - This week at a Glance</a>
                 </div>                
-                <div class="swiper-slide">
+                <?php /* ?><div class="swiper-slide">
                     <a href="<?php echo $path;?>admission/a-level-fsc-application-forms" target="_blank">A Level/FSc Application Forms</a>
-                </div>
+                </div><?php */?>
 				<div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2607-aitchison-college-dominates-the-punjab-age-group-swimming-championship-2024" target="_blank">Aitchison College dominates the Punjab Age Group Swimming Championship 2024</a>
                 </div>
@@ -26,11 +26,14 @@
                 <?php /*?><div class="swiper-slide">
                     <a href="https://aitchison.edu.pk/alumni/news-2476-founders-day-2024" target="_blank">FOUNDERS' DAY 2024</a> 
                 </div><?php */?>
-
-                <div class="swiper-slide">
-                    <a href="<?php echo $path;?>news-2470-aitchison-wins-third-jafar-trophy-in-four-years" target="_blank"><span style="color: #00205b;">AITCHISON WINS THIRD JAFAR TROPHY IN FOUR YEARS</span></a>
+				<div class="swiper-slide">
+                    <a href="<?php echo $path;?>news-2626-1st-army-burn-hall-tent-pegging-championship-2024" target="_blank"><span style="color: #00205b;">1<sup>ST</sup> ARMY BURN HALL TENT PEGGING CHAMPIONSHIP 2024</span></a>
                 </div>
-
+				
+                <div class="swiper-slide">
+                    <a href="<?php echo $path;?>news-2627-world-robotics-olympiad-2024" target="_blank"><span style="color: #00205b;">WORLD ROBOTICS OLYMPIAD 2024</span></a>
+                </div>
+				<?php /*?>
                 <div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2439-aitchison-dominates-cambridge-outstanding-learners" target="_blank">AITCHISON DOMINATES CAMBRIDGE OUTSTANDING LEARNERS</a>
                 </div>
@@ -41,7 +44,7 @@
                 </div>
 
 
-                <?php /*?><div class="swiper-slide">
+                <div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2129-world-scholars-cup-wsc-global-round-qatar-2023" target="_blank">World Scholars Cup (WSC) Global Round Qatar 2023</a>
                 </div>
 

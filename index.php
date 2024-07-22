@@ -49,7 +49,7 @@ if($mobile->isMobile()) {
         background-color: #00195291;
 
     }
-	
+
 
     .toaster a h5 {
         color: #fff;
@@ -64,9 +64,18 @@ if($mobile->isMobile()) {
         color: #ffc845;
     }
 
+    .toaster.my-aitchison {
+        width: 115px;
+        top: 0;
+        right: 0;
+        padding: 3px 0;
+    }
+    .toaster.my-aitchison h5 {
+        font-weight: 500;
+    }
 
 	.toaster.ibsc {
-		
+
 		top: 129px;
         background-color: transparent;
         cursor: default;
@@ -82,7 +91,7 @@ if($mobile->isMobile()) {
 	}
 
     .toaster.g30-schools {
-		
+
 		top: 170px;
         background-color: transparent;
         cursor: default;
@@ -102,7 +111,7 @@ if($mobile->isMobile()) {
         width: 180px;
         top: 312px;
     }
-		
+
     .slogan {
         color: #fff;
         top: 0;
@@ -135,7 +144,7 @@ if($mobile->isMobile()) {
         background-size: 300px auto;
     }
 
-    .owl-carousel .active span {	
+    .owl-carousel .active span {
         border: 3px solid #ffc845;
     }
 
@@ -167,7 +176,7 @@ if($mobile->isMobile()) {
 
     }
     @media (max-width: 1024px){
-        
+
         .toaster a h5 {
             font-size: .8rem;
         }
@@ -208,10 +217,10 @@ if($mobile->isMobile()) {
             margin-right: 0.5rem;
         }
 
-        
-        
+
+
         .toaster.ibsc {
-		
+
             right: 40px;
         }
         .toaster.toaster-1 {
@@ -225,7 +234,7 @@ if($mobile->isMobile()) {
             top: 292px;
             width: 140px;
         }
-        
+
     }
 
     @media (max-width: 576px) {
@@ -251,6 +260,11 @@ if($mobile->isMobile()) {
 
         #wstoggle {
             top: 50px;
+        }
+        
+        .toaster.my-aitchison {
+            top: 0;
+            right: 0;
         }
 
         .toaster.ibsc {
@@ -284,7 +298,7 @@ if($mobile->isMobile()) {
         }
 
         .toaster.ibsc {
-            
+
             /* top: 175px; */
         }
 
@@ -369,7 +383,7 @@ if($mobile->isMobile()) {
     .logos .aga-khan2{width:10%;vertical-align:middle}
     .logos .fedral-board{width:13%;}
     .logos .spears-schools{width: 9%;}
-    
+
 
     @media (max-width: 1024px) {
         .logos .cambridge{width:13%;}
@@ -396,8 +410,8 @@ if($mobile->isMobile()) {
         .logos .spears-schools{width: 13%;}
     }
 
-    .news-carousel > .owl-carousel .active span {	
-    border: 3px solid #001952; 
+    .news-carousel > .owl-carousel .active span {
+    border: 3px solid #001952;
     }
 
 </style>
@@ -418,6 +432,11 @@ if($mobile->isMobile()) {
     </div><?php */?>
 
 </nav>
+
+
+<div class="toaster my-aitchison">
+    <a href="portal/acportal" target="_blank"><h5>My Aitchison</h5></a>
+</div>
 
 <?php include_once ("mega-menu.php");?>
 
@@ -441,7 +460,7 @@ if($mobile->isMobile()) {
 	<div class="toaster toaster-1">
         <a href="admission/a-level-fsc-application-forms" target="_blank"><h5>A Level/FSc Application<br/>Forms</h5></a>
     </div>
-    
+
 
 <!---->
 <!--    <div class="toaster toaster-3">-->
@@ -517,7 +536,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-				
+
 				<div class="item">
                     <div class="news-box">
                         <a href="news-2622-junior-school-end-term-party-upper-primary" target="_blank">
@@ -536,7 +555,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-				
+
 				<div class="item">
                     <div class="news-box">
                         <a href="news-2619-pak-maweshi-aitchison-college-students-startup-wins-prestigious-it-innovation-award" target="_blank">
@@ -555,7 +574,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div>
-				
+
 				<?php /*?><div class="item">
                     <div class="news-box">
                         <a href="news-2620-deutsch-dribblers-video-contest" target="_blank">
@@ -574,7 +593,7 @@ if($mobile->isMobile()) {
                         </a>
                     </div>
                 </div><?php */?>
-			
+
 
                 <div class="item">
                     <div class="news-box">

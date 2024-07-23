@@ -187,17 +187,7 @@ $token = $_SESSION['_tokenm'];
             background-size: auto;
         }
     }
-
-    .show-password {
-        text-shadow: none;
-        color: #fff;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 20px;
-        font-size: 14px;
-        font-weight: normal;
-    }
-
+	
 </style>
 	
 <?php $title = "Login"; include("includes.php"); ?>
@@ -241,11 +231,7 @@ $token = $_SESSION['_tokenm'];
                 <input type="text" class="form-control" id="TxtUserName" name="TxtUserName" placeholder="Username" autocomplete="off" required="" maxlength="16" />
               </div>
               <div>
-                <input type="password" class="form-control" id="TxtPassword" name="TxtPassword" autocomplete="off" placeholder="Password" required="" maxlength="20" style="margin-bottom: 5px;"/>
-
-                  <label class="show-password">
-                      <input type="checkbox" id="togglePassword" name="togglePassword" style="margin-top:8px;" />&nbsp;Show Password
-                  </label>
+                <input type="password" class="form-control" id="TxtPassword" name="TxtPassword" autocomplete="off" placeholder="Password" required="" maxlength="20"/>
 			  </div>
 			  <?php if(false) { ?>
 			  <div class="checkbox" style="float:left; margin-top:0;">
@@ -299,7 +285,6 @@ $token = $_SESSION['_tokenm'];
     
 
   </body>
-
 <script>
 
     function portalChanged(value) {
@@ -333,9 +318,7 @@ $token = $_SESSION['_tokenm'];
 	function ready()
 	{
 		loginAlign();
-
-        passwordToggle();
-
+		
 		document.getElementById("optPortal").focus();
 
 	}
@@ -364,24 +347,6 @@ $token = $_SESSION['_tokenm'];
 			login.setAttribute("align", "right");
 		}
 	}
-
-    function passwordToggle() {
-        const togglePassword = document
-            .querySelector('#togglePassword');
-        const password = document.querySelector('#TxtPassword');
-        togglePassword.addEventListener('click', () => {
-            // Toggle the type attribute using
-            // getAttribure() method
-            const type = password
-                .getAttribute('type') === 'password' ?
-                'text' : 'password';
-            password.setAttribute('type', type);
-            // Toggle the eye and bi-eye icon
-            //this.classList.toggle('bi-eye');
-        });
-
-
-    }
 
 </script>
 </html>

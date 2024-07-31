@@ -47,12 +47,11 @@ $page_header = $title;
             <p>Parents seeking a place for their son(s) should first read the&nbsp;<a href="https://aitchison.edu.pk/admission/admissions-info" style="color: blue;">Admissions</a>&nbsp;section of the College&#39;s website, where our policy and processes are explained, along with entry prerequisites for various entry levels. Parents can also access our&nbsp;<a href="https://aitchison.edu.pk/admission/admissions-faqs" style="color: blue;">FAQs</a><em>.</em>&nbsp;If there remain further queries, please contact our HR Department on Extension: 281&nbsp;or email:&nbsp;<span style="color: blue;"><strong>admission@aitchison.edu.pk.</strong></span> Given the very high interest in Aitchison, the College does not offer tours or admission appointments. Our website is particularly informative and visually&nbsp;helpful.</p>
 
             <p>Applications may be <a href="https://aitchison.edu.pk/admission/a-level-fsc-application-forms" target="_parent" style="color: blue;">downloaded</a> from our Admissions section and mailed to the College Admissions Office, Shahrah-e-Quaid-e-Azam, Lahore 54000 Pakistan, Ph: 0092-42-36317201-04. Your registration will be acknowledged as soon as possible. Please complete the Application Form accurately.</p>
-            
+
             <div class="fw-bold">
                 <p>Notice for H1 New Admission Candidates</p>
                 <p>Candidates applying for admission to the AS Level will not be required to take a written test. Upon submission of attested results from their respective schools, candidates will undergo a final selection interview scheduled for August 19, 2024.</p>
             </div>
-
         </div>
         <!-- End Left Area -->
 

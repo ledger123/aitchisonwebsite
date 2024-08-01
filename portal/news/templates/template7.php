@@ -46,8 +46,8 @@ $news = $tNewsContents->Rows[0];
                 <?php if ( (int)$news['ShowSignature']==1 ) { ?>
 
                     <img src="images/signature/principal_signature_new.png" width="212" height="0" ><br />
-                    Amina Kamran
-                    <p>Acting Principal</p>
+                    Dr. S.M. Turab Hussain
+                    <p>Principal</p>
 
                 <?php } ?>
 

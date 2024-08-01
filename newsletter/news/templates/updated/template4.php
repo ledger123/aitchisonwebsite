@@ -190,14 +190,28 @@ elseif ( isset($_GET['mode']) && $_GET['mode'] == "view" )
 
                 <?php echo "<!-- "; echo "show sign: " . $news['ShowSignature'];  echo " -->"; ?>
 
-                <?php if ( (int)$news['ShowSignature']==1 ) { ?>
+                <?php
+                if ( (int)$news['ShowSignature']==1 ) {
+                    if($newsId > 2581) {
+                        ?>
+
+                        <img src="images/signature/principal_signature_new.png" width="212" height="0" ><br />
+                        Amina Kamran
+                        <p>Acting Principal</p>
+
+                        <?php
+                    }
+                    else {
+
+                    ?>
 
                 <img src="images/signature/principal_signature_new.png" width="212" height="0" ><br />
                 <!--<img src="images/signature/prince_signature_new.png" width="212" height="72" ><br />-->
                 <p>Michael Thomson M.A., Dip. Ed., M.A.C.E<br>
                 Principal</p>
 
-                <?php } ?>
+                <?php }
+                } ?>
                 
             </div>
             

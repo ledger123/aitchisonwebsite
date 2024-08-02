@@ -194,6 +194,49 @@ $page_header = $title;
     }
 </style>
 
+<style>
+    .faqs {
+        padding: 7rem 0;
+        background-color: #e9e9e9;
+    }
+    .faqs h2 {
+        text-align: left;
+    }
+
+    .faqs .accordion-button {
+        background-color: transparent;
+        font-weight: bold;
+    }
+    .accordion-button:not(.collapsed) {
+        color: #000;
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+    }
+
+    .faqs .accordion-item {
+         background-color: transparent;
+         border: none;
+    }
+</style>
+
+<style>
+    .associations {
+        background-color: var(--color-yellow);
+    }
+    .associations div.logos {
+        background-color: transparent;
+    }
+    .associations div.logos .cambridge{width:11%;}
+    .associations div.logos .aga-khan{width:12%;}
+    .associations div.logos .g20{width:6%;}
+    .associations div.logos .ibsc-member{width:11%;}
+    .associations div.logos .cambridge-international{width:7%;}
+    .associations div.logos .cambridge-igcse{width:7%;}
+    .associations div.logos .aga-khan2{width:10%;vertical-align:middle}
+    .associations div.logos .fedral-board{width:13%;}
+    .associations div.logos .spears-schools{width: 9%;}
+
+</style>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav-home">
     <a class="logo-left" href="/">
         <div>
@@ -381,7 +424,111 @@ $page_header = $title;
     </div>
 </div>
 
-<div class="divider"></div>
+<div class="container-fluid faqs">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h2>FAQS ON THE ADMISSIONS<br/>PROCESS 2024-25<hr style="margin-left: 0;"/></h2>
+            </div>
+            <div class="col-6">
+                <div class="accordion" id="accordionFaq" aria-multiselectable="true">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                <table><tr><td style="vertical-align: top;">1. </td><td style="padding: 0 0 0 10px;">Why is there an Admissions process?</td></tr></table>
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#accordionFaq">
+                            <div class="accordion-body">
+                                Many more boys apply for Aitchison College than there are available places. Our chief aim is to identify boys who are academically able and most likely to benefit from either a day or boarding placement in a school with compulsory sport and co-curricular activities. Boys admitted to Aitchison College undertake to be fully engaged with the College program throughout the whole of their school journey.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                <table><tr><td style="vertical-align: top;">2. </td><td style="padding: 0 0 0 10px;">How does one apply for admissions?</td></tr></table>
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#accordionFaq">
+                            <div class="accordion-body">
+                                Download the Application form from the College website available from <strong>October 1<sup>st</sup>, 2023</strong> and return with the requested Registration fee with the application and all supporting documents within the due date <strong>November 30<sup>th</sup>, 2023 for Day Scholars applicants and 31<sup>st</sup> December, 2023 for Boarding applicants. </strong>The invitation for Admissions will be published in all major newspapers of Pakistan.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                <table><tr><td style="vertical-align: top;">3. </td><td style="padding: 0 0 0 10px;">Are there different categories of enrolment?</td></tr></table>
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#accordionFaq">
+                            <div class="accordion-body">
+                                Yes. Applicants may select either a day or boarding enrolment option (not both) where indicated in the application.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                <table><tr><td style="vertical-align: top;">4. </td><td style="padding: 0 0 0 10px;">Where do Admissions testing and interviews take place?</td></tr></table>
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="faq4" data-bs-parent="#accordionFaq">
+                            <div class="accordion-body">
+                                Testing and interviews only take place at Aitchison College on specified dates for each grade.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                <table><tr><td style="vertical-align: top;">5. </td><td style="padding: 0 0 0 10px;">Why do you hold an interview?</td></tr></table>
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="faq5" data-bs-parent="#accordionFaq">
+                            <div class="accordion-body">
+                                Interviews are held to determine the general suitability of boys; for example, whether they are socially ready for school and the greater demands of Aitchison College. This particularly applies to boarding admissions. Interviews may also reveal other aspects of academic suitability or challenges not necessarily revealed in an Admissions test. It is also an opportunity to meet parents and to clarify school expectations and answer questions or concerns they may have. The College doctor will also utilize this time to conduct age verification. If in the opinion of medical advice the age of a boy is determined to be unsuitable for a particular year group, the College reserves the right to cancel an Admissions offer.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid associations">
+    <div class="container">
+
+            <div id="logos" class="logos pb-4 pt-2 owl-carousel owl-theme">
+                <div class="cambridge">
+                    <img src="../resources/assets/images/logos/cambridge.png">
+                </div>
+                <div class="g20">
+                    <img src="../resources/assets/images/logos/g30.png">
+                </div>
+                <div class="ibsc-member">
+                    <img src="../resources/assets/images/logos/ibsc-member.png">
+                </div>
+                <div class="spears-schools">
+                    <img src="../resources/assets/images/logos/spears-schools-index.png">
+                </div>
+                <div class="cambridge-international">
+                    <img src="../resources/assets/images/logos/cambridge-international.png">
+                </div>
+                <div class="cambridge-igcse">
+                    <img src="../resources/assets/images/logos/cambridge-igcse.png">
+                </div>
+                <div class="fedral-board">
+                    <img src="../resources/assets/images/logos/fedralboard.png">
+                </div>
+            </div>
+
+    </div>
+</div>
+
 
 <!-- Footer -->
 

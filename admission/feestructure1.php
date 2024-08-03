@@ -4,7 +4,7 @@
 <?php
 include_once("../path-settings.php");
 
-$title="Fee Structure 2024-25";
+$title="Fee Structure 2023-24";
 include_once($path."header-includes.php");
 
 $banner_url = $path.'resources/assets/images/banners/old-building-v6.jpg';
@@ -53,23 +53,23 @@ $page_header = $title;
                     </tr>
                     <tr>
                         <td style="text-align: left;">K1, K2, K3, K4, K5</td>
-                        <td style="text-align: center;">61,500</td>
-                        <td style="text-align: center;">65,200</td>
+                        <td style="text-align: center;">55,900</td>
+                        <td style="text-align: center;">59,300</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;">K6, E2, M1</td>
-                        <td style="text-align: center;">67,400</td>
-                        <td style="text-align: center;">70,000</td>
+                        <td style="text-align: center;">61,300</td>
+                        <td style="text-align: center;">63,600</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left; white-space: nowrap;">9<sup>th</sup>, 10<sup>th</sup>, M2, C1, C2</td>
-                        <td style="text-align: center;">74,500</td>
-                        <td style="text-align: center;">75,200</td>
+                        <td style="text-align: left; white-space: nowrap;">9th, 10th, M2, C1, C2</td>
+                        <td style="text-align: center;">67,700</td>
+                        <td style="text-align: center;">68,400</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;">Fsc1, Fsc2, H1, H2</td>
-                        <td style="text-align: center;">85,300</td>
-                        <td style="text-align: center;">77,800</td>
+                        <td style="text-align: center;">77,500</td>
+                        <td style="text-align: center;">70,700</td>
                     </tr>
                     </tbody>
                 </table>
@@ -86,23 +86,23 @@ $page_header = $title;
                         <th style="width: 34%; min-width: 149px;vertical-align: middle; text-align: center; white-space: nowrap;">Remarks</th>
                     </tr>
                     <tr>
-                        <td style="text-align: left;">Transportation Charges</td>
-                        <td style="text-align: center;">16,500</td>
+                        <td style="text-align: left;">Transportation</td>
+                        <td style="text-align: center;">15,000</td>
                         <td style="text-align: center;">Optional</td>
                     </tr>
                     <tr>
-                        <td style="text-align: left;">General Riding</td>
-                        <td style="text-align: center;">13,200</td>
+                        <td style="text-align: left;">Riding Fee</td>
+                        <td style="text-align: center;">12,000</td>
                         <td style="text-align: center;">Optional</td>
                     </tr>
                     <tr>
                         <td style="text-align: left; white-space: nowrap;">Arena Polo</td>
-                        <td style="text-align: center;">13,200</td>
+                        <td style="text-align: center;">12,000</td>
                         <td style="text-align: center;">Optional</td>
                     </tr>
                     <tr>
                         <td style="text-align: left;">Marksmanship</td>
-                        <td style="text-align: center;">6,600</td>
+                        <td style="text-align: center;">6,000</td>
                         <td style="text-align: center;">Optional</td>
                     </tr>
                     </tbody>
@@ -111,7 +111,7 @@ $page_header = $title;
 
 
             <p>&nbsp;</p>
-            <p>Fee and charges are amended annually by Board decision.</p>
+            <p>Fee and charges are amended anuually by Board decision.</p>
             <p>NTN: 4199854-5</p>
         </div>
         <!-- End Left Area -->

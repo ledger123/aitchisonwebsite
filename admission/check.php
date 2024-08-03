@@ -31,6 +31,7 @@
 
 		"admissions-faqs"	=>	"faqs.php",		
 		"fee-structure"	=>	"feestructure.php",
+        "fee-structure-offline"	=>	"feestructure-offline.php",
 		//"fee-structure-offline"	=>	"feestructure.php",
         //"international-enrolment-application-form"	=>	"intl-enrolment-application-forms-till-20231004.php",
 		"international-enrolment-application-form"	=>	"intl-enrolment-application-forms.php",

@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^feedback-form$ feedback_form.php [L]
+
+
+
+

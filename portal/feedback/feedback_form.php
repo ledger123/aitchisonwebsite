@@ -14,7 +14,7 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 <html lang="en">
 
 
-<?php $title = "Complaint/Feedback Form for Parents"; include($path."includes.php"); ?>
+<?php $title = "Feedback/Complaint Form for Parents"; include($path."includes.php"); ?>
 
 <style>
     .label-align {
@@ -44,15 +44,17 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 						  <div class="row">
                               <form id="feedback" novalidate="">
 
+
+
                                   <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3 label-align" style="margin-top: 10px;">Complaint/Feedback Type:</label>
+                                      <label class="col-form-label col-md-3 col-sm-3 label-align" style="margin-top: 10px;">Feedback/Complaint Type:</label>
                                       <div class="col-md-6 col-sm-6">
                                           <div class="radio">
                                               <label>
-                                                  <input type="radio" checked="" value="option1" id="optionsRadios1" name="feedback_type"> Complaint
+                                                  <input type="radio" checked="" value="3" id="feedback_type1" name="feedback_type"> Feedback
                                               </label>&nbsp;&nbsp;&nbsp;
                                               <label>
-                                                  <input type="radio" value="option2" id="optionsRadios2" name="feedback_type"> Feedback
+                                                  <input type="radio" value="4" id="feedback_type2" name="feedback_type"> Complaint
                                               </label>
                                           </div>
                                       </div>
@@ -63,76 +65,78 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                       <div class="col-md-6 col-sm-6">
                                           <div class="radio">
                                               <label>
-                                                  <input type="radio" checked="" value="option1" id="optionsRadios1" name="submission_type"> Anonymous
+                                                  <input type="radio" checked="" value="anonymous" id="submission_type1" name="submission_type"> Anonymous
                                               </label>&nbsp;&nbsp;&nbsp;
                                               <label>
-                                                  <input type="radio" value="option2" id="optionsRadios2" name="submission_type"> Non-Anonymous
+                                                  <input type="radio" value="non-anonymous" id="submission_type2" name="submission_type"> Non-Anonymous
                                               </label>
                                           </div>
                                       </div>
                                   </div>
 
-                                  <div style="text-align: center; margin-bottom: 10px">Parent/Guardian Information: (If Non-Anonymous)</div>
+                                  <section id="anonymous_section" class="hide">
 
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Full Name</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div style="text-align: center; margin-bottom: 10px">Parent/Guardian Information: (If Non-Anonymous)</div>
+
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Full Name</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Address</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Address</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">City</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">City</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Phone Number</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Phone Number</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Email Address</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Email Address</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Relationship to Student</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
+                                      </div>
 
 
-                                  <div style="text-align: center; margin-bottom: 10px">Student Information: (If Non-Anonymous)</div>
+                                      <div style="text-align: center; margin-bottom: 10px">Student Information: (If Non-Anonymous)</div>
 
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Student's Full Name</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Student's Full Name</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Student's School Number</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Student's School Number</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Student's Class</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                      <div class="row field item form-group">
+                                          <label class="col-form-label col-md-3 col-sm-3  label-align">Student's Class</label>
+                                          <div class="col-md-6 col-sm-6">
+                                              <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          </div>
                                       </div>
-                                  </div>
-                                  <div class="row field item form-group">
-                                      <label class="col-form-label col-md-3 col-sm-3  label-align">Relationship to Student</label>
-                                      <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
-                                      </div>
-                                  </div>
-
+                                  </section>
                                   <div class="ln_solid"></div>
 
                                   <div class="row field item form-group">
@@ -150,10 +154,9 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                               <option>IT Services</option>
                                               <option>Sports and Games</option>
                                               <option>Riding</option>
-                                              <option>Counseling Services</option>
+                                              <option>Psychologist</option>
                                               <option>Health Services</option>
                                               <option>Security and Parking</option>
-                                              <option>Services</option>
                                               <option>Library</option>
                                               <option>Boarding</option>
                                               <option>Dining Services (Boarding)</option>
@@ -174,7 +177,7 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                   <div class="row field item form-group">
                                       <label class="col-form-label col-md-3 col-sm-3  label-align">Date of Incident/Feedback</label>
                                       <div class="col-md-6 col-sm-6">
-                                          <input class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" required="required">
+                                          <input class="date-picker form-control" id="feedback_date" name="feedback_date" required="required" placeholder="mm/dd/yyyy" onfocus="this.type='date'" onmouseover="this.type='date'" onclick="this.type='date'">
                                       </div>
                                   </div>
                                   <div class="row field item form-group">
@@ -192,7 +195,7 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                           <textarea class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" rows="5" required="required"></textarea>
                                       </div>
                                       <div class=" col-md-3 col-sm-3">
-                                          <span>(Please provide a detailed account of the incident or feedback, including any relevant facts, dates, and times.)</span>
+                                          <small>(Please provide a detailed account of the incident or feedback, including any relevant facts, dates, and times.)</small>
                                       </div>
                                   </div>
                                   <div class="row field item form-group">
@@ -203,17 +206,17 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                       <div class="col-md-6 col-sm-6">
                                           <div class="radio">
                                               <label>
-                                                  <input type="radio" checked="" value="option1" id="optionsRadios1" name="feedback_type"> Yes
+                                                  <input type="radio" value="option1" id="optionsRadios1" name="feedback_reported"> Yes
                                               </label>&nbsp;&nbsp;&nbsp;
                                               <label>
-                                                  <input type="radio" value="option2" id="optionsRadios2" name="feedback_type"> No
+                                                  <input type="radio" checked="" value="option2" id="optionsRadios2" name="feedback_reported"> No
                                               </label>
                                           </div>
                                           <textarea class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" rows="5" required="required"></textarea>
                                       </div>
                                       <div class=" col-md-3 col-sm-3">
-                                          <br/>
-                                          <span>(If yes, please provide details of the previous report and any actions taken.)</span>
+                                          <br/><br/>
+                                          <small>(If yes, please provide details of the previous report and any actions taken.)</small>
                                       </div>
                                   </div>
 
@@ -226,11 +229,17 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
                                           <textarea class="form-control" data-validate-length-range="6" data-validate-words="2" name="name" rows="5" required="required"></textarea>
                                       </div>
                                       <div class=" col-md-3 col-sm-3">
-                                          <span>(Please specify what action or resolution you are seeking or provide your feedback.)</span>
+                                          <small>(Please specify what action or resolution you are seeking or provide your feedback.)</small>
                                       </div>
                                   </div>
                                   <div class="ln_solid"></div>
-                                  <button type="submit" class="btn btn-success">Submit</button>
+                                  <div class="row">
+                                      <div class=" col-md-3 col-sm-3"></div>
+                                      <div class="col-md-6 col-sm-6">
+                                          <button type="submit" class="btn btn-success">Submit</button>
+                                      </div>
+                                  </div>
+                                  <br/><br/>
                               </form>
 						  </div>
 						  
@@ -257,4 +266,22 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 	<?php include($path."footerincludes.php"); ?>
 
 </body>
+<script>
+
+    $( document ).ready(function() {
+
+
+        $('input[name="submission_type"]').change(function() {
+            if (this.checked) {
+                if(this.value === "anonymous") {
+                    $('#anonymous_section').addClass('hide');
+                }
+                else if(this.value === "non-anonymous") {
+                    $('#anonymous_section').removeClass('hide');
+                }
+                console.log(`Radio button with value ${this.value} in group ${this.name} was checked`);
+            }
+        });
+    });
+</script>
 </html>

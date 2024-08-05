@@ -35,7 +35,7 @@ include($path."classes/filing.php");
 						  
 						  <div class="">
 							  <p style="margin-bottom: 15px;">
-								  <a href="<?php echo Filing::GetURL2("", "School Rules", "../data/2024-25/College-Rules-May-28-2024.pdf", 'Download College Rules', $functions); ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
+								  <a href="<?php echo Filing::GetURL2("", "School Rules", "../data/2024-25/College-Rules-Aug-06-2024.pdf", 'Download College Rules', $functions); ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
 							  </p>
 						  </div>
 						  

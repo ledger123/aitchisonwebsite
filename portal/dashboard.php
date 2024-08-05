@@ -537,12 +537,12 @@ if ( $_SESSION['portal_School'] == 'JSD' /*&& isset($_GET['videolink']) && $_GET
                                     </div>
                                 <?php }?>
 
-                                <?php if(true) { ?>
+                                <?php if(false) { ?>
 
                                     <div class="animated flipInY col-lg-2 col-md-3 col-sm-4 col-xs-12">
 
                                         <a class="tile-stats nav-link " href="fee/fee-bill">
-                                            <i class="fa fa-money"></i><div>Fee Bills</div>
+                                            <i class="fa fa-money"></i><div>Fee Bills </div>
                                         </a>
 
                                     </div>

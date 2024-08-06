@@ -15,6 +15,11 @@
                 <?php /* ?><div class="swiper-slide">
                     <a href="<?php echo $path;?>admission/a-level-fsc-application-forms" target="_blank">A Level/FSc Application Forms</a>
                 </div><?php */?>
+
+                <div class="swiper-slide">
+                    <a href="<?php echo $path;?>admission/senior-admissions-to-aitchison-college" target="_blank">Senior Admissions to Aitchison College 2024-25</a>
+                </div>
+
 				<div class="swiper-slide">
                     <a href="<?php echo $path;?>news-2607-aitchison-college-dominates-the-punjab-age-group-swimming-championship-2024" target="_blank">Aitchison College dominates the Punjab Age Group Swimming Championship 2024</a>
                 </div>

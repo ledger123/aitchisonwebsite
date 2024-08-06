@@ -537,7 +537,7 @@ if ( $_SESSION['portal_School'] == 'JSD' /*&& isset($_GET['videolink']) && $_GET
                                     </div>
                                 <?php }?>
 
-                                <?php if(false) { ?>
+                                <?php if(true) { ?>
 
                                     <div class="animated flipInY col-lg-2 col-md-3 col-sm-4 col-xs-12">
 

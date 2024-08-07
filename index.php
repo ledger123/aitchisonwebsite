@@ -1074,24 +1074,7 @@ if($mobile->isMobile()) {
 
                     </a>
                 </div>
-
-
-
-                <div class="item">
-
-                    <a href="news-1564-admissions-to-aitchison-college-2023-24" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/admissions.jpg">
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                            <h4 class="p-2">Boarding and Day Applications 2023-24</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
+                <?php */?>
 
                 <div class="item">
 
@@ -1127,24 +1110,6 @@ if($mobile->isMobile()) {
                 </div><?php */?>
 
 
-                <?php /*?><div class="item">
-
-                    <a href="news-1423-136th-founders-day-2022" target="_blank">
-                        <div class="img-item">
-                            <img src="resources/assets/images/announcements/the-aitchisonian-2020-21.jpg">
-
-                        </div>
-
-                        <div class="text-center footer">
-                            <div class="footer-text">
-                                <h4 class="p-2">136<sup style="text-transform:lowercase;">th</sup> Founders' Day 2022</h4>
-                                <p>&nbsp;</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><?php */?>
-
-
                 <div class="item">
 
                     <a href="news-482-reliving-aitchison-how-to-place-an-order" target="_blank">
@@ -1161,6 +1126,25 @@ if($mobile->isMobile()) {
                         </div>
                     </a>
                 </div>
+
+
+                <div class="item">
+
+                    <a href="news-2638-a-century-and-beyond-aitchison-college-documentary" target="_blank">
+                        <div class="img-item">
+                            <img src="resources/assets/images/announcements/aitchison-documentary.jpg">
+
+                        </div>
+
+                        <div class="text-center footer">
+                            <div class="footer-text">
+                                <h4 class="p-2">College Documentary</h4>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
 
                 <div class="item">
 

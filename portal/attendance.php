@@ -64,15 +64,17 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 						  <div class="page-title">
 							  <h3><?php echo $title; ?></h3>
 						  </div>
-						  <p>Session 2023-24</p>
+						  <p>Session 2024-25</p>
 						  <br />
 
 						  <div class="row">
 							  
-							  <?php if(false) { ?>
-							  <p><strong></strong> This Section will be updated soon.</p>
+							  <?php if(true) { ?>
+							  <p><strong></strong> Subjects and attendance will appear as soon as the session is started.<br>
+<br>
+</p>
 							  <?php /*?><p><strong>Note:</strong> The details will be available from the new term.</p><?php */?>
-							  <?php }else { ?>
+							  <?php }if(true) { ?>
 
                               <?php /*?><p>This section shows physical attendance in the class.</p><?php */?>
 							  
@@ -80,14 +82,14 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 								<table id="attendance" width="100%" border="0" cellspacing="0" cellpadding="3" class="table table-bordered jambo_table">	
 									<thead>
 										<tr class="head_background">
-										    <th style="min-height: 60px !important;">Sr.</th>
-										    <th>Subject</th>
-										    <th>Total</th>
-										    <th>Present</th>
-										    <th>Absent</th>
-										    <th>Leave</th>
-										    <th>Study Hour</th>
-										    <th>Percentage</th>
+										    <th style="min-height: 60px !important; text-align: center;">Sr.</th>
+										    <th style="text-align: center;">Subject</th>
+										    <th style="text-align: center;">Total</th>
+										    <th style="text-align: center;">Present</th>
+										    <th style="text-align: center;">Absent</th>
+										    <th style="text-align: center;">Leave</th>
+										    <th style="text-align: center;">Study Hour</th>
+										    <th style="text-align: center;">Percentage</th>
 										</tr>        
 									</thead>
 									<tbody>
@@ -98,13 +100,13 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 										?>
 										<tr>
 										  <td style="min-height: 40px !important;"><?php echo $index++; ?></td>  
-										  <td><?php echo $purifier->purify($row->Subject); ?></td>
-										  <td><?php echo $purifier->purify($row->TotalDays); ?></td>
-										  <td><?php echo $purifier->purify($row->Present); ?></td>
-										  <td><?php echo $purifier->purify($row->Absent); ?></td>
-										  <td><?php echo $purifier->purify($row->Leave); ?></td>
-										  <td><?php echo $purifier->purify($row->StudyHours); ?></td>
-										  <td <?php echo ($row->Percentage < 90)?' class="danger"':''; ?>><?php echo $purifier->purify($row->Percentage); ?>%</td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->Subject); ?></td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->TotalDays); ?></td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->Present); ?></td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->Absent); ?></td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->Leave); ?></td>
+										  <td style="text-align: center;"><?php echo $purifier->purify($row->StudyHours); ?></td>
+										  <td <?php echo ($row->Percentage < 90)?' class="danger"':''; ?> style="text-align: center;"><?php echo $purifier->purify($row->Percentage); ?>%</td>
 										</tr>
 										
 										<?php
@@ -115,13 +117,13 @@ $attendance = $attRepo->GetAttendanceBySchoolNo($_SESSION['portal_SchoolNo']);
 										
 										<tr>
 										  <td style="min-height: 40px !important;"></td>  
-										  <td><strong>Total</strong></td>
-										  <td><strong><?php $totalDays = $attendance->Compute(array("Sum"=>"TotalDays"), ""); echo $totalDays; ?></strong></td>
-										  <td><strong><?php $present = $attendance->Compute(array("Sum"=>"Present"), ""); echo $present; ?></strong></td>
-										  <td><strong><?php echo $attendance->Compute(array("Sum"=>"Absent"), ""); ?></strong></td>
-										  <td><strong><?php $leave = $attendance->Compute(array("Sum"=>"Leave"), ""); echo $attendance->Compute(array("Sum"=>"Leave"), ""); ?></strong></td>
-										  <td><strong><?php echo $attendance->Compute(array("Sum"=>"StudyHours"), ""); ?></strong></td>
-										  <td><strong><?php  if($index>1 && $totalDays > 0) echo number_format( ((($present+$leave)*100)/$totalDays), 2, '.', ''); else echo "0"; ?>%</strong></td>
+										  <td style="text-align: center;"><strong>Total</strong></td>
+										  <td style="text-align: center;"><strong><?php $totalDays = $attendance->Compute(array("Sum"=>"TotalDays"), ""); echo $totalDays; ?></strong></td>
+										  <td style="text-align: center;"><strong><?php $present = $attendance->Compute(array("Sum"=>"Present"), ""); echo $present; ?></strong></td>
+										  <td style="text-align: center;"><strong><?php echo $attendance->Compute(array("Sum"=>"Absent"), ""); ?></strong></td>
+										  <td style="text-align: center;"><strong><?php $leave = $attendance->Compute(array("Sum"=>"Leave"), ""); echo $attendance->Compute(array("Sum"=>"Leave"), ""); ?></strong></td>
+										  <td style="text-align: center;"><strong><?php echo $attendance->Compute(array("Sum"=>"StudyHours"), ""); ?></strong></td>
+										  <td style="text-align: center;"><strong><?php  if($index>1 && $totalDays > 0) echo number_format( ((($present+$leave)*100)/$totalDays), 2, '.', ''); else echo "0"; ?>%</strong></td>
 										</tr>
 										
 										<?php

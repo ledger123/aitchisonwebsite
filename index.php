@@ -537,7 +537,27 @@ if($mobile->isMobile()) {
                     </div>
                 </div>
 
-				<div class="item">
+                <div class="item">
+                    <div class="news-box">
+                        <a href="news-2637-aitchison-college-students-shine-globally-team-pakistan-star-triumphs-at-cupexs-in-georgia" target="_blank">
+                            <div class="news-image">
+                                <img src="newsletter/news/images/2-small-5312811723.jpg" alt="News" class="img-fluid"/>
+                            </div>
+                            <div class="news-contents" style="padding: 1rem;">
+                                <div class="news-date" style="margin: 5px 0;">
+                                    7<sup>th</sup> August, 2024
+                                </div>
+                                <h3 class="news-heading">
+                                    Aitchison College Students Shine Globally - Team Pakistan Star Triumphs at CupExS in Georgia
+                                </h3>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="item">
                     <div class="news-box">
                         <a href="news-2622-junior-school-end-term-party-upper-primary" target="_blank">
                             <div class="news-image">

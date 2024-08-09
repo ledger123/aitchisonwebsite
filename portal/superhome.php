@@ -19,7 +19,7 @@ if ( $sup_class  == "" &&
     $sup_house   == "") {
 	
 	$classes = array();
-	$title = "Super User";
+	$title = "Management Portal";
 
 	if ($sup_school == "0" || $sup_school == "JSD") {
 		$classes["K1"] = "K1";
@@ -98,8 +98,14 @@ else {
 						  
 						  <div class="row">
 							  
-							  <div class="page-title">
+							  <div class="page-title" style="text-align: center;">
 								  <h3><?php echo $title; ?></h3>
+                                  <p>Welcome to the Management Portal!
+
+                                      This platform is designed to help you efficiently review all classes across Junior, Prep, and Senior Schools. By clicking on a class, the system will randomly select a student from selected class/School and present Parents Portal. You can explore different options, tailored specifically for each class and school level, to gain detailed insights and ensure smooth management.
+                                        <br/>
+                                      Thank you,<br/>
+                                      IT Department</p>
 							  </div>
 							  <?php 
 		                        if(false && ($_SESSION['portal_sup_username']=="akhtarrafiq" || $_SESSION['portal_sup_username']=="owais@aitchison.edu.pk")){
@@ -193,7 +199,7 @@ else {
 							  ?>
 							  
 							  <div class="table-responsive">
-								<table class="table table-bordered table-hover" style="width: 70%;">
+								<table class="table table-bordered table-hover" style="width: 70%; margin-left: auto; margin-right: auto;">
 									<tr style="background-color: #4267b2; color: #fff;">
 										<th width="10%" align="center"><div align="center">Section</div></th>
 										<th width="30%" align="center"><div align="center">Parents' Portal</div></th>

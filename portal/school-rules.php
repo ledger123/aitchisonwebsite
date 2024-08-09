@@ -3,6 +3,9 @@ $path = "";
 include($path."classes/usersession.php");
 include($path."classes/settings.php");
 include($path."classes/filing.php");
+
+$college_rules_filename = Filing::GetURL2("", "School Rules", "../data/2024-25/College-Rules-Aug-06-2024.pdf", 'Download College Rules', $functions);
+//echo $filename;
 ?>
 
 <!DOCTYPE html>
@@ -28,14 +31,18 @@ include($path."classes/filing.php");
 				  <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
 					<div class="x_panel">
 					  <div class="x_content">
-						  <div class="page-title">
+						  <div class="page-title" style="text-align: center;">
 							  <h3><?php echo $title; ?></h3>
 						  </div>
 						  <br />
 						  
 						  <div class="">
-							  <p style="margin-bottom: 15px;">
-								  <a href="<?php echo Filing::GetURL2("", "School Rules", "../data/2024-25/College-Rules-Aug-06-2024.pdf", 'Download College Rules', $functions); ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
+                              <div style="max-width: 220px; margin-left: auto; margin-right: auto;">
+                                  <a href="<?php echo $college_rules_filename; ?>" target="_blank"><img class="img-responsive" src="images/college-rules-2024-25.jpg" style="max-width:275px; max-height: 250px;" alt="College Rules 2024-25"></a>
+                              </div>
+                              <br/>
+							  <p style="margin-bottom: 15px; text-align: center;">
+								  <a href="<?php echo $college_rules_filename; ?>" target="_blank" class="active lnkDownload"><span style=""><span class="glyphicon"></span>&nbsp;Download College Rules&nbsp;</span> </a>
 							  </p>
 						  </div>
 						  
